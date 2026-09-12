@@ -7,3 +7,8 @@
 # 仅将 web 目录纳入 Git
 !web/
 !web/**
+
+# GitHub Pages 工作流必须位于仓库根目录的 .github
+!.github/
+!.github/workflows/
+!.github/workflows/**
