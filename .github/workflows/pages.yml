@@ -24,10 +24,10 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload web
+      - name: Upload dist
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./web
+          path: ./dist
 
       - name: Deploy
         id: deployment

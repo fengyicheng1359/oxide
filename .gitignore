@@ -4,9 +4,13 @@
 # 保留忽略规则文件本身
 !.gitignore
 
-# 仅将 web 目录纳入 Git
-!web/
-!web/**
+# 仅将 dist 目录纳入 Git
+!dist/
+!dist/**
+
+# 不提交 Python 运行缓存
+dist/__pycache__/
+*.pyc
 
 # GitHub Pages 工作流必须位于仓库根目录的 .github
 !.github/
