@@ -60,8 +60,14 @@ def seo_head(title: str, description: str, page_path: str, keywords: list[str] |
     analytics_id = str(config.get("google_analytics_id") or "").strip()
     analytics = ""
     if analytics_id:
-        analytics = f'''<script async src="https://www.googletagmanager.com/gtag/js?id={esc(analytics_id)}"></script>
-      <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','{esc(analytics_id)}');</script>'''
+        analytics = f'''<!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id={esc(analytics_id)}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){{dataLayer.push(arguments);}}
+        gtag('js', new Date());
+        gtag('config', '{esc(analytics_id)}');
+      </script>'''
     structured_data = json.dumps({
         "@context": "https://schema.org",
         "@type": "WebSite",
