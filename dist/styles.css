@@ -83,6 +83,7 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 .search{display:flex;align-items:center;gap:9px}.search input{width:100%;min-width:0;padding:0;border:0;outline:0;background:transparent;color:inherit;font:inherit}.search input::placeholder{color:currentColor;opacity:.75}.search:focus-within{border-color:var(--green);box-shadow:0 0 0 3px #b8e87922}.catalog-card[hidden],.category-section[hidden]{display:none}
 .promo-page .hero video{opacity:1!important;filter:brightness(1.28) contrast(1.1) saturate(1.35)!important}
 .promo-page .hero::after{background:linear-gradient(90deg,#07100d3d 0%,#07100d18 42%,transparent 86%),linear-gradient(0deg,#07100d18 0%,transparent 68%)!important}
+.promo-page .promo-shot img{filter:brightness(1.12) contrast(1.06) saturate(1.22)!important}
 .promo-page .hero-copy{padding-left:30px!important}
 @media(min-width:761px){.promo-page .hero-copy{transform:translateX(-80px)}}
 @media(max-width:760px){.promo-page .hero-copy{padding-left:24px!important}}

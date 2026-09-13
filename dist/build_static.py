@@ -394,7 +394,7 @@ def add_items_search(page: str) -> str:
 
 def add_pc_download(page: str) -> str:
     """在首页下载区域增加电脑版入口。"""
-    card = '''<a class="download-card" href="https://www.bluestacks.com/apps/action/oxide-survival-island-on-pc.html" target="_blank" rel="noopener"><span><b>Windows / BlueStacks</b><small>下载电脑版</small></span><span class="arrow">↗</span></a>'''
+    card = '''<a class="download-card" href="https://www.bluestacks.com/apps/action/oxide-survival-island-on-pc.html" target="_blank" rel="noopener"><span><b>PC / Mac</b><small>下载电脑版</small></span><span class="arrow">↗</span></a>'''
     marker = '</a></section><footer class="promo-footer">'
     return page.replace(marker, '</a>' + card + '</section><footer class="promo-footer">', 1)
 
