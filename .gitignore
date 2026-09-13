@@ -13,6 +13,9 @@
 dist/__pycache__/
 *.pyc
 
+# 不提交 macOS 文件夹元数据
+.DS_Store
+
 # GitHub Pages 工作流必须位于仓库根目录的 .github
 !.github/
 !.github/workflows/
