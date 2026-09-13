@@ -42,15 +42,21 @@ def site_config() -> dict:
     return json.loads(SITE_CONFIG_FILE.read_text(encoding="utf-8"))
 
 
+def configured_site_name() -> str:
+    return str(site_config().get("site_name") or "氧化物生存岛爱好者论坛")
+
+
 def seo_head(title: str, description: str, page_path: str, keywords: list[str] | None = None) -> str:
     """生成每个静态页面共用的 SEO 标签和可选的 Google Analytics。"""
     config = site_config()
-    site_name = str(config.get("site_name") or "氧化物生存岛 Wiki")
+    site_name = configured_site_name()
     site_url = str(config.get("site_url") or "").rstrip("/")
     canonical = f"{site_url}/{page_path.lstrip('/')}" if site_url else ""
     keyword_values = keywords or config.get("default_keywords", [])
     keyword_text = ", ".join(str(keyword) for keyword in keyword_values if keyword)
     canonical_tag = f'<link rel="canonical" href="{esc(canonical)}">' if canonical else ""
+    favicon_data_uri = str(config.get("favicon_data_uri") or "").strip()
+    favicon_tag = f'<link rel="icon" href="{esc(favicon_data_uri)}">' if favicon_data_uri else ""
     analytics_id = str(config.get("google_analytics_id") or "").strip()
     analytics = ""
     if analytics_id:
@@ -64,7 +70,7 @@ def seo_head(title: str, description: str, page_path: str, keywords: list[str] |
         "inLanguage": "zh-CN",
     }, ensure_ascii=False).replace("</", "<\\/")
     return f'''<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="keywords" content="{esc(keyword_text)}"><meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:site_name" content="{esc(site_name)}">{canonical_tag}<script type="application/ld+json">{structured_data}</script>{analytics}'''
+      <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="keywords" content="{esc(keyword_text)}"><meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:site_name" content="{esc(site_name)}">{canonical_tag}{favicon_tag}<script type="application/ld+json">{structured_data}</script>{analytics}'''
 
 
 def esc(value: object) -> str:
@@ -134,14 +140,26 @@ def armor_material_rank(item: dict) -> tuple[int, str]:
 def header(prefix: str, index_href: str | None = None) -> str:
     index_href = index_href or f"{prefix}index.html"
     return f'''<header class="site-header"><div class="header-inner">
-      <a class="brand" href="{index_href}"><span class="brand-mark">O</span><span><strong>OXIDE</strong><small>ITEM DATABASE</small></span></a>
-      <nav><a class="active" href="{index_href}#items">物品</a><a href="{index_href}#categories">分类</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="#about">关于</a></nav>
+      <a class="brand" href="{index_href}"><img class="brand-mark" src="{prefix}static/assets/OSAAS.jpeg" alt="氧化物生存岛爱好者论坛"><span><strong>氧化物生存岛</strong><small>爱好者论坛</small></span></a>
+      <nav><a class="active" href="{index_href}#items">物品</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="#about">关于</a></nav>
       <div class="header-tools"><span>中 / EN</span><span class="online"><i></i> STATIC DATA</span></div>
     </div></header>'''
 
 
 def footer() -> str:
-    return '<footer class="site-footer"><span>OXIDE / SURVIVAL FIELD NOTES</span><span>STATIC HTML · GENERATED FROM CONFIG.JSON</span></footer>'
+    return '<footer class="site-footer"><span>氧化物生存岛爱好者论坛</span><span>STATIC HTML · GENERATED FROM CONFIG.JSON</span></footer>'
+
+
+def clean_page_branding(content: str) -> str:
+    replacements = {
+        "游戏物品数据库": "游戏物品百科",
+        "OXIDE WIKI": "OXIDE FANS FORUM",
+        "RECYCLE DATABASE": "RECYCLE GUIDE",
+        "THREAT DATABASE": "THREAT GUIDE",
+    }
+    for old, new in replacements.items():
+        content = content.replace(old, new)
+    return content
 
 
 def material_card(material: dict, lookup: dict[str, tuple[dict, str]], prefix: str) -> str:
@@ -381,23 +399,23 @@ def threat_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: 
 def inject_seo(page: Path, content: str, items_by_slug: dict[str, dict]) -> str:
     """将统一 SEO 头注入已经生成的每个 HTML 页面。"""
     if page.name == "index.html":
-        title = "氧化物生存岛物品数据库 · Oxide Wiki"
+        title = "氧化物生存岛爱好者论坛"
         description = "氧化物生存岛物品图鉴，查询武器、护甲、工具、弹药、建筑和材料的制作配方与获取方式。"
         keywords = None
     elif page.name == "recycling.html":
-        title = "回收表 · 氧化物生存岛 Wiki"
+        title = f"回收表 · {configured_site_name()}"
         description = "查看氧化物生存岛物品回收产物，按废料、高品质金属、金属碎片、木材和石头数量排序。"
         keywords = ["氧化物生存岛回收表", "氧化物生存岛回收产物", "废料", "高品质金属", "金属碎片", "木材", "石头"]
     elif page.name == "attack.html":
-        title = "攻击力排行 · 氧化物生存岛 Wiki"
+        title = f"攻击力排行 · {configured_site_name()}"
         description = "查看氧化物生存岛武器攻击力排行和各武器详情。"
         keywords = ["氧化物生存岛攻击力排行", "氧化物生存岛武器伤害", "武器攻击力"]
     elif page.name == "defense.html":
-        title = "防御力排行 · 氧化物生存岛 Wiki"
+        title = f"防御力排行 · {configured_site_name()}"
         description = "查看氧化物生存岛护甲的射击、近战和寒冷防护属性排行。"
         keywords = ["氧化物生存岛防御力排行", "氧化物生存岛护甲", "射击防护", "近战防护", "寒冷防护"]
     elif page.name == "threat.html":
-        title = "威胁数据库 · 氧化物生存岛 Wiki"
+        title = f"威胁信息 · {configured_site_name()}"
         description = "查看氧化物生存岛野兽和人机的威胁信息、基础攻击力、攻击距离和攻击速度。"
         keywords = ["氧化物生存岛野兽", "氧化物生存岛人机", "氧化物生存岛威胁", "野兽攻击力"]
     else:
@@ -405,7 +423,7 @@ def inject_seo(page: Path, content: str, items_by_slug: dict[str, dict]) -> str:
         if not item:
             return content
         item_name = str(item.get("name_zh") or item.get("name_en") or "物品")
-        title = f"{item_name} · 氧化物生存岛 Wiki"
+        title = f"{item_name} · {configured_site_name()}"
         description = f"查询氧化物生存岛{item_name}的英文名、制作配方、材料、获取方式和回收产物。"
         keywords = [item_name, str(item.get("name_en") or ""), f"氧化物生存岛{item_name}", f"{item_name}制作配方", f"{item_name}获取方式", f"{item_name}回收"]
     head = seo_head(title, description, page.name, keywords)
@@ -453,7 +471,8 @@ def main() -> None:
     (HTML_DIR / "threat.html").write_text(threat_page(categories, recycling_count, attack_count, threat_count), encoding="utf-8")
     items_by_slug = {slug: item for items in categories.values() for item, slug in items}
     for page in HTML_DIR.glob("*.html"):
-        page.write_text(inject_seo(page, page.read_text(encoding="utf-8"), items_by_slug), encoding="utf-8")
+        content = clean_page_branding(page.read_text(encoding="utf-8"))
+        page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
     print(f"generated {index} item pages, 1 catalog page, 1 recycling page, 1 attack page, 1 defense page and 1 threat page")
 
 
