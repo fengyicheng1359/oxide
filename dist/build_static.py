@@ -140,7 +140,7 @@ def armor_material_rank(item: dict) -> tuple[int, str]:
 def header(prefix: str, index_href: str | None = None) -> str:
     index_href = index_href or f"{prefix}index.html"
     return f'''<header class="site-header"><div class="header-inner">
-      <a class="brand" href="{index_href}"><img class="brand-mark" src="{prefix}static/assets/OSAAS.jpeg" alt="氧化物生存岛爱好者论坛"><span><strong>氧化物生存岛</strong><small>爱好者论坛</small></span></a>
+      <a class="brand" href="{index_href}"><img class="brand-mark" src="{prefix}static/assets/OSAAS.jpeg" alt="氧化物生存岛百科全书"><span><strong>氧化物生存岛</strong><small>百科全书</small></span></a>
       <nav><a class="active" href="{index_href}#items">物品</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="#about">关于</a></nav>
       <div class="header-tools"><span>中 / EN</span><span class="online"><i></i> STATIC DATA</span></div>
     </div></header>'''
