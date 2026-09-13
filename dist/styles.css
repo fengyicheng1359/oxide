@@ -2,3 +2,21 @@
 .side-group-primary{margin-top:25px;padding-top:18px;border-top:1px solid var(--line)}.sidebar .side-primary{display:flex;justify-content:space-between;padding:9px 12px;color:var(--ink);border-radius:6px;font-size:13px;font-weight:700}.sidebar .side-primary:hover,.sidebar .side-primary.selected{color:var(--green);background:var(--light)}
 .sidebar .side-group>a{display:flex;justify-content:space-between;padding:9px 12px;margin:2px 0;color:var(--muted);border-radius:6px;font-size:12px}.sidebar .side-group>a:hover,.sidebar .side-group>a.selected{color:var(--green);background:var(--light);font-weight:600}.sidebar .side-group b{font:10px var(--mono);font-weight:400;color:#aab1ab}.sidebar .side-group-primary{width:100%}
 .catalog-layout:has(> .catalog-content:only-child){display:block}.catalog-layout:has(> .catalog-content:only-child)>.catalog-content{width:100%}
+.promo-page{overflow-x:hidden!important;overflow-y:auto!important}
+.promo-page .hero h1{font-size:clamp(38px,5vw,68px)!important;line-height:1!important;white-space:nowrap}
+@media(max-width:760px){.promo-page .hero h1{font-size:42px!important;white-space:normal}}
+.promo-page .hero h1{max-width:1000px;white-space:normal!important}
+.promo-page{background:#fff!important;color:var(--ink)!important}
+.promo-page .site-header{background:#fff!important;border-color:var(--line)!important}
+.promo-page .brand strong{color:var(--ink)!important}
+.promo-page .header-inner nav a{color:var(--muted)!important}
+.promo-page .header-tools{color:var(--muted)!important}
+.promo-page .section-intro h2{color:var(--ink)!important}
+.promo-page .section-intro p{color:#68736b!important}
+.promo-page .promo-footer{border-color:var(--line);color:#68736b}
+.promo-page .hero-copy h1,.promo-page .hero-copy p{color:#fff!important}
+.promo-page .hero-copy .hero-disclaimer{color:#fff!important;opacity:.88}
+.hero-logo{display:block;width:112px;height:112px;margin-bottom:24px;object-fit:cover;border-radius:22px;box-shadow:0 12px 28px #0007}
+.hero-publisher{display:block;margin:22px 0 4px;color:#28c993;font:600 18px var(--display);letter-spacing:.08em}
+.hero-disclaimer{margin:0!important;color:#aeb9ae!important;font-size:14px!important}
+@media(max-width:760px){.hero-logo{width:82px;height:82px;border-radius:16px;margin-bottom:18px}.hero-publisher{margin-top:18px}}

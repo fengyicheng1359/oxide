@@ -139,9 +139,10 @@ def armor_material_rank(item: dict) -> tuple[int, str]:
 
 def header(prefix: str, index_href: str | None = None) -> str:
     index_href = index_href or f"{prefix}index.html"
+    items_href = f"{prefix}items.html"
     return f'''<header class="site-header"><div class="header-inner">
       <a class="brand" href="{index_href}"><img class="brand-mark" src="{prefix}static/assets/OSAAS.jpeg" alt="氧化物生存岛百科全书"><span><strong>氧化物生存岛</strong><small>百科全书</small></span></a>
-      <nav><a class="active" href="{index_href}#items">物品</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="#about">关于</a></nav>
+      <nav><a class="active" href="{items_href}#items">物品</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="{prefix}about.html">关于</a></nav>
       <div class="header-tools"><span>中 / EN</span><span class="online"><i></i> STATIC DATA</span></div>
     </div></header>'''
 
@@ -156,6 +157,10 @@ def clean_page_branding(content: str) -> str:
         "OXIDE WIKI": "OXIDE FANS FORUM",
         "RECYCLE DATABASE": "RECYCLE GUIDE",
         "THREAT DATABASE": "THREAT GUIDE",
+        'href="./index.html#category-': 'href="./items.html#category-',
+        "background:#111713;color:#f4f5ef;overflow:hidden": "background:#111713;color:#f4f5ef;overflow-x:hidden",
+        '<span class="hero-kicker">OXIDE · SURVIVAL ISLAND</span><h1>氧化物：生存岛</h1><p>在残酷的开放世界中收集资源、制作装备、建造基地，与朋友并肩生存，征服属于你的岛屿。</p>':
+            '<img class="hero-logo" src="./static/assets/OSAAS.jpeg" alt="氧化物：生存岛"><h1>氧化物：生存岛 - 生存、制作、征服！</h1><strong class="hero-publisher">HYPERHUG</strong><p class="hero-disclaimer">包含广告 · 应用内购商品</p>',
     }
     for old, new in replacements.items():
         content = content.replace(old, new)
@@ -336,7 +341,7 @@ def threat_item_count() -> int:
     return len(animals) + len(npcs)
 
 
-def index_page(categories: dict[str, list[tuple[dict, str]]]) -> str:
+def items_page(categories: dict[str, list[tuple[dict, str]]]) -> str:
     cards = []
     for category, items in categories.items():
         if category == "Weapon":
@@ -351,6 +356,23 @@ def index_page(categories: dict[str, list[tuple[dict, str]]]) -> str:
     attack_count = attack_item_count(categories)
     threat_count = threat_item_count()
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Oxide Wiki · Items</title><link rel="stylesheet" href="./styles.css"></head><body>{header("./")}<main class="page-shell"><div class="search-row"><div><span class="eyebrow">OXIDE WIKI</span><h1>游戏物品数据库</h1><p>浏览物品、制造配方与生存资源。</p></div><div class="search">⌕ <span>搜索物品...</span></div></div><div class="catalog-layout">{sidebar(categories, "./", recycling_count=recycling_count, attack_count=attack_count, threat_count=threat_count)}<section id="items" class="catalog-content">{"".join(cards)}</section></div></main>{footer()}</body></html>'''
+
+
+def index_page() -> str:
+    gallery = "".join(
+        f'<figure class="promo-shot"><img src="./static/loop-imge/loop-{index:02d}.jpg" alt="氧化物：生存岛游戏截图 {index}"></figure>'
+        for index in range(1, 17)
+    )
+    promo_header = header("./").replace(' class="active" href="./items.html#items"', ' href="./items.html#items"')
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>氧化物生存岛爱好者论坛</title><meta name="description" content="氧化物：生存岛官方游戏介绍、宣传视频、游戏截图以及 Android 和 Apple 下载入口。"><link rel="stylesheet" href="./styles.css"><style>
+    .promo-page{{background:#111713;color:#f4f5ef;overflow:hidden}}.promo-page .site-header{{background:#111713;border-color:#2c352e}}.promo-page .brand strong{{color:#f4f5ef}}.promo-page .header-inner nav a{{color:#a9b5aa}}.promo-page .header-tools{{color:#879389}}.promo-shell{{max-width:1240px;margin:auto;padding:30px 28px 76px}}.hero{{position:relative;min-height:620px;display:flex;align-items:end;overflow:hidden;border:1px solid #38453a;border-radius:18px;background:#243128;box-shadow:0 25px 70px #0008}}.hero video{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.65}}.hero::after{{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0d120fef 0%,#0d120f99 44%,#0d120f12 78%),linear-gradient(0deg,#0d120fdb,#0d120f00 58%)}}.hero-copy{{position:relative;z-index:1;max-width:720px;padding:54px}}.hero-kicker{{color:#b3d391;font:11px var(--mono);letter-spacing:.18em}}.hero h1{{margin:16px 0 14px;font:600 clamp(46px,7vw,92px)/.92 var(--display);letter-spacing:-.04em}}.hero p{{max-width:580px;margin:0;color:#c7d0c5;font-size:17px;line-height:1.75}}.hero-actions{{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}}.hero-actions a,.download-card{{display:inline-flex;align-items:center;gap:10px;padding:13px 17px;border:1px solid #b3d391;border-radius:7px;color:#162016;background:#b3d391;font-weight:700}}.hero-actions a.secondary{{color:#e3eade;background:#1b261d;border-color:#566656}}.section-intro{{display:flex;align-items:end;justify-content:space-between;gap:24px;margin:72px 0 22px}}.section-intro h2{{margin:8px 0 0;font:600 44px/.95 var(--display)}}.section-intro p{{max-width:430px;margin:0;color:#9daa9e;line-height:1.7}}.eyebrow{{color:#98aa9a;font:11px var(--mono);letter-spacing:.16em}}.promo-window{{position:relative;overflow:hidden;padding:8px 0 22px}}.promo-track{{display:flex;width:max-content;gap:18px;animation:promo-scroll 72s linear infinite}}.promo-shot{{width:350px;height:198px;flex:none;margin:0;overflow:hidden;border:1px solid #3a493d;border-radius:10px;background:#202b22;box-shadow:0 12px 32px #0005}}.promo-shot img{{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease}}.promo-shot:hover img{{transform:scale(1.04)}}@keyframes promo-scroll{{from{{transform:translateX(0)}}to{{transform:translateX(calc(-50% - 9px))}}}}.promo-window:hover .promo-track{{animation-play-state:paused}}.download-panel{{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px}}.download-card{{display:flex;justify-content:space-between;background:#1b261d;border-color:#3d503f;color:#e7eee4;text-decoration:none}}.download-card small{{display:block;margin-top:5px;color:#98aa9a;font:10px var(--mono)}}.download-card .arrow{{color:#b3d391;font-size:24px}}.promo-footer{{display:flex;justify-content:space-between;gap:20px;margin-top:76px;padding-top:24px;border-top:1px solid #303c32;color:#91a092;font:10px var(--mono);letter-spacing:.08em}}.promo-footer a{{color:#b3d391}}@media(max-width:760px){{.promo-shell{{padding:18px 16px 52px}}.hero{{min-height:600px}}.hero-copy{{padding:30px 24px}}.hero p{{font-size:15px}}.section-intro{{display:block;margin-top:50px}}.section-intro p{{margin-top:14px}}.promo-shot{{width:280px;height:158px}}.download-panel{{grid-template-columns:1fr}}.promo-footer{{display:block;line-height:2.2}}}}
+    </style></head><body class="promo-page">{promo_header}<main class="promo-shell"><section class="hero"><video autoplay muted loop playsinline poster="./static/loop-imge/loop-01.jpg"><source src="./static/loop-imge/trailer.mp4" type="video/mp4"></video><div class="hero-copy"><span class="hero-kicker">OXIDE · SURVIVAL ISLAND</span><h1>氧化物：生存岛</h1><p>在残酷的开放世界中收集资源、制作装备、建造基地，与朋友并肩生存，征服属于你的岛屿。</p><div class="hero-actions"><a href="./items.html">浏览物品百科 <span>↗</span></a><a class="secondary" href="https://hyper-hug.com/" target="_blank" rel="noopener">访问官方网站 <span>↗</span></a></div></div></section><section class="section-intro"><div><span class="eyebrow">FROM THE ISLAND</span><h2>游戏现场</h2></div><p>官方页面中的游戏截图，展示荒岛求生、资源采集、基地建造与战斗场景。</p></section><section class="promo-window" aria-label="游戏截图轮播"><div class="promo-track">{gallery}{gallery}</div></section><section class="section-intro"><div><span class="eyebrow">JOIN THE SURVIVAL</span><h2>开始生存</h2></div><p>选择你的平台，下载《氧化物：生存岛》，进入多人在线生存世界。</p></section><section class="download-panel"><a class="download-card" href="https://play.google.com/store/apps/details?id=com.catsbit.oxidesurvivalisland&hl=zh" target="_blank" rel="noopener"><span><b>Android / Google Play</b><small>下载安卓版</small></span><span class="arrow">↗</span></a><a class="download-card" href="https://apps.apple.com/sg/app/%E6%B0%A7%E5%8C%96%E7%89%A9-%E7%94%9F%E5%AD%98%E5%B2%9B-%E7%94%9F%E5%AD%98-%E5%88%B6%E4%BD%9C-%E5%BE%81%E6%9C%8D/id1579424683?l=zh-Hans-CN" target="_blank" rel="noopener"><span><b>iPhone / App Store</b><small>下载苹果版</small></span><span class="arrow">↗</span></a></section><footer class="promo-footer"><span>氧化物生存岛爱好者论坛 · STATIC PAGE</span><span><a href="https://hyper-hug.com/" target="_blank" rel="noopener">官方网站</a> · HYPERHUG</span></footer></main></body></html>'''
+
+
+def about_page() -> str:
+    return '''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>关于 · 氧化物生存岛百科全书</title><link rel="stylesheet" href="./styles.css"><style>
+    .about-shell{max-width:960px;margin:auto;padding:70px 28px 100px}.about-hero{padding:56px 0 62px;border-bottom:1px solid var(--line)}.about-kicker{color:var(--green);font:11px var(--mono);letter-spacing:.16em}.about-hero h1{max-width:760px;margin:18px 0 22px;font:600 clamp(42px,7vw,84px)/.94 var(--display);letter-spacing:-.04em}.about-hero p{max-width:700px;margin:0;color:var(--muted);font-size:18px;line-height:1.9}.about-quote{margin:48px 0;padding:28px 32px;border-left:4px solid var(--green);background:var(--light);font:600 clamp(24px,4vw,42px)/1.35 var(--display)}.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}.about-card{padding:24px;background:#fff;border:1px solid var(--line);border-radius:8px}.about-card strong{display:block;margin-bottom:10px;font:600 24px var(--display)}.about-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.8}.about-note{margin-top:42px;color:var(--muted);font-size:13px;line-height:1.9}@media(max-width:760px){.about-shell{padding:42px 18px 70px}.about-hero{padding-top:28px}.about-hero p{font-size:16px}.about-quote{padding:22px 20px;margin:34px 0}.about-grid{grid-template-columns:1fr}}
+    </style></head><body><header class="site-header"><div class="header-inner"><a class="brand" href="./index.html"><img class="brand-mark" src="./static/assets/OSAAS.jpeg" alt="氧化物生存岛百科全书"><span><strong>氧化物生存岛</strong><small>百科全书</small></span></a><nav><a href="./items.html#items">物品</a><a href="./recycling.html">回收</a><a href="./attack.html">攻击力</a><a href="./defense.html">防御力</a><a href="./threat.html">威胁</a><a class="active" href="./about.html">关于</a></nav><div class="header-tools"><span>中 / EN</span><span class="online"><i></i> STATIC DATA</span></div></div></header><main class="about-shell"><section class="about-hero"><span class="about-kicker">WELCOME TO THE ISLAND</span><h1>每一次出发，<br>都值得被记住。</h1><p>这里是氧化物生存岛百科全书。我们把岛上的物品、武器、护甲、材料和生存线索，整理成一张清晰的地图，让每一个刚踏上荒岛的孩子，都能找到属于自己的第一步。</p></section><blockquote class="about-quote">你不只是寻找答案，<br>你正在学会创造自己的生存故事。</blockquote><section class="about-grid"><article class="about-card"><strong>探索</strong><p>从一棵树、一块石头开始，认识岛上的每一种资源，发现未知角落里的惊喜。</p></article><article class="about-card"><strong>创造</strong><p>查找配方，制作工具和装备，把自己的想法变成真正可以使用的东西。</p></article><article class="about-card"><strong>并肩</strong><p>和朋友分享发现、交换经验，在一次次合作中，让普通的冒险变成难忘的回忆。</p></article></section><p class="about-note">这个站点是玩家整理的静态资料站，内容用于帮助大家更快了解游戏。真正精彩的部分，永远发生在你亲自踏上岛屿、做出选择、解决困难的那一刻。愿你带着好奇心出发，也带着属于自己的故事回来。</p></main><footer class="site-footer"><span>氧化物生存岛爱好者论坛</span><span>STATIC HTML · ABOUT</span></footer></body></html>'''
 
 
 def recycling_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: int, attack_count: int) -> str:
@@ -402,6 +424,14 @@ def inject_seo(page: Path, content: str, items_by_slug: dict[str, dict]) -> str:
         title = "氧化物生存岛爱好者论坛"
         description = "氧化物生存岛物品图鉴，查询武器、护甲、工具、弹药、建筑和材料的制作配方与获取方式。"
         keywords = None
+    elif page.name == "about.html":
+        title = "关于 · 氧化物生存岛百科全书"
+        description = "了解氧化物生存岛百科全书的内容、目标与玩家社区定位。"
+        keywords = ["氧化物生存岛百科全书", "氧化物生存岛攻略", "氧化物生存岛玩家资料"]
+    elif page.name == "items.html":
+        title = f"物品百科 · {configured_site_name()}"
+        description = "浏览氧化物生存岛中的建筑、工具、武器、弹药、医疗、护甲、材料和其他物品。"
+        keywords = ["氧化物生存岛物品", "氧化物生存岛物品百科", "制作配方", "武器", "护甲", "材料"]
     elif page.name == "recycling.html":
         title = f"回收表 · {configured_site_name()}"
         description = "查看氧化物生存岛物品回收产物，按废料、高品质金属、金属碎片、木材和石头数量排序。"
@@ -464,7 +494,9 @@ def main() -> None:
     for category, items in categories.items():
         for item, slug in items:
             (HTML_DIR / f"{slug}.html").write_text(detail_page(item, category, slug, categories, lookup, "./", recycling_count, attack_count, threat_count), encoding="utf-8")
-    (HTML_DIR / "index.html").write_text(index_page(categories), encoding="utf-8")
+    (HTML_DIR / "index.html").write_text(index_page(), encoding="utf-8")
+    (HTML_DIR / "items.html").write_text(items_page(categories), encoding="utf-8")
+    (HTML_DIR / "about.html").write_text(about_page(), encoding="utf-8")
     (HTML_DIR / "recycling.html").write_text(recycling_page(categories, recycling_count, attack_count), encoding="utf-8")
     (HTML_DIR / "attack.html").write_text(attack_page(categories, recycling_count, attack_count), encoding="utf-8")
     (HTML_DIR / "defense.html").write_text(defense_page(categories, recycling_count, attack_count, threat_count), encoding="utf-8")
@@ -473,7 +505,7 @@ def main() -> None:
     for page in HTML_DIR.glob("*.html"):
         content = clean_page_branding(page.read_text(encoding="utf-8"))
         page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
-    print(f"generated {index} item pages, 1 catalog page, 1 recycling page, 1 attack page, 1 defense page and 1 threat page")
+    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page and 1 threat page")
 
 
 if __name__ == "__main__":
