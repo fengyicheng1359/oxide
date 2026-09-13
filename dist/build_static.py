@@ -56,7 +56,10 @@ def seo_head(title: str, description: str, page_path: str, keywords: list[str] |
     keyword_text = ", ".join(str(keyword) for keyword in keyword_values if keyword)
     canonical_tag = f'<link rel="canonical" href="{esc(canonical)}">' if canonical else ""
     favicon_data_uri = str(config.get("favicon_data_uri") or "").strip()
-    favicon_tag = f'<link rel="icon" href="{esc(favicon_data_uri)}">' if favicon_data_uri else ""
+    favicon_path = str(config.get("favicon_path") or "").strip()
+    favicon_href = favicon_data_uri or favicon_path
+    favicon_type = ' type="image/jpeg"' if favicon_path.lower().endswith(('.jpg', '.jpeg')) else ""
+    favicon_tag = f'<link rel="icon"{favicon_type} href="{esc(favicon_href)}">' if favicon_href else ""
     analytics_id = str(config.get("google_analytics_id") or "").strip()
     analytics = ""
     if analytics_id:
@@ -148,7 +151,7 @@ def header(prefix: str, index_href: str | None = None) -> str:
     items_href = f"{prefix}items.html"
     return f'''<header class="site-header"><div class="header-inner">
       <a class="brand" href="{index_href}"><img class="brand-mark" src="{prefix}static/assets/OSAAS.jpeg" alt="氧化物生存岛百科全书"><span><strong>氧化物生存岛</strong><small>百科全书</small></span></a>
-      <nav><a class="active" href="{items_href}#items">物品</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="{prefix}about.html">关于</a></nav>
+      <nav><a class="active" href="{items_href}">物品</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="{prefix}about.html">关于</a></nav>
       <div class="header-tools"><span>中 / EN</span><span class="online"><i></i> STATIC DATA</span></div>
     </div></header>'''
 
@@ -394,7 +397,7 @@ def index_page() -> str:
         f'<figure class="promo-shot"><img src="./static/loop-imge/loop-{index:02d}.jpg" alt="氧化物：生存岛游戏截图 {index}"></figure>'
         for index in range(1, 17)
     )
-    promo_header = header("./").replace(' class="active" href="./items.html#items"', ' href="./items.html#items"')
+    promo_header = header("./").replace(' class="active" href="./items.html"', ' href="./items.html"')
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>氧化物生存岛爱好者论坛</title><meta name="description" content="氧化物：生存岛官方游戏介绍、宣传视频、游戏截图以及 Android 和 Apple 下载入口。"><link rel="stylesheet" href="./styles.css"><style>
     .promo-page{{background:#111713;color:#f4f5ef;overflow:hidden}}.promo-page .site-header{{background:#111713;border-color:#2c352e}}.promo-page .brand strong{{color:#f4f5ef}}.promo-page .header-inner nav a{{color:#a9b5aa}}.promo-page .header-tools{{color:#879389}}.promo-shell{{max-width:1240px;margin:auto;padding:30px 28px 76px}}.hero{{position:relative;min-height:620px;display:flex;align-items:end;overflow:hidden;border:1px solid #38453a;border-radius:18px;background:#243128;box-shadow:0 25px 70px #0008}}.hero video{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.65}}.hero::after{{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0d120fef 0%,#0d120f99 44%,#0d120f12 78%),linear-gradient(0deg,#0d120fdb,#0d120f00 58%)}}.hero-copy{{position:relative;z-index:1;max-width:720px;padding:54px}}.hero-kicker{{color:#b3d391;font:11px var(--mono);letter-spacing:.18em}}.hero h1{{margin:16px 0 14px;font:600 clamp(46px,7vw,92px)/.92 var(--display);letter-spacing:-.04em}}.hero p{{max-width:580px;margin:0;color:#c7d0c5;font-size:17px;line-height:1.75}}.hero-actions{{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}}.hero-actions a,.download-card{{display:inline-flex;align-items:center;gap:10px;padding:13px 17px;border:1px solid #b3d391;border-radius:7px;color:#162016;background:#b3d391;font-weight:700}}.hero-actions a.secondary{{color:#e3eade;background:#1b261d;border-color:#566656}}.section-intro{{display:flex;align-items:end;justify-content:space-between;gap:24px;margin:72px 0 22px}}.section-intro h2{{margin:8px 0 0;font:600 44px/.95 var(--display)}}.section-intro p{{max-width:430px;margin:0;color:#9daa9e;line-height:1.7}}.eyebrow{{color:#98aa9a;font:11px var(--mono);letter-spacing:.16em}}.promo-window{{position:relative;overflow:hidden;padding:8px 0 22px}}.promo-track{{display:flex;width:max-content;gap:18px;animation:promo-scroll 72s linear infinite}}.promo-shot{{width:350px;height:198px;flex:none;margin:0;overflow:hidden;border:1px solid #3a493d;border-radius:10px;background:#202b22;box-shadow:0 12px 32px #0005}}.promo-shot img{{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease}}.promo-shot:hover img{{transform:scale(1.04)}}@keyframes promo-scroll{{from{{transform:translateX(0)}}to{{transform:translateX(calc(-50% - 9px))}}}}.promo-window:hover .promo-track{{animation-play-state:paused}}.download-panel{{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px}}.download-card{{display:flex;justify-content:space-between;background:#1b261d;border-color:#3d503f;color:#e7eee4;text-decoration:none}}.download-card small{{display:block;margin-top:5px;color:#98aa9a;font:10px var(--mono)}}.download-card .arrow{{color:#b3d391;font-size:24px}}.promo-footer{{display:flex;justify-content:space-between;gap:20px;margin-top:76px;padding-top:24px;border-top:1px solid #303c32;color:#91a092;font:10px var(--mono);letter-spacing:.08em}}.promo-footer a{{color:#b3d391}}@media(max-width:760px){{.promo-shell{{padding:18px 16px 52px}}.hero{{min-height:600px}}.hero-copy{{padding:30px 24px}}.hero p{{font-size:15px}}.section-intro{{display:block;margin-top:50px}}.section-intro p{{margin-top:14px}}.promo-shot{{width:280px;height:158px}}.download-panel{{grid-template-columns:1fr}}.promo-footer{{display:block;line-height:2.2}}}}
     </style></head><body class="promo-page">{promo_header}<main class="promo-shell"><section class="hero"><video autoplay muted loop playsinline poster="./static/loop-imge/loop-01.jpg"><source src="./static/loop-imge/trailer.mp4" type="video/mp4"></video><div class="hero-copy"><span class="hero-kicker">OXIDE · SURVIVAL ISLAND</span><h1>氧化物：生存岛</h1><p>在残酷的开放世界中收集资源、制作装备、建造基地，与朋友并肩生存，征服属于你的岛屿。</p><div class="hero-actions"><a href="./items.html">浏览物品百科 <span>↗</span></a><a class="secondary" href="https://hyper-hug.com/" target="_blank" rel="noopener">访问官方网站 <span>↗</span></a></div></div></section><section class="section-intro"><div><span class="eyebrow">FROM THE ISLAND</span><h2>游戏现场</h2></div><p>官方页面中的游戏截图，展示荒岛求生、资源采集、基地建造与战斗场景。</p></section><section class="promo-window" aria-label="游戏截图轮播"><div class="promo-track">{gallery}{gallery}</div></section><section class="section-intro"><div><span class="eyebrow">JOIN THE SURVIVAL</span><h2>开始生存</h2></div><p>选择你的平台，下载《氧化物：生存岛》，进入多人在线生存世界。</p></section><section class="download-panel"><a class="download-card" href="https://play.google.com/store/apps/details?id=com.catsbit.oxidesurvivalisland&hl=zh" target="_blank" rel="noopener"><span><b>Android / Google Play</b><small>下载安卓版</small></span><span class="arrow">↗</span></a><a class="download-card" href="https://apps.apple.com/sg/app/%E6%B0%A7%E5%8C%96%E7%89%A9-%E7%94%9F%E5%AD%98%E5%B2%9B-%E7%94%9F%E5%AD%98-%E5%88%B6%E4%BD%9C-%E5%BE%81%E6%9C%8D/id1579424683?l=zh-Hans-CN" target="_blank" rel="noopener"><span><b>iPhone / App Store</b><small>下载苹果版</small></span><span class="arrow">↗</span></a></section><footer class="promo-footer"><span>氧化物生存岛爱好者论坛 · STATIC PAGE</span><span><a href="https://hyper-hug.com/" target="_blank" rel="noopener">官方网站</a> · HYPERHUG</span></footer></main></body></html>'''
@@ -491,6 +494,25 @@ def inject_seo(page: Path, content: str, items_by_slug: dict[str, dict]) -> str:
     return re.sub(r'<head>.*?<link rel="stylesheet"', f'<head>{head}<link rel="stylesheet"', content, count=1, flags=re.DOTALL)
 
 
+def write_crawl_files(pages: list[Path]) -> None:
+    """生成搜索引擎使用的站点地图和抓取规则。"""
+    site_url = str(site_config().get("site_url") or "").rstrip("/")
+    urls = "\n".join(
+        f"  <url><loc>{html.escape(site_url + '/' + page.name)}</loc></url>"
+        for page in sorted(pages, key=lambda path: path.name)
+    )
+    sitemap = f'''<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{urls}
+</urlset>
+'''
+    (HTML_DIR / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    (HTML_DIR / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {site_url}/sitemap.xml\n",
+        encoding="utf-8",
+    )
+
+
 def main() -> None:
     config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
     categories: dict[str, list[tuple[dict, str]]] = {}
@@ -536,6 +558,7 @@ def main() -> None:
     for page in HTML_DIR.glob("*.html"):
         content = clean_page_branding(page.read_text(encoding="utf-8"))
         page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
+    write_crawl_files(sorted(HTML_DIR.glob("*.html")))
     print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page and 1 threat page")
 
 
