@@ -86,6 +86,8 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 .promo-page .hero-copy{padding-left:30px!important}
 @media(min-width:761px){.promo-page .hero-copy{transform:translateX(-80px)}}
 @media(max-width:760px){.promo-page .hero-copy{padding-left:24px!important}}
+.promo-page .download-panel{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+@media(max-width:760px){.promo-page .download-panel{grid-template-columns:1fr!important}}
 .promo-page .brand strong,.promo-page .brand small{color:#edf4eb!important}.promo-page .header-inner nav a{color:#aab9ad!important}.promo-page .header-inner nav a.active,.promo-page .header-inner nav a:hover{color:#b8e879!important}
 .site-header .brand strong{color:#f1f7ef!important}.site-header .brand small{color:#b7c8b9!important}.site-header .header-inner nav a{color:#b4c2b5!important}.site-header .header-inner nav a.active,.site-header .header-inner nav a:hover{color:#c5f28e!important}.site-header .header-tools{color:#afbdaf!important}.site-header .online i{background:#b8e879!important}
 .site-header .header-inner nav a.active{background:linear-gradient(to bottom,transparent 14px,#1b2b1d 14px,#1b2b1d 62px,transparent 62px)!important;border-bottom:2px solid #b8e879!important;color:#c5f28e!important}.site-header .header-inner nav a:hover:not(.active){background:transparent!important}

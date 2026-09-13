@@ -392,6 +392,13 @@ def add_items_search(page: str) -> str:
     return page.replace('<div class="search">⌕ <span>搜索物品...</span></div>', search_box).replace('</body>', script + '</body>')
 
 
+def add_pc_download(page: str) -> str:
+    """在首页下载区域增加电脑版入口。"""
+    card = '''<a class="download-card" href="https://www.bluestacks.com/apps/action/oxide-survival-island-on-pc.html" target="_blank" rel="noopener"><span><b>Windows / BlueStacks</b><small>下载电脑版</small></span><span class="arrow">↗</span></a>'''
+    marker = '</a></section><footer class="promo-footer">'
+    return page.replace(marker, '</a>' + card + '</section><footer class="promo-footer">', 1)
+
+
 def index_page() -> str:
     gallery = "".join(
         f'<figure class="promo-shot"><img src="./static/loop-imge/loop-{index:02d}.jpg" alt="氧化物：生存岛游戏截图 {index}"></figure>'
@@ -547,7 +554,7 @@ def main() -> None:
     for category, items in categories.items():
         for item, slug in items:
             (HTML_DIR / f"{slug}.html").write_text(detail_page(item, category, slug, categories, lookup, "./", recycling_count, attack_count, threat_count), encoding="utf-8")
-    (HTML_DIR / "index.html").write_text(index_page(), encoding="utf-8")
+    (HTML_DIR / "index.html").write_text(add_pc_download(index_page()), encoding="utf-8")
     (HTML_DIR / "items.html").write_text(add_items_search(items_page(categories)), encoding="utf-8")
     (HTML_DIR / "about.html").write_text(about_page(), encoding="utf-8")
     (HTML_DIR / "recycling.html").write_text(recycling_page(categories, recycling_count, attack_count), encoding="utf-8")
