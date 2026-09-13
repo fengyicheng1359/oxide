@@ -16,6 +16,8 @@
 .promo-page .promo-footer{border-color:var(--line);color:#68736b}
 .promo-page .hero-copy h1,.promo-page .hero-copy p{color:#fff!important}
 .promo-page .hero-copy .hero-disclaimer{color:#fff!important;opacity:.88}
+.promo-page .hero video{opacity:1!important;filter:saturate(1.12) contrast(1.05) brightness(1.05)}
+.promo-page .hero::after{background:linear-gradient(90deg,#0d120fbb 0%,#0d120f55 38%,#0d120f00 78%),linear-gradient(0deg,#0d120f88,#0d120f00 58%)!important}
 .hero-logo{display:block;width:112px;height:112px;margin-bottom:24px;object-fit:cover;border-radius:22px;box-shadow:0 12px 28px #0007}
 .hero-publisher{display:block;margin:22px 0 4px;color:#28c993;font:600 18px var(--display);letter-spacing:.08em}
 .hero-disclaimer{margin:0!important;color:#aeb9ae!important;font-size:14px!important}
