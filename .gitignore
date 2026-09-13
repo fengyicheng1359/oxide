@@ -3,6 +3,7 @@
 
 # 保留忽略规则文件本身
 !.gitignore
+!wrangler.toml
 
 # 仅将 dist 目录纳入 Git
 !dist/
