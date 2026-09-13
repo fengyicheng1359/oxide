@@ -364,6 +364,31 @@ def items_page(categories: dict[str, list[tuple[dict, str]]]) -> str:
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Oxide Wiki · Items</title><link rel="stylesheet" href="./styles.css"></head><body>{header("./")}<main class="page-shell"><div class="search-row"><div><span class="eyebrow">OXIDE WIKI</span><h1>游戏物品数据库</h1><p>浏览物品、制造配方与生存资源。</p></div><div class="search">⌕ <span>搜索物品...</span></div></div><div class="catalog-layout">{sidebar(categories, "./", recycling_count=recycling_count, attack_count=attack_count, threat_count=threat_count)}<section id="items" class="catalog-content">{"".join(cards)}</section></div></main>{footer()}</body></html>'''
 
 
+def add_items_search(page: str) -> str:
+    """给物品页增加纯前端即时搜索，不影响其他静态页面。"""
+    search_box = '''<label class="search" for="item-search"><span aria-hidden="true">⌕</span><input id="item-search" type="search" placeholder="搜索物品..." autocomplete="off"></label>'''
+    script = '''<script>
+      (() => {
+        const input = document.querySelector('#item-search');
+        const cards = [...document.querySelectorAll('.catalog-card')];
+        const sections = [...document.querySelectorAll('.category-section')];
+        if (!input || !cards.length) return;
+        const normalize = value => value.trim().toLocaleLowerCase();
+        const update = () => {
+          const keyword = normalize(input.value);
+          cards.forEach(card => {
+            card.hidden = Boolean(keyword) && !normalize(card.textContent).includes(keyword);
+          });
+          sections.forEach(section => {
+            section.hidden = !section.querySelector('.catalog-card:not([hidden])');
+          });
+        };
+        input.addEventListener('input', update);
+      })();
+    </script>'''
+    return page.replace('<div class="search">⌕ <span>搜索物品...</span></div>', search_box).replace('</body>', script + '</body>')
+
+
 def index_page() -> str:
     gallery = "".join(
         f'<figure class="promo-shot"><img src="./static/loop-imge/loop-{index:02d}.jpg" alt="氧化物：生存岛游戏截图 {index}"></figure>'
@@ -501,7 +526,7 @@ def main() -> None:
         for item, slug in items:
             (HTML_DIR / f"{slug}.html").write_text(detail_page(item, category, slug, categories, lookup, "./", recycling_count, attack_count, threat_count), encoding="utf-8")
     (HTML_DIR / "index.html").write_text(index_page(), encoding="utf-8")
-    (HTML_DIR / "items.html").write_text(items_page(categories), encoding="utf-8")
+    (HTML_DIR / "items.html").write_text(add_items_search(items_page(categories)), encoding="utf-8")
     (HTML_DIR / "about.html").write_text(about_page(), encoding="utf-8")
     (HTML_DIR / "recycling.html").write_text(recycling_page(categories, recycling_count, attack_count), encoding="utf-8")
     (HTML_DIR / "attack.html").write_text(attack_page(categories, recycling_count, attack_count), encoding="utf-8")
