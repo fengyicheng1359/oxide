@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 STATIC = ROOT / "static"
 HTML_DIR = ROOT
+GAMEPLAY_SOURCE_DIR = ROOT.parent / "tmp" / "gameplay"
 CONFIG_FILE = STATIC / "config.json"
 SITE_CONFIG_FILE = STATIC / "site-config.json"
 ARMOR_CATEGORIES = {"Feet Equipment", "Head Equipment", "Legs Equipment", "Suit", "Torso Equipment"}
@@ -151,13 +152,164 @@ def header(prefix: str, index_href: str | None = None) -> str:
     items_href = f"{prefix}items.html"
     return f'''<header class="site-header"><div class="header-inner">
       <a class="brand" href="{index_href}"><img class="brand-mark" src="{prefix}static/assets/OSAAS.jpeg" alt="氧化物生存岛百科全书"><span><strong>氧化物生存岛</strong><small>百科全书</small></span></a>
-      <nav><a class="active" href="{items_href}">物品</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="{prefix}about.html">关于</a></nav>
+      <nav><a class="active" href="{items_href}">物品</a><a href="{prefix}gameplay/index.html">玩法</a><a href="{prefix}recycling.html">回收</a><a href="{prefix}attack.html">攻击力</a><a href="{prefix}defense.html">防御力</a><a href="{prefix}threat.html">威胁</a><a href="{prefix}about.html">关于</a></nav>
       <div class="header-tools"><span>中 / EN</span><span class="online"><i></i> STATIC DATA</span></div>
     </div></header>'''
 
 
 def footer() -> str:
     return '<footer class="site-footer"><span>氧化物生存岛爱好者论坛</span><span>STATIC HTML · GENERATED FROM CONFIG.JSON</span></footer>'
+
+
+GAMEPLAY_CATEGORY_RULES = [
+    ("生存基础", ("睡眠者", "睡袋", "重生点", "生命值", "饥饿", "口渴", "食用", "饮用", "皮肤", "指南针", "标记", "生物群系", "安全区")),
+    ("建造与基地", ("窗栏", "维修", "升级墙", "密码锁", "工具柜", "基地", "存储", "保险箱", "修理柜", "烹饪装置", "工作台", "制作菜单", "快速制作")),
+    ("氏族与社交", ("氏族", "部落", "小队", "队友")),
+    ("战斗与装备", ("武器配件", "配件", "军事护甲")),
+    ("交通与探索", ("滑索", "电力线塔", "商人", "铁路", "火车", "载具", "军事基地", "战利品容器")),
+]
+
+GAMEPLAY_SLUG_CATEGORIES = {
+    "-104": "建造与基地", "-113": "建造与基地", "-115": "建造与基地", "-122": "建造与基地",
+    "-124": "建造与基地", "-188": "建造与基地", "-189": "建造与基地", "-72": "建造与基地",
+    "-73": "建造与基地", "-74": "建造与基地", "-75": "建造与基地", "quick-craft-47": "建造与基地",
+    "-131": "氏族与社交", "-176": "氏族与社交", "-177": "氏族与社交", "-178": "氏族与社交",
+    "-180": "氏族与社交", "-182": "氏族与社交",
+    "-108": "战斗与装备", "-126": "战斗与装备", "-193": "战斗与装备", "-208": "战斗与装备",
+    "-112": "交通与探索", "-118": "交通与探索", "-224": "交通与探索", "-232": "交通与探索",
+    "-69": "交通与探索", "-70": "交通与探索", "citadel-221": "交通与探索",
+    "-241": "生存基础", "-242": "生存基础", "-29": "生存基础", "-32": "生存基础", "-43": "生存基础",
+    "-44": "生存基础", "-45": "生存基础", "-46": "生存基础", "-52": "生存基础", "-57": "生存基础",
+    "-58": "生存基础", "-65": "生存基础", "-82": "生存基础",
+}
+
+GAMEPLAY_CATEGORY_ANCHORS = {
+    "生存基础": "survival",
+    "建造与基地": "base-building",
+    "氏族与社交": "clans",
+    "战斗与装备": "combat",
+    "交通与探索": "exploration",
+}
+
+
+def gameplay_category(title: str, content: str) -> str:
+    """按文章标题和正文中的核心玩法词重新归类。"""
+    text = f"{title} {content}"
+    for category, keywords in GAMEPLAY_CATEGORY_RULES:
+        if any(keyword in text for keyword in keywords):
+            return category
+    return "生存基础"
+
+
+def gameplay_articles() -> list[dict]:
+    """读取下载的纯文本文章，清除客服页杂项并保留正文段落。"""
+    articles = []
+    for text_file in sorted(GAMEPLAY_SOURCE_DIR.glob("*.txt")):
+        lines = [line.strip() for line in text_file.read_text(encoding="utf-8").splitlines() if line.strip()]
+        if not lines:
+            continue
+        title = re.sub(r"\s+–\s+Oxide: Survival Island 客服$", "", lines[0]).strip()
+        body = []
+        started = False
+        for line in lines[1:]:
+            if line == title:
+                started = True
+                continue
+            if line == "这有帮助吗？":
+                break
+            if line in {"Oxide: Survival Island", "Chinese (Simplified)", ">", "玩法", "简短说明视频："}:
+                continue
+            if not started:
+                continue
+            body.append(line)
+        content = "\n".join(body).strip()
+        if not content:
+            continue
+        category = GAMEPLAY_SLUG_CATEGORIES.get(text_file.stem) or gameplay_category(title, content)
+        articles.append({
+            "slug": text_file.stem,
+            "title": title,
+            "category": category,
+            "content": content,
+            "source_file": text_file.name,
+        })
+    return articles
+
+
+def gameplay_page_styles() -> str:
+    return '''<style>
+.gameplay-shell{max-width:1180px;margin:auto;padding:42px 28px 72px}.gameplay-intro{display:flex;justify-content:space-between;gap:32px;align-items:end;margin-bottom:34px}.gameplay-intro h1{margin:9px 0 10px;color:var(--ink);font:600 clamp(42px,6vw,72px)/.95 var(--display);letter-spacing:-.04em}.gameplay-intro p{max-width:480px;margin:0;color:var(--muted);font-size:14px;line-height:1.8}.gameplay-category{margin:42px 0}.gameplay-category-heading{display:flex;align-items:baseline;gap:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}.gameplay-category-heading h2{margin:0;color:var(--ink);font:600 30px var(--display)}.gameplay-category-heading span{color:var(--muted);font:10px var(--mono);letter-spacing:.08em}.gameplay-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:16px}.gameplay-card{display:flex;flex-direction:column;min-height:132px;padding:18px;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}.gameplay-card:hover{transform:translateY(-3px);border-color:#8ebf5e;box-shadow:0 12px 26px #0007}.gameplay-card small{color:var(--green);font:10px var(--mono);letter-spacing:.08em}.gameplay-card strong{margin-top:12px;font-size:16px;line-height:1.45}.gameplay-card .arrow{margin-top:auto;padding-top:14px;color:var(--green);font-size:18px}.gameplay-article-shell{max-width:900px;margin:auto;padding:42px 28px 72px}.gameplay-breadcrumb{display:flex;gap:9px;margin-bottom:28px;color:var(--muted);font:10px var(--mono)}.gameplay-breadcrumb a{color:var(--green);text-decoration:none}.gameplay-article{padding:30px 34px 38px;background:var(--panel);border:1px solid var(--line);border-radius:10px;box-shadow:0 16px 36px #0005}.gameplay-article .eyebrow{color:var(--green)}.gameplay-article h1{margin:12px 0 28px;color:var(--ink);font:600 clamp(36px,5vw,62px)/1.05 var(--display);letter-spacing:-.03em}.gameplay-body{color:#dce8dc;font-size:16px;line-height:2}.gameplay-body p{margin:0 0 18px}.gameplay-back{display:inline-flex;margin-top:28px;color:var(--green);font-weight:700;text-decoration:none}.gameplay-back:hover{text-decoration:underline}@media(max-width:760px){.gameplay-shell,.gameplay-article-shell{padding:30px 18px 56px}.gameplay-intro{display:block}.gameplay-intro p{margin-top:18px}.gameplay-grid{grid-template-columns:1fr}.gameplay-article{padding:24px 20px 30px}.gameplay-body{font-size:15px;line-height:1.9}}
+.gameplay-layout{display:grid;grid-template-columns:190px 1fr;gap:42px}.gameplay-sidebar{align-self:start;position:sticky;top:20px}.gameplay-sidebar h2{margin:0 0 13px;color:var(--ink);font-size:13px}.gameplay-sidebar a{display:flex;justify-content:space-between;padding:9px 12px;margin:2px 0;border-radius:6px;color:var(--muted);font-size:12px;text-decoration:none}.gameplay-sidebar a:hover,.gameplay-sidebar a:focus,.gameplay-sidebar a.selected{color:var(--green);background:var(--light);font-weight:600}.gameplay-sidebar b{font:10px var(--mono);font-weight:400}.gameplay-sidebar-foot{margin:38px 12px 0;color:var(--muted);font:10px/1.8 var(--mono)}.gameplay-category{scroll-margin-top:24px}
+@media(max-width:760px){.gameplay-layout{display:block}.gameplay-sidebar{position:static;margin-bottom:34px;padding-bottom:18px;border-bottom:1px solid var(--line)}.gameplay-sidebar h2{margin-bottom:8px}.gameplay-sidebar a{display:inline-flex;margin:2px 3px 2px 0}.gameplay-sidebar-foot{display:none}}
+</style>'''
+
+
+def gameplay_header() -> str:
+    return header("../").replace(
+        '<a class="active" href="../items.html">物品</a><a href="../gameplay/index.html">玩法</a>',
+        '<a href="../items.html">物品</a><a class="active" href="../gameplay/index.html">玩法</a>',
+    )
+
+
+def gameplay_sidebar(articles: list[dict], active_category: str | None = None) -> str:
+    grouped: dict[str, list[dict]] = {}
+    for article in articles:
+        grouped.setdefault(article["category"], []).append(article)
+    links = "".join(
+        f'<a class="{"selected" if category == active_category else ""}" href="./index.html#gameplay-{GAMEPLAY_CATEGORY_ANCHORS[category]}"><span>{esc(category)}</span><b>{len(grouped.get(category, [])):02d}</b></a>'
+        for category, _ in GAMEPLAY_CATEGORY_RULES if grouped.get(category)
+    )
+    return f'<aside class="gameplay-sidebar"><h2>玩法分类</h2>{links}<div class="gameplay-sidebar-foot">共 {len(articles)} 篇玩法<br>按主题重新整理</div></aside>'
+
+
+def gameplay_index_page(articles: list[dict]) -> str:
+    grouped: dict[str, list[dict]] = {}
+    for article in articles:
+        grouped.setdefault(article["category"], []).append(article)
+    sections = []
+    for category, _ in GAMEPLAY_CATEGORY_RULES:
+        category_articles = grouped.get(category, [])
+        if not category_articles:
+            continue
+        cards = "".join(
+            f'<a class="gameplay-card" href="./{esc(article["slug"])}.html"><small>{esc(category.upper())}</small><strong>{esc(article["title"])}</strong><span class="arrow">↗</span></a>'
+            for article in category_articles
+        )
+        sections.append(f'<section id="gameplay-{GAMEPLAY_CATEGORY_ANCHORS[category]}" class="gameplay-category"><div class="gameplay-category-heading"><h2>{esc(category)}</h2><span>{len(category_articles):02d} ARTICLES</span></div><div class="gameplay-grid">{cards}</div></section>')
+    sidebar = gameplay_sidebar(articles)
+    head = seo_head(
+        "玩法攻略 · 氧化物生存岛爱好者论坛",
+        "氧化物生存岛玩法攻略，包含生存基础、基地建造、氏族社交、战斗装备、交通探索和游戏机制说明。",
+        "gameplay/index.html",
+        ["氧化物生存岛玩法", "氧化物生存岛攻略", "氧化物生存岛新手攻略", "基地建造", "氏族", "生存技巧"],
+    )
+    return f'''<!doctype html><html lang="zh-CN"><head>{head}{gameplay_page_styles()}<link rel="stylesheet" href="../styles.css"></head><body>{gameplay_header()}<main class="gameplay-shell"><div class="gameplay-layout">{sidebar}<section class="gameplay-content"><section class="gameplay-intro"><div><span class="eyebrow">GAMEPLAY FIELD MANUAL</span><h1>玩法攻略</h1></div><p>从第一次登陆荒岛，到建造基地、加入氏族，再到探索铁路和军事基地。这里整理了游戏中最重要的生存规则与玩法线索。</p></section>{"".join(sections)}</section></div></main>{footer()}</body></html>'''
+
+
+def gameplay_article_page(article: dict, articles: list[dict]) -> str:
+    paragraphs = "".join(f"<p>{esc(paragraph)}</p>" for paragraph in article["content"].splitlines() if paragraph.strip())
+    description = article["content"].splitlines()[0][:150]
+    keywords = ["氧化物生存岛", "氧化物生存岛玩法", article["category"], article["title"]]
+    head = seo_head(
+        f"{article['title']} · 氧化物生存岛玩法攻略",
+        description,
+        f"gameplay/{article['slug']}.html",
+        keywords,
+    )
+    sidebar = gameplay_sidebar(articles, article["category"])
+    return f'''<!doctype html><html lang="zh-CN"><head>{head}{gameplay_page_styles()}<link rel="stylesheet" href="../styles.css"></head><body>{gameplay_header()}<main class="gameplay-shell"><div class="gameplay-layout">{sidebar}<section class="gameplay-article-main"><nav class="gameplay-breadcrumb" aria-label="面包屑"><a href="../index.html">首页</a><span>/</span><a href="./index.html">玩法攻略</a><span>/</span><span>{esc(article["category"])}</span></nav><article class="gameplay-article"><span class="eyebrow">{esc(article["category"].upper())}</span><h1>{esc(article["title"])}</h1><div class="gameplay-body">{paragraphs}</div><a class="gameplay-back" href="./index.html">← 返回玩法攻略</a></article></section></div></main>{footer()}</body></html>'''
+
+
+def write_gameplay_pages() -> int:
+    articles = gameplay_articles()
+    output_dir = HTML_DIR / "gameplay"
+    output_dir.mkdir(exist_ok=True)
+    for old_page in output_dir.glob("*.html"):
+        old_page.unlink()
+    (output_dir / "index.html").write_text(gameplay_index_page(articles), encoding="utf-8")
+    for article in articles:
+        (output_dir / f"{article['slug']}.html").write_text(gameplay_article_page(article, articles), encoding="utf-8")
+    return len(articles)
 
 
 def clean_page_branding(content: str) -> str:
@@ -399,6 +551,11 @@ def add_pc_download(page: str) -> str:
     return page.replace(marker, '</a>' + card + '</section><footer class="promo-footer">', 1)
 
 
+def add_play_link(page: str) -> str:
+    """兼容关于页的独立页头，补上统一的玩法入口。"""
+    return page.replace('<a href="./recycling.html">回收</a>', '<a href="./gameplay/index.html">玩法</a><a href="./recycling.html">回收</a>', 1)
+
+
 def index_page() -> str:
     gallery = "".join(
         f'<figure class="promo-shot"><img src="./static/loop-imge/loop-{index:02d}.jpg" alt="氧化物：生存岛游戏截图 {index}"></figure>'
@@ -414,6 +571,26 @@ def about_page() -> str:
     return '''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>关于 · 氧化物生存岛百科全书</title><link rel="stylesheet" href="./styles.css"><style>
     .about-shell{max-width:960px;margin:auto;padding:70px 28px 100px}.about-hero{padding:56px 0 62px;border-bottom:1px solid var(--line)}.about-kicker{color:var(--green);font:11px var(--mono);letter-spacing:.16em}.about-hero h1{max-width:760px;margin:18px 0 22px;font:600 clamp(42px,7vw,84px)/.94 var(--display);letter-spacing:-.04em}.about-hero p{max-width:700px;margin:0;color:var(--muted);font-size:18px;line-height:1.9}.about-quote{margin:48px 0;padding:28px 32px;border-left:4px solid var(--green);background:var(--light);font:600 clamp(24px,4vw,42px)/1.35 var(--display)}.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}.about-card{padding:24px;background:#fff;border:1px solid var(--line);border-radius:8px}.about-card strong{display:block;margin-bottom:10px;font:600 24px var(--display)}.about-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.8}.about-note{margin-top:42px;color:var(--muted);font-size:13px;line-height:1.9}@media(max-width:760px){.about-shell{padding:42px 18px 70px}.about-hero{padding-top:28px}.about-hero p{font-size:16px}.about-quote{padding:22px 20px;margin:34px 0}.about-grid{grid-template-columns:1fr}}
     </style></head><body><header class="site-header"><div class="header-inner"><a class="brand" href="./index.html"><img class="brand-mark" src="./static/assets/OSAAS.jpeg" alt="氧化物生存岛百科全书"><span><strong>氧化物生存岛</strong><small>百科全书</small></span></a><nav><a href="./items.html#items">物品</a><a href="./recycling.html">回收</a><a href="./attack.html">攻击力</a><a href="./defense.html">防御力</a><a href="./threat.html">威胁</a><a class="active" href="./about.html">关于</a></nav><div class="header-tools"><span>中 / EN</span><span class="online"><i></i> STATIC DATA</span></div></div></header><main class="about-shell"><section class="about-hero"><span class="about-kicker">WELCOME TO THE ISLAND</span><h1>每一次出发，<br>都值得被记住。</h1><p>这里是氧化物生存岛百科全书。我们把岛上的物品、武器、护甲、材料和生存线索，整理成一张清晰的地图，让每一个刚踏上荒岛的孩子，都能找到属于自己的第一步。</p></section><blockquote class="about-quote">你不只是寻找答案，<br>你正在学会创造自己的生存故事。</blockquote><section class="about-grid"><article class="about-card"><strong>探索</strong><p>从一棵树、一块石头开始，认识岛上的每一种资源，发现未知角落里的惊喜。</p></article><article class="about-card"><strong>创造</strong><p>查找配方，制作工具和装备，把自己的想法变成真正可以使用的东西。</p></article><article class="about-card"><strong>并肩</strong><p>和朋友分享发现、交换经验，在一次次合作中，让普通的冒险变成难忘的回忆。</p></article></section><p class="about-note">这个站点是玩家整理的静态资料站，内容用于帮助大家更快了解游戏。真正精彩的部分，永远发生在你亲自踏上岛屿、做出选择、解决困难的那一刻。愿你带着好奇心出发，也带着属于自己的故事回来。</p></main><footer class="site-footer"><span>氧化物生存岛爱好者论坛</span><span>STATIC HTML · ABOUT</span></footer></body></html>'''
+
+
+def play_page() -> str:
+    head = seo_head(
+        "玩法攻略 · 氧化物生存岛爱好者论坛",
+        "了解氧化物生存岛的探索、资源采集、制造、基地建造、战斗和载具玩法。",
+        "gameplay/index.html",
+        ["氧化物生存岛玩法", "氧化物生存岛攻略", "资源采集", "基地建造", "空投", "军事基地", "直升机", "越野车"],
+    )
+    page_header = header("../").replace(' class="active" href="../items.html"', ' href="../items.html"').replace('<a href="../gameplay/index.html">玩法</a>', '<a class="active" href="../gameplay/index.html">玩法</a>')
+    cards = [
+        ("探索荒岛", "从森林、山地和海岸开始，寻找资源点、空投和军事基地，熟悉岛上的危险与机会。"),
+        ("资源采集", "砍伐木材、开采石头和金属，收集布料、骨头与废料，为下一次制作做好准备。"),
+        ("制造装备", "利用配方制作工具、武器、弹药和护具，逐步提升自己的生存能力。"),
+        ("基地建造", "从简易木屋到装甲基地，使用墙体、门、舱门和领地柜建立安全的生存据点。"),
+        ("战斗生存", "面对野兽和人机，选择合适的武器与护具，掌握攻击距离、攻击力和防护属性。"),
+        ("载具与事件", "关注直升机、越野车、气球、加油站和空投，在移动与事件中获得更多资源。"),
+    ]
+    body = "".join(f'<article class="play-card"><span class="play-index">{index:02d}</span><h2>{esc(title)}</h2><p>{esc(description)}</p></article>' for index, (title, description) in enumerate(cards, 1))
+    return f'''<!doctype html><html lang="zh-CN"><head>{head}<link rel="stylesheet" href="./styles.css"><style>.play-shell{{max-width:1120px;margin:auto;padding:64px 28px 100px}}.play-hero{{padding:12px 0 48px;border-bottom:1px solid var(--line)}}.play-kicker{{color:var(--green);font:11px var(--mono);letter-spacing:.16em}}.play-hero h1{{max-width:760px;margin:18px 0;font:600 clamp(44px,7vw,82px)/.94 var(--display);letter-spacing:-.04em}}.play-hero p{{max-width:700px;margin:0;color:var(--muted);font-size:17px;line-height:1.9}}.play-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:36px}}.play-card{{position:relative;min-height:190px;padding:24px;background:var(--panel);border:1px solid var(--line);border-radius:8px}}.play-card:hover{{border-color:var(--green);transform:translateY(-3px)}}.play-index{{color:var(--green);font:12px var(--mono);letter-spacing:.12em}}.play-card h2{{margin:28px 0 12px;font:600 27px var(--display)}}.play-card p{{margin:0;color:var(--muted);font-size:13px;line-height:1.8}}@media(max-width:760px){{.play-shell{{padding:42px 18px 70px}}.play-grid{{grid-template-columns:1fr}}}}</style></head><body>{page_header}<main class="play-shell"><section class="play-hero"><span class="play-kicker">SURVIVAL PLAYBOOK</span><h1>在岛上活下来，<br>也找到自己的玩法。</h1><p>从第一块石头、第一把工具，到基地、战斗与载具，认识氧化物生存岛的核心玩法，规划你的每一次出发。</p></section><section class="play-grid">{body}</section></main>{footer()}</body></html>'''
 
 
 def recycling_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: int, attack_count: int) -> str:
@@ -505,8 +682,8 @@ def write_crawl_files(pages: list[Path]) -> None:
     """生成搜索引擎使用的站点地图和抓取规则。"""
     site_url = str(site_config().get("site_url") or "").rstrip("/")
     urls = "\n".join(
-        f"  <url><loc>{html.escape(site_url + '/' + page.name)}</loc></url>"
-        for page in sorted(pages, key=lambda path: path.name)
+        f"  <url><loc>{html.escape(site_url + '/' + page.relative_to(HTML_DIR).as_posix())}</loc></url>"
+        for page in sorted(pages, key=lambda path: path.relative_to(HTML_DIR).as_posix())
     )
     sitemap = f'''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -556,7 +733,8 @@ def main() -> None:
             (HTML_DIR / f"{slug}.html").write_text(detail_page(item, category, slug, categories, lookup, "./", recycling_count, attack_count, threat_count), encoding="utf-8")
     (HTML_DIR / "index.html").write_text(add_pc_download(index_page()), encoding="utf-8")
     (HTML_DIR / "items.html").write_text(add_items_search(items_page(categories)), encoding="utf-8")
-    (HTML_DIR / "about.html").write_text(about_page(), encoding="utf-8")
+    (HTML_DIR / "play.html").write_text(play_page(), encoding="utf-8")
+    (HTML_DIR / "about.html").write_text(add_play_link(about_page()), encoding="utf-8")
     (HTML_DIR / "recycling.html").write_text(recycling_page(categories, recycling_count, attack_count), encoding="utf-8")
     (HTML_DIR / "attack.html").write_text(attack_page(categories, recycling_count, attack_count), encoding="utf-8")
     (HTML_DIR / "defense.html").write_text(defense_page(categories, recycling_count, attack_count, threat_count), encoding="utf-8")
@@ -565,8 +743,10 @@ def main() -> None:
     for page in HTML_DIR.glob("*.html"):
         content = clean_page_branding(page.read_text(encoding="utf-8"))
         page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
-    write_crawl_files(sorted(HTML_DIR.glob("*.html")))
-    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page and 1 threat page")
+    gameplay_count = write_gameplay_pages()
+    crawl_pages = list(HTML_DIR.glob("*.html")) + list((HTML_DIR / "gameplay").glob("*.html"))
+    write_crawl_files(sorted(crawl_pages, key=lambda path: path.relative_to(HTML_DIR).as_posix()))
+    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page, 1 threat page and {gameplay_count} gameplay pages")
 
 
 if __name__ == "__main__":
