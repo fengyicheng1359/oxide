@@ -131,3 +131,23 @@ body.promo-page > main.promo-shell,
   body.promo-page > main.promo-shell,
   .site-footer{padding-inline:16px}
 }
+
+/* 榜单共用图文排版：图片固定尺寸，中英文名称分行。 */
+.recycle-item{display:flex;align-items:center;gap:12px;min-width:180px}
+.recycle-image{width:42px;height:42px;object-fit:contain;flex-shrink:0}
+.recycle-item span{min-width:0}
+.recycle-item b,.recycle-item small{display:block}
+.recycle-item b{font-size:12px}
+.recycle-item small{margin-top:3px;color:var(--muted);font:9px var(--mono);overflow-wrap:anywhere}
+.attack-table{min-width:340px}
+.attack-table.defense-table{min-width:580px}
+.threat-table{min-width:580px}
+.attack-table th,.threat-table th{white-space:nowrap}
+.table-scroll-hint{display:none}
+@media(max-width:760px){
+  /* 分类作为紧凑的按钮网格显示，不再在正文前占据整屏。 */
+  .sidebar .side-group{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;width:100%}
+  .sidebar .side-title{grid-column:1/-1;margin-bottom:4px}
+  .sidebar .side-group>a{align-items:center;gap:6px;min-height:44px;margin:0;padding:8px;white-space:nowrap}
+  .table-scroll-hint{display:block;margin:12px 0;color:var(--muted);font-size:12px;line-height:1.6}
+}
