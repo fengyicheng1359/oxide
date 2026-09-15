@@ -151,3 +151,63 @@ body.promo-page > main.promo-shell,
   .sidebar .side-group>a{align-items:center;gap:6px;min-height:44px;margin:0;padding:8px;white-space:nowrap}
   .table-scroll-hint{display:block;margin:12px 0;color:var(--muted);font-size:12px;line-height:1.6}
 }
+
+/* 多语言导航：宽屏三列，窄屏把菜单放到第二行，语言选择始终可见。 */
+.site-header{height:auto;min-height:76px}
+.site-header .header-inner{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:20px;min-height:76px;height:auto;padding:10px 28px}
+.site-header .header-inner > nav{display:flex;flex-wrap:wrap;align-items:center;align-self:stretch;gap:4px 16px;min-width:0;width:auto}
+.site-header .header-inner > nav a{min-height:44px;padding:0 6px}
+.site-header .language-picker{display:flex;align-items:center;min-width:0}
+.language-picker select{max-width:144px;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
+.language-picker select:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.language-fallback{display:flex;flex-wrap:wrap;gap:12px;padding:12px 28px}
+.item-description{margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.item-description h2{margin:0 0 12px;font-size:20px}
+.item-description p{white-space:pre-line;line-height:1.8;margin:0;overflow-wrap:anywhere}
+.gameplay-body img{display:block;max-width:100%;height:auto;margin:18px auto}
+.gameplay-body table{display:block;max-width:100%;overflow-x:auto}
+.gameplay-body a{color:var(--green);text-decoration:underline;overflow-wrap:anywhere}
+.gameplay-body ul,.gameplay-body ol{padding-inline-start:1.5em}
+.gameplay-body .article-source{display:inline-block;margin-top:24px;font-size:14px}
+.item-heading,.item-content,.gameplay-content,.gameplay-article-main{min-width:0}
+.item-heading h1,.gameplay-article h1,.gameplay-card strong,.about-shell h1,.play-shell h1{overflow-wrap:anywhere;line-height:1.12}
+.acquisition-row{flex-wrap:wrap}
+.acquisition-row span{min-width:0;overflow-wrap:anywhere}
+.material-info,.catalog-copy{min-width:0;overflow-wrap:anywhere}
+@media(max-width:1199px){
+  .site-header .header-inner{grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;padding:12px 18px}
+  .site-header .header-inner > nav{grid-column:1/-1;grid-row:2;gap:4px 12px}
+  .site-header .language-picker{grid-column:2;grid-row:1}
+  .site-header .brand{min-width:0;white-space:normal}
+  .site-header .brand strong{font-size:18px;letter-spacing:0;line-height:1.2}
+  .site-header .brand small{line-height:1.25}
+}
+@media(max-width:760px){
+  .site-header .header-inner{padding:12px 16px 8px;gap:8px}
+  .site-header .header-inner > nav{gap:4px}
+  .site-header .header-inner > nav a{padding:0 8px}
+  .language-picker select{max-width:108px;font-size:13px}
+  .item-heading{align-items:start;gap:12px;flex-wrap:wrap}
+  .item-heading h1{font-size:38px}
+  .item-description{padding:16px}
+  .protection-list{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .protection-row{flex-wrap:wrap;gap:8px;padding:10px}
+}
+
+/* 译文较长时允许断行，分类名称与计数各占自己的空间。 */
+.search-row h1,.category-section h2,.gameplay-category-heading h2{overflow-wrap:anywhere;min-width:0;max-width:100%}
+.gameplay-category-heading{flex-wrap:wrap}
+.sidebar .side-group>a{min-width:0;gap:8px;overflow-wrap:anywhere;white-space:normal}
+.sidebar .side-group>a b{flex-shrink:0}
+.gameplay-sidebar a span{min-width:0;overflow-wrap:anywhere}
+.catalog-content,.search-row>div,.ranking-intro,.recycling-intro,.threat-block{min-width:0}
+@media(max-width:760px){
+  .sidebar .side-group{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sidebar .side-group>a{white-space:normal;overflow-wrap:anywhere}
+  .gameplay-category-heading h2{font-size:28px}
+}
+.gameplay-intro h1,.ranking-intro h1,.recycling-intro h1{overflow-wrap:anywhere;max-width:100%;line-height:1.15}
+@media(max-width:760px){
+  body .gameplay-intro h1,body .ranking-intro h1,body .recycling-intro h1{font-size:36px}
+}

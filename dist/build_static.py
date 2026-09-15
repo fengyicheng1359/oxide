@@ -218,6 +218,13 @@ def gameplay_category(title: str, content: str) -> str:
 
 def gameplay_articles() -> list[dict]:
     """读取下载的纯文本文章，清除客服页杂项并保留正文段落。"""
+    cached = STATIC / "i18n/gameplay/zh.json"
+    if cached.exists():
+        rows = json.loads(cached.read_text(encoding="utf-8"))
+        return [{"slug": slug, "title": row["title"],
+                 "category": GAMEPLAY_SLUG_CATEGORIES[slug],
+                 "content": row["text"], "source_file": slug + ".html"}
+                for slug, row in sorted(rows.items())]
     articles = []
     for text_file in sorted(GAMEPLAY_SOURCE_DIR.glob("*.txt")):
         lines = [line.strip() for line in text_file.read_text(encoding="utf-8").splitlines() if line.strip()]
@@ -460,18 +467,9 @@ def attack_item_count(categories: dict[str, list[tuple[dict, str]]]) -> int:
 
 
 def armor_protection(item: dict) -> list[float] | None:
-    image = item.get("image") or ""
-    stem = Path(image).stem
-    for category in ARMOR_CATEGORIES:
-        path = ROOT.parent / "output" / category / f"{stem}.json"
-        if not path.exists():
-            continue
-        data = json.loads(path.read_text(encoding="utf-8"))
-        objects = data.get("related_configs", {}).get("protection", {}).get("objects", [])
-        amounts = [value for obj in objects for value in obj.get("data", {}).get("amounts", [])]
-        if amounts:
-            return amounts
-    return None
+    """读取随站点保存的快照，构建不依赖仓库外的 APK 导出目录。"""
+    data = json.loads((STATIC / "game-stats.json").read_text(encoding="utf-8"))
+    return data["armor"].get(Path(item.get("image") or "").stem)
 
 
 def armor_display_protection(protection: list[float] | None) -> list[tuple[str, str]]:
@@ -493,20 +491,8 @@ def defense_page(categories: dict[str, list[tuple[dict, str]]], recycling_count:
 
 
 def threat_data() -> tuple[list[dict], list[dict]]:
-    animals = []
-    for path in sorted((ROOT.parent / "output" / "animal").glob("*.json")):
-        data = json.loads(path.read_text(encoding="utf-8"))
-        damage_entries = data.get("damage", [])
-        damage = [entry.get("base_damage") for entry in damage_entries if entry.get("base_damage") is not None]
-        distances = [entry.get("min_attack_distance") for entry in damage_entries if entry.get("min_attack_distance") is not None]
-        speeds = [entry.get("attack_speed") for entry in damage_entries if entry.get("attack_speed") is not None]
-        states = sorted({state.get("state_name") for state in data.get("behavior_states", []) if state.get("state_name")})
-        animals.append({"name_zh": data.get("name_zh") or path.stem, "name_en": data.get("name_en") or path.stem, "damage": max(damage) if damage else None, "distance": min(distances) if distances else None, "speed": min(speeds) if speeds else None, "states": states})
-    animals.sort(key=lambda item: (item["damage"] is None, -(item["damage"] or 0), item["name_zh"]))
-    npcs = [{"name_zh": zh, "name_en": en, "level": level} for zh, en, level in THREAT_NPCS]
-    level_rank = {"困难": 0, "中等": 1, "简单": 2, "新手": 3, "未确认": 4}
-    npcs.sort(key=lambda item: (level_rank[item["level"]], item["name_zh"]))
-    return animals, npcs
+    data = json.loads((STATIC / "game-stats.json").read_text(encoding="utf-8"))
+    return data["animals"], data["npcs"]
 
 
 def threat_item_count() -> int:
@@ -752,7 +738,9 @@ def main() -> None:
         page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
     gameplay_count = write_gameplay_pages()
     crawl_pages = list(HTML_DIR.glob("*.html")) + list((HTML_DIR / "gameplay").glob("*.html"))
-    write_crawl_files(sorted(crawl_pages, key=lambda path: path.relative_to(HTML_DIR).as_posix()))
+    from build_i18n import build_localized_pages
+    localized_pages = build_localized_pages(sorted(crawl_pages))
+    write_crawl_files(localized_pages)
     print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page, 1 threat page and {gameplay_count} gameplay pages")
 
 

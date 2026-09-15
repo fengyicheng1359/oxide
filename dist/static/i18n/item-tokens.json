@@ -1,0 +1,1336 @@
+{
+  "source": "m_ShortName → m_DisplayName / m_Description / m_CraftDescription",
+  "items": {
+    "ammo.handmade.shell": {
+      "name": "ammo.handmade.shell",
+      "description": "ammo.handmade.shell.descr",
+      "craft_description": null
+    },
+    "ammo.pistol": {
+      "name": "ammo.pistol",
+      "description": "ammo.pistol.descr",
+      "craft_description": null
+    },
+    "ammo.rifle": {
+      "name": "ammo.rifle",
+      "description": "ammo.rifle.descr",
+      "craft_description": null
+    },
+    "ammo.shotgun": {
+      "name": "ammo.shotgun",
+      "description": "ammo.shotgun.descr",
+      "craft_description": null
+    },
+    "ammo.steel.ball": {
+      "name": "ammo.steel.ball",
+      "description": "ammo.steel.ball.descr",
+      "craft_description": null
+    },
+    "arrow": {
+      "name": "arrow",
+      "description": "arrow.descr",
+      "craft_description": null
+    },
+    "bolt": {
+      "name": "bolt",
+      "description": "bolt.descr",
+      "craft_description": null
+    },
+    "event.grenade.makeshift": {
+      "name": "ammo.grenade.makeshift",
+      "description": "ammo.grenade.makeshift.desc",
+      "craft_description": null
+    },
+    "event.grenade.smoke": {
+      "name": "grenade.smoke",
+      "description": "grenade.smoke.desc",
+      "craft_description": null
+    },
+    "grenade.cupcake": {
+      "name": "hand.cake",
+      "description": "hand.cake.descr",
+      "craft_description": null
+    },
+    "grenade.military": {
+      "name": "ammo.grenade.military",
+      "description": "ammo.grenade.military.descr",
+      "craft_description": null
+    },
+    "rocket": {
+      "name": "rocket",
+      "description": "rocket.descr",
+      "craft_description": null
+    },
+    "sam.rocket": {
+      "name": "sam.rocket",
+      "description": "sam.rocket.descr",
+      "craft_description": null
+    },
+    "snowball": {
+      "name": "snowball",
+      "description": "snowball.descr",
+      "craft_description": null
+    },
+    "tactical.air.marker": {
+      "name": "tactical.marker.title",
+      "description": "tactical.marker.descr",
+      "craft_description": null
+    },
+    "backpack.big": {
+      "name": "backpack.big",
+      "description": null,
+      "craft_description": null
+    },
+    "backpack": {
+      "name": "backpack",
+      "description": "backpack.descr",
+      "craft_description": null
+    },
+    "cctv.camera": {
+      "name": "cctv.camera",
+      "description": "cctv.camera.descr",
+      "craft_description": "cctv.camera.descr.craft"
+    },
+    "dmr.body": {
+      "name": "dmr.body",
+      "description": "dmr.body.descr",
+      "craft_description": "dmr.body.descr.craft"
+    },
+    "empty.beans.can": {
+      "name": "empty.beans.can",
+      "description": "empty.beans.can.descr",
+      "craft_description": null
+    },
+    "empty.propane.tank": {
+      "name": "empty.propane.tank",
+      "description": "empty.propane.tank.descr",
+      "craft_description": null
+    },
+    "empty.tuna.can": {
+      "name": "empty.tuna.can",
+      "description": "empty.tuna.can.descr",
+      "craft_description": null
+    },
+    "explosives": {
+      "name": "explosives",
+      "description": "explosives.descr",
+      "craft_description": "explosives.descr.craft"
+    },
+    "factory.fuel": {
+      "name": "factory.fuel",
+      "description": "factory.fuel.descr",
+      "craft_description": null
+    },
+    "factory.product.common": {
+      "name": "factory.product.common",
+      "description": "factory.product.common.descr",
+      "craft_description": null
+    },
+    "factory.product.epic": {
+      "name": "factory.product.epic",
+      "description": "factory.product.epic.descr",
+      "craft_description": null
+    },
+    "factory.product.rare": {
+      "name": "factory.product.rare",
+      "description": "factory.product.rare.descr",
+      "craft_description": null
+    },
+    "fuel.bottle": {
+      "name": "fuel.bottle",
+      "description": "fuel.bottle.descr",
+      "craft_description": "fuel.bottle.descr.craft"
+    },
+    "gears": {
+      "name": "gears",
+      "description": "gears.descr",
+      "craft_description": "gears.descr.craft"
+    },
+    "gun.powder": {
+      "name": "gun.powder",
+      "description": "gun.powder.descr",
+      "craft_description": "gun.powder.descr.craft"
+    },
+    "hard.drive": {
+      "name": "hard.drive",
+      "description": "wires.descr",
+      "craft_description": "wires.descr.craft"
+    },
+    "metal.blade": {
+      "name": "metal.blade",
+      "description": "metal.blade.descr",
+      "craft_description": "metal.blade.descr.craft"
+    },
+    "metal.pipe": {
+      "name": "metal.pipe",
+      "description": "metal.pipe.descr",
+      "craft_description": "metal.pipe.descr.craft"
+    },
+    "metal.spring": {
+      "name": "metal.spring",
+      "description": "metal.spring.descr",
+      "craft_description": "metal.spring.descr.craft"
+    },
+    "microprocessor": {
+      "name": "microprocessor",
+      "description": "microprocessor.descr",
+      "craft_description": "microprocessor.descr.craft"
+    },
+    "portable.playstation": {
+      "name": "portable.playstation",
+      "description": "portable.playstation.descr",
+      "craft_description": null
+    },
+    "rifle.body": {
+      "name": "rifle.body",
+      "description": "rifle.body.descr",
+      "craft_description": "rifle.body.descr.craft"
+    },
+    "rifle.part": {
+      "name": "rifle.part",
+      "description": "rifle.part.descr",
+      "craft_description": null
+    },
+    "road.signs": {
+      "name": "road.signs",
+      "description": "road.signs.descr",
+      "craft_description": null
+    },
+    "rope": {
+      "name": "rope",
+      "description": "rope.descr",
+      "craft_description": "rope.descr.craft"
+    },
+    "sewing.kit": {
+      "name": "sewing.kit",
+      "description": "sewing.kit.descr",
+      "craft_description": "sewing.kit.descr.craft"
+    },
+    "sheet.metal": {
+      "name": "sheet.metal",
+      "description": "sheet.metal.descr",
+      "craft_description": "sheet.metal.descr.craft"
+    },
+    "smg.body": {
+      "name": "smg.body",
+      "description": "smg.body.descr",
+      "craft_description": "smg.body.descr.craft"
+    },
+    "targeting.computer": {
+      "name": "targeting.computer",
+      "description": "targeting.computer.descr",
+      "craft_description": "targeting.computer.descr.craft"
+    },
+    "tarp": {
+      "name": "tarp",
+      "description": "tarp.descr",
+      "craft_description": "tarp.descr.craft"
+    },
+    "tech.trash": {
+      "name": "tech.trash",
+      "description": "tech.trash.descr",
+      "craft_description": "tech.trash.descr.craft"
+    },
+    "wires": {
+      "name": "wires",
+      "description": "wires.descr",
+      "craft_description": "wires.descr.craft"
+    },
+    "codelock": {
+      "name": "codelock",
+      "description": "codelock.descr",
+      "craft_description": null
+    },
+    "embrasure.metal": {
+      "name": "embrasure.metal",
+      "description": "embrasure.metal.descr",
+      "craft_description": null
+    },
+    "high.stone.gates": {
+      "name": "high.stone.gates",
+      "description": "high.stone.gates.descr",
+      "craft_description": null
+    },
+    "high.stone.wall": {
+      "name": "high.stone.wall",
+      "description": "high.stone.wall.descr",
+      "craft_description": null
+    },
+    "high.wooden.gates": {
+      "name": "high.wooden.gates",
+      "description": "high.wooden.gates.descr",
+      "craft_description": null
+    },
+    "high.wooden.wall": {
+      "name": "high.wooden.wall",
+      "description": "high.wooden.wall.descr",
+      "craft_description": null
+    },
+    "keylock": {
+      "name": "keylock",
+      "description": "keylock.descr",
+      "craft_description": null
+    },
+    "window.wood": {
+      "name": "window.wood",
+      "description": "window.wood.descr",
+      "craft_description": null
+    },
+    "aloe.food": {
+      "name": "aloe.food",
+      "description": "aloe.food.descr",
+      "craft_description": null
+    },
+    "berries": {
+      "name": "berries",
+      "description": "berries.descr",
+      "craft_description": null
+    },
+    "blossom.food.mochi": {
+      "name": "blossom.food.mochi",
+      "description": "blossom.food.mochi.descr",
+      "craft_description": null
+    },
+    "blossom.food.ramen": {
+      "name": "blossom.food.ramen",
+      "description": "blossom.food.ramen.descr",
+      "craft_description": null
+    },
+    "blossom.food.sushi": {
+      "name": "blossom.food.sushi",
+      "description": "blossom.food.sushi.descr",
+      "craft_description": null
+    },
+    "blueberries": {
+      "name": "blueberries",
+      "description": "blueberries.descr",
+      "craft_description": null
+    },
+    "bp.exp.item": {
+      "name": "bp.exp.item",
+      "description": "bp.exp.item.descr",
+      "craft_description": null
+    },
+    "cactus.food": {
+      "name": "cactus.food",
+      "description": "cactus.food.descr",
+      "craft_description": null
+    },
+    "candy.cane": {
+      "name": "candy.cane",
+      "description": "candy.cane.descr",
+      "craft_description": null
+    },
+    "cooked.fish": {
+      "name": "cooked.fish",
+      "description": "cooked.fish.descr",
+      "craft_description": null
+    },
+    "cooked.meat": {
+      "name": "cooked.meat",
+      "description": "cooked.meat.descr",
+      "craft_description": null
+    },
+    "cooked.mushroms": {
+      "name": "cooked.mushroms",
+      "description": "cooked.mushroms.descr",
+      "craft_description": null
+    },
+    "easter.egg": {
+      "name": "easter.egg",
+      "description": "easter.egg.descr",
+      "craft_description": null
+    },
+    "event.cheese": {
+      "name": "event.cheese",
+      "description": "event.cheese.descr",
+      "craft_description": null
+    },
+    "event.chocolates": {
+      "name": "event.chocolates",
+      "description": "event.chocolates.descr",
+      "craft_description": null
+    },
+    "event.cupids.potion": {
+      "name": "event.cupids.potion",
+      "description": "event.cupids.potion.descr",
+      "craft_description": null
+    },
+    "event.heart.fragment": {
+      "name": "event.heart.fragment",
+      "description": "event.heart.fragment.descr",
+      "craft_description": null
+    },
+    "event.love.elixir": {
+      "name": "event.love.elixir",
+      "description": "event.love.elixir.descr",
+      "craft_description": null
+    },
+    "event.warming.potion": {
+      "name": "event.warming.potion",
+      "description": "event.warming.potion.descr",
+      "craft_description": null
+    },
+    "granola.bar.fake.dvl": {
+      "name": "dvl",
+      "description": "dvl.descr",
+      "craft_description": null
+    },
+    "granola.bar.fake.hmlmg": {
+      "name": "hmlmg",
+      "description": "hmlmg.descr",
+      "craft_description": null
+    },
+    "granola.bar": {
+      "name": "granola.bar",
+      "description": "granola.bar.descr",
+      "craft_description": null
+    },
+    "halloween.candy": {
+      "name": "halloween.candy",
+      "description": "halloween.candy.descr",
+      "craft_description": null
+    },
+    "ice.shard": {
+      "name": "ice.shard",
+      "description": "ice.shard.descr",
+      "craft_description": "ice.shard.descr.craft"
+    },
+    "mini.bp.exp.item.big": {
+      "name": "mini.bp.exp.item.big",
+      "description": "mini.bp.exp.item.big.descr",
+      "craft_description": null
+    },
+    "mini.bp.exp.item.medium": {
+      "name": "mini.bp.exp.item.medium",
+      "description": "mini.bp.exp.item.medium.descr",
+      "craft_description": null
+    },
+    "mini.bp.exp.item.small": {
+      "name": "mini.bp.exp.item.small",
+      "description": "mini.bp.exp.item.small.descr",
+      "craft_description": null
+    },
+    "pumpkin": {
+      "name": "pumpkin",
+      "description": "pumpkin.descr",
+      "craft_description": "pumpkin.descr.craft"
+    },
+    "raw.fish": {
+      "name": "raw.fish",
+      "description": "raw.fish.descr",
+      "craft_description": null
+    },
+    "raw.meat": {
+      "name": "raw.meat",
+      "description": "raw.meat.descr",
+      "craft_description": null
+    },
+    "raw.mushroms": {
+      "name": "raw.mushroms",
+      "description": "raw.mushroms.descr",
+      "craft_description": null
+    },
+    "rotten.meat": {
+      "name": "rotten.meat",
+      "description": "rotten.meat.descr",
+      "craft_description": null
+    },
+    "water.bottle": {
+      "name": "water.bottle",
+      "description": "water.bottle.descr",
+      "craft_description": null
+    },
+    "bone.boots": {
+      "name": "bone.boots",
+      "description": "bone.boots.descr",
+      "craft_description": null
+    },
+    "leather.boots": {
+      "name": "leather.boots",
+      "description": "leather.boots.descr",
+      "craft_description": null
+    },
+    "metal.boots": {
+      "name": "metal.boots",
+      "description": "metal.boots.descr",
+      "craft_description": null
+    },
+    "wooden.sandals": {
+      "name": "wooden.sandals",
+      "description": "wooden.sandals.descr",
+      "craft_description": null
+    },
+    "bone.helmet": {
+      "name": "bone.helmet",
+      "description": "bone.helmet.descr",
+      "craft_description": null
+    },
+    "elf.hat": {
+      "name": "elf.hat",
+      "description": "elf.hat.descr",
+      "craft_description": null
+    },
+    "leather.helmet": {
+      "name": "leather.helmet",
+      "description": "leather.helmet.descr",
+      "craft_description": null
+    },
+    "metal.helmet": {
+      "name": "metal.helmet",
+      "description": "metal.helmet.descr",
+      "craft_description": null
+    },
+    "party.cone": {
+      "name": "party.cone",
+      "description": "party.cone.descr",
+      "craft_description": null
+    },
+    "pumpkin.head": {
+      "name": "pumpkin.head",
+      "description": "pumpkin.head.descr",
+      "craft_description": null
+    },
+    "santa.hat": {
+      "name": "santa.hat",
+      "description": "santa.hat.descr",
+      "craft_description": null
+    },
+    "witch.hat": {
+      "name": "witch.hat",
+      "description": "witch.hat.descr",
+      "craft_description": null
+    },
+    "wooden.helmet": {
+      "name": "wooden.helmet",
+      "description": "wooden.helmet.descr",
+      "craft_description": null
+    },
+    "anvil": {
+      "name": "anvil",
+      "description": "anvil.descr",
+      "craft_description": null
+    },
+    "bed": {
+      "name": "bed",
+      "description": "bed.descr",
+      "craft_description": null
+    },
+    "campfire": {
+      "name": "campfire",
+      "description": "campfire.descr",
+      "craft_description": null
+    },
+    "candles": {
+      "name": "candles",
+      "description": "candles.descr",
+      "craft_description": null
+    },
+    "cauldron": {
+      "name": "cauldron",
+      "description": "cauldron.descr",
+      "craft_description": null
+    },
+    "ceiling.light": {
+      "name": "ceiling.light",
+      "description": "ceiling.light.descr",
+      "craft_description": null
+    },
+    "cupboard.tool": {
+      "name": "cupboard.tool",
+      "description": "cupboard.tool.descr",
+      "craft_description": null
+    },
+    "door.armored": {
+      "name": "door.armored",
+      "description": "door.armored.descr",
+      "craft_description": null
+    },
+    "door.double.armored": {
+      "name": "door.double.armored",
+      "description": "door.double.armored.descr",
+      "craft_description": null
+    },
+    "door.double.metal": {
+      "name": "door.double.metal",
+      "description": "door.double.metal.descr",
+      "craft_description": null
+    },
+    "door.double.wood": {
+      "name": "door.double.wood",
+      "description": "door.double.wood.descr",
+      "craft_description": null
+    },
+    "door.metal": {
+      "name": "door.metal",
+      "description": "door.metal.descr",
+      "craft_description": null
+    },
+    "furnace": {
+      "name": "furnace",
+      "description": "furnace.descr",
+      "craft_description": null
+    },
+    "garage.door": {
+      "name": "garage.door",
+      "description": "garage.door.descr",
+      "craft_description": null
+    },
+    "guntrap": {
+      "name": "guntrap",
+      "description": "guntrap.descr",
+      "craft_description": null
+    },
+    "hatch.square.armored": {
+      "name": "hatch.square.armored",
+      "description": "hatch.square.armored.descr",
+      "craft_description": null
+    },
+    "hatch.square.metal": {
+      "name": "hatch.square.metal",
+      "description": "hatch.square.metal.descr",
+      "craft_description": null
+    },
+    "hatch.triangle.armored": {
+      "name": "hatch.triangle.armored",
+      "description": "hatch.triangle.armored.descr",
+      "craft_description": null
+    },
+    "hatch.triangle.metal": {
+      "name": "hatch.triangle.metal",
+      "description": "hatch.triangle.metal.descr",
+      "craft_description": null
+    },
+    "mining.quarry.clan": {
+      "name": "mining.quarry.clan",
+      "description": "mining.quarry.clan.descr",
+      "craft_description": null
+    },
+    "mining.quarry": {
+      "name": "mining.quarry",
+      "description": "mining.quarry.descr",
+      "craft_description": null
+    },
+    "sam.turret": {
+      "name": "sam.turret",
+      "description": "sam.turret.descr",
+      "craft_description": null
+    },
+    "sawmill.clan": {
+      "name": "sawmill.clan",
+      "description": "sawmill.clan.descr",
+      "craft_description": null
+    },
+    "scrap.recycler.clan": {
+      "name": "scrap.recycler.clan",
+      "description": "scrap.recycler.clan.descr",
+      "craft_description": null
+    },
+    "sleeping.bag": {
+      "name": "sleeping.bag",
+      "description": "sleeping.bag.descr",
+      "craft_description": null
+    },
+    "storage.box": {
+      "name": "storage.box",
+      "description": "storage.box.descr",
+      "craft_description": null
+    },
+    "storage.box.large": {
+      "name": "storage.box.large",
+      "description": "storage.box.large.descr",
+      "craft_description": null
+    },
+    "tower.wood": {
+      "name": "tower.wood",
+      "description": "tower.wood.descr",
+      "craft_description": null
+    },
+    "turret": {
+      "name": "turret",
+      "description": "turret.descr",
+      "craft_description": null
+    },
+    "vending.machine": {
+      "name": "vending.machine",
+      "description": "vending.machine.descr",
+      "craft_description": null
+    },
+    "wooden.door": {
+      "name": "wooden.door",
+      "description": "wooden.door.descr",
+      "craft_description": null
+    },
+    "workbench": {
+      "name": "workbench",
+      "description": "workbench.descr",
+      "craft_description": null
+    },
+    "bone.leggings": {
+      "name": "bone.leggings",
+      "description": "bone.leggings.descr",
+      "craft_description": null
+    },
+    "leather.leggings": {
+      "name": "leather.leggings",
+      "description": "leather.leggings.descr",
+      "craft_description": null
+    },
+    "metal.leggings": {
+      "name": "metal.leggings",
+      "description": "metal.leggings.descr",
+      "craft_description": null
+    },
+    "wooden.leggings": {
+      "name": "wooden.leggings",
+      "description": "wooden.leggings.descr",
+      "craft_description": null
+    },
+    "antiradpills": {
+      "name": "antiradpills",
+      "description": "antiradpills.descr",
+      "craft_description": null
+    },
+    "bandage": {
+      "name": "bandage",
+      "description": "bandage.descr",
+      "craft_description": null
+    },
+    "buggy": {
+      "name": "buggy",
+      "description": "buggy.descr",
+      "craft_description": null
+    },
+    "christmas.lights": {
+      "name": "christmas.lights",
+      "description": "christmas.lights.descr",
+      "craft_description": null
+    },
+    "christmas.tree": {
+      "name": "christmas.tree",
+      "description": "christmas.tree.descr",
+      "craft_description": null
+    },
+    "copter": {
+      "name": "copter",
+      "description": "copter.descr",
+      "craft_description": null
+    },
+    "event.fireworks": {
+      "name": "event.fireworks",
+      "description": "event.fireworks.desc",
+      "craft_description": null
+    },
+    "event.textbook": {
+      "name": "event.textbook",
+      "description": "event.textbook.descr",
+      "craft_description": null
+    },
+    "event.whistle": {
+      "name": "event.whistle",
+      "description": "event.whistle.descr",
+      "craft_description": null
+    },
+    "fireworks": {
+      "name": "fireworks",
+      "description": "fireworks.descr",
+      "craft_description": null
+    },
+    "golden.cartridge": {
+      "name": "golden.cartridge",
+      "description": "golden.cartridge.descr",
+      "craft_description": null
+    },
+    "golden.gear": {
+      "name": "golden.gear",
+      "description": "golden.gear.descr",
+      "craft_description": null
+    },
+    "keycard_militarybase": {
+      "name": "keycard_militarybase",
+      "description": "keycard_militarybase.descr",
+      "craft_description": null
+    },
+    "keycard_planecaptain": {
+      "name": "keycard_planecaptain",
+      "description": "keycard_planecaptain.descr",
+      "craft_description": null
+    },
+    "medkit": {
+      "name": "medkit",
+      "description": "medkit.descr",
+      "craft_description": null
+    },
+    "paper.lantern": {
+      "name": "paper.lantern",
+      "description": "paper.lantern.descr",
+      "craft_description": null
+    },
+    "pinata.decor": {
+      "name": "pinata.decor",
+      "description": "pinata.decor.descr",
+      "craft_description": null
+    },
+    "scarecrow": {
+      "name": "scarecrow",
+      "description": "scarecrow.descr",
+      "craft_description": null
+    },
+    "snow.machine": {
+      "name": "snow.machine",
+      "description": "snow.machine.descr",
+      "craft_description": null
+    },
+    "snowman": {
+      "name": "snowman",
+      "description": "snowman.descr",
+      "craft_description": null
+    },
+    "bone": {
+      "name": "bone",
+      "description": "bone.descr",
+      "craft_description": "bone.descr.craft"
+    },
+    "cloth": {
+      "name": "cloth",
+      "description": "cloth.descr",
+      "craft_description": "cloth.descr.craft"
+    },
+    "coal": {
+      "name": "coal",
+      "description": "coal.descr",
+      "craft_description": "coal.descr.craft"
+    },
+    "fat.animal": {
+      "name": "fat.animal",
+      "description": "fat.animal.descr",
+      "craft_description": "fat.animal.descr.craft"
+    },
+    "hq.metal": {
+      "name": "hq.metal",
+      "description": "hq.metal.descr",
+      "craft_description": "hq.metal.descr.craft"
+    },
+    "hq.metal.ore": {
+      "name": "hq.metal.ore",
+      "description": "hq.metal.ore.descr",
+      "craft_description": null
+    },
+    "leather": {
+      "name": "leather",
+      "description": "leather.descr",
+      "craft_description": "leather.descr.craft"
+    },
+    "log": {
+      "name": "log",
+      "description": "log.descr",
+      "craft_description": "log.descr.craft"
+    },
+    "metal.fragment": {
+      "name": "metal.fragment",
+      "description": "metal.fragment.descr",
+      "craft_description": "metal.fragment.descr.craft"
+    },
+    "metal.ore": {
+      "name": "metal.ore",
+      "description": "metal.ore.descr",
+      "craft_description": null
+    },
+    "plank": {
+      "name": "plank",
+      "description": "plank.descr",
+      "craft_description": null
+    },
+    "scrap": {
+      "name": "scrap",
+      "description": "scrap.descr",
+      "craft_description": "scrap.descr.craft"
+    },
+    "stick": {
+      "name": "stick",
+      "description": "stick.descr",
+      "craft_description": null
+    },
+    "stone": {
+      "name": "stone",
+      "description": "stone.descr",
+      "craft_description": "stone.descr.craft"
+    },
+    "sulfur": {
+      "name": "sulfur",
+      "description": "sulfur.descr",
+      "craft_description": "sulfur.descr.craft"
+    },
+    "sulfur.ore": {
+      "name": "sulfur.ore",
+      "description": "sulfur.ore.descr",
+      "craft_description": null
+    },
+    "hazmat": {
+      "name": "hazmat",
+      "description": "hazmat.descr",
+      "craft_description": null
+    },
+    "military.suit": {
+      "name": "military.suit",
+      "description": "military.suit.descr",
+      "craft_description": null
+    },
+    "axe": {
+      "name": "axe",
+      "description": "axe.descr",
+      "craft_description": null
+    },
+    "building.hammer": {
+      "name": "building.hammer",
+      "description": "building.hammer.descr",
+      "craft_description": null
+    },
+    "building.plan": {
+      "name": "building.plan",
+      "description": "building.plan.descr",
+      "craft_description": null
+    },
+    "chainsaw": {
+      "name": "chainsaw",
+      "description": "chainsaw.descr",
+      "craft_description": null
+    },
+    "jackhammer": {
+      "name": "jackhammer",
+      "description": "jackhammer.descr",
+      "craft_description": null
+    },
+    "pickaxe": {
+      "name": "pickaxe",
+      "description": "pickaxe.descr",
+      "craft_description": null
+    },
+    "pickaxehammer": {
+      "name": "pickaxehammer",
+      "description": "pickaxehammer.descr",
+      "craft_description": null
+    },
+    "saw.ripper": {
+      "name": "saw.ripper",
+      "description": "saw.ripper.descr",
+      "craft_description": null
+    },
+    "stone.hatchet": {
+      "name": "stone.hatchet",
+      "description": "stone.hatchet.descr",
+      "craft_description": null
+    },
+    "torch": {
+      "name": "torch",
+      "description": "torch.descr",
+      "craft_description": null
+    },
+    "bone.chestplate": {
+      "name": "bone.chestplate",
+      "description": "bone.chestplate.descr",
+      "craft_description": null
+    },
+    "leather.chestplate": {
+      "name": "leather.chestplate",
+      "description": "leather.chestplate.descr",
+      "craft_description": null
+    },
+    "metal.chestplate": {
+      "name": "metal.chestplate",
+      "description": "metal.chestplate.descr",
+      "craft_description": null
+    },
+    "wood.chestplate": {
+      "name": "wood.chestplate",
+      "description": "wood.chestplate.descr",
+      "craft_description": null
+    },
+    "assault.rifle": {
+      "name": "assault.rifle",
+      "description": "assault.rifle.descr",
+      "craft_description": null
+    },
+    "bone.club": {
+      "name": "bone.club",
+      "description": "bone.club.descr",
+      "craft_description": null
+    },
+    "crossbow": {
+      "name": "crossbow",
+      "description": "crossbow.descr",
+      "craft_description": null
+    },
+    "desert.eagle": {
+      "name": "desert.eagle",
+      "description": "desert.eagle.descr",
+      "craft_description": null
+    },
+    "dmr": {
+      "name": "dmr",
+      "description": "dmr.descr",
+      "craft_description": null
+    },
+    "dvl": {
+      "name": "dvl",
+      "description": "dvl.descr",
+      "craft_description": null
+    },
+    "explosive.charge": {
+      "name": "explosive.charge",
+      "description": "explosive.charge.descr",
+      "craft_description": null
+    },
+    "flare.gun": {
+      "name": "flare.gun",
+      "description": "flare.gun.descr",
+      "craft_description": null
+    },
+    "handmade.pistol": {
+      "name": "handmade.pistol",
+      "description": "handmade.pistol.descr",
+      "craft_description": null
+    },
+    "hmlmg": {
+      "name": "hmlmg",
+      "description": "hmlmg.descr",
+      "craft_description": null
+    },
+    "hunting.rifle": {
+      "name": "hunting.rifle",
+      "description": "hunting.rifle.descr",
+      "craft_description": null
+    },
+    "iron.spear": {
+      "name": "iron.spear",
+      "description": "iron.spear.descr",
+      "craft_description": null
+    },
+    "kriss.vector": {
+      "name": "kriss.vector",
+      "description": "kriss.vector.descr",
+      "craft_description": null
+    },
+    "mace": {
+      "name": "mace",
+      "description": "mace.descr",
+      "craft_description": null
+    },
+    "machete": {
+      "name": "machete",
+      "description": "machete.descr",
+      "craft_description": null
+    },
+    "revolver": {
+      "name": "revolver",
+      "description": "revolver.descr",
+      "craft_description": null
+    },
+    "rocket.launcher": {
+      "name": "rocket.launcher",
+      "description": "rocket.launcher.descr",
+      "craft_description": null
+    },
+    "shotgun": {
+      "name": "shotgun",
+      "description": "shotgun.descr",
+      "craft_description": null
+    },
+    "steel.ball.gun": {
+      "name": "steel.ball.gun",
+      "description": "steel.ball.gun.descr",
+      "craft_description": null
+    },
+    "submachine.gun": {
+      "name": "submachine.gun",
+      "description": "submachine.gun.descr",
+      "craft_description": null
+    },
+    "thompson": {
+      "name": "thompson",
+      "description": "thompson.descr",
+      "craft_description": null
+    },
+    "winchester": {
+      "name": "winchester",
+      "description": "winchester.descr",
+      "craft_description": null
+    },
+    "wooden.bow": {
+      "name": "wooden.bow",
+      "description": "wooden.bow.descr",
+      "craft_description": null
+    },
+    "wooden.spear": {
+      "name": "wooden.spear",
+      "description": "wooden.spear.descr",
+      "craft_description": null
+    },
+    "wooden.spiked.club": {
+      "name": "wooden.spiked.club",
+      "description": "wooden.spiked.club.descr",
+      "craft_description": null
+    },
+    "weapon.mod.compensator": {
+      "name": "weapon.mod.compensator",
+      "description": "weapon.mod.compensator.descr",
+      "craft_description": null
+    },
+    "weapon.mod.ext.magazine": {
+      "name": "weapon.mod.ext.magazine",
+      "description": "weapon.mod.ext.magazine.descr",
+      "craft_description": null
+    },
+    "weapon.mod.holosight": {
+      "name": "weapon.mod.holosight",
+      "description": "weapon.mod.holosight.descr",
+      "craft_description": null
+    },
+    "weapon.mod.muzzle.brake": {
+      "name": "weapon.mod.muzzle.brake",
+      "description": "weapon.mod.muzzle.brake.descr",
+      "craft_description": null
+    },
+    "weapon.mod.optical.scope": {
+      "name": "weapon.mod.optical.scope",
+      "description": "weapon.mod.optical.scope.descr",
+      "craft_description": null
+    },
+    "weapon.mod.simple.scope": {
+      "name": "weapon.mod.simple.scope",
+      "description": "weapon.mod.simple.scope.descr",
+      "craft_description": null
+    }
+  },
+  "legacy_names": {
+    "自制弹壳": "ammo.handmade.shell",
+    "手枪弹药": "ammo.pistol",
+    "5.56 毫米步枪弹": "ammo.rifle",
+    "12 号鹿弹": "ammo.shotgun",
+    "钢珠弹药": "ammo.steel.ball",
+    "箭": "arrow",
+    "弩箭": "bolt",
+    "活动自制手榴弹": "ammo.grenade.makeshift",
+    "活动烟雾弹": "grenade.smoke",
+    "纸杯蛋糕手榴弹（原英文显示名为雪球）": "hand.cake",
+    "军用手榴弹": "ammo.grenade.military",
+    "火箭弹": "rocket",
+    "防空导弹": "sam.rocket",
+    "雪球": "snowball",
+    "战术空中标记器": "tactical.marker.title",
+    "大型背包": "backpack.big",
+    "背包": "backpack",
+    "监控摄像头": "cctv.camera",
+    "半自动枪身": "dmr.body",
+    "空豆罐头": "empty.beans.can",
+    "空丙烷罐": "empty.propane.tank",
+    "空金枪鱼罐头": "empty.tuna.can",
+    "炸药": "explosives",
+    "燃料": "factory.fuel",
+    "普通工厂产品": "factory.product.common",
+    "史诗工厂产品": "factory.product.epic",
+    "稀有工厂产品": "factory.product.rare",
+    "燃料瓶": "fuel.bottle",
+    "齿轮": "gears",
+    "火药": "gun.powder",
+    "硬盘": "hard.drive",
+    "金属刀片": "metal.blade",
+    "金属管": "metal.pipe",
+    "金属弹簧": "metal.spring",
+    "微处理器": "microprocessor",
+    "便携游戏机": "portable.playstation",
+    "步枪枪身": "rifle.body",
+    "步枪零件": "rifle.part",
+    "道路标志": "road.signs",
+    "绳子": "rope",
+    "缝纫套件": "sewing.kit",
+    "金属板": "sheet.metal",
+    "冲锋枪枪身": "smg.body",
+    "瞄准计算机": "targeting.computer",
+    "防水布": "tarp",
+    "科技垃圾": "tech.trash",
+    "电缆": "wires",
+    "密码锁": "codelock",
+    "金属射击孔": "embrasure.metal",
+    "高石门": "high.stone.gates",
+    "高石墙": "high.stone.wall",
+    "高木门": "high.wooden.gates",
+    "高木墙": "high.wooden.wall",
+    "钥匙锁": "keylock",
+    "窗户": "window.wood",
+    "芦荟食品": "aloe.food",
+    "浆果": "berries",
+    "麻糬": "blossom.food.mochi",
+    "拉面": "blossom.food.ramen",
+    "寿司卷": "blossom.food.sushi",
+    "蓝莓": "blueberries",
+    "通行证经验道具": "bp.exp.item",
+    "仙人掌食品": "cactus.food",
+    "拐杖糖": "candy.cane",
+    "熟鱼": "cooked.fish",
+    "熟肉": "cooked.meat",
+    "炒蘑菇": "cooked.mushroms",
+    "复活节彩蛋": "easter.egg",
+    "奶酪": "event.cheese",
+    "巧克力糖": "event.chocolates",
+    "丘比特药水": "event.cupids.potion",
+    "心形碎片": "event.heart.fragment",
+    "爱情灵药": "event.love.elixir",
+    "暖身药水": "event.warming.potion",
+    "谷物棒伪装物品（dvl，待核实）": "dvl",
+    "谷物棒伪装物品（hmlmg，待核实）": "hmlmg",
+    "谷物棒": "granola.bar",
+    "万圣节糖果": "halloween.candy",
+    "冰晶碎片": "ice.shard",
+    "大份迷你通行证经验道具": "mini.bp.exp.item.big",
+    "中份迷你通行证经验道具": "mini.bp.exp.item.medium",
+    "小份迷你通行证经验道具": "mini.bp.exp.item.small",
+    "南瓜": "pumpkin",
+    "生鱼": "raw.fish",
+    "生肉": "raw.meat",
+    "生蘑菇": "raw.mushroms",
+    "腐肉": "rotten.meat",
+    "水瓶": "water.bottle",
+    "骨靴": "bone.boots",
+    "皮靴": "leather.boots",
+    "金属靴": "metal.boots",
+    "木凉鞋": "wooden.sandals",
+    "骨头盔": "bone.helmet",
+    "精灵帽": "elf.hat",
+    "皮革头盔": "leather.helmet",
+    "金属面罩": "metal.helmet",
+    "派对尖帽（原英文显示名为皮革头盔）": "party.cone",
+    "南瓜头": "pumpkin.head",
+    "圣诞帽": "santa.hat",
+    "女巫帽": "witch.hat",
+    "木头盔": "wooden.helmet",
+    "铁砧": "anvil",
+    "床": "bed",
+    "篝火": "campfire",
+    "蜡烛": "candles",
+    "大锅": "cauldron",
+    "吸顶灯": "ceiling.light",
+    "领地柜": "cupboard.tool",
+    "装甲门": "door.armored",
+    "装甲双开门": "door.double.armored",
+    "金属双开门": "door.double.metal",
+    "木制双开门": "door.double.wood",
+    "金属门": "door.metal",
+    "熔炉": "furnace",
+    "车库门": "garage.door",
+    "枪械陷阱": "guntrap",
+    "装甲方形舱门": "hatch.square.armored",
+    "金属方形舱门": "hatch.square.metal",
+    "装甲三角舱门": "hatch.triangle.armored",
+    "金属三角舱门": "hatch.triangle.metal",
+    "氏族采石场": "mining.quarry.clan",
+    "采石场": "mining.quarry",
+    "防空导弹炮塔": "sam.turret",
+    "氏族锯木厂": "sawmill.clan",
+    "氏族废料回收机": "scrap.recycler.clan",
+    "睡袋": "sleeping.bag",
+    "储物箱": "storage.box",
+    "大型储物箱": "storage.box.large",
+    "木塔": "tower.wood",
+    "炮塔": "turret",
+    "自动售货机": "vending.machine",
+    "木门": "wooden.door",
+    "工作台": "workbench",
+    "骨制护腿": "bone.leggings",
+    "皮革护腿": "leather.leggings",
+    "金属护腿": "metal.leggings",
+    "木制护腿": "wooden.leggings",
+    "抗辐射药片": "antiradpills",
+    "绷带": "bandage",
+    "越野车": "buggy",
+    "圣诞彩灯": "christmas.lights",
+    "圣诞树": "christmas.tree",
+    "直升机": "copter",
+    "活动烟花": "event.fireworks",
+    "活动课本": "event.textbook",
+    "活动哨子": "event.whistle",
+    "烟花": "fireworks",
+    "金色弹药": "golden.cartridge",
+    "金色齿轮": "golden.gear",
+    "军事基地门卡": "keycard_militarybase",
+    "机长门卡": "keycard_planecaptain",
+    "医疗包": "medkit",
+    "纸灯笼": "paper.lantern",
+    "彩罐": "pinata.decor",
+    "稻草人": "scarecrow",
+    "造雪机": "snow.machine",
+    "雪人": "snowman",
+    "骨头": "bone",
+    "布": "cloth",
+    "煤": "coal",
+    "动物脂肪": "fat.animal",
+    "高品质金属": "hq.metal",
+    "高品质金属矿石": "hq.metal.ore",
+    "皮革": "leather",
+    "木材": "log",
+    "金属碎片": "metal.fragment",
+    "金属矿石": "metal.ore",
+    "木板": "plank",
+    "废料": "scrap",
+    "木棍": "stick",
+    "石头": "stone",
+    "硫": "sulfur",
+    "硫矿石": "sulfur.ore",
+    "防化服": "hazmat",
+    "军用套装": "military.suit",
+    "斧头": "axe",
+    "建筑锤": "building.hammer",
+    "建筑图纸": "building.plan",
+    "链锯": "chainsaw",
+    "风镐": "jackhammer",
+    "碎石工具": "pickaxe",
+    "镐": "pickaxehammer",
+    "撕裂锯": "saw.ripper",
+    "石斧": "stone.hatchet",
+    "火把": "torch",
+    "骨制胸甲": "bone.chestplate",
+    "皮革胸甲": "leather.chestplate",
+    "金属胸甲": "metal.chestplate",
+    "木制胸甲": "wood.chestplate",
+    "突击步枪": "assault.rifle",
+    "骨棒": "bone.club",
+    "弩": "crossbow",
+    "沙漠之鹰手枪": "desert.eagle",
+    "精确射手步枪": "dmr",
+    "DVL 步枪": "dvl",
+    "定时炸药": "explosive.charge",
+    "信号枪": "flare.gun",
+    "自制手枪": "handmade.pistol",
+    "自制轻机枪": "hmlmg",
+    "猎枪": "hunting.rifle",
+    "铁矛": "iron.spear",
+    "KRISS Vector 冲锋枪": "kriss.vector",
+    "钉头锤": "mace",
+    "砍刀": "machete",
+    "左轮手枪": "revolver",
+    "火箭筒": "rocket.launcher",
+    "霰弹枪": "shotgun",
+    "钢珠枪": "steel.ball.gun",
+    "冲锋枪": "submachine.gun",
+    "汤普森冲锋枪": "thompson",
+    "温彻斯特步枪": "winchester",
+    "木弓": "wooden.bow",
+    "木矛": "wooden.spear",
+    "木制尖刺棒": "wooden.spiked.club",
+    "补偿器": "weapon.mod.compensator",
+    "扩容弹匣": "weapon.mod.ext.magazine",
+    "全息瞄准镜": "weapon.mod.holosight",
+    "枪口制退器": "weapon.mod.muzzle.brake",
+    "光学瞄准镜": "weapon.mod.optical.scope",
+    "简易瞄准镜": "weapon.mod.simple.scope",
+    "圣诞倒数日历（用途待核实）": "xmas.advent",
+    "贴纸（原英文显示名为袜子花环）": "sticker",
+    "FN FAL 步枪": "fn.fal",
+    "雪球炮塔": "snowball.turret",
+    "滑雪面罩": "ski.head",
+    "雪人头": "snowman.head",
+    "雪橇": "winter.sleigh.frosty.shop",
+    "圣诞点唱机": "holiday.jukebox",
+    "猫头鹰雕像": "owl.statue"
+  }
+}

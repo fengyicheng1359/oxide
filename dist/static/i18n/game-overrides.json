@@ -1,0 +1,14 @@
+{
+  "reason": "APK 中 backpack.big 的名称 token 在下载的官方语言表中缺失，以下为站点补译。",
+  "backpack.big": {
+    "zh": "大型背包",
+    "en": "Large Backpack",
+    "ja": "大型バックパック",
+    "ko": "대형 배낭",
+    "fr": "Grand sac à dos",
+    "de": "Großer Rucksack",
+    "es": "Mochila grande",
+    "pt": "Mochila grande",
+    "ru": "Большой рюкзак"
+  }
+}
