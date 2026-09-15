@@ -54,6 +54,8 @@ def seo_head(title: str, description: str, page_path: str, keywords: list[str] |
     site_url = str(config.get("site_url") or "").rstrip("/")
     canonical = f"{site_url}/{page_path.lstrip('/')}" if site_url else ""
     keyword_values = keywords or config.get("default_keywords", [])
+    # 全站关键词始终追加到页面关键词中，去重并保留原有顺序。
+    keyword_values = dict.fromkeys([*keyword_values, *config.get("shared_keywords", [])])
     keyword_text = ", ".join(str(keyword) for keyword in keyword_values if keyword)
     canonical_tag = f'<link rel="canonical" href="{esc(canonical)}">' if canonical else ""
     favicon_data_uri = str(config.get("favicon_data_uri") or "").strip()

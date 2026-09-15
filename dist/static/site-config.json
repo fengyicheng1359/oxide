@@ -4,6 +4,14 @@
   "favicon_path": "./static/assets/OSAAS.jpeg",
   "google_analytics_id": "G-Z2PF3GRWG4",
   "default_description": "氧化物生存岛百科全书，查询武器、护甲、工具、弹药、建筑和材料的制作配方、获取方式、攻击力、防御属性与回收产物。",
+  "shared_keywords": [
+    "氧化物生存岛 玩法介绍",
+    "遊戲玩法– Oxide: Survival Island 客服",
+    "Oxide: Survival Island 新手指南",
+    "氧化物生存岛新手入门教程",
+    "氧化物生存岛探索全攻略：新手必看资源位置与生存技巧",
+    "氧化物生存岛怎么玩？新手入门与资源获取指南"
+  ],
   "default_keywords": [
     "氧化物生存岛",
     "氧化物",

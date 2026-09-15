@@ -92,3 +92,16 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 .promo-page .brand strong,.promo-page .brand small{color:#edf4eb!important}.promo-page .header-inner nav a{color:#aab9ad!important}.promo-page .header-inner nav a.active,.promo-page .header-inner nav a:hover{color:#b8e879!important}
 .site-header .brand strong{color:#f1f7ef!important}.site-header .brand small{color:#b7c8b9!important}.site-header .header-inner nav a{color:#b4c2b5!important}.site-header .header-inner nav a.active,.site-header .header-inner nav a:hover{color:#c5f28e!important}.site-header .header-tools{color:#afbdaf!important}.site-header .online i{background:#b8e879!important}
 .site-header .header-inner nav a.active{background:linear-gradient(to bottom,transparent 14px,#1b2b1d 14px,#1b2b1d 62px,transparent 62px)!important;border-bottom:2px solid #b8e879!important;color:#c5f28e!important}.site-header .header-inner nav a:hover:not(.active){background:transparent!important}
+
+/* 窄屏将站点名称和菜单分行；菜单按整项换行，保留足够的点击区域。 */
+.site-header .brand{flex-shrink:0;white-space:nowrap}
+.site-header .brand-mark{flex-shrink:0}
+.site-header .header-inner nav a{white-space:nowrap}
+@media(max-width:1000px){
+  .site-header{height:auto}
+  .site-header .header-inner{height:auto;flex-wrap:wrap;gap:8px;padding:14px 16px 0}
+  .site-header .header-inner nav{width:100%;min-width:0;flex-wrap:wrap;gap:4px}
+  .site-header .header-inner nav a{flex:0 0 auto;min-width:44px;min-height:44px;padding:0 8px}
+  .site-header .header-tools{display:none}
+  .site-header .header-inner nav a.active{background:var(--light)!important}
+}
