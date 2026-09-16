@@ -22,6 +22,15 @@ def load(path: Path):
     return json.loads(path.read_text(encoding='utf-8'))
 
 
+def load_guides(lang: str) -> dict:
+    """合并官方文章和本站说明；本站内容独立保存，避免被官方同步覆盖。"""
+    guides = load(DATA / 'gameplay' / f'{lang}.json')
+    local = load(DATA / 'gameplay-local' / f'{lang}.json')
+    if guides.keys() & local.keys():
+        raise ValueError(f'{lang} 本站玩法与官方文章标识重复')
+    return {**guides, **local}
+
+
 def game_text(value: str) -> str:
     # 游戏字体、颜色和图标标记不适用于网页，保留文字与换行。
     return '\n'.join(line.rstrip() for line in re.sub(r'<[^>]+>', '', value).strip().splitlines())
@@ -150,7 +159,7 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
         body = soup.select_one('.gameplay-body')
         body.append(BeautifulSoup(official['html'], 'html.parser'))
         # 已收录的官方文章链接指向站内同语种页面；其余链接留在官方同语种站点。
-        ids = {re.search(r'(\d+)$', slug).group(1): slug for slug in guides}
+        ids = {match.group(1): slug for slug in guides if (match := re.search(r'(\d+)$', slug))}
         for anchor in body.select('a[href]'):
             parts = urlsplit(anchor['href'])
             if parts.hostname == 'support.playoxide.com':
@@ -160,8 +169,12 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
                     anchor['href'] = local_link(dest, page, localized, lang) + (('#' + parts.fragment) if parts.fragment else '')
                 else:
                     anchor['href'] = re.sub(r'/hc/[^/]+/', '/hc/' + official['source_locale'] + '/', anchor['href'])
-        credit = soup.new_tag('a', href=official['source_url'], attrs={'class': 'article-source', 'rel': 'noopener', 'target': '_blank'})
-        credit.string = tr('官方原文') + ' ↗'
+        if official.get('source_kind') == 'local-analysis':
+            credit = soup.new_tag('p', attrs={'class': 'article-source'})
+            credit.string = official['source_note']
+        else:
+            credit = soup.new_tag('a', href=official['source_url'], attrs={'class': 'article-source', 'rel': 'noopener', 'target': '_blank'})
+            credit.string = tr('官方原文') + ' ↗'
         body.append(credit)
     item = mapping['items'].get(Path(page).stem)
     if item:
@@ -259,10 +272,10 @@ def build_localized_pages(pages: list[Path]) -> list[Path]:
     zh_pages = {}
     for lang in LANGUAGES:
         translator = Translator(lang, mapping)
-        guides = load(DATA / 'gameplay' / f'{lang}.json')
+        guides = load_guides(lang)
         expected = {Path(p).stem for p in sources if p.startswith('gameplay/') and Path(p).stem != 'index'}
         if set(guides) != expected:
-            raise ValueError(f'{lang} 官方玩法文章未齐全：{expected - set(guides)}')
+            raise ValueError(f'{lang} 玩法文章集合不匹配：{expected ^ set(guides)}')
         for page, source in sources.items():
             destination = ROOT / lang / page
             destination.parent.mkdir(parents=True, exist_ok=True)

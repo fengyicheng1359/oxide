@@ -193,6 +193,9 @@ GAMEPLAY_SLUG_CATEGORIES = {
     "-108": "战斗与装备", "-126": "战斗与装备", "-193": "战斗与装备", "-208": "战斗与装备",
     "-112": "交通与探索", "-118": "交通与探索", "-224": "交通与探索", "-232": "交通与探索",
     "-69": "交通与探索", "-70": "交通与探索", "citadel-221": "交通与探索",
+    "lighthouse-basement": "交通与探索",
+    "military-base-keycard": "交通与探索",
+    "plane-crash-keycard": "交通与探索",
     "-241": "生存基础", "-242": "生存基础", "-29": "生存基础", "-32": "生存基础", "-43": "生存基础",
     "-44": "生存基础", "-45": "生存基础", "-46": "生存基础", "-52": "生存基础", "-57": "生存基础",
     "-58": "生存基础", "-65": "生存基础", "-82": "生存基础",
@@ -220,7 +223,8 @@ def gameplay_articles() -> list[dict]:
     """读取下载的纯文本文章，清除客服页杂项并保留正文段落。"""
     cached = STATIC / "i18n/gameplay/zh.json"
     if cached.exists():
-        rows = json.loads(cached.read_text(encoding="utf-8"))
+        from build_i18n import load_guides
+        rows = load_guides('zh')
         return [{"slug": slug, "title": row["title"],
                  "category": GAMEPLAY_SLUG_CATEGORIES[slug],
                  "content": row["text"], "source_file": slug + ".html"}

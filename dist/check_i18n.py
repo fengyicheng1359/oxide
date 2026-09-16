@@ -3,19 +3,19 @@ from pathlib import Path
 from urllib.parse import urlsplit, unquote
 import json
 from bs4 import BeautifulSoup
-from build_i18n import ROOT, DATA, LANGUAGES
+from build_i18n import ROOT, DATA, LANGUAGES, load_guides
 
 
 def main():
     expected = {p.relative_to(ROOT/'zh') for p in (ROOT/'zh').rglob('*.html')}
-    assert len(expected) == 271, len(expected)
+    assert len(expected) == 274, len(expected)
     errors = []
     pages = 0
     site_url = json.loads((ROOT/'static/site-config.json').read_text())['site_url'].rstrip('/')
     for lang, (_, html_lang) in LANGUAGES.items():
         paths = {p.relative_to(ROOT/lang) for p in (ROOT/lang).rglob('*.html')}
         assert paths == expected, (lang, paths ^ expected)
-        guides = json.loads((DATA/'gameplay'/f'{lang}.json').read_text())
+        guides = load_guides(lang)
         for relative in sorted(paths):
             path = ROOT/lang/relative
             soup = BeautifulSoup(path.read_text(encoding='utf-8'), 'html.parser')
