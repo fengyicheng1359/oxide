@@ -91,7 +91,7 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 @media(max-width:760px){.promo-page .download-panel{grid-template-columns:1fr!important}}
 .promo-page .brand strong,.promo-page .brand small{color:#edf4eb!important}.promo-page .header-inner nav a{color:#aab9ad!important}.promo-page .header-inner nav a.active,.promo-page .header-inner nav a:hover{color:#b8e879!important}
 .site-header .brand strong{color:#f1f7ef!important}.site-header .brand small{color:#b7c8b9!important}.site-header .header-inner nav a{color:#b4c2b5!important}.site-header .header-inner nav a.active,.site-header .header-inner nav a:hover{color:#c5f28e!important}.site-header .header-tools{color:#afbdaf!important}.site-header .online i{background:#b8e879!important}
-.site-header .header-inner nav a.active{background:linear-gradient(to bottom,transparent 14px,#1b2b1d 14px,#1b2b1d 62px,transparent 62px)!important;border-bottom:2px solid #b8e879!important;color:#c5f28e!important}.site-header .header-inner nav a:hover:not(.active){background:transparent!important}
+.site-header .header-inner nav a.active{background:#304b2a!important;border-bottom-color:transparent!important;color:#e2ffc4!important}.site-header .header-inner nav a:hover:not(.active){background:transparent!important}
 
 /* 窄屏将站点名称和菜单分行；菜单按整项换行，保留足够的点击区域。 */
 .site-header .brand{flex-shrink:0;white-space:nowrap}
@@ -108,7 +108,6 @@ body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
   .site-header .header-inner nav{width:100%;min-width:0;flex-wrap:wrap;gap:4px}
   .site-header .header-inner nav a{flex:0 0 auto;min-width:44px;min-height:44px;padding:0 8px}
   .site-header .header-tools{display:none}
-  .site-header .header-inner nav a.active{background:var(--light)!important}
 }
 
 /* 正文与全宽导航对齐，避免宽屏下仍被固定宽度容器向内挤压。 */
@@ -154,9 +153,10 @@ body.promo-page > main.promo-shell,
 
 /* 多语言导航：宽屏三列，窄屏把菜单放到第二行，语言选择始终可见。 */
 .site-header{height:auto;min-height:76px}
-.site-header .header-inner{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:20px;min-height:76px;height:auto;padding:10px 28px}
-.site-header .header-inner > nav{display:flex;flex-wrap:wrap;align-items:center;align-self:stretch;gap:4px 16px;min-width:0;width:auto}
-.site-header .header-inner > nav a{min-height:44px;padding:0 6px}
+.site-header .header-inner{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:20px;min-height:76px;height:auto;padding:0 28px}
+.site-header .header-inner > nav{display:flex;flex-wrap:wrap;align-items:stretch;align-self:stretch;gap:0 4px;min-width:0;width:auto}
+.site-header .header-inner > nav a{min-height:52px;padding:0 14px;border-radius:0;transition:background-color .18s ease,color .18s ease}
+.site-header .header-inner > nav a:focus-visible{outline:2px solid var(--green);outline-offset:-4px}
 .site-header .language-picker{display:flex;align-items:center;min-width:0}
 .language-picker select{max-width:144px;min-height:42px;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
 .language-picker select:focus-visible{outline:2px solid var(--green);outline-offset:3px}
@@ -176,16 +176,16 @@ body.promo-page > main.promo-shell,
 .acquisition-row span{min-width:0;overflow-wrap:anywhere}
 .material-info,.catalog-copy{min-width:0;overflow-wrap:anywhere}
 @media(max-width:1199px){
-  .site-header .header-inner{grid-template-columns:minmax(0,1fr) auto;gap:8px 16px;padding:12px 18px}
-  .site-header .header-inner > nav{grid-column:1/-1;grid-row:2;gap:4px 12px}
+  .site-header .header-inner{grid-template-columns:minmax(0,1fr) auto;gap:12px 16px;padding:12px 18px 0}
+  .site-header .header-inner > nav{grid-column:1/-1;grid-row:2;gap:0 4px}
   .site-header .language-picker{grid-column:2;grid-row:1}
   .site-header .brand{min-width:0;white-space:normal}
   .site-header .brand strong{font-size:18px;letter-spacing:0;line-height:1.2}
   .site-header .brand small{line-height:1.25}
 }
 @media(max-width:760px){
-  .site-header .header-inner{padding:12px 16px 8px;gap:8px}
-  .site-header .header-inner > nav{gap:4px}
+  .site-header .header-inner{padding:12px 16px 0;gap:12px 8px}
+  .site-header .header-inner > nav{gap:0 4px}
   .site-header .header-inner > nav a{padding:0 8px}
   .language-picker select{max-width:108px;font-size:13px}
   .item-heading{align-items:start;gap:12px;flex-wrap:wrap}
@@ -211,3 +211,41 @@ body.promo-page > main.promo-shell,
 @media(max-width:760px){
   body .gameplay-intro h1,body .ranking-intro h1,body .recycling-intro h1{font-size:36px}
 }
+
+/* 消耗品把用途放在图片右侧，长译文完整换行，不截断恢复数值。 */
+#category-Medical .item-grid{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+#category-Medical .catalog-card{align-items:flex-start;padding:16px;gap:16px}
+#category-Medical .catalog-image{width:68px;height:68px;flex-shrink:0}
+#category-Medical .catalog-copy{flex:1}
+#category-Medical .catalog-copy b,#category-Medical .catalog-copy small{white-space:normal;overflow:visible;text-overflow:clip}
+.usage-effects{display:grid;gap:5px;margin-top:12px}
+.usage-effect{display:block;color:var(--green);font:500 12px/1.5 var(--body);overflow-wrap:anywhere}
+.usage-effect.usage-negative{color:#ffaaa0}
+.usage-note{display:block;margin-top:10px;color:var(--muted);font:12px/1.6 var(--body);overflow-wrap:anywhere}
+.consumable-facts{padding:28px;align-self:center;min-width:0}
+.consumable-facts h2{margin:0 0 16px;font:600 24px var(--display)}
+.consumable-facts .usage-effect{font-size:15px}
+@media(max-width:480px){
+  #category-Medical .item-grid{grid-template-columns:minmax(0,1fr)}
+  #category-Medical .catalog-card{padding:14px;gap:12px}
+  #category-Medical .catalog-image{width:56px;height:56px}
+  .consumable-facts{padding:22px}
+}
+
+/* 恢复效果表保留真实零值和负值，窄屏只滚动表格，不撑宽整页。 */
+.healing-content{min-width:0}
+.healing-content h1{margin:8px 0;font:600 48px/1.15 var(--display)}
+.healing-content .ranking-intro p,.healing-note{color:var(--muted);font-size:13px;line-height:1.7}
+.healing-table-wrap{max-width:100%;overflow-x:auto;margin-top:18px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.healing-table{width:100%;min-width:760px;border-collapse:collapse;text-align:left}
+.healing-table th,.healing-table td{padding:14px 18px;border-bottom:1px solid var(--line)}
+.healing-table th{font-size:12px;color:var(--muted)}
+.healing-table td{font-size:14px}
+.healing-table tr:last-child td{border-bottom:0}
+.healing-table .recycle-image{width:52px;height:52px}
+.healing-table .recycle-item{display:flex;align-items:center;gap:12px}
+.healing-table .recycle-item b,.healing-table .recycle-item small{display:block}
+.healing-table .recycle-item small{color:var(--muted);margin-top:4px;font-size:11px}
+.restoration-positive{color:var(--green);font-weight:700}
+.restoration-negative{color:#ffaaa0;font-weight:700}
+.restoration-zero{color:var(--muted)}

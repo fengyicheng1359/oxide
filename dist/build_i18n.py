@@ -176,10 +176,19 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
             credit = soup.new_tag('a', href=official['source_url'], attrs={'class': 'article-source', 'rel': 'noopener', 'target': '_blank'})
             credit.string = tr('官方原文') + ' ↗'
         body.append(credit)
+    # 表格说明直接读取当前语言的游戏描述，与物品详情页共用同一份文本。
+    for description in soup.select('[data-item-description]'):
+        description_item = mapping['items'][description['data-item-description']]
+        token = description_item.get('description')
+        description.string = game_text(translator.game[token]) if token else tr('暂无数据')
     item = mapping['items'].get(Path(page).stem)
     if item:
         content = soup.select_one('.item-content')
         for field, label in [('description', '物品说明'), ('craft_description', '制作说明')]:
+            # 少数消耗品复用了武器等不匹配的文案，改由上方使用效果说明用途。
+            effect = load(ROOT / 'static/game-stats.json')['consumable_effects'].get(Path(page).stem, {})
+            if field == 'description' and effect.get('description_conflict'):
+                continue
             token = item.get(field)
             if token:
                 section = soup.new_tag('section', attrs={'class': 'item-description'})

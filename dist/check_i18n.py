@@ -8,7 +8,7 @@ from build_i18n import ROOT, DATA, LANGUAGES, load_guides
 
 def main():
     expected = {p.relative_to(ROOT/'zh') for p in (ROOT/'zh').rglob('*.html')}
-    assert len(expected) == 274, len(expected)
+    assert len(expected) == 277, len(expected)
     errors = []
     pages = 0
     site_url = json.loads((ROOT/'static/site-config.json').read_text())['site_url'].rstrip('/')

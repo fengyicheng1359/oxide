@@ -158,6 +158,7 @@ def header(prefix: str, index_href: str | None = None, *, selected: str | None =
         ("recycling", "recycling.html", "回收"),
         ("attack", "attack.html", "攻击力"),
         ("defense", "defense.html", "防御力"),
+        ("healing", "healing.html", "治疗"),
         ("threat", "threat.html", "威胁"),
         ("about", "about.html", "关于"),
     ]
@@ -193,6 +194,8 @@ GAMEPLAY_SLUG_CATEGORIES = {
     "-108": "战斗与装备", "-126": "战斗与装备", "-193": "战斗与装备", "-208": "战斗与装备",
     "-112": "交通与探索", "-118": "交通与探索", "-224": "交通与探索", "-232": "交通与探索",
     "-69": "交通与探索", "-70": "交通与探索", "citadel-221": "交通与探索",
+    "gather-resources-quickly": "生存基础",
+    "avoid-animal-attacks": "战斗与装备",
     "lighthouse-basement": "交通与探索",
     "military-base-keycard": "交通与探索",
     "plane-crash-keycard": "交通与探索",
@@ -412,6 +415,39 @@ def sidebar(categories: dict[str, list[tuple[dict, str]]], prefix: str, selected
     return f'<aside id="categories" class="sidebar"><div class="side-group"><div class="side-title">分类</div>{"".join(links)}</div><div class="side-foot">{sum(len(x) for x in categories.values())} ITEMS<br><span>LOCAL DATASET</span></div></aside>'
 
 
+def consumable_usage(slug: str, detailed: bool = False) -> str:
+    """展示每次使用的配置效果；持续回血只列持续时间，不把效果强度推算为总回血量。"""
+    effects = json.loads((STATIC / "game-stats.json").read_text(encoding="utf-8"))["consumable_effects"].get(slug)
+    if effects is None:
+        return ""
+    lines = []
+    for field, label in [("hunger", "饱食度"), ("thirst", "水分")]:
+        low, high = effects[field + "ChangeMin"], effects[field + "ChangeMax"]
+        if low or high:
+            value = f"{low:g}" if low == high else f"{low:g}–{high:g}"
+            lines.append((f"{label} +{value}", False))
+    health = effects["healthChange"]
+    if health > 0:
+        lines.append((f"立即恢复生命 +{health:g}", False))
+    elif health < 0:
+        lines.append((f"损失生命 {abs(health):g}", True))
+    buff_labels = {"HealthRegenBuff": "持续恢复生命", "IncreaseSpeedBuff": "提升移动速度", "DecreaseColdBuff": "御寒效果"}
+    if effects["buffName"]:
+        lines.append((f"{buff_labels[effects['buffName']]} {effects['buffDurationSeconds']:g} 秒", False))
+    for field, label in [("bpExpAmount", "通行证经验"), ("miniBpExpAmount", "活动通行证经验")]:
+        if effects[field]:
+            lines.append((f"{label} +{effects[field]:g}", False))
+    if effects["consumeStorageId"]:
+        lines.append(("使用后开出奖励", False))
+    if detailed and effects["consumeCooldownSeconds"]:
+        lines.append((f"使用间隔 {effects['consumeCooldownSeconds']:g} 秒", False))
+    if not lines:
+        lines.append(("暂无数据", False))
+    entries = "".join(f'<span class="usage-effect{ " usage-negative" if negative else ""}">{esc(text)}</span>' for text, negative in lines)
+    note = f'<span class="usage-note">{esc(effects["note"])}</span>' if effects["note"] else ""
+    return f'<span class="usage-effects">{entries}</span>{note}'
+
+
 def detail_page(item: dict, category: str, slug: str, categories: dict, lookup: dict, prefix: str, recycling_count: int, attack_count: int, threat_count: int) -> str:
     materials = item.get("crafting_materials", [])
     cards = "".join(material_card(material, lookup, prefix) for material in materials)
@@ -435,7 +471,9 @@ def detail_page(item: dict, category: str, slug: str, categories: dict, lookup: 
     attack = item.get("attack_power")
     attack_text = "—" if attack is None else esc(attack)
     if category == "Weapon":
-        facts = f'<div class="facts"><div class="fact attack-fact"><span>攻击力</span><strong>{attack_text}</strong><small>ATTACK POWER</small></div></div>'
+        facts = f'<div class="facts"><div class="fact attack-fact"><span>攻击力</span><strong>{attack_text}</strong></div></div>'
+    elif category == "Medical":
+        facts = f'<div class="consumable-facts"><h2>使用效果</h2>{consumable_usage(slug, detailed=True)}</div>'
     elif category == "Armor":
         protection = armor_protection(item)
         facts = '<div class="facts"><div class="fact attack-fact"><span>防御力</span><strong>游戏属性</strong><small>DEFENSE ATTRIBUTES</small></div></div>'
@@ -513,7 +551,8 @@ def items_page(categories: dict[str, list[tuple[dict, str]]]) -> str:
             items = sorted(items, key=lambda pair: armor_material_rank(pair[0]))
         cards.append(f'<section id="category-{esc(category)}" class="category-section"><div class="section-heading"><h2>{esc(category_name(category))}</h2><span>{esc(category.upper())} · {len(items)} ITEMS</span></div><div class="item-grid">')
         for item, slug in items:
-            cards.append(f'<a class="catalog-card" href="./{esc(slug)}.html">{image_tag(item, "./", "catalog-image", item.get("name_zh"))}<span class="catalog-copy"><b>{esc(item.get("name_zh"))}</b><small>{esc(item.get("name_en"))}</small></span></a>')
+            usage = consumable_usage(slug) if category == "Medical" else ""
+            cards.append(f'<a class="catalog-card" href="./{esc(slug)}.html">{image_tag(item, "./", "catalog-image", item.get("name_zh"))}<span class="catalog-copy"><b>{esc(item.get("name_zh"))}</b><small>{esc(item.get("name_en"))}</small>{usage}</span></a>')
         cards.append('</div></section>')
     recycling_count = recycling_item_count(categories)
     attack_count = attack_item_count(categories)
@@ -611,12 +650,56 @@ def recycling_page(categories: dict[str, list[tuple[dict, str]]], recycling_coun
 
 def attack_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: int, attack_count: int) -> str:
     items = sorted(categories.get("Weapon", []), key=lambda pair: (pair[0].get("attack_power") is None, -(pair[0].get("attack_power") or 0), pair[0].get("name_zh") or ""))
+    # 对应关系取自物品配置：空字符串表示不使用弹药，缺少记录表示尚未确认。
+    weapon_stats = json.loads((STATIC / "game-stats.json").read_text(encoding="utf-8"))
+    ammunition_by_weapon = weapon_stats["weapon_ammunition"]
+    ammunition_items = {slug: item for item, slug in categories.get("Ammunition", [])}
     rows = []
     for item, slug in items:
+        attack_type = weapon_stats["weapon_attack_types"].get(slug, "未确认")
         attack = item.get("attack_power")
         value = "暂无数据" if attack is None else esc(attack)
-        rows.append(f'<tr><td><a class="recycle-item" href="./{esc(slug)}.html">{image_tag(item, "./", "recycle-image", item.get("name_zh"))}<span><b>{esc(item.get("name_zh"))}</b><small>{esc(item.get("name_en"))}</small></span></a></td><td class="attack-amount">{value}</td></tr>')
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>攻击力 · Oxide Wiki</title><link rel="stylesheet" href="./styles.css"><style>.ranking-intro{{margin-bottom:24px}}.ranking-intro h1{{margin:8px 0 5px;font:600 48px/1 var(--display)}}.ranking-intro p{{margin:0;color:var(--muted);font-size:13px}}.attack-table-wrap{{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:8px}}.attack-table{{width:100%;border-collapse:collapse;text-align:left}}.attack-table th{{padding:14px 16px;color:var(--muted);background:#f5f7f4;font:10px var(--mono);letter-spacing:.08em;border-bottom:1px solid var(--line)}}.attack-table td{{padding:10px 16px;border-bottom:1px solid #edf0ed}}.attack-table tr:last-child td{{border-bottom:0}}.attack-table tr:hover td{{background:#fbfcfa}}.attack-table .recycle-image{{width:50px;height:50px}}.attack-amount{{width:180px;color:var(--green);font:600 24px var(--display)}}.attack-note{{margin-top:13px;color:var(--muted);font-size:11px}}</style></head><body>{header("./", selected="attack")}<main class="page-shell"><div class="catalog-layout">{sidebar(categories, "./", "Attack", "./index.html", recycling_count, attack_count)}<section class="catalog-content"><div class="ranking-intro"><span class="eyebrow">ATTACK POWER RANKING</span><h1>攻击力</h1><p>武器按照攻击力从高到低排列。</p></div><div class="attack-table-wrap"><table class="attack-table"><thead><tr><th>武器</th><th>攻击力</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div><p class="attack-note">共 {len(items)} 件武器；没有可靠攻击力数据的武器排在最后。</p></section></div></main>{footer()}</body></html>'''
+        ammunition_id = ammunition_by_weapon.get(slug)
+        if ammunition_id is None:
+            ammunition = "未确认"
+        elif ammunition_id == "":
+            ammunition = "不使用弹药"
+        else:
+            ammunition_item = ammunition_items[ammunition_id]
+            ammunition = f'<a href="./{esc(ammunition_id)}.html">{esc(ammunition_item["name_zh"])}</a>'
+        rows.append(f'<tr><td><a class="recycle-item" href="./{esc(slug)}.html">{image_tag(item, "./", "recycle-image", item.get("name_zh"))}<span><b>{esc(item.get("name_zh"))}</b><small>{esc(item.get("name_en"))}</small></span></a></td><td class="attack-amount">{value}</td><td>{ammunition}</td><td>{esc(attack_type)}</td><td class="weapon-description" data-item-description="{esc(slug)}"></td></tr>')
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>攻击力 · Oxide Wiki</title><link rel="stylesheet" href="./styles.css"><style>.ranking-intro{{margin-bottom:24px}}.ranking-intro h1{{margin:8px 0 5px;font:600 48px/1 var(--display)}}.ranking-intro p{{margin:0;color:var(--muted);font-size:13px}}.attack-table-wrap{{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:8px}}.attack-table{{width:100%;min-width:900px;border-collapse:collapse;text-align:left}}.attack-table th{{padding:14px 16px;color:var(--muted);background:#f5f7f4;font:10px var(--mono);letter-spacing:.08em;border-bottom:1px solid var(--line)}}.attack-table td{{padding:10px 16px;border-bottom:1px solid #edf0ed}}.attack-table tr:last-child td{{border-bottom:0}}.attack-table tr:hover td{{background:#fbfcfa}}.attack-table .recycle-image{{width:50px;height:50px}}.weapon-description{{min-width:280px;max-width:460px;line-height:1.7;font-size:13px;white-space:pre-line}}.attack-amount{{width:110px;color:var(--green);font:600 24px var(--display)}}.attack-note{{margin-top:13px;color:var(--muted);font-size:11px}}</style></head><body>{header("./", selected="attack")}<main class="page-shell"><div class="catalog-layout">{sidebar(categories, "./", "Attack", "./index.html", recycling_count, attack_count)}<section class="catalog-content"><div class="ranking-intro"><span class="eyebrow">ATTACK POWER RANKING</span><h1>攻击力</h1><p>武器按照攻击力从高到低排列。</p></div><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="attack-table-wrap" tabindex="0"><table class="attack-table"><thead><tr><th>武器</th><th>攻击力</th><th>使用弹药</th><th>攻击方式</th><th>游戏内描述</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div><p class="attack-note">共 {len(items)} 件武器；没有可靠攻击力数据的武器排在最后。</p></section></div></main>{footer()}</body></html>'''
+
+
+def healing_sort_key(entry: tuple[dict, str, dict]) -> tuple:
+    """依次比较立即治疗、水分、饱食度；区间先比较上限，再比较下限。
+
+    持续回血只确认了持续时间，不将秒数或效果强度当作回血量参与排序。
+    最后按物品标识排序，确保各语言在数值相同时顺序一致。
+    """
+    _, slug, effect = entry
+    return (-effect["healthChange"], -effect["thirstChangeMax"], -effect["thirstChangeMin"],
+            -effect["hungerChangeMax"], -effect["hungerChangeMin"], slug)
+
+
+def healing_page(categories: dict) -> str:
+    effects = json.loads((STATIC / "game-stats.json").read_text(encoding="utf-8"))["consumable_effects"]
+    items = sorted([(item, slug, effects[slug]) for group in categories.values() for item, slug in group
+                    if slug in effects and effects[slug]["canConsume"]], key=healing_sort_key)
+
+    def value_cell(low: float, high: float) -> str:
+        value = f"{low:g}" if low == high else f"{low:g}–{high:g}"
+        style = "restoration-negative" if low < 0 else ("restoration-positive" if high > 0 else "restoration-zero")
+        return f'<td class="{style}">{esc(value)}</td>'
+
+    rows = []
+    for item, slug, effect in items:
+        healing = value_cell(effect["healthChange"], effect["healthChange"])
+        duration = f'持续恢复生命 {effect["buffDurationSeconds"]:g} 秒' if effect["buffName"] == "HealthRegenBuff" else "—"
+        water = value_cell(effect["thirstChangeMin"], effect["thirstChangeMax"])
+        food = value_cell(effect["hungerChangeMin"], effect["hungerChangeMax"])
+        rows.append(f'<tr data-item="{esc(slug)}"><td><a class="recycle-item" href="./{esc(slug)}.html">{image_tag(item, "./", "recycle-image", item.get("name_zh"))}<span><b>{esc(item["name_zh"])}</b><small>{esc(item["name_en"])}</small></span></a></td>{healing}<td>{esc(duration)}</td>{water}{food}</tr>')
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>治疗 · Oxide Wiki</title><link rel="stylesheet" href="./styles.css"></head><body>{header("./", selected="healing")}<main class="page-shell"><section class="healing-content"><div class="ranking-intro"><h1>治疗</h1><p>按立即治疗、水分、饱食度依次降序；区间先比上限，再比下限。</p></div><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="healing-table-wrap" tabindex="0"><table class="healing-table"><thead><tr><th>物品</th><th>立即治疗</th><th>持续治疗</th><th>水分恢复</th><th>饱食度恢复</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div><p class="healing-note">共 {len(items)} 件可使用物品。正值表示恢复，负值表示损失，0 表示没有对应的即时变化。</p><p class="healing-note">持续回血仅显示持续时间，未计入治疗排序。</p></section></main>{footer()}</body></html>'''
 
 
 def threat_page_legacy(categories: dict[str, list[tuple[dict, str]]], recycling_count: int, attack_count: int, threat_count: int) -> str:
@@ -628,9 +711,9 @@ def threat_page_legacy(categories: dict[str, list[tuple[dict, str]]], recycling_
 
 def threat_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: int, attack_count: int, threat_count: int) -> str:
     animals, npcs = threat_data()
-    animal_rows = "".join(f'<tr><td><b>{esc(item["name_zh"])}</b><small>{esc(item["name_en"])}</small></td><td class="threat-amount">{"暂无数据" if item["damage"] is None else esc(item["damage"])}</td><td>{"—" if item["distance"] is None else esc(item["distance"])}</td><td>{"—" if item["speed"] is None else esc(item["speed"])}</td></tr>' for item in animals)
+    animal_rows = "".join(f'<tr><td><b>{esc(item["name_zh"])}</b><small>{esc(item["name_en"])}</small></td><td class="threat-amount">{"未确认" if item["max_health"] is None else esc(item["max_health"])}<small>{esc(item.get("health_note", ""))}</small></td><td class="threat-amount">{"暂无数据" if item["damage"] is None else esc(item["damage"])}</td><td>{"—" if item["distance"] is None else esc(item["distance"])}</td><td>{"—" if item["speed"] is None else esc(item["speed"])}</td></tr>' for item in animals)
     npc_rows = "".join(f'<tr><td><b>{esc(item["name_zh"])}</b><small>{esc(item["name_en"])}</small></td><td class="threat-level">{esc(item["level"])}</td><td class="threat-amount">未确认</td></tr>' for item in npcs)
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>威胁 · Oxide Wiki</title><link rel="stylesheet" href="./styles.css"><style>.ranking-intro{{margin-bottom:24px}}.ranking-intro h1{{margin:8px 0 5px;font:600 48px/1 var(--display)}}.ranking-intro p{{margin:0;color:var(--muted);font-size:13px}}.threat-block{{margin-bottom:34px}}.threat-block h2{{margin:0 0 14px;font:600 28px var(--display)}}.threat-table-wrap{{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:8px}}.threat-table{{width:100%;border-collapse:collapse;text-align:left}}.threat-table th{{padding:14px 16px;color:var(--muted);background:#f5f7f4;font:10px var(--mono);letter-spacing:.08em;border-bottom:1px solid var(--line)}}.threat-table td{{padding:12px 16px;border-bottom:1px solid #edf0ed}}.threat-table tr:last-child td{{border-bottom:0}}.threat-table tr:hover td{{background:#fbfcfa}}.threat-table td b,.threat-table td small{{display:block}}.threat-table td b{{font-size:13px}}.threat-table td small{{margin-top:3px;color:var(--muted);font:10px var(--mono)}}.threat-amount{{width:130px;color:var(--green);font:600 22px var(--display)}}.threat-level{{width:180px;color:var(--green);font-weight:700}}.threat-note{{margin-top:13px;color:var(--muted);font-size:11px}}</style></head><body>{header("./", selected="threat")}<main class="page-shell"><div class="catalog-layout">{sidebar(categories, "./", "Threat", "./index.html", recycling_count, attack_count, threat_count)}<section class="catalog-content"><div class="ranking-intro"><span class="eyebrow">THREAT DATABASE</span><h1>威胁</h1><p>野兽按基础攻击力从高到低；人机按已确认的难度等级排列。</p></div><div class="threat-block"><h2>野兽</h2><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="threat-table-wrap" tabindex="0"><table class="threat-table"><thead><tr><th>野兽</th><th>基础攻击力</th><th>攻击距离</th><th>攻击速度</th></tr></thead><tbody>{animal_rows}</tbody></table></div></div><div class="threat-block"><h2>人机</h2><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="threat-table-wrap" tabindex="0"><table class="threat-table"><thead><tr><th>人机</th><th>威胁等级</th><th>攻击力</th></tr></thead><tbody>{npc_rows}</tbody></table></div></div><p class="threat-note">共 {len(animals)} 种野兽、{len(npcs)} 类人机；缺失的野兽指标显示“—”，人机的实际生命值和攻击力在当前导出数据中未可靠确认。</p></section></div></main>{footer()}</body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>威胁 · Oxide Wiki</title><link rel="stylesheet" href="./styles.css"><style>.ranking-intro{{margin-bottom:24px}}.ranking-intro h1{{margin:8px 0 5px;font:600 48px/1 var(--display)}}.ranking-intro p{{margin:0;color:var(--muted);font-size:13px}}.threat-block{{margin-bottom:34px}}.threat-block h2{{margin:0 0 14px;font:600 28px var(--display)}}.threat-table-wrap{{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:8px}}.threat-table{{width:100%;border-collapse:collapse;text-align:left}}.threat-table th{{padding:14px 16px;color:var(--muted);background:#f5f7f4;font:10px var(--mono);letter-spacing:.08em;border-bottom:1px solid var(--line)}}.threat-table td{{padding:12px 16px;border-bottom:1px solid #edf0ed}}.threat-table tr:last-child td{{border-bottom:0}}.threat-table tr:hover td{{background:#fbfcfa}}.threat-table td b,.threat-table td small{{display:block}}.threat-table td b{{font-size:13px}}.threat-table td small{{margin-top:3px;color:var(--muted);font:10px var(--mono)}}.threat-amount{{width:130px;color:var(--green);font:600 22px var(--display)}}.threat-level{{width:180px;color:var(--green);font-weight:700}}.threat-note{{margin-top:13px;color:var(--muted);font-size:11px}}</style></head><body>{header("./", selected="threat")}<main class="page-shell"><div class="catalog-layout">{sidebar(categories, "./", "Threat", "./index.html", recycling_count, attack_count, threat_count)}<section class="catalog-content"><div class="ranking-intro"><span class="eyebrow">THREAT DATABASE</span><h1>威胁</h1><p>野兽按基础攻击力从高到低；人机按已确认的难度等级排列。</p></div><div class="threat-block"><h2>野兽</h2><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="threat-table-wrap" tabindex="0"><table class="threat-table"><thead><tr><th>野兽</th><th>生命值</th><th>基础攻击力</th><th>攻击距离</th><th>攻击速度</th></tr></thead><tbody>{animal_rows}</tbody></table></div><p class="threat-note">生命值为满血时的基础值；服务器设置可能影响实际数值。</p></div><div class="threat-block"><h2>人机</h2><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="threat-table-wrap" tabindex="0"><table class="threat-table"><thead><tr><th>人机</th><th>威胁等级</th><th>攻击力</th></tr></thead><tbody>{npc_rows}</tbody></table></div></div><p class="threat-note">共 {len(animals)} 种野兽、{len(npcs)} 类人机；缺失的野兽指标显示“—”，人机的实际生命值和攻击力在当前导出数据中未可靠确认。</p></section></div></main>{footer()}</body></html>'''
 
 
 def inject_seo(page: Path, content: str, items_by_slug: dict[str, dict]) -> str:
@@ -655,6 +738,10 @@ def inject_seo(page: Path, content: str, items_by_slug: dict[str, dict]) -> str:
         title = f"攻击力排行 · {configured_site_name()}"
         description = "查看氧化物生存岛武器攻击力排行和各武器详情。"
         keywords = ["氧化物生存岛攻击力排行", "氧化物生存岛武器伤害", "武器攻击力"]
+    elif page.name == "healing.html":
+        title = f"治疗 · {configured_site_name()}"
+        description = "比较物品的治疗、水分和饱食度恢复值。"
+        keywords = ["氧化物生存岛治疗", "生命恢复", "补水", "饱食度"]
     elif page.name == "defense.html":
         title = f"防御力排行 · {configured_site_name()}"
         description = "查看氧化物生存岛护甲的射击、近战和寒冷防护属性排行。"
@@ -735,6 +822,7 @@ def main() -> None:
     (HTML_DIR / "recycling.html").write_text(recycling_page(categories, recycling_count, attack_count), encoding="utf-8")
     (HTML_DIR / "attack.html").write_text(attack_page(categories, recycling_count, attack_count), encoding="utf-8")
     (HTML_DIR / "defense.html").write_text(defense_page(categories, recycling_count, attack_count, threat_count), encoding="utf-8")
+    (HTML_DIR / "healing.html").write_text(healing_page(categories), encoding="utf-8")
     (HTML_DIR / "threat.html").write_text(threat_page(categories, recycling_count, attack_count, threat_count), encoding="utf-8")
     items_by_slug = {slug: item for items in categories.values() for item, slug in items}
     for page in HTML_DIR.glob("*.html"):
@@ -745,7 +833,7 @@ def main() -> None:
     from build_i18n import build_localized_pages
     localized_pages = build_localized_pages(sorted(crawl_pages))
     write_crawl_files(localized_pages)
-    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page, 1 threat page and {gameplay_count} gameplay pages")
+    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page, 1 healing page, 1 threat page and {gameplay_count} gameplay pages")
 
 
 if __name__ == "__main__":
