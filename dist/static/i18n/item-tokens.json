@@ -1100,6 +1100,46 @@
       "name": "weapon.mod.simple.scope",
       "description": "weapon.mod.simple.scope.descr",
       "craft_description": null
+    },
+    "double.barrel": {
+      "name": "double.barrel",
+      "description": "double.barrel.descr",
+      "craft_description": null
+    },
+    "furnace.advanced": {
+      "name": "furnace.advanced",
+      "description": "furnace.advanced.descr",
+      "craft_description": null
+    },
+    "turret.heavy": {
+      "name": "turret.heavy",
+      "description": "turret.heavy.descr",
+      "craft_description": null
+    },
+    "turret.shotgun": {
+      "name": "turret.shotgun",
+      "description": "turret.shotgun.descr",
+      "craft_description": null
+    },
+    "vehicle.part.battery": {
+      "name": "vehicle.part.battery",
+      "description": null,
+      "craft_description": null
+    },
+    "vehicle.part.motor": {
+      "name": "vehicle.part.motor",
+      "description": null,
+      "craft_description": null
+    },
+    "vehicle.part.propeller": {
+      "name": "vehicle.part.propeller",
+      "description": null,
+      "craft_description": null
+    },
+    "weapon.flare.signal": {
+      "name": "weapon.flare.signal",
+      "description": "weapon.flare.signal.descr",
+      "craft_description": null
     }
   },
   "legacy_names": {
@@ -1331,6 +1371,15 @@
     "雪人头": "snowman.head",
     "雪橇": "winter.sleigh.frosty.shop",
     "圣诞点唱机": "holiday.jukebox",
-    "猫头鹰雕像": "owl.statue"
+    "猫头鹰雕像": "owl.statue",
+    "双管霰弹枪": "double.barrel",
+    "高级熔炉": "furnace.advanced",
+    "机枪炮塔": "turret.heavy",
+    "霰弹枪炮塔": "turret.shotgun",
+    "载具电池": "vehicle.part.battery",
+    "载具发动机": "vehicle.part.motor",
+    "载具螺旋桨": "vehicle.part.propeller",
+    "信号发射枪": "weapon.flare.signal",
+    "信号弹药": "tactical.marker.title"
   }
 }

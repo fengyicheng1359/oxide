@@ -1,5 +1,5 @@
 {
-  "reason": "APK 中 backpack.big 的名称 token 在下载的官方语言表中缺失，以下为站点补译。",
+  "reason": "本站补译：新版缺失的物品名称与说明，以及 11920 已改变含义的信号弹说明。其余翻译保留原来源。",
   "backpack.big": {
     "zh": "大型背包",
     "en": "Large Backpack",
@@ -10,5 +10,170 @@
     "es": "Mochila grande",
     "pt": "Mochila grande",
     "ru": "Большой рюкзак"
+  },
+  "vehicle.part.propeller": {
+    "zh": "载具螺旋桨",
+    "en": "Vehicle Propeller",
+    "ja": "車両用プロペラ",
+    "ko": "차량 프로펠러",
+    "fr": "Hélice de véhicule",
+    "de": "Fahrzeugpropeller",
+    "es": "Hélice de vehículo",
+    "pt": "Hélice de veículo",
+    "ru": "Пропеллер транспорта"
+  },
+  "vehicle.part.motor": {
+    "zh": "载具发动机",
+    "en": "Vehicle Engine",
+    "ja": "車両用エンジン",
+    "ko": "차량 엔진",
+    "fr": "Moteur de véhicule",
+    "de": "Fahrzeugmotor",
+    "es": "Motor de vehículo",
+    "pt": "Motor de veículo",
+    "ru": "Двигатель транспорта"
+  },
+  "vehicle.part.battery": {
+    "zh": "载具电池",
+    "en": "Vehicle Battery",
+    "ja": "車両用バッテリー",
+    "ko": "차량 배터리",
+    "fr": "Batterie de véhicule",
+    "de": "Fahrzeugbatterie",
+    "es": "Batería de vehículo",
+    "pt": "Bateria de veículo",
+    "ru": "Аккумулятор транспорта"
+  },
+  "furnace.advanced": {
+    "zh": "高级熔炉",
+    "en": "Advanced Furnace",
+    "ja": "高性能かまど",
+    "ko": "고급 용광로",
+    "fr": "Four avancé",
+    "de": "Verbesserter Schmelzofen",
+    "es": "Horno avanzado",
+    "pt": "Fornalha avançada",
+    "ru": "Улучшенная печь"
+  },
+  "weapon.flare.signal": {
+    "zh": "信号发射枪",
+    "en": "Signal Flare Gun",
+    "ja": "信号弾発射銃",
+    "ko": "신호탄 발사기",
+    "fr": "Pistolet de signalisation",
+    "de": "Signalpistole",
+    "es": "Pistola de señales",
+    "pt": "Pistola sinalizadora",
+    "ru": "Сигнальный пистолет"
+  },
+  "tactical.marker.title": {
+    "zh": "信号弹药",
+    "en": "Signal Flare Cartridge",
+    "ja": "信号弾",
+    "ko": "신호탄",
+    "fr": "Cartouche de signalisation",
+    "de": "Signalpatrone",
+    "es": "Cartucho de señales",
+    "pt": "Cartucho sinalizador",
+    "ru": "Сигнальный патрон"
+  },
+  "furnace.advanced.descr": {
+    "zh": "同时熔炼两组材料，速度比普通熔炉快 20%。",
+    "en": "Smelts two stacks at once, 20% faster than a regular furnace.",
+    "ja": "2スタックを同時に精錬し、通常のかまどより20%速い。",
+    "ko": "두 묶음을 동시에 제련하며 일반 용광로보다 20% 빠릅니다.",
+    "fr": "Fond deux piles à la fois, 20 % plus vite qu’un four ordinaire.",
+    "de": "Schmilzt zwei Stapel gleichzeitig, 20 % schneller als ein normaler Ofen.",
+    "es": "Funde dos pilas a la vez, un 20 % más rápido que un horno normal.",
+    "pt": "Funde duas pilhas ao mesmo tempo, 20% mais rápido que uma fornalha comum.",
+    "ru": "Переплавляет две стопки одновременно, на 20% быстрее обычной печи."
+  },
+  "tactical.marker.descr": {
+    "zh": "信号发射枪的弹药。一发信号弹可呼叫一次空投，不能用手投掷。",
+    "en": "Ammunition for the Signal Flare Gun. One cartridge calls one airdrop. Cannot be thrown by hand.",
+    "ja": "信号弾発射銃用の弾薬。1発で物資投下を1回要請する。手では投げられない。",
+    "ko": "신호탄 발사기용 탄약입니다. 한 발로 보급 투하를 한 번 요청합니다. 손으로 던질 수 없습니다.",
+    "fr": "Munition pour le pistolet de signalisation. Une cartouche appelle un largage. Ne se lance pas à la main.",
+    "de": "Munition für die Signalpistole. Eine Patrone ruft einen Versorgungsabwurf. Kann nicht von Hand geworfen werden.",
+    "es": "Munición para la pistola de señales. Un cartucho solicita un lanzamiento de suministros. No se puede lanzar a mano.",
+    "pt": "Munição para a pistola sinalizadora. Um cartucho solicita uma entrega aérea. Não pode ser lançado à mão.",
+    "ru": "Боеприпас для сигнального пистолета. Один патрон вызывает один сброс припасов. Нельзя бросать вручную."
+  },
+  "weapon.flare.signal.descr": {
+    "zh": "发射信号弹药。在露天朝正上方射击，信号弹爆开后呼叫飞机在下方投放物资。射向地面、墙壁或屋顶下会浪费信号弹。",
+    "en": "Fires a signal flare cartridge. Shoot straight up under an open sky to call a supply plane to drop supplies below the flare. Firing into the ground, a wall or under a roof wastes the signal.",
+    "ja": "信号弾を発射する。屋外で真上に撃つと、信号弾の下に物資を投下する航空機を呼ぶ。地面や壁、屋根の下に撃つと無駄になる。",
+    "ko": "신호탄을 발사합니다. 탁 트인 하늘을 향해 수직으로 쏘면 신호탄 아래에 보급품을 투하할 비행기를 호출합니다. 땅이나 벽을 향하거나 지붕 아래에서 쏘면 낭비됩니다.",
+    "fr": "Tire une cartouche de signalisation. Tirez verticalement à ciel ouvert pour appeler un avion qui larguera des provisions sous la fusée. Tirer au sol, contre un mur ou sous un toit gaspille le signal.",
+    "de": "Verschießt Signalpatronen. Unter freiem Himmel senkrecht nach oben schießen, um einen Versorgungsabwurf unter dem Signal zu rufen. Schüsse auf Boden, Wände oder unter einem Dach verschwenden das Signal.",
+    "es": "Dispara un cartucho de señales. Dispara verticalmente a cielo abierto para solicitar suministros bajo la bengala. Disparar al suelo, a una pared o bajo un techo desperdicia la señal.",
+    "pt": "Dispara um cartucho sinalizador. Atire verticalmente a céu aberto para solicitar suprimentos abaixo do sinal. Atirar no chão, em paredes ou sob um telhado desperdiça o sinal.",
+    "ru": "Стреляет сигнальным патроном. Стреляйте вертикально вверх под открытым небом, чтобы вызвать самолёт со сбросом припасов под сигналом. Выстрел в землю, стену или под крышей тратит сигнал впустую."
+  },
+  "double.barrel": {
+    "zh": "双管霰弹枪",
+    "en": "Double Barrel",
+    "ja": "二連式ショットガン",
+    "ko": "더블 배럴 산탄총",
+    "fr": "Fusil à deux canons",
+    "de": "Doppelläufige Schrotflinte",
+    "es": "Escopeta de dos cañones",
+    "pt": "Espingarda de cano duplo",
+    "ru": "Двуствольный дробовик"
+  },
+  "double.barrel.descr": {
+    "zh": "折开式双管霰弹枪，每次发射一管；折开后同时装填两发，使用 12 号鹿弹。",
+    "en": "Break-action. Two barrels, fired one at a time. Opens to reload both shells. Uses 12-Gauge Buckshot.",
+    "ja": "中折れ式の二連銃。1銃身ずつ発射し、開いて2発を装填する。12ゲージ散弾を使用。",
+    "ko": "중절식 두 총열을 한 번에 하나씩 발사합니다. 열어서 두 발을 장전하며 12게이지 산탄을 사용합니다.",
+    "fr": "Deux canons basculants, tirés un à la fois. Recharge les deux cartouches en ouvrant le fusil. Utilise de la chevrotine calibre 12.",
+    "de": "Kipplaufwaffe mit zwei einzeln abgefeuerten Läufen. Zum Nachladen beider Patronen aufklappen. Verwendet Kaliber-12-Schrot.",
+    "es": "Dos cañones basculantes que disparan de uno en uno. Se abre para recargar ambos cartuchos. Usa perdigones del calibre 12.",
+    "pt": "Dois canos basculantes disparados um de cada vez. Abre para recarregar os dois cartuchos. Usa chumbo grosso calibre 12.",
+    "ru": "Переломное ружьё с двумя стволами, стреляющими по одному. Откройте для перезарядки обоих патронов. Использует картечь 12-го калибра."
+  },
+  "turret.heavy": {
+    "zh": "机枪炮塔",
+    "en": "Machinegun Turret",
+    "ja": "機関銃タレット",
+    "ko": "기관총 포탑",
+    "fr": "Tourelle de mitrailleuse",
+    "de": "Maschinengewehrturm",
+    "es": "Torreta de ametralladora",
+    "pt": "Torreta de metralhadora",
+    "ru": "Пулемётная турель"
+  },
+  "turret.shotgun": {
+    "zh": "霰弹枪炮塔",
+    "en": "Shotgun Turret",
+    "ja": "ショットガンタレット",
+    "ko": "산탄총 포탑",
+    "fr": "Tourelle à fusil à pompe",
+    "de": "Schrotflintenturm",
+    "es": "Torreta de escopeta",
+    "pt": "Torreta de espingarda",
+    "ru": "Дробовая турель"
+  },
+  "turret.heavy.descr": {
+    "zh": "可制造的机枪炮塔，射程是防御建筑中最远的。",
+    "en": "Craftable machinegun turret with the longest reach of any defence structure.",
+    "ja": "製作可能な機関銃タレット。防衛施設の中で最も射程が長い。",
+    "ko": "제작 가능한 기관총 포탑으로 방어 구조물 중 사거리가 가장 깁니다.",
+    "fr": "Tourelle de mitrailleuse fabriquable, avec la plus longue portée des structures défensives.",
+    "de": "Herstellbarer Maschinengewehrturm mit der größten Reichweite aller Verteidigungsanlagen.",
+    "es": "Torreta de ametralladora fabricable con el mayor alcance entre las estructuras defensivas.",
+    "pt": "Torreta de metralhadora fabricável com o maior alcance entre as estruturas defensivas.",
+    "ru": "Создаваемая пулемётная турель с наибольшей дальностью среди защитных сооружений."
+  },
+  "turret.shotgun.descr": {
+    "zh": "近距离炮塔，短促发射鹿弹后重新装填。",
+    "en": "A close-range turret that fires buckshot in short bursts, then reloads.",
+    "ja": "近距離用タレット。短い連射で散弾を放ち、その後装填する。",
+    "ko": "짧게 산탄을 발사한 뒤 재장전하는 근거리 포탑입니다.",
+    "fr": "Tourelle à courte portée qui tire de la chevrotine en courtes rafales, puis recharge.",
+    "de": "Nahbereichsturm, der Schrot in kurzen Salven abfeuert und dann nachlädt.",
+    "es": "Torreta de corto alcance que dispara perdigones en ráfagas cortas y luego recarga.",
+    "pt": "Torreta de curto alcance que dispara chumbo grosso em rajadas curtas e depois recarrega.",
+    "ru": "Турель ближнего боя, стреляющая картечью короткими очередями с последующей перезарядкой."
   }
 }

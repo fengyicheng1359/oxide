@@ -61,6 +61,7 @@
   <url><loc>https://myoxide.fun/de/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/de/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/de/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/de/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/de/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/de/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/de/elf.hat.html</loc></url>
@@ -89,6 +90,7 @@
   <url><loc>https://myoxide.fun/de/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/de/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/de/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/de/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/de/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/-108.html</loc></url>
@@ -255,9 +257,15 @@
   <url><loc>https://myoxide.fun/de/threat.html</loc></url>
   <url><loc>https://myoxide.fun/de/torch.html</loc></url>
   <url><loc>https://myoxide.fun/de/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/de/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/de/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/de/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/de/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/de/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/de/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/de/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/de/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/de/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/de/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/de/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/de/weapon.mod.holosight.html</loc></url>
@@ -338,6 +346,7 @@
   <url><loc>https://myoxide.fun/en/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/en/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/en/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/en/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/en/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/en/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/en/elf.hat.html</loc></url>
@@ -366,6 +375,7 @@
   <url><loc>https://myoxide.fun/en/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/en/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/en/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/en/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/en/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/-108.html</loc></url>
@@ -532,9 +542,15 @@
   <url><loc>https://myoxide.fun/en/threat.html</loc></url>
   <url><loc>https://myoxide.fun/en/torch.html</loc></url>
   <url><loc>https://myoxide.fun/en/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/en/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/en/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/en/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/en/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/en/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/en/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/en/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/en/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/en/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/en/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/en/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/en/weapon.mod.holosight.html</loc></url>
@@ -615,6 +631,7 @@
   <url><loc>https://myoxide.fun/es/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/es/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/es/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/es/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/es/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/es/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/es/elf.hat.html</loc></url>
@@ -643,6 +660,7 @@
   <url><loc>https://myoxide.fun/es/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/es/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/es/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/es/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/es/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/-108.html</loc></url>
@@ -809,9 +827,15 @@
   <url><loc>https://myoxide.fun/es/threat.html</loc></url>
   <url><loc>https://myoxide.fun/es/torch.html</loc></url>
   <url><loc>https://myoxide.fun/es/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/es/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/es/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/es/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/es/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/es/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/es/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/es/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/es/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/es/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/es/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/es/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/es/weapon.mod.holosight.html</loc></url>
@@ -892,6 +916,7 @@
   <url><loc>https://myoxide.fun/fr/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/fr/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/fr/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/fr/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/fr/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/fr/elf.hat.html</loc></url>
@@ -920,6 +945,7 @@
   <url><loc>https://myoxide.fun/fr/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/fr/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/fr/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/fr/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/-108.html</loc></url>
@@ -1086,9 +1112,15 @@
   <url><loc>https://myoxide.fun/fr/threat.html</loc></url>
   <url><loc>https://myoxide.fun/fr/torch.html</loc></url>
   <url><loc>https://myoxide.fun/fr/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/fr/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/fr/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/fr/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/fr/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/fr/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/fr/weapon.mod.holosight.html</loc></url>
@@ -1169,6 +1201,7 @@
   <url><loc>https://myoxide.fun/ja/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/ja/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ja/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/ja/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/ja/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/ja/elf.hat.html</loc></url>
@@ -1197,6 +1230,7 @@
   <url><loc>https://myoxide.fun/ja/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/ja/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/ja/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/ja/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/-108.html</loc></url>
@@ -1363,9 +1397,15 @@
   <url><loc>https://myoxide.fun/ja/threat.html</loc></url>
   <url><loc>https://myoxide.fun/ja/torch.html</loc></url>
   <url><loc>https://myoxide.fun/ja/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/ja/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/ja/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/ja/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/ja/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/ja/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/ja/weapon.mod.holosight.html</loc></url>
@@ -1446,6 +1486,7 @@
   <url><loc>https://myoxide.fun/ko/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/ko/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ko/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/ko/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/ko/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/ko/elf.hat.html</loc></url>
@@ -1474,6 +1515,7 @@
   <url><loc>https://myoxide.fun/ko/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/ko/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/ko/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/ko/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/-108.html</loc></url>
@@ -1640,9 +1682,15 @@
   <url><loc>https://myoxide.fun/ko/threat.html</loc></url>
   <url><loc>https://myoxide.fun/ko/torch.html</loc></url>
   <url><loc>https://myoxide.fun/ko/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/ko/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/ko/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/ko/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/ko/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/ko/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/ko/weapon.mod.holosight.html</loc></url>
@@ -1723,6 +1771,7 @@
   <url><loc>https://myoxide.fun/pt/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/pt/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/pt/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/pt/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/pt/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/pt/elf.hat.html</loc></url>
@@ -1751,6 +1800,7 @@
   <url><loc>https://myoxide.fun/pt/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/pt/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/pt/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/pt/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/-108.html</loc></url>
@@ -1917,9 +1967,15 @@
   <url><loc>https://myoxide.fun/pt/threat.html</loc></url>
   <url><loc>https://myoxide.fun/pt/torch.html</loc></url>
   <url><loc>https://myoxide.fun/pt/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/pt/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/pt/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/pt/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/pt/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/pt/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/pt/weapon.mod.holosight.html</loc></url>
@@ -2000,6 +2056,7 @@
   <url><loc>https://myoxide.fun/ru/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/ru/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ru/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/ru/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/ru/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/ru/elf.hat.html</loc></url>
@@ -2028,6 +2085,7 @@
   <url><loc>https://myoxide.fun/ru/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/ru/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/ru/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/ru/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/-108.html</loc></url>
@@ -2194,9 +2252,15 @@
   <url><loc>https://myoxide.fun/ru/threat.html</loc></url>
   <url><loc>https://myoxide.fun/ru/torch.html</loc></url>
   <url><loc>https://myoxide.fun/ru/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/ru/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/ru/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/ru/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/ru/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/ru/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/ru/weapon.mod.holosight.html</loc></url>
@@ -2277,6 +2341,7 @@
   <url><loc>https://myoxide.fun/zh/door.double.metal.html</loc></url>
   <url><loc>https://myoxide.fun/zh/door.double.wood.html</loc></url>
   <url><loc>https://myoxide.fun/zh/door.metal.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/double.barrel.html</loc></url>
   <url><loc>https://myoxide.fun/zh/dvl.html</loc></url>
   <url><loc>https://myoxide.fun/zh/easter.egg.html</loc></url>
   <url><loc>https://myoxide.fun/zh/elf.hat.html</loc></url>
@@ -2305,6 +2370,7 @@
   <url><loc>https://myoxide.fun/zh/fireworks.html</loc></url>
   <url><loc>https://myoxide.fun/zh/flare.gun.html</loc></url>
   <url><loc>https://myoxide.fun/zh/fuel.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/furnace.advanced.html</loc></url>
   <url><loc>https://myoxide.fun/zh/furnace.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/-104.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/-108.html</loc></url>
@@ -2471,9 +2537,15 @@
   <url><loc>https://myoxide.fun/zh/threat.html</loc></url>
   <url><loc>https://myoxide.fun/zh/torch.html</loc></url>
   <url><loc>https://myoxide.fun/zh/tower.wood.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/turret.heavy.html</loc></url>
   <url><loc>https://myoxide.fun/zh/turret.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/turret.shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/vehicle.part.battery.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/vehicle.part.motor.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/vehicle.part.propeller.html</loc></url>
   <url><loc>https://myoxide.fun/zh/vending.machine.html</loc></url>
   <url><loc>https://myoxide.fun/zh/water.bottle.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/weapon.flare.signal.html</loc></url>
   <url><loc>https://myoxide.fun/zh/weapon.mod.compensator.html</loc></url>
   <url><loc>https://myoxide.fun/zh/weapon.mod.ext.magazine.html</loc></url>
   <url><loc>https://myoxide.fun/zh/weapon.mod.holosight.html</loc></url>

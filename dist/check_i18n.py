@@ -8,7 +8,12 @@ from build_i18n import ROOT, DATA, LANGUAGES, load_guides
 
 def main():
     expected = {p.relative_to(ROOT/'zh') for p in (ROOT/'zh').rglob('*.html')}
-    assert len(expected) == 277, len(expected)
+    config = json.loads((ROOT/'static/config.json').read_text())
+    item_pages = {Path(item['image']).stem + '.html' for items in config.values() for item in items if item.get('image')}
+    required = {Path(name) for name in item_pages | {'index.html', 'items.html', 'play.html', 'about.html', 'recycling.html', 'attack.html', 'defense.html', 'healing.html', 'threat.html'}}
+    required |= {Path('gameplay') / (slug + '.html') for slug in load_guides('zh')}
+    required.add(Path('gameplay/index.html'))
+    assert expected == required, (expected ^ required)
     errors = []
     pages = 0
     site_url = json.loads((ROOT/'static/site-config.json').read_text())['site_url'].rstrip('/')

@@ -329,18 +329,7 @@
       "name_en": "Snowball",
       "name_zh": "纸杯蛋糕手榴弹（原英文显示名为雪球）",
       "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Pumpkin",
-          "name_zh": "南瓜",
-          "amount": 2
-        },
-        {
-          "name_en": "Berries",
-          "name_zh": "浆果",
-          "amount": 2
-        }
-      ],
+      "crafting_materials": [],
       "image": "assets/image/grenade.cupcake.png",
       "acquisition_methods": [],
       "recycling_sources": [],
@@ -468,8 +457,8 @@
       "recycling_outputs": []
     },
     {
-      "name_en": "tactical.marker.title",
-      "name_zh": "战术空中标记器",
+      "name_en": "Signal Flare Cartridge",
+      "name_zh": "信号弹药",
       "attack_power": null,
       "crafting_materials": [],
       "image": "assets/image/tactical.air.marker.png",
@@ -484,16 +473,6 @@
     }
   ],
   "Backpack Equipment": [
-    {
-      "name_en": "Backpack Big",
-      "name_zh": "大型背包",
-      "attack_power": null,
-      "crafting_materials": [],
-      "image": "assets/image/backpack.big.png",
-      "acquisition_methods": [],
-      "recycling_sources": [],
-      "recycling_outputs": []
-    },
     {
       "name_en": "Backpack",
       "name_zh": "背包",
@@ -535,6 +514,16 @@
           "amount": 1
         }
       ]
+    },
+    {
+      "name_en": "Backpack Big",
+      "name_zh": "大型背包",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": "assets/image/backpack.big.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": []
     }
   ],
   "Component": [
@@ -855,8 +844,8 @@
           "amount": 3
         },
         {
-          "name_zh": "金属方形舱门",
-          "name_en": "Metal square hatch",
+          "name_zh": "机枪炮塔",
+          "name_en": "Machinegun Turret",
           "amount": 2
         },
         {
@@ -870,13 +859,23 @@
           "amount": 2
         },
         {
-          "name_zh": "车库门",
-          "name_en": "Garage Door",
-          "amount": 1
+          "name_zh": "金属方形舱门",
+          "name_en": "Metal square hatch",
+          "amount": 2
+        },
+        {
+          "name_zh": "霰弹枪炮塔",
+          "name_en": "Shotgun Turret",
+          "amount": 2
         },
         {
           "name_zh": "自制轻机枪",
           "name_en": "hmlmg",
+          "amount": 1
+        },
+        {
+          "name_zh": "车库门",
+          "name_en": "Garage Door",
           "amount": 1
         }
       ],
@@ -933,23 +932,18 @@
           "amount": 15
         },
         {
-          "name_zh": "活动自制手榴弹",
-          "name_en": "event.grenade.makeshift",
-          "amount": 7
-        },
-        {
           "name_zh": "炸药",
           "name_en": "Explosives",
           "amount": 7
         },
         {
-          "name_zh": "12 号鹿弹",
-          "name_en": "12 Gauge Buckshot",
-          "amount": 1
+          "name_zh": "活动自制手榴弹",
+          "name_en": "event.grenade.makeshift",
+          "amount": 7
         },
         {
-          "name_zh": "5.56 毫米步枪弹",
-          "name_en": "5.56 Rifle Ammo",
+          "name_zh": "自制弹壳",
+          "name_en": "ammo.handmade.shell",
           "amount": 1
         },
         {
@@ -958,8 +952,13 @@
           "amount": 1
         },
         {
-          "name_zh": "自制弹壳",
-          "name_en": "ammo.handmade.shell",
+          "name_zh": "5.56 毫米步枪弹",
+          "name_en": "5.56 Rifle Ammo",
+          "amount": 1
+        },
+        {
+          "name_zh": "12 号鹿弹",
+          "name_en": "12 Gauge Buckshot",
           "amount": 1
         }
       ],
@@ -995,18 +994,7 @@
       "name_en": "Metal Blade",
       "name_zh": "金属刀片",
       "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Metal Fragment",
-          "name_zh": "金属碎片",
-          "amount": 30
-        },
-        {
-          "name_en": "Scrap",
-          "name_zh": "废料",
-          "amount": 10
-        }
-      ],
+      "crafting_materials": [],
       "image": "assets/image/metal.blade.png",
       "acquisition_methods": [
         {
@@ -1020,13 +1008,13 @@
       ],
       "recycling_sources": [
         {
-          "name_zh": "镐",
-          "name_en": "Pickaxe",
+          "name_zh": "砍刀",
+          "name_en": "Machete",
           "amount": 1
         },
         {
-          "name_zh": "砍刀",
-          "name_en": "Machete",
+          "name_zh": "镐",
+          "name_en": "Pickaxe",
           "amount": 1
         },
         {
@@ -1077,23 +1065,28 @@
       ],
       "recycling_sources": [
         {
-          "name_zh": "火箭筒",
-          "name_en": "Rocket Launcher",
-          "amount": 1
-        },
-        {
           "name_zh": "猎枪",
           "name_en": "Hunting Rifle",
           "amount": 1
         },
         {
-          "name_zh": "沙漠之鹰手枪",
-          "name_en": "desert.eagle",
+          "name_zh": "双管霰弹枪",
+          "name_en": "Double Barrel",
           "amount": 1
         },
         {
           "name_zh": "霰弹枪",
           "name_en": "Shotgun",
+          "amount": 1
+        },
+        {
+          "name_zh": "火箭筒",
+          "name_en": "Rocket Launcher",
+          "amount": 1
+        },
+        {
+          "name_zh": "沙漠之鹰手枪",
+          "name_en": "desert.eagle",
           "amount": 1
         }
       ],
@@ -1139,13 +1132,8 @@
       ],
       "recycling_sources": [
         {
-          "name_zh": "DVL 步枪",
-          "name_en": "dvl",
-          "amount": 2
-        },
-        {
-          "name_zh": "FN FAL 步枪",
-          "name_en": "FN FAL",
+          "name_zh": "机枪炮塔",
+          "name_en": "Machinegun Turret",
           "amount": 2
         },
         {
@@ -1154,13 +1142,33 @@
           "amount": 2
         },
         {
-          "name_zh": "冲锋枪",
-          "name_en": "Submachine Gun",
-          "amount": 1
+          "name_zh": "FN FAL 步枪",
+          "name_en": "FN FAL",
+          "amount": 2
+        },
+        {
+          "name_zh": "DVL 步枪",
+          "name_en": "dvl",
+          "amount": 2
+        },
+        {
+          "name_zh": "载具发动机",
+          "name_en": "vehicle.part.motor",
+          "amount": 2
+        },
+        {
+          "name_zh": "霰弹枪炮塔",
+          "name_en": "Shotgun Turret",
+          "amount": 2
         },
         {
           "name_zh": "突击步枪",
           "name_en": "Assault Rifle",
+          "amount": 1
+        },
+        {
+          "name_zh": "自制轻机枪",
+          "name_en": "hmlmg",
           "amount": 1
         },
         {
@@ -1169,8 +1177,8 @@
           "amount": 1
         },
         {
-          "name_zh": "自制轻机枪",
-          "name_en": "hmlmg",
+          "name_zh": "冲锋枪",
+          "name_en": "Submachine Gun",
           "amount": 1
         }
       ],
@@ -1217,23 +1225,7 @@
       "name_en": "Portable Console",
       "name_zh": "便携游戏机",
       "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Cables",
-          "name_zh": "电缆",
-          "amount": 1
-        },
-        {
-          "name_en": "Hard Drive",
-          "name_zh": "硬盘",
-          "amount": 1
-        },
-        {
-          "name_en": "Microprocessor",
-          "name_zh": "微处理器",
-          "amount": 1
-        }
-      ],
+      "crafting_materials": [],
       "image": "assets/image/portable.playstation.png",
       "acquisition_methods": [],
       "recycling_sources": [],
@@ -1257,8 +1249,8 @@
       ],
       "recycling_sources": [
         {
-          "name_zh": "DVL 步枪",
-          "name_en": "dvl",
+          "name_zh": "KRISS Vector 冲锋枪",
+          "name_en": "Kriss Vector",
           "amount": 1
         },
         {
@@ -1267,8 +1259,8 @@
           "amount": 1
         },
         {
-          "name_zh": "KRISS Vector 冲锋枪",
-          "name_en": "Kriss Vector",
+          "name_zh": "DVL 步枪",
+          "name_en": "dvl",
           "amount": 1
         }
       ],
@@ -1315,18 +1307,7 @@
       "name_en": "Road Signs",
       "name_zh": "道路标志",
       "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Scrap",
-          "name_zh": "废料",
-          "amount": 12
-        },
-        {
-          "name_en": "High Quality Metal",
-          "name_zh": "高品质金属",
-          "amount": 1
-        }
-      ],
+      "crafting_materials": [],
       "image": "assets/image/road.signs.png",
       "acquisition_methods": [
         {
@@ -1368,8 +1349,18 @@
           "amount": 2
         },
         {
+          "name_zh": "高木门",
+          "name_en": "High Wooden Gates",
+          "amount": 1
+        },
+        {
           "name_zh": "背包",
           "name_en": "Backpack",
+          "amount": 1
+        },
+        {
+          "name_zh": "砍刀",
+          "name_en": "Machete",
           "amount": 1
         },
         {
@@ -1380,16 +1371,6 @@
         {
           "name_zh": "缝纫套件",
           "name_en": "Sewing Kit",
-          "amount": 1
-        },
-        {
-          "name_zh": "高木门",
-          "name_en": "High Wooden Gates",
-          "amount": 1
-        },
-        {
-          "name_zh": "砍刀",
-          "name_en": "Machete",
           "amount": 1
         },
         {
@@ -1446,13 +1427,13 @@
           "amount": 2
         },
         {
-          "name_zh": "皮革护腿",
-          "name_en": "Leather Leggings",
+          "name_zh": "皮革头盔",
+          "name_en": "Leather Helmet",
           "amount": 1
         },
         {
-          "name_zh": "皮革头盔",
-          "name_en": "Leather Helmet",
+          "name_zh": "皮革护腿",
+          "name_en": "Leather Leggings",
           "amount": 1
         },
         {
@@ -1492,8 +1473,23 @@
       ],
       "recycling_sources": [
         {
+          "name_zh": "载具螺旋桨",
+          "name_en": "vehicle.part.propeller",
+          "amount": 3
+        },
+        {
+          "name_zh": "载具发动机",
+          "name_en": "vehicle.part.motor",
+          "amount": 3
+        },
+        {
           "name_zh": "装甲双开门",
           "name_en": "Armored double door",
+          "amount": 2
+        },
+        {
+          "name_zh": "载具电池",
+          "name_en": "vehicle.part.battery",
           "amount": 2
         },
         {
@@ -1631,9 +1627,9 @@
       ],
       "recycling_sources": [
         {
-          "name_zh": "光学瞄准镜",
-          "name_en": "weapon.mod.optical.scope",
-          "amount": 2
+          "name_zh": "载具电池",
+          "name_en": "vehicle.part.battery",
+          "amount": 4
         },
         {
           "name_zh": "监控摄像头",
@@ -1651,13 +1647,18 @@
           "amount": 2
         },
         {
-          "name_zh": "定时炸药",
-          "name_en": "Timed Explosive Charge",
-          "amount": 1
+          "name_zh": "光学瞄准镜",
+          "name_en": "weapon.mod.optical.scope",
+          "amount": 2
         },
         {
           "name_zh": "微处理器",
           "name_en": "Microprocessor",
+          "amount": 1
+        },
+        {
+          "name_zh": "定时炸药",
+          "name_en": "Timed Explosive Charge",
           "amount": 1
         }
       ],
@@ -1673,6 +1674,105 @@
           "amount": 1
         }
       ]
+    },
+    {
+      "acquisition_methods": [],
+      "name_zh": "载具电池",
+      "name_en": "vehicle.part.battery",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "Targeting Computer",
+          "name_zh": "瞄准计算机",
+          "amount": 1
+        },
+        {
+          "name_en": "Tech Trash",
+          "name_zh": "科技垃圾",
+          "amount": 6
+        },
+        {
+          "name_en": "Sheet Metal",
+          "name_zh": "金属板",
+          "amount": 4
+        }
+      ],
+      "recycling_outputs": [
+        {
+          "name_zh": "科技垃圾",
+          "name_en": "Tech Trash",
+          "amount": 4
+        },
+        {
+          "name_zh": "金属板",
+          "name_en": "Sheet Metal",
+          "amount": 2
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/vehicle.part.battery.png"
+    },
+    {
+      "acquisition_methods": [
+        {
+          "type": "掉落",
+          "detail": "可通过掉落获得"
+        }
+      ],
+      "name_zh": "载具发动机",
+      "name_en": "vehicle.part.motor",
+      "attack_power": null,
+      "crafting_materials": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 20
+        },
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 10
+        },
+        {
+          "name_zh": "金属板",
+          "name_en": "Sheet Metal",
+          "amount": 3
+        },
+        {
+          "name_zh": "金属弹簧",
+          "name_en": "Metal Spring",
+          "amount": 2
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/vehicle.part.motor.png"
+    },
+    {
+      "acquisition_methods": [],
+      "name_zh": "载具螺旋桨",
+      "name_en": "vehicle.part.propeller",
+      "attack_power": null,
+      "crafting_materials": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 10
+        },
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 15
+        },
+        {
+          "name_zh": "金属板",
+          "name_en": "Sheet Metal",
+          "amount": 3
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/vehicle.part.propeller.png"
     },
     {
       "name_en": "Cables",
@@ -2241,6 +2341,21 @@
       "recycling_outputs": []
     },
     {
+      "name_en": "Granola Bar",
+      "name_zh": "谷物棒",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": "assets/image/granola.bar.png",
+      "acquisition_methods": [
+        {
+          "type": "掉落",
+          "detail": "可通过掉落获得"
+        }
+      ],
+      "recycling_sources": [],
+      "recycling_outputs": []
+    },
+    {
       "name_en": "granola.bar.fake.dvl",
       "name_zh": "谷物棒伪装物品（dvl，待核实）",
       "attack_power": null,
@@ -2257,21 +2372,6 @@
       "crafting_materials": [],
       "image": "assets/image/granola.bar.fake.hmlmg.png",
       "acquisition_methods": [],
-      "recycling_sources": [],
-      "recycling_outputs": []
-    },
-    {
-      "name_en": "Granola Bar",
-      "name_zh": "谷物棒",
-      "attack_power": null,
-      "crafting_materials": [],
-      "image": "assets/image/granola.bar.png",
-      "acquisition_methods": [
-        {
-          "type": "掉落",
-          "detail": "可通过掉落获得"
-        }
-      ],
       "recycling_sources": [],
       "recycling_outputs": []
     },
@@ -2728,13 +2828,7 @@
       "name_en": "Leather Helmet",
       "name_zh": "派对尖帽（原英文显示名为皮革头盔）",
       "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Leather",
-          "name_zh": "皮革",
-          "amount": 10
-        }
-      ],
+      "crafting_materials": [],
       "image": "assets/image/party.cone.png",
       "acquisition_methods": [],
       "recycling_sources": [],
@@ -3281,6 +3375,58 @@
       ]
     },
     {
+      "acquisition_methods": [],
+      "name_zh": "高级熔炉",
+      "name_en": "Advanced Furnace",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "Stone",
+          "name_zh": "石头",
+          "amount": 250
+        },
+        {
+          "name_en": "Wood",
+          "name_zh": "木材",
+          "amount": 75
+        },
+        {
+          "name_en": "Metal Fragment",
+          "name_zh": "金属碎片",
+          "amount": 80
+        },
+        {
+          "name_en": "High Quality Metal",
+          "name_zh": "高品质金属",
+          "amount": 10
+        }
+      ],
+      "recycling_outputs": [
+        {
+          "name_zh": "石头",
+          "name_en": "Stone",
+          "amount": 125
+        },
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 37
+        },
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 40
+        },
+        {
+          "name_zh": "高品质金属",
+          "name_en": "High Quality Metal",
+          "amount": 5
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/furnace.advanced.png"
+    },
+    {
       "name_en": "Garage Door",
       "name_zh": "车库门",
       "attack_power": null,
@@ -3530,53 +3676,6 @@
       ]
     },
     {
-      "name_en": "Clan Mining Quarry",
-      "name_zh": "氏族采石场",
-      "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Wood",
-          "name_zh": "木材",
-          "amount": 300
-        },
-        {
-          "name_en": "Metal Fragment",
-          "name_zh": "金属碎片",
-          "amount": 150
-        },
-        {
-          "name_en": "Scrap",
-          "name_zh": "废料",
-          "amount": 100
-        },
-        {
-          "name_en": "Gears",
-          "name_zh": "齿轮",
-          "amount": 2
-        }
-      ],
-      "image": "assets/image/mining.quarry.clan.png",
-      "acquisition_methods": [],
-      "recycling_sources": [],
-      "recycling_outputs": [
-        {
-          "name_zh": "木材",
-          "name_en": "Wood",
-          "amount": 150
-        },
-        {
-          "name_zh": "废料",
-          "name_en": "Scrap",
-          "amount": 50
-        },
-        {
-          "name_zh": "金属碎片",
-          "name_en": "Metal Fragment",
-          "amount": 75
-        }
-      ]
-    },
-    {
       "name_en": "Mining Quarry",
       "name_zh": "采石场",
       "attack_power": null,
@@ -3620,6 +3719,53 @@
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
           "amount": 5
+        }
+      ]
+    },
+    {
+      "name_en": "Clan Mining Quarry",
+      "name_zh": "氏族采石场",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "Wood",
+          "name_zh": "木材",
+          "amount": 300
+        },
+        {
+          "name_en": "Metal Fragment",
+          "name_zh": "金属碎片",
+          "amount": 150
+        },
+        {
+          "name_en": "Scrap",
+          "name_zh": "废料",
+          "amount": 100
+        },
+        {
+          "name_en": "Gears",
+          "name_zh": "齿轮",
+          "amount": 2
+        }
+      ],
+      "image": "assets/image/mining.quarry.clan.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 150
+        },
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 50
+        },
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 75
         }
       ]
     },
@@ -3918,6 +4064,120 @@
           "amount": 5
         }
       ]
+    },
+    {
+      "acquisition_methods": [],
+      "name_zh": "机枪炮塔",
+      "name_en": "Machinegun Turret",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "CCTV Camera",
+          "name_zh": "监控摄像头",
+          "amount": 1
+        },
+        {
+          "name_en": "Targeting Computer",
+          "name_zh": "瞄准计算机",
+          "amount": 1
+        },
+        {
+          "name_en": "High Quality Metal",
+          "name_zh": "高品质金属",
+          "amount": 20
+        },
+        {
+          "name_en": "Metal Spring",
+          "name_zh": "金属弹簧",
+          "amount": 5
+        },
+        {
+          "name_en": "hmlmg",
+          "name_zh": "自制轻机枪",
+          "amount": 1
+        }
+      ],
+      "recycling_outputs": [
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 30
+        },
+        {
+          "name_zh": "齿轮",
+          "name_en": "Gears",
+          "amount": 2
+        },
+        {
+          "name_zh": "高品质金属",
+          "name_en": "High Quality Metal",
+          "amount": 30
+        },
+        {
+          "name_zh": "金属弹簧",
+          "name_en": "Metal Spring",
+          "amount": 2
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/turret.heavy.png"
+    },
+    {
+      "acquisition_methods": [],
+      "name_zh": "霰弹枪炮塔",
+      "name_en": "Shotgun Turret",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "CCTV Camera",
+          "name_zh": "监控摄像头",
+          "amount": 1
+        },
+        {
+          "name_en": "Targeting Computer",
+          "name_zh": "瞄准计算机",
+          "amount": 1
+        },
+        {
+          "name_en": "High Quality Metal",
+          "name_zh": "高品质金属",
+          "amount": 20
+        },
+        {
+          "name_en": "Metal Spring",
+          "name_zh": "金属弹簧",
+          "amount": 5
+        },
+        {
+          "name_en": "Shotgun",
+          "name_zh": "霰弹枪",
+          "amount": 1
+        }
+      ],
+      "recycling_outputs": [
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 20
+        },
+        {
+          "name_zh": "齿轮",
+          "name_en": "Gears",
+          "amount": 2
+        },
+        {
+          "name_zh": "高品质金属",
+          "name_en": "High Quality Metal",
+          "amount": 20
+        },
+        {
+          "name_zh": "金属弹簧",
+          "name_en": "Metal Spring",
+          "amount": 2
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/turret.shotgun.png"
     },
     {
       "name_en": "Vending Machine",
@@ -4251,53 +4511,6 @@
       ]
     },
     {
-      "name_en": "Buggy",
-      "name_zh": "越野车",
-      "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Metal Fragment",
-          "name_zh": "金属碎片",
-          "amount": 150
-        },
-        {
-          "name_en": "Scrap",
-          "name_zh": "废料",
-          "amount": 100
-        },
-        {
-          "name_en": "Gears",
-          "name_zh": "齿轮",
-          "amount": 5
-        },
-        {
-          "name_en": "Sheet Metal",
-          "name_zh": "金属板",
-          "amount": 2
-        }
-      ],
-      "image": "assets/image/buggy.png",
-      "acquisition_methods": [
-        {
-          "type": "奖励/商店",
-          "detail": "可通过奖励或商店获得"
-        }
-      ],
-      "recycling_sources": [],
-      "recycling_outputs": [
-        {
-          "name_zh": "金属碎片",
-          "name_en": "Metal Fragment",
-          "amount": 150
-        },
-        {
-          "name_zh": "废料",
-          "name_en": "Scrap",
-          "amount": 70
-        }
-      ]
-    },
-    {
       "name_en": "Christmas Lights",
       "name_zh": "圣诞彩灯",
       "attack_power": null,
@@ -4343,53 +4556,6 @@
       ],
       "recycling_sources": [],
       "recycling_outputs": []
-    },
-    {
-      "name_en": "Copter",
-      "name_zh": "直升机",
-      "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Metal Fragment",
-          "name_zh": "金属碎片",
-          "amount": 200
-        },
-        {
-          "name_en": "Scrap",
-          "name_zh": "废料",
-          "amount": 50
-        },
-        {
-          "name_en": "Gears",
-          "name_zh": "齿轮",
-          "amount": 5
-        },
-        {
-          "name_en": "Sheet Metal",
-          "name_zh": "金属板",
-          "amount": 1
-        }
-      ],
-      "image": "assets/image/copter.png",
-      "acquisition_methods": [
-        {
-          "type": "奖励/商店",
-          "detail": "可通过奖励或商店获得"
-        }
-      ],
-      "recycling_sources": [],
-      "recycling_outputs": [
-        {
-          "name_zh": "金属碎片",
-          "name_en": "Metal Fragment",
-          "amount": 150
-        },
-        {
-          "name_zh": "废料",
-          "name_en": "Scrap",
-          "amount": 100
-        }
-      ]
     },
     {
       "name_en": "Event Fireworks",
@@ -5001,53 +5167,6 @@
       ]
     },
     {
-      "name_en": "Sleigh",
-      "name_zh": "雪橇",
-      "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Metal Fragment",
-          "name_zh": "金属碎片",
-          "amount": 150
-        },
-        {
-          "name_en": "Scrap",
-          "name_zh": "废料",
-          "amount": 100
-        },
-        {
-          "name_en": "Gears",
-          "name_zh": "齿轮",
-          "amount": 5
-        },
-        {
-          "name_en": "Sheet Metal",
-          "name_zh": "金属板",
-          "amount": 2
-        }
-      ],
-      "image": null,
-      "acquisition_methods": [
-        {
-          "type": "奖励/商店",
-          "detail": "可通过奖励或商店获得"
-        }
-      ],
-      "recycling_sources": [],
-      "recycling_outputs": [
-        {
-          "name_zh": "金属碎片",
-          "name_en": "Metal Fragment",
-          "amount": 150
-        },
-        {
-          "name_zh": "废料",
-          "name_en": "Scrap",
-          "amount": 70
-        }
-      ]
-    },
-    {
       "name_en": "Paper lantern",
       "name_zh": "圣诞活动代币（名称待核实）",
       "attack_power": null,
@@ -5082,13 +5201,13 @@
           "amount": 12
         },
         {
-          "name_zh": "骨靴",
-          "name_en": "Bone Boots",
+          "name_zh": "骨制护腿",
+          "name_en": "Bone Leggings",
           "amount": 7
         },
         {
-          "name_zh": "骨制护腿",
-          "name_en": "Bone Leggings",
+          "name_zh": "骨靴",
+          "name_en": "Bone Boots",
           "amount": 7
         },
         {
@@ -5122,13 +5241,13 @@
           "amount": 12
         },
         {
-          "name_zh": "床",
-          "name_en": "Bed",
+          "name_zh": "缝纫套件",
+          "name_en": "Sewing Kit",
           "amount": 10
         },
         {
-          "name_zh": "缝纫套件",
-          "name_en": "Sewing Kit",
+          "name_zh": "床",
+          "name_en": "Bed",
           "amount": 10
         },
         {
@@ -5137,13 +5256,13 @@
           "amount": 7
         },
         {
-          "name_zh": "木弓",
-          "name_en": "Wooden Bow",
+          "name_zh": "医疗包",
+          "name_en": "Medkit",
           "amount": 7
         },
         {
-          "name_zh": "医疗包",
-          "name_en": "Medkit",
+          "name_zh": "木弓",
+          "name_en": "Wooden Bow",
           "amount": 7
         },
         {
@@ -5157,11 +5276,6 @@
           "amount": 6
         },
         {
-          "name_zh": "骨制胸甲",
-          "name_en": "Bone Chestplate",
-          "amount": 5
-        },
-        {
           "name_zh": "精灵帽",
           "name_en": "Elf Hat",
           "amount": 5
@@ -5172,18 +5286,13 @@
           "amount": 5
         },
         {
-          "name_zh": "木制护腿",
-          "name_en": "Wooden Leggings",
+          "name_zh": "女巫帽",
+          "name_en": "Witch Hat",
           "amount": 5
         },
         {
           "name_zh": "木制胸甲",
           "name_en": "Wood Chestplate",
-          "amount": 5
-        },
-        {
-          "name_zh": "女巫帽",
-          "name_en": "Witch Hat",
           "amount": 5
         },
         {
@@ -5197,9 +5306,14 @@
           "amount": 5
         },
         {
-          "name_zh": "金属胸甲",
-          "name_en": "Metal Chestplate",
-          "amount": 4
+          "name_zh": "骨制胸甲",
+          "name_en": "Bone Chestplate",
+          "amount": 5
+        },
+        {
+          "name_zh": "木制护腿",
+          "name_en": "Wooden Leggings",
+          "amount": 5
         },
         {
           "name_zh": "猎枪",
@@ -5212,23 +5326,23 @@
           "amount": 4
         },
         {
+          "name_zh": "金属胸甲",
+          "name_en": "Metal Chestplate",
+          "amount": 4
+        },
+        {
           "name_zh": "金属护腿",
           "name_en": "Metal Leggings",
           "amount": 3
         },
         {
-          "name_zh": "绷带",
-          "name_en": "Bandage",
+          "name_zh": "木制尖刺棒",
+          "name_en": "Wooden Spiked Club",
           "amount": 2
         },
         {
-          "name_zh": "骨棒",
-          "name_en": "Bone Club",
-          "amount": 2
-        },
-        {
-          "name_zh": "骨靴",
-          "name_en": "Bone Boots",
+          "name_zh": "金属靴",
+          "name_en": "Metal Boots",
           "amount": 2
         },
         {
@@ -5237,13 +5351,23 @@
           "amount": 2
         },
         {
+          "name_zh": "骨棒",
+          "name_en": "Bone Club",
+          "amount": 2
+        },
+        {
+          "name_zh": "绷带",
+          "name_en": "Bandage",
+          "amount": 2
+        },
+        {
           "name_zh": "金属面罩",
           "name_en": "Metal Mask",
           "amount": 2
         },
         {
-          "name_zh": "金属靴",
-          "name_en": "Metal Boots",
+          "name_zh": "信号枪",
+          "name_en": "Flare Gun",
           "amount": 2
         },
         {
@@ -5257,13 +5381,8 @@
           "amount": 2
         },
         {
-          "name_zh": "木制尖刺棒",
-          "name_en": "Wooden Spiked Club",
-          "amount": 2
-        },
-        {
-          "name_zh": "信号枪",
-          "name_en": "Flare Gun",
+          "name_zh": "骨靴",
+          "name_en": "Bone Boots",
           "amount": 2
         }
       ],
@@ -5326,8 +5445,13 @@
       ],
       "recycling_sources": [
         {
-          "name_zh": "DVL 步枪",
-          "name_en": "dvl",
+          "name_zh": "机枪炮塔",
+          "name_en": "Machinegun Turret",
+          "amount": 30
+        },
+        {
+          "name_zh": "KRISS Vector 冲锋枪",
+          "name_en": "Kriss Vector",
           "amount": 25
         },
         {
@@ -5336,8 +5460,8 @@
           "amount": 25
         },
         {
-          "name_zh": "KRISS Vector 冲锋枪",
-          "name_en": "Kriss Vector",
+          "name_zh": "DVL 步枪",
+          "name_en": "dvl",
           "amount": 25
         },
         {
@@ -5351,14 +5475,14 @@
           "amount": 20
         },
         {
+          "name_zh": "霰弹枪炮塔",
+          "name_en": "Shotgun Turret",
+          "amount": 20
+        },
+        {
           "name_zh": "军用套装",
           "name_en": "military.suit",
           "amount": 17
-        },
-        {
-          "name_zh": "火箭筒",
-          "name_en": "Rocket Launcher",
-          "amount": 15
         },
         {
           "name_zh": "突击步枪",
@@ -5366,8 +5490,13 @@
           "amount": 15
         },
         {
-          "name_zh": "风镐",
-          "name_en": "jackhammer",
+          "name_zh": "火箭筒",
+          "name_en": "Rocket Launcher",
+          "amount": 15
+        },
+        {
+          "name_zh": "猎枪",
+          "name_en": "Hunting Rifle",
           "amount": 10
         },
         {
@@ -5376,23 +5505,23 @@
           "amount": 10
         },
         {
-          "name_zh": "猎枪",
-          "name_en": "Hunting Rifle",
-          "amount": 10
-        },
-        {
           "name_zh": "装甲方形舱门",
           "name_en": "Armored square hatch",
           "amount": 10
         },
         {
-          "name_zh": "装甲门",
-          "name_en": "Armored door",
+          "name_zh": "风镐",
+          "name_en": "jackhammer",
           "amount": 10
         },
         {
           "name_zh": "装甲三角舱门",
           "name_en": "Armored triangular hatch",
+          "amount": 10
+        },
+        {
+          "name_zh": "装甲门",
+          "name_en": "Armored door",
           "amount": 10
         },
         {
@@ -5406,13 +5535,8 @@
           "amount": 6
         },
         {
-          "name_zh": "补偿器",
-          "name_en": "weapon.mod.compensator",
-          "amount": 5
-        },
-        {
-          "name_zh": "采石场",
-          "name_en": "Mining Quarry",
+          "name_zh": "高级熔炉",
+          "name_en": "Advanced Furnace",
           "amount": 5
         },
         {
@@ -5421,8 +5545,18 @@
           "amount": 5
         },
         {
-          "name_zh": "炮塔",
-          "name_en": "Turret",
+          "name_zh": "霰弹枪",
+          "name_en": "Shotgun",
+          "amount": 5
+        },
+        {
+          "name_zh": "采石场",
+          "name_en": "Mining Quarry",
+          "amount": 5
+        },
+        {
+          "name_zh": "补偿器",
+          "name_en": "weapon.mod.compensator",
           "amount": 5
         },
         {
@@ -5431,8 +5565,8 @@
           "amount": 5
         },
         {
-          "name_zh": "霰弹枪",
-          "name_en": "Shotgun",
+          "name_zh": "炮塔",
+          "name_en": "Turret",
           "amount": 5
         },
         {
@@ -5441,23 +5575,23 @@
           "amount": 5
         },
         {
-          "name_zh": "防化服",
-          "name_en": "Hazmat Suit",
-          "amount": 4
-        },
-        {
           "name_zh": "金属胸甲",
           "name_en": "Metal Chestplate",
           "amount": 4
         },
         {
-          "name_zh": "金属护腿",
-          "name_en": "Metal Leggings",
-          "amount": 3
+          "name_zh": "防化服",
+          "name_en": "Hazmat Suit",
+          "amount": 4
         },
         {
           "name_zh": "全息瞄准镜",
           "name_en": "weapon.mod.holosight",
+          "amount": 3
+        },
+        {
+          "name_zh": "金属护腿",
+          "name_en": "Metal Leggings",
           "amount": 3
         },
         {
@@ -5466,8 +5600,18 @@
           "amount": 3
         },
         {
-          "name_zh": "步枪零件",
-          "name_en": "Rifle Part",
+          "name_zh": "枪口制退器",
+          "name_en": "weapon.mod.muzzle.brake",
+          "amount": 2
+        },
+        {
+          "name_zh": "瞄准计算机",
+          "name_en": "Targeting Computer",
+          "amount": 2
+        },
+        {
+          "name_zh": "扩容弹匣",
+          "name_en": "weapon.mod.ext.magazine",
           "amount": 2
         },
         {
@@ -5481,19 +5625,19 @@
           "amount": 2
         },
         {
-          "name_zh": "扩容弹匣",
-          "name_en": "weapon.mod.ext.magazine",
+          "name_zh": "步枪零件",
+          "name_en": "Rifle Part",
           "amount": 2
         },
         {
-          "name_zh": "瞄准计算机",
-          "name_en": "Targeting Computer",
-          "amount": 2
+          "name_zh": "监控摄像头",
+          "name_en": "CCTV Camera",
+          "amount": 1
         },
         {
-          "name_zh": "枪口制退器",
-          "name_en": "weapon.mod.muzzle.brake",
-          "amount": 2
+          "name_zh": "金属靴",
+          "name_en": "Metal Boots",
+          "amount": 1
         },
         {
           "name_zh": "半自动枪身",
@@ -5501,8 +5645,8 @@
           "amount": 1
         },
         {
-          "name_zh": "冲锋枪枪身",
-          "name_en": "SMG Body",
+          "name_zh": "科技垃圾",
+          "name_en": "Tech Trash",
           "amount": 1
         },
         {
@@ -5516,8 +5660,8 @@
           "amount": 1
         },
         {
-          "name_zh": "监控摄像头",
-          "name_en": "CCTV Camera",
+          "name_zh": "左轮手枪",
+          "name_en": "Revolver",
           "amount": 1
         },
         {
@@ -5526,18 +5670,8 @@
           "amount": 1
         },
         {
-          "name_zh": "金属靴",
-          "name_en": "Metal Boots",
-          "amount": 1
-        },
-        {
-          "name_zh": "科技垃圾",
-          "name_en": "Tech Trash",
-          "amount": 1
-        },
-        {
-          "name_zh": "左轮手枪",
-          "name_en": "Revolver",
+          "name_zh": "冲锋枪枪身",
+          "name_en": "SMG Body",
           "amount": 1
         }
       ],
@@ -5581,6 +5715,11 @@
           "amount": 5
         },
         {
+          "name_zh": "皮革头盔",
+          "name_en": "Leather Helmet",
+          "amount": 5
+        },
+        {
           "name_zh": "派对尖帽（原英文显示名为皮革头盔）",
           "name_en": "Leather Helmet",
           "amount": 5
@@ -5588,11 +5727,6 @@
         {
           "name_zh": "皮革护腿",
           "name_en": "Leather Leggings",
-          "amount": 5
-        },
-        {
-          "name_zh": "皮革头盔",
-          "name_en": "Leather Helmet",
           "amount": 5
         },
         {
@@ -5630,6 +5764,11 @@
       ],
       "recycling_sources": [
         {
+          "name_zh": "氏族废料回收机",
+          "name_en": "Clan Scrap Recycler",
+          "amount": 150
+        },
+        {
           "name_zh": "采石场",
           "name_en": "Mining Quarry",
           "amount": 150
@@ -5640,23 +5779,18 @@
           "amount": 150
         },
         {
-          "name_zh": "氏族废料回收机",
-          "name_en": "Clan Scrap Recycler",
-          "amount": 150
-        },
-        {
           "name_zh": "高木门",
           "name_en": "High Wooden Gates",
           "amount": 100
         },
         {
-          "name_zh": "木塔",
-          "name_en": "Tower Wood",
+          "name_zh": "氏族锯木厂",
+          "name_en": "Clan Sawmill",
           "amount": 100
         },
         {
-          "name_zh": "氏族锯木厂",
-          "name_en": "Clan Sawmill",
+          "name_zh": "木塔",
+          "name_en": "Tower Wood",
           "amount": 100
         },
         {
@@ -5670,6 +5804,11 @@
           "amount": 60
         },
         {
+          "name_zh": "领地柜",
+          "name_en": "Cupboard",
+          "amount": 50
+        },
+        {
           "name_zh": "钉头锤",
           "name_en": "Mace",
           "amount": 50
@@ -5680,14 +5819,9 @@
           "amount": 50
         },
         {
-          "name_zh": "领地柜",
-          "name_en": "Cupboard",
-          "amount": 50
-        },
-        {
-          "name_zh": "大型储物箱",
-          "name_en": "Large Storage Box",
-          "amount": 25
+          "name_zh": "高级熔炉",
+          "name_en": "Advanced Furnace",
+          "amount": 37
         },
         {
           "name_zh": "木矛",
@@ -5695,8 +5829,8 @@
           "amount": 25
         },
         {
-          "name_zh": "木制双开门",
-          "name_en": "Wooden double door",
+          "name_zh": "霰弹枪",
+          "name_en": "Shotgun",
           "amount": 25
         },
         {
@@ -5705,8 +5839,13 @@
           "amount": 25
         },
         {
-          "name_zh": "铁矛",
-          "name_en": "Iron Spear",
+          "name_zh": "木制双开门",
+          "name_en": "Wooden double door",
+          "amount": 25
+        },
+        {
+          "name_zh": "大型储物箱",
+          "name_en": "Large Storage Box",
           "amount": 25
         },
         {
@@ -5715,8 +5854,8 @@
           "amount": 25
         },
         {
-          "name_zh": "霰弹枪",
-          "name_en": "Shotgun",
+          "name_zh": "铁矛",
+          "name_en": "Iron Spear",
           "amount": 25
         },
         {
@@ -5730,6 +5869,11 @@
           "amount": 15
         },
         {
+          "name_zh": "双管霰弹枪",
+          "name_en": "Double Barrel",
+          "amount": 15
+        },
+        {
           "name_zh": "储物箱",
           "name_en": "Storage Box",
           "amount": 12
@@ -5740,18 +5884,13 @@
           "amount": 12
         },
         {
-          "name_zh": "斧头",
-          "name_en": "Axe",
+          "name_zh": "木制尖刺棒",
+          "name_en": "Wooden Spiked Club",
           "amount": 10
         },
         {
-          "name_zh": "建筑锤",
-          "name_en": "Building Hammer",
-          "amount": 10
-        },
-        {
-          "name_zh": "木弓",
-          "name_en": "Wooden Bow",
+          "name_zh": "钥匙锁",
+          "name_en": "Key Lock",
           "amount": 10
         },
         {
@@ -5760,8 +5899,8 @@
           "amount": 10
         },
         {
-          "name_zh": "木制尖刺棒",
-          "name_en": "Wooden Spiked Club",
+          "name_zh": "建筑锤",
+          "name_en": "Building Hammer",
           "amount": 10
         },
         {
@@ -5770,8 +5909,13 @@
           "amount": 10
         },
         {
-          "name_zh": "钥匙锁",
-          "name_en": "Key Lock",
+          "name_zh": "木弓",
+          "name_en": "Wooden Bow",
+          "amount": 10
+        },
+        {
+          "name_zh": "斧头",
+          "name_en": "Axe",
           "amount": 10
         },
         {
@@ -5805,8 +5949,8 @@
           "amount": 5
         },
         {
-          "name_zh": "箭",
-          "name_en": "Arrow",
+          "name_zh": "弩箭",
+          "name_en": "Bolt",
           "amount": 1
         },
         {
@@ -5815,18 +5959,18 @@
           "amount": 1
         },
         {
-          "name_zh": "木棍",
-          "name_en": "Stick",
-          "amount": 1
-        },
-        {
-          "name_zh": "弩箭",
-          "name_en": "Bolt",
+          "name_zh": "箭",
+          "name_en": "Arrow",
           "amount": 1
         },
         {
           "name_zh": "雪人头",
           "name_en": "Snowman Head",
+          "amount": 1
+        },
+        {
+          "name_zh": "木棍",
+          "name_en": "Stick",
           "amount": 1
         }
       ],
@@ -5854,13 +5998,13 @@
       ],
       "recycling_sources": [
         {
-          "name_zh": "雪橇",
-          "name_en": "Sleigh",
+          "name_zh": "越野车",
+          "name_en": "Buggy",
           "amount": 150
         },
         {
-          "name_zh": "越野车",
-          "name_en": "Buggy",
+          "name_zh": "雪橇",
+          "name_en": "Sleigh",
           "amount": 150
         },
         {
@@ -5879,18 +6023,8 @@
           "amount": 75
         },
         {
-          "name_zh": "军用套装",
-          "name_en": "military.suit",
-          "amount": 50
-        },
-        {
           "name_zh": "氏族废料回收机",
           "name_en": "Clan Scrap Recycler",
-          "amount": 50
-        },
-        {
-          "name_zh": "氏族锯木厂",
-          "name_en": "Clan Sawmill",
           "amount": 50
         },
         {
@@ -5899,13 +6033,28 @@
           "amount": 50
         },
         {
-          "name_zh": "金属双开门",
-          "name_en": "Metal double door",
-          "amount": 40
+          "name_zh": "氏族锯木厂",
+          "name_en": "Clan Sawmill",
+          "amount": 50
+        },
+        {
+          "name_zh": "军用套装",
+          "name_en": "military.suit",
+          "amount": 50
         },
         {
           "name_zh": "砍刀",
           "name_en": "Machete",
+          "amount": 40
+        },
+        {
+          "name_zh": "高级熔炉",
+          "name_en": "Advanced Furnace",
+          "amount": 40
+        },
+        {
+          "name_zh": "金属双开门",
+          "name_en": "Metal double door",
           "amount": 40
         },
         {
@@ -5914,18 +6063,18 @@
           "amount": 35
         },
         {
-          "name_zh": "装甲门",
-          "name_en": "Armored door",
-          "amount": 35
-        },
-        {
           "name_zh": "自制轻机枪",
           "name_en": "hmlmg",
           "amount": 35
         },
         {
-          "name_zh": "镐",
-          "name_en": "Pickaxe",
+          "name_zh": "装甲门",
+          "name_en": "Armored door",
+          "amount": 35
+        },
+        {
+          "name_zh": "瞄准计算机",
+          "name_en": "Targeting Computer",
           "amount": 30
         },
         {
@@ -5934,8 +6083,8 @@
           "amount": 30
         },
         {
-          "name_zh": "瞄准计算机",
-          "name_en": "Targeting Computer",
+          "name_zh": "镐",
+          "name_en": "Pickaxe",
           "amount": 30
         },
         {
@@ -5944,13 +6093,18 @@
           "amount": 30
         },
         {
+          "name_zh": "双管霰弹枪",
+          "name_en": "Double Barrel",
+          "amount": 30
+        },
+        {
           "name_zh": "沙漠之鹰手枪",
           "name_en": "desert.eagle",
           "amount": 30
         },
         {
-          "name_zh": "车库门",
-          "name_en": "Garage Door",
+          "name_zh": "造雪机",
+          "name_en": "Snow Machine",
           "amount": 25
         },
         {
@@ -5959,8 +6113,8 @@
           "amount": 25
         },
         {
-          "name_zh": "金属方形舱门",
-          "name_en": "Metal square hatch",
+          "name_zh": "车库门",
+          "name_en": "Garage Door",
           "amount": 25
         },
         {
@@ -5969,8 +6123,18 @@
           "amount": 25
         },
         {
+          "name_zh": "烟花",
+          "name_en": "Fireworks",
+          "amount": 25
+        },
+        {
           "name_zh": "炮塔",
           "name_en": "Turret",
+          "amount": 25
+        },
+        {
+          "name_zh": "金属方形舱门",
+          "name_en": "Metal square hatch",
           "amount": 25
         },
         {
@@ -5979,14 +6143,9 @@
           "amount": 25
         },
         {
-          "name_zh": "烟花",
-          "name_en": "Fireworks",
-          "amount": 25
-        },
-        {
-          "name_zh": "造雪机",
-          "name_en": "Snow Machine",
-          "amount": 25
+          "name_zh": "汤普森冲锋枪",
+          "name_en": "Thompson",
+          "amount": 20
         },
         {
           "name_zh": "金属板",
@@ -5999,18 +6158,13 @@
           "amount": 20
         },
         {
-          "name_zh": "汤普森冲锋枪",
-          "name_en": "Thompson",
-          "amount": 20
+          "name_zh": "金属门",
+          "name_en": "Metal Door",
+          "amount": 18
         },
         {
           "name_zh": "金属护腿",
           "name_en": "Metal Leggings",
-          "amount": 18
-        },
-        {
-          "name_zh": "金属门",
-          "name_en": "Metal Door",
           "amount": 18
         },
         {
@@ -6019,23 +6173,18 @@
           "amount": 18
         },
         {
-          "name_zh": "金属面罩",
-          "name_en": "Metal Mask",
-          "amount": 16
-        },
-        {
           "name_zh": "金属靴",
           "name_en": "Metal Boots",
           "amount": 16
         },
         {
-          "name_zh": "床",
-          "name_en": "Bed",
-          "amount": 15
+          "name_zh": "金属面罩",
+          "name_en": "Metal Mask",
+          "amount": 16
         },
         {
-          "name_zh": "大锅",
-          "name_en": "Cauldron",
+          "name_zh": "木制尖刺棒",
+          "name_en": "Wooden Spiked Club",
           "amount": 15
         },
         {
@@ -6044,13 +6193,8 @@
           "amount": 15
         },
         {
-          "name_zh": "高石门",
-          "name_en": "High Stone Gates",
-          "amount": 15
-        },
-        {
-          "name_zh": "金属射击孔",
-          "name_en": "Embrasure Metal",
+          "name_zh": "载具螺旋桨",
+          "name_en": "vehicle.part.propeller",
           "amount": 15
         },
         {
@@ -6059,18 +6203,13 @@
           "amount": 15
         },
         {
-          "name_zh": "密码锁",
-          "name_en": "Code Lock",
+          "name_zh": "高石门",
+          "name_en": "High Stone Gates",
           "amount": 15
         },
         {
-          "name_zh": "木制尖刺棒",
-          "name_en": "Wooden Spiked Club",
-          "amount": 15
-        },
-        {
-          "name_zh": "圣诞点唱机",
-          "name_en": "Christmas Jukebox",
+          "name_zh": "床",
+          "name_en": "Bed",
           "amount": 15
         },
         {
@@ -6079,28 +6218,48 @@
           "amount": 15
         },
         {
-          "name_zh": "铁砧",
-          "name_en": "Anvil",
-          "amount": 15
-        },
-        {
           "name_zh": "左轮手枪",
           "name_en": "Revolver",
           "amount": 15
         },
         {
-          "name_zh": "冲锋枪",
-          "name_en": "Submachine Gun",
-          "amount": 12
+          "name_zh": "大锅",
+          "name_en": "Cauldron",
+          "amount": 15
         },
         {
-          "name_zh": "钢珠枪",
-          "name_en": "steel.ball.gun",
+          "name_zh": "密码锁",
+          "name_en": "Code Lock",
+          "amount": 15
+        },
+        {
+          "name_zh": "圣诞点唱机",
+          "name_en": "Christmas Jukebox",
+          "amount": 15
+        },
+        {
+          "name_zh": "铁砧",
+          "name_en": "Anvil",
+          "amount": 15
+        },
+        {
+          "name_zh": "金属射击孔",
+          "name_en": "Embrasure Metal",
+          "amount": 15
+        },
+        {
+          "name_zh": "自制手枪",
+          "name_en": "Handmade Pistol",
           "amount": 12
         },
         {
           "name_zh": "火箭弹",
           "name_en": "Rocket",
+          "amount": 12
+        },
+        {
+          "name_zh": "钢珠枪",
+          "name_en": "steel.ball.gun",
           "amount": 12
         },
         {
@@ -6114,14 +6273,9 @@
           "amount": 12
         },
         {
-          "name_zh": "自制手枪",
-          "name_en": "Handmade Pistol",
+          "name_zh": "冲锋枪",
+          "name_en": "Submachine Gun",
           "amount": 12
-        },
-        {
-          "name_zh": "大型储物箱",
-          "name_en": "Large Storage Box",
-          "amount": 10
         },
         {
           "name_zh": "弩",
@@ -6134,33 +6288,28 @@
           "amount": 10
         },
         {
+          "name_zh": "大型储物箱",
+          "name_en": "Large Storage Box",
+          "amount": 10
+        },
+        {
+          "name_zh": "载具发动机",
+          "name_en": "vehicle.part.motor",
+          "amount": 10
+        },
+        {
           "name_zh": "信号枪",
           "name_en": "Flare Gun",
           "amount": 8
         },
         {
-          "name_zh": "齿轮",
-          "name_en": "Gears",
-          "amount": 5
+          "name_zh": "信号发射枪",
+          "name_en": "Signal Flare Gun",
+          "amount": 7
         },
         {
-          "name_zh": "斧头",
-          "name_en": "Axe",
-          "amount": 5
-        },
-        {
-          "name_zh": "活动烟雾弹",
-          "name_en": "grenade.smoke",
-          "amount": 5
-        },
-        {
-          "name_zh": "活动自制手榴弹",
-          "name_en": "event.grenade.makeshift",
-          "amount": 5
-        },
-        {
-          "name_zh": "简易瞄准镜",
-          "name_en": "weapon.mod.simple.scope",
+          "name_zh": "空豆罐头",
+          "name_en": "Empty Beans Can",
           "amount": 5
         },
         {
@@ -6169,18 +6318,23 @@
           "amount": 5
         },
         {
-          "name_zh": "金属刀片",
-          "name_en": "Metal Blade",
+          "name_zh": "吸顶灯",
+          "name_en": "Ceiling Light",
           "amount": 5
         },
         {
-          "name_zh": "金属管",
-          "name_en": "Metal Pipe",
+          "name_zh": "活动烟雾弹",
+          "name_en": "grenade.smoke",
           "amount": 5
         },
         {
-          "name_zh": "空豆罐头",
-          "name_en": "Empty Beans Can",
+          "name_zh": "简易瞄准镜",
+          "name_en": "weapon.mod.simple.scope",
+          "amount": 5
+        },
+        {
+          "name_zh": "活动自制手榴弹",
+          "name_en": "event.grenade.makeshift",
           "amount": 5
         },
         {
@@ -6189,18 +6343,33 @@
           "amount": 5
         },
         {
+          "name_zh": "金属刀片",
+          "name_en": "Metal Blade",
+          "amount": 5
+        },
+        {
+          "name_zh": "齿轮",
+          "name_en": "Gears",
+          "amount": 5
+        },
+        {
           "name_zh": "碎石工具",
           "name_en": "Stonecracker",
           "amount": 5
         },
         {
-          "name_zh": "吸顶灯",
-          "name_en": "Ceiling Light",
+          "name_zh": "医疗包",
+          "name_en": "Medkit",
           "amount": 5
         },
         {
-          "name_zh": "医疗包",
-          "name_en": "Medkit",
+          "name_zh": "金属管",
+          "name_en": "Metal Pipe",
+          "amount": 5
+        },
+        {
+          "name_zh": "斧头",
+          "name_en": "Axe",
           "amount": 5
         },
         {
@@ -6219,8 +6388,13 @@
           "amount": 2
         },
         {
-          "name_zh": "12 号鹿弹",
-          "name_en": "12 Gauge Buckshot",
+          "name_zh": "自制弹壳",
+          "name_en": "ammo.handmade.shell",
+          "amount": 1
+        },
+        {
+          "name_zh": "手枪弹药",
+          "name_en": "Pistol Ammo",
           "amount": 1
         },
         {
@@ -6234,13 +6408,8 @@
           "amount": 1
         },
         {
-          "name_zh": "手枪弹药",
-          "name_en": "Pistol Ammo",
-          "amount": 1
-        },
-        {
-          "name_zh": "自制弹壳",
-          "name_en": "ammo.handmade.shell",
+          "name_zh": "12 号鹿弹",
+          "name_en": "12 Gauge Buckshot",
           "amount": 1
         }
       ],
@@ -6309,23 +6478,23 @@
           "amount": 100
         },
         {
-          "name_zh": "雪橇",
-          "name_en": "Sleigh",
-          "amount": 70
-        },
-        {
           "name_zh": "越野车",
           "name_en": "Buggy",
           "amount": 70
         },
         {
-          "name_zh": "炮塔",
-          "name_en": "Turret",
-          "amount": 50
+          "name_zh": "雪橇",
+          "name_en": "Sleigh",
+          "amount": 70
         },
         {
           "name_zh": "氏族采石场",
           "name_en": "Clan Mining Quarry",
+          "amount": 50
+        },
+        {
+          "name_zh": "炮塔",
+          "name_en": "Turret",
           "amount": 50
         },
         {
@@ -6334,13 +6503,18 @@
           "amount": 50
         },
         {
-          "name_zh": "风镐",
-          "name_en": "jackhammer",
+          "name_zh": "链锯",
+          "name_en": "chainsaw",
           "amount": 35
         },
         {
-          "name_zh": "链锯",
-          "name_en": "chainsaw",
+          "name_zh": "自动售货机",
+          "name_en": "Vending Machine",
+          "amount": 35
+        },
+        {
+          "name_zh": "风镐",
+          "name_en": "jackhammer",
           "amount": 35
         },
         {
@@ -6349,9 +6523,9 @@
           "amount": 35
         },
         {
-          "name_zh": "自动售货机",
-          "name_en": "Vending Machine",
-          "amount": 35
+          "name_zh": "机枪炮塔",
+          "name_en": "Machinegun Turret",
+          "amount": 30
         },
         {
           "name_zh": "采石场",
@@ -6364,18 +6538,13 @@
           "amount": 25
         },
         {
-          "name_zh": "步枪零件",
-          "name_en": "Rifle Part",
-          "amount": 20
-        },
-        {
           "name_zh": "步枪枪身",
           "name_en": "Rifle Body",
           "amount": 20
         },
         {
-          "name_zh": "定时炸药",
-          "name_en": "Timed Explosive Charge",
+          "name_zh": "步枪零件",
+          "name_en": "Rifle Part",
           "amount": 20
         },
         {
@@ -6384,13 +6553,23 @@
           "amount": 20
         },
         {
-          "name_zh": "半自动枪身",
-          "name_en": "Semi Automatic Body",
-          "amount": 15
+          "name_zh": "定时炸药",
+          "name_en": "Timed Explosive Charge",
+          "amount": 20
         },
         {
-          "name_zh": "枪械陷阱",
-          "name_en": "Gun Trap",
+          "name_zh": "载具发动机",
+          "name_en": "vehicle.part.motor",
+          "amount": 20
+        },
+        {
+          "name_zh": "霰弹枪炮塔",
+          "name_en": "Shotgun Turret",
+          "amount": 20
+        },
+        {
+          "name_zh": "半自动枪身",
+          "name_en": "Semi Automatic Body",
           "amount": 15
         },
         {
@@ -6399,14 +6578,49 @@
           "amount": 15
         },
         {
-          "name_zh": "金属弹簧",
-          "name_en": "Metal Spring",
-          "amount": 12
+          "name_zh": "枪械陷阱",
+          "name_en": "Gun Trap",
+          "amount": 15
         },
         {
           "name_zh": "自制手枪",
           "name_en": "Handmade Pistol",
           "amount": 12
+        },
+        {
+          "name_zh": "金属弹簧",
+          "name_en": "Metal Spring",
+          "amount": 12
+        },
+        {
+          "name_zh": "全息瞄准镜",
+          "name_en": "weapon.mod.holosight",
+          "amount": 10
+        },
+        {
+          "name_zh": "载具螺旋桨",
+          "name_en": "vehicle.part.propeller",
+          "amount": 10
+        },
+        {
+          "name_zh": "科技垃圾",
+          "name_en": "Tech Trash",
+          "amount": 10
+        },
+        {
+          "name_zh": "火箭弹",
+          "name_en": "Rocket",
+          "amount": 10
+        },
+        {
+          "name_zh": "钢珠枪",
+          "name_en": "steel.ball.gun",
+          "amount": 10
+        },
+        {
+          "name_zh": "汤普森冲锋枪",
+          "name_en": "Thompson",
+          "amount": 10
         },
         {
           "name_zh": "齿轮",
@@ -6424,31 +6638,6 @@
           "amount": 10
         },
         {
-          "name_zh": "钢珠枪",
-          "name_en": "steel.ball.gun",
-          "amount": 10
-        },
-        {
-          "name_zh": "火箭弹",
-          "name_en": "Rocket",
-          "amount": 10
-        },
-        {
-          "name_zh": "科技垃圾",
-          "name_en": "Tech Trash",
-          "amount": 10
-        },
-        {
-          "name_zh": "全息瞄准镜",
-          "name_en": "weapon.mod.holosight",
-          "amount": 10
-        },
-        {
-          "name_zh": "汤普森冲锋枪",
-          "name_en": "Thompson",
-          "amount": 10
-        },
-        {
           "name_zh": "空丙烷罐",
           "name_en": "Empty Propane Tank",
           "amount": 8
@@ -6456,6 +6645,11 @@
         {
           "name_zh": "火箭筒",
           "name_en": "Rocket Launcher",
+          "amount": 7
+        },
+        {
+          "name_zh": "左轮手枪",
+          "name_en": "Revolver",
           "amount": 7
         },
         {
@@ -6469,9 +6663,9 @@
           "amount": 7
         },
         {
-          "name_zh": "左轮手枪",
-          "name_en": "Revolver",
-          "amount": 7
+          "name_zh": "微处理器",
+          "name_en": "Microprocessor",
+          "amount": 5
         },
         {
           "name_zh": "金属刀片",
@@ -6479,18 +6673,13 @@
           "amount": 5
         },
         {
-          "name_zh": "微处理器",
-          "name_en": "Microprocessor",
-          "amount": 5
+          "name_zh": "信号枪",
+          "name_en": "Flare Gun",
+          "amount": 4
         },
         {
           "name_zh": "道路标志",
           "name_en": "Road Signs",
-          "amount": 4
-        },
-        {
-          "name_zh": "信号枪",
-          "name_en": "Flare Gun",
           "amount": 4
         },
         {
@@ -6548,6 +6737,11 @@
         }
       ],
       "recycling_sources": [
+        {
+          "name_zh": "高级熔炉",
+          "name_en": "Advanced Furnace",
+          "amount": 125
+        },
         {
           "name_zh": "高石门",
           "name_en": "High Stone Gates",
@@ -6669,23 +6863,7 @@
       "name_en": "military.suit",
       "name_zh": "军用套装",
       "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "Sewing Kit",
-          "name_zh": "缝纫套件",
-          "amount": 10
-        },
-        {
-          "name_en": "High Quality Metal",
-          "name_zh": "高品质金属",
-          "amount": 35
-        },
-        {
-          "name_en": "Metal Fragment",
-          "name_zh": "金属碎片",
-          "amount": 100
-        }
-      ],
+      "crafting_materials": [],
       "image": "assets/image/military.suit.png",
       "acquisition_methods": [
         {
@@ -6758,7 +6936,7 @@
     {
       "name_en": "Building Hammer",
       "name_zh": "建筑锤",
-      "attack_power": 5,
+      "attack_power": 5.0,
       "crafting_materials": [
         {
           "name_en": "Wood",
@@ -6894,7 +7072,7 @@
     {
       "name_en": "Stonecracker",
       "name_zh": "碎石工具",
-      "attack_power": 20,
+      "attack_power": 20.0,
       "crafting_materials": [
         {
           "name_en": "Wood",
@@ -7028,7 +7206,7 @@
     {
       "name_en": "Stone Hatchet",
       "name_zh": "石斧",
-      "attack_power": 10,
+      "attack_power": 10.0,
       "crafting_materials": [
         {
           "name_en": "Wood",
@@ -7258,7 +7436,7 @@
     {
       "name_en": "Assault Rifle",
       "name_zh": "突击步枪",
-      "attack_power": 40,
+      "attack_power": 40.0,
       "crafting_materials": [
         {
           "name_en": "Rifle Body",
@@ -7351,7 +7529,7 @@
     {
       "name_en": "Crossbow",
       "name_zh": "弩",
-      "attack_power": 50,
+      "attack_power": 50.0,
       "crafting_materials": [
         {
           "name_en": "Wood",
@@ -7398,7 +7576,7 @@
     {
       "name_en": "desert.eagle",
       "name_zh": "沙漠之鹰手枪",
-      "attack_power": 60,
+      "attack_power": 60.0,
       "crafting_materials": [
         {
           "name_en": "Metal Pipe",
@@ -7449,7 +7627,7 @@
     {
       "name_en": "dmr",
       "name_zh": "精确射手步枪",
-      "attack_power": 55,
+      "attack_power": 55.0,
       "crafting_materials": [
         {
           "name_en": "Semi Automatic Body",
@@ -7503,26 +7681,52 @@
       ]
     },
     {
-      "name_en": "dvl",
-      "name_zh": "DVL 步枪",
-      "attack_power": 125,
+      "acquisition_methods": [],
+      "name_zh": "双管霰弹枪",
+      "name_en": "Double Barrel",
+      "attack_power": 70.0,
       "crafting_materials": [
         {
-          "name_en": "High Quality Metal",
-          "name_zh": "高品质金属",
-          "amount": 50
-        },
-        {
-          "name_en": "Metal Spring",
-          "name_zh": "金属弹簧",
-          "amount": 4
-        },
-        {
-          "name_en": "Rifle Body",
-          "name_zh": "步枪枪身",
+          "name_en": "Metal Pipe",
+          "name_zh": "金属管",
           "amount": 2
+        },
+        {
+          "name_en": "Wood",
+          "name_zh": "木材",
+          "amount": 30
+        },
+        {
+          "name_en": "Metal Fragment",
+          "name_zh": "金属碎片",
+          "amount": 60
         }
       ],
+      "recycling_outputs": [
+        {
+          "name_zh": "金属管",
+          "name_en": "Metal Pipe",
+          "amount": 1
+        },
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 15
+        },
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 30
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/double.barrel.png"
+    },
+    {
+      "name_en": "dvl",
+      "name_zh": "DVL 步枪",
+      "attack_power": 125.0,
+      "crafting_materials": [],
       "image": "assets/image/dvl.png",
       "acquisition_methods": [
         {
@@ -7604,7 +7808,7 @@
     {
       "name_en": "Flare Gun",
       "name_zh": "信号枪",
-      "attack_power": 90,
+      "attack_power": 90.0,
       "crafting_materials": [
         {
           "name_en": "Metal Fragment",
@@ -7655,24 +7859,8 @@
     {
       "name_en": "FN FAL",
       "name_zh": "FN FAL 步枪",
-      "attack_power": 60,
-      "crafting_materials": [
-        {
-          "name_en": "High Quality Metal",
-          "name_zh": "高品质金属",
-          "amount": 50
-        },
-        {
-          "name_en": "Metal Spring",
-          "name_zh": "金属弹簧",
-          "amount": 4
-        },
-        {
-          "name_en": "Rifle Body",
-          "name_zh": "步枪枪身",
-          "amount": 2
-        }
-      ],
+      "attack_power": 60.0,
+      "crafting_materials": [],
       "image": null,
       "acquisition_methods": [
         {
@@ -7702,7 +7890,7 @@
     {
       "name_en": "Handmade Pistol",
       "name_zh": "自制手枪",
-      "attack_power": 25,
+      "attack_power": 25.0,
       "crafting_materials": [
         {
           "name_en": "Metal Fragment",
@@ -7744,7 +7932,7 @@
     {
       "name_en": "hmlmg",
       "name_zh": "自制轻机枪",
-      "attack_power": 50,
+      "attack_power": 50.0,
       "crafting_materials": [
         {
           "name_en": "High Quality Metal",
@@ -7805,7 +7993,7 @@
     {
       "name_en": "Hunting Rifle",
       "name_zh": "猎枪",
-      "attack_power": 80,
+      "attack_power": 80.0,
       "crafting_materials": [
         {
           "name_en": "Rifle Body",
@@ -7919,24 +8107,8 @@
     {
       "name_en": "Kriss Vector",
       "name_zh": "KRISS Vector 冲锋枪",
-      "attack_power": 35,
-      "crafting_materials": [
-        {
-          "name_en": "High Quality Metal",
-          "name_zh": "高品质金属",
-          "amount": 50
-        },
-        {
-          "name_en": "Metal Spring",
-          "name_zh": "金属弹簧",
-          "amount": 4
-        },
-        {
-          "name_en": "Rifle Body",
-          "name_zh": "步枪枪身",
-          "amount": 2
-        }
-      ],
+      "attack_power": 35.0,
+      "crafting_materials": [],
       "image": "assets/image/kriss.vector.png",
       "acquisition_methods": [
         {
@@ -7966,7 +8138,7 @@
     {
       "name_en": "Mace",
       "name_zh": "钉头锤",
-      "attack_power": 60,
+      "attack_power": 60.0,
       "crafting_materials": [
         {
           "name_en": "Wood",
@@ -8078,7 +8250,7 @@
     {
       "name_en": "Revolver",
       "name_zh": "左轮手枪",
-      "attack_power": 35,
+      "attack_power": 35.0,
       "crafting_materials": [
         {
           "name_en": "High Quality Metal",
@@ -8129,7 +8301,7 @@
     {
       "name_en": "Rocket Launcher",
       "name_zh": "火箭筒",
-      "attack_power": 0,
+      "attack_power": 0.0,
       "crafting_materials": [
         {
           "name_en": "Metal Pipe",
@@ -8186,7 +8358,7 @@
     {
       "name_en": "Shotgun",
       "name_zh": "霰弹枪",
-      "attack_power": 90,
+      "attack_power": 90.0,
       "crafting_materials": [
         {
           "name_en": "Metal Pipe",
@@ -8242,7 +8414,7 @@
     {
       "name_en": "steel.ball.gun",
       "name_zh": "钢珠枪",
-      "attack_power": 15,
+      "attack_power": 15.0,
       "crafting_materials": [
         {
           "name_en": "Metal Fragment",
@@ -8274,7 +8446,7 @@
     {
       "name_en": "Submachine Gun",
       "name_zh": "冲锋枪",
-      "attack_power": 22,
+      "attack_power": 22.0,
       "crafting_materials": [
         {
           "name_en": "Metal Spring",
@@ -8326,7 +8498,7 @@
     {
       "name_en": "Thompson",
       "name_zh": "汤普森冲锋枪",
-      "attack_power": 30,
+      "attack_power": 30.0,
       "crafting_materials": [
         {
           "name_en": "SMG Body",
@@ -8375,9 +8547,30 @@
       ]
     },
     {
+      "acquisition_methods": [
+        {
+          "type": "掉落",
+          "detail": "可通过掉落获得"
+        }
+      ],
+      "name_zh": "信号发射枪",
+      "name_en": "Signal Flare Gun",
+      "attack_power": 0.0,
+      "crafting_materials": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 7
+        }
+      ],
+      "recycling_sources": [],
+      "image": "assets/image/weapon.flare.signal.png"
+    },
+    {
       "name_en": "winchester",
       "name_zh": "温彻斯特步枪",
-      "attack_power": 50,
+      "attack_power": 50.0,
       "crafting_materials": [
         {
           "name_en": "Metal Spring",
@@ -8680,18 +8873,7 @@
       "name_en": "weapon.mod.optical.scope",
       "name_zh": "光学瞄准镜",
       "attack_power": null,
-      "crafting_materials": [
-        {
-          "name_en": "High Quality Metal",
-          "name_zh": "高品质金属",
-          "amount": 15
-        },
-        {
-          "name_en": "Tech Trash",
-          "name_zh": "科技垃圾",
-          "amount": 3
-        }
-      ],
+      "crafting_materials": [],
       "image": "assets/image/weapon.mod.optical.scope.png",
       "acquisition_methods": [
         {
@@ -8755,6 +8937,149 @@
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
           "amount": 5
+        }
+      ]
+    }
+  ],
+  "Vehicle": [
+    {
+      "name_en": "Buggy",
+      "name_zh": "越野车",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "Metal Fragment",
+          "name_zh": "金属碎片",
+          "amount": 150
+        },
+        {
+          "name_en": "Scrap",
+          "name_zh": "废料",
+          "amount": 100
+        },
+        {
+          "name_en": "Gears",
+          "name_zh": "齿轮",
+          "amount": 5
+        },
+        {
+          "name_en": "Sheet Metal",
+          "name_zh": "金属板",
+          "amount": 2
+        }
+      ],
+      "image": "assets/image/buggy.png",
+      "acquisition_methods": [
+        {
+          "type": "奖励/商店",
+          "detail": "可通过奖励或商店获得"
+        }
+      ],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 150
+        },
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 70
+        }
+      ]
+    },
+    {
+      "name_en": "Copter",
+      "name_zh": "直升机",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "Metal Fragment",
+          "name_zh": "金属碎片",
+          "amount": 200
+        },
+        {
+          "name_en": "Scrap",
+          "name_zh": "废料",
+          "amount": 50
+        },
+        {
+          "name_en": "Gears",
+          "name_zh": "齿轮",
+          "amount": 5
+        },
+        {
+          "name_en": "Sheet Metal",
+          "name_zh": "金属板",
+          "amount": 1
+        }
+      ],
+      "image": "assets/image/copter.png",
+      "acquisition_methods": [
+        {
+          "type": "奖励/商店",
+          "detail": "可通过奖励或商店获得"
+        }
+      ],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 150
+        },
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 100
+        }
+      ]
+    },
+    {
+      "name_en": "Sleigh",
+      "name_zh": "雪橇",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_en": "Metal Fragment",
+          "name_zh": "金属碎片",
+          "amount": 150
+        },
+        {
+          "name_en": "Scrap",
+          "name_zh": "废料",
+          "amount": 100
+        },
+        {
+          "name_en": "Gears",
+          "name_zh": "齿轮",
+          "amount": 5
+        },
+        {
+          "name_en": "Sheet Metal",
+          "name_zh": "金属板",
+          "amount": 2
+        }
+      ],
+      "image": null,
+      "acquisition_methods": [
+        {
+          "type": "奖励/商店",
+          "detail": "可通过奖励或商店获得"
+        }
+      ],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 150
+        },
+        {
+          "name_zh": "废料",
+          "name_en": "Scrap",
+          "amount": 70
         }
       ]
     }

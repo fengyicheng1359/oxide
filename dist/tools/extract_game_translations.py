@@ -3,10 +3,15 @@ from pathlib import Path
 import json
 r=Path(__file__).resolve().parents[2];out=r/'dist/static/i18n';out.mkdir(exist_ok=True)
 langs=['zh','en','ja','ko','fr','de','es','pt','ru'];tables={l:json.loads((r/f'resource/localization/json/{l}.json').read_text()) for l in langs}
-overrides={'zh':'大型背包','en':'Large Backpack','ja':'大型バックパック','ko':'대형 배낭','fr':'Grand sac à dos','de':'Großer Rucksack','es':'Mochila grande','pt':'Mochila grande','ru':'Большой рюкзак'}
-(out/'game-overrides.json').write_text(json.dumps({'reason':'APK 中 backpack.big 的名称 token 在下载的官方语言表中缺失，以下为站点补译。','backpack.big':overrides},ensure_ascii=False,indent=2)+'\n')
-for l in langs:tables[l]['backpack.big']=overrides[l]
-raw=[o['data'] for o in json.loads((r/'apk-analysis-20260911/data-items-dataso.json').read_text())['objects'] if 'm_ShortName' in o.get('data',{})];byshort={d['m_ShortName']:d for d in raw}
+import argparse
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--analysis', type=Path, default=r/'apk-analysis-11920', help='APK 分析目录')
+args = parser.parse_args()
+overrides=json.loads((out/'game-overrides.json').read_text())
+for token, translations in overrides.items():
+ if isinstance(translations, dict):
+  for lang in langs: tables[lang][token]=translations[lang]
+raw=[o['data'] for o in json.loads((args.analysis/'data-items-dataso.json').read_text())['objects'] if 'm_ShortName' in o.get('data',{})];byshort={d['m_ShortName']:d for d in raw}
 config=json.loads((r/'dist/static/config.json').read_text());names={};items={};used=set();missing=[]
 for group in config.values():
  for item in group:
