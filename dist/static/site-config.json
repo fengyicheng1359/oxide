@@ -3,6 +3,7 @@
   "site_url": "https://myoxide.fun",
   "favicon_path": "./static/assets/OSAAS.jpeg",
   "google_analytics_id": "G-Z2PF3GRWG4",
+  "google_adsense_client": "ca-pub-4395750843781237",
   "default_description": "氧化物生存岛百科全书，查询武器、护甲、工具、弹药、建筑和材料的制作配方、获取方式、攻击力、防御属性与回收产物。",
   "shared_keywords": [
     "氧化物生存岛 玩法介绍",

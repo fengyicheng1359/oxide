@@ -48,7 +48,7 @@ def configured_site_name() -> str:
 
 
 def seo_head(title: str, description: str, page_path: str, keywords: list[str] | None = None) -> str:
-    """生成每个静态页面共用的 SEO 标签和可选的 Google Analytics。"""
+    """生成每个静态页面共用的 SEO 标签和可选的 Google Analytics、AdSense 代码。"""
     config = site_config()
     site_name = configured_site_name()
     site_url = str(config.get("site_url") or "").rstrip("/")
@@ -74,6 +74,10 @@ def seo_head(title: str, description: str, page_path: str, keywords: list[str] |
         gtag('js', new Date());
         gtag('config', '{esc(analytics_id)}');
       </script>'''
+    adsense_client = str(config.get("google_adsense_client") or "").strip()
+    adsense = ""
+    if adsense_client:
+        adsense = f'<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={esc(adsense_client)}" crossorigin="anonymous"></script>'
     structured_data = json.dumps({
         "@context": "https://schema.org",
         "@type": "WebSite",
@@ -82,7 +86,7 @@ def seo_head(title: str, description: str, page_path: str, keywords: list[str] |
         "inLanguage": "zh-CN",
     }, ensure_ascii=False).replace("</", "<\\/")
     return f'''<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="keywords" content="{esc(keyword_text)}"><meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:site_name" content="{esc(site_name)}">{canonical_tag}{favicon_tag}<script type="application/ld+json">{structured_data}</script>{analytics}'''
+      <title>{esc(title)}</title><meta name="description" content="{esc(description)}"><meta name="keywords" content="{esc(keyword_text)}"><meta name="robots" content="index,follow"><meta property="og:type" content="website"><meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(description)}"><meta property="og:site_name" content="{esc(site_name)}">{canonical_tag}{favicon_tag}<script type="application/ld+json">{structured_data}</script>{analytics}{adsense}'''
 
 
 def esc(value: object) -> str:
