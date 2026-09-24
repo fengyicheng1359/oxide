@@ -192,5 +192,17 @@
   "饱食度恢复": "Sättigungsgewinn",
   "按立即治疗、水分、饱食度依次降序；区间先比上限，再比下限。": "Absteigend nach sofortiger Heilung, Wasser und Sättigung sortiert. Bei Bereichen zählt zuerst der Höchstwert, dann der Mindestwert.",
   "共 {count} 件可使用物品。正值表示恢复，负值表示损失，0 表示没有对应的即时变化。": "{count} benutzbare Gegenstände. Positive Werte stellen wieder her, negative ziehen ab, 0 bedeutet keine entsprechende sofortige Änderung.",
-  "持续回血仅显示持续时间，未计入治疗排序。": "Für Regeneration wird nur die Dauer angezeigt; sie zählt nicht zur Heilungssortierung."
+  "持续回血仅显示持续时间，未计入治疗排序。": "Für Regeneration wird nur die Dauer angezeigt; sie zählt nicht zur Heilungssortierung.",
+  "高伤害配置点（倍率, 距离）": "Hoher Schadenspunkt (Faktor, Distanz)",
+  "低伤害配置点（倍率, 距离）": "Niedriger Schadenspunkt (Faktor, Distanz)",
+  "最大距离": "Maximale Distanz",
+  "基础弹匣": "Basismagazin",
+  "整体换弹时间": "Vollständige Nachladezeit",
+  "交战提醒": "Kampfhinweise",
+  "逐发装填": "Einzelpatronen laden",
+  "换弹前确认能退回掩体。": "Vor dem Nachladen Deckung sicherstellen.",
+  "不要等空仓后才找退路。": "Rückzug planen, bevor das Magazin leer ist.",
+  "弹匣小，留意剩余弹量。": "Kleines Magazin: Restmunition beachten.",
+  "换弹时间长，提前安排遮挡。": "Lange Nachladezeit: Deckung vorbereiten.",
+  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distanzen stammen aus den Grundeinstellungen von Version 11920; Einheiten und Abfallformel sind ungeprüft, keine gemessenen Schäden. Magazin und Nachladezeit ohne Aufsätze; Kampfhinweise sind Empfehlungen."
 }

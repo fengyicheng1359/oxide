@@ -192,5 +192,17 @@
   "饱食度恢复": "Food restored",
   "按立即治疗、水分、饱食度依次降序；区间先比上限，再比下限。": "Sorted by instant healing, hydration, then food, descending. Ranges compare the upper limit first, then the lower limit.",
   "共 {count} 件可使用物品。正值表示恢复，负值表示损失，0 表示没有对应的即时变化。": "{count} usable items. Positive values restore, negative values reduce, and 0 means no corresponding instant change.",
-  "持续回血仅显示持续时间，未计入治疗排序。": "Regeneration shows duration only and is not included in the healing sort."
+  "持续回血仅显示持续时间，未计入治疗排序。": "Regeneration shows duration only and is not included in the healing sort.",
+  "高伤害配置点（倍率, 距离）": "High-damage point (factor, distance)",
+  "低伤害配置点（倍率, 距离）": "Low-damage point (factor, distance)",
+  "最大距离": "Maximum distance",
+  "基础弹匣": "Base magazine",
+  "整体换弹时间": "Full reload time",
+  "交战提醒": "Combat tips",
+  "逐发装填": "Individual-round reload",
+  "换弹前确认能退回掩体。": "Make sure you can reach cover before reloading.",
+  "不要等空仓后才找退路。": "Plan an escape before the magazine runs dry.",
+  "弹匣小，留意剩余弹量。": "Small magazine: watch remaining rounds.",
+  "换弹时间长，提前安排遮挡。": "Long reload: prepare cover in advance.",
+  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distances are base settings from version 11920; units and falloff formulas are unverified, not measured damage. Magazine and reload values exclude attachments; combat tips are suggestions."
 }

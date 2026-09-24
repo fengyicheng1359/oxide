@@ -192,5 +192,17 @@
   "饱食度恢复": "Satiété rendue",
   "按立即治疗、水分、饱食度依次降序；区间先比上限，再比下限。": "Tri décroissant par soin immédiat, hydratation, puis satiété. Pour les plages, le maximum est comparé avant le minimum.",
   "共 {count} 件可使用物品。正值表示恢复，负值表示损失，0 表示没有对应的即时变化。": "{count} objets utilisables. Une valeur positive restaure, une valeur négative réduit et 0 indique l’absence de changement immédiat correspondant.",
-  "持续回血仅显示持续时间，未计入治疗排序。": "Seule la durée de régénération est indiquée ; elle ne compte pas dans le classement des soins."
+  "持续回血仅显示持续时间，未计入治疗排序。": "Seule la durée de régénération est indiquée ; elle ne compte pas dans le classement des soins.",
+  "高伤害配置点（倍率, 距离）": "Point de dégâts élevés (facteur, distance)",
+  "低伤害配置点（倍率, 距离）": "Point de dégâts faibles (facteur, distance)",
+  "最大距离": "Distance maximale",
+  "基础弹匣": "Chargeur de base",
+  "整体换弹时间": "Rechargement complet",
+  "交战提醒": "Conseils de combat",
+  "逐发装填": "Chargement cartouche par cartouche",
+  "换弹前确认能退回掩体。": "Prévoyez un abri avant de recharger.",
+  "不要等空仓后才找退路。": "Prévoyez une retraite avant de vider le chargeur.",
+  "弹匣小，留意剩余弹量。": "Petit chargeur : surveillez les munitions restantes.",
+  "换弹时间长，提前安排遮挡。": "Rechargement long : prévoyez un abri.",
+  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distances issues des réglages de base 11920 ; unités et formule de diminution non vérifiées, pas des dégâts mesurés. Capacité et rechargement sans accessoires ; conseils indicatifs."
 }

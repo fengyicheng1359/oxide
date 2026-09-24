@@ -1579,5 +1579,112 @@
       "note": "",
       "description_conflict": false
     }
+  },
+  "weapon_distance_reload": {
+    "kriss.vector": {
+      "high_damage_point": {
+        "x": 1.0,
+        "y": 20.0
+      },
+      "low_damage_point": {
+        "x": 0.3400000035762787,
+        "y": 70.0
+      },
+      "max_distance": 150.0,
+      "magazine": 20,
+      "full_reload_seconds": 3.0,
+      "loop_reload": false,
+      "note": ""
+    },
+    "assault.rifle": {
+      "high_damage_point": {
+        "x": 1.0,
+        "y": 70.0
+      },
+      "low_damage_point": {
+        "x": 0.4000000059604645,
+        "y": 125.0
+      },
+      "max_distance": 200.0,
+      "magazine": 30,
+      "full_reload_seconds": 3.299999952316284,
+      "loop_reload": false,
+      "note": "不要等空仓后才找退路。"
+    },
+    "winchester": {
+      "high_damage_point": {
+        "x": 1.0,
+        "y": 70.0
+      },
+      "low_damage_point": {
+        "x": 0.4000000059604645,
+        "y": 100.0
+      },
+      "max_distance": 200.0,
+      "magazine": 5,
+      "full_reload_seconds": null,
+      "loop_reload": true,
+      "note": ""
+    },
+    "fn.fal": {
+      "high_damage_point": {
+        "x": 1.0,
+        "y": 90.0
+      },
+      "low_damage_point": {
+        "x": 0.6666666865348816,
+        "y": 135.0
+      },
+      "max_distance": 200.0,
+      "magazine": 20,
+      "full_reload_seconds": 3.5,
+      "loop_reload": false,
+      "note": ""
+    },
+    "dmr": {
+      "high_damage_point": {
+        "x": 1.0,
+        "y": 110.0
+      },
+      "low_damage_point": {
+        "x": 0.41999998688697815,
+        "y": 150.0
+      },
+      "max_distance": 200.0,
+      "magazine": 15,
+      "full_reload_seconds": 3.0,
+      "loop_reload": false,
+      "note": "换弹前确认能退回掩体。"
+    },
+    "dvl": {
+      "high_damage_point": {
+        "x": 1.0,
+        "y": 130.0
+      },
+      "low_damage_point": {
+        "x": 0.699999988079071,
+        "y": 200.0
+      },
+      "max_distance": 300.0,
+      "magazine": 5,
+      "full_reload_seconds": 4.0,
+      "loop_reload": false,
+      "note": "弹匣小，留意剩余弹量。"
+    },
+    "hmlmg": {
+      "high_damage_point": {
+        "x": 1.0,
+        "y": 55.0
+      },
+      "low_damage_point": {
+        "x": 0.4000000059604645,
+        "y": 115.0
+      },
+      "max_distance": 180.0,
+      "magazine": 30,
+      "full_reload_seconds": 6.5,
+      "loop_reload": false,
+      "note": "换弹时间长，提前安排遮挡。"
+    }
   }
 }

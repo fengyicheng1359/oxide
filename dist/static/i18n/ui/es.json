@@ -192,5 +192,17 @@
   "饱食度恢复": "Saciedad recuperada",
   "按立即治疗、水分、饱食度依次降序；区间先比上限，再比下限。": "Orden descendente por curación inmediata, hidratación y saciedad. En los intervalos se compara primero el máximo y luego el mínimo.",
   "共 {count} 件可使用物品。正值表示恢复，负值表示损失，0 表示没有对应的即时变化。": "{count} objetos utilizables. Los valores positivos restauran, los negativos reducen y 0 indica que no hay un cambio inmediato correspondiente.",
-  "持续回血仅显示持续时间，未计入治疗排序。": "Solo se muestra la duración de la regeneración; no se incluye en el orden por curación."
+  "持续回血仅显示持续时间，未计入治疗排序。": "Solo se muestra la duración de la regeneración; no se incluye en el orden por curación.",
+  "高伤害配置点（倍率, 距离）": "Punto de daño alto (factor, distancia)",
+  "低伤害配置点（倍率, 距离）": "Punto de daño bajo (factor, distancia)",
+  "最大距离": "Distancia máxima",
+  "基础弹匣": "Cargador base",
+  "整体换弹时间": "Recarga completa",
+  "交战提醒": "Consejos de combate",
+  "逐发装填": "Carga cartucho a cartucho",
+  "换弹前确认能退回掩体。": "Asegura cobertura antes de recargar.",
+  "不要等空仓后才找退路。": "Prepara una retirada antes de vaciar el cargador.",
+  "弹匣小，留意剩余弹量。": "Cargador pequeño: vigila la munición restante.",
+  "换弹时间长，提前安排遮挡。": "Recarga larga: prepara cobertura.",
+  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distancias de la configuración base 11920; unidades y fórmula de caída sin verificar, no son daños medidos. Cargador y recarga sin accesorios; los consejos son orientativos."
 }
