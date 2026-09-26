@@ -55,7 +55,7 @@ def main():
     write(config_path, result)
     stats_path = ROOT / 'dist/static/game-stats.json'
     stats = read(stats_path)
-    stats['weapon_ammunition'] = {i: d['attributes']['config_values'].get('ammoItemShortName', '') for i, (_, d) in after.items() if d['category'] == 'Weapon'}
+    stats['weapon_ammunition'] = {i: d['attributes']['config_values'].get('ammoItemShortName', '') for i, (_, d) in after.items() if d['category'] in ('Weapon', 'Tool')}
     for i in set(after) - set(before):
         if after[i][1]['category'] == 'Weapon': stats['weapon_attack_types'][i] = '远程攻击'
     write(stats_path, stats)

@@ -508,8 +508,10 @@ def recycling_item_count(categories: dict[str, list[tuple[dict, str]]]) -> int:
     )
 
 
-def attack_item_count(categories: dict[str, list[tuple[dict, str]]]) -> int:
-    return len(categories.get("Weapon", []))
+def attack_items(categories: dict[str, list[tuple[dict, str]]]) -> list[tuple[dict, str]]:
+    """攻击力表同时列出武器和手持工具；建筑图纸不用于攻击，未知伤害保留为空。"""
+    tools = [(item, slug) for item, slug in categories.get("Tool", []) if slug != "building.plan"]
+    return categories.get("Weapon", []) + tools
 
 
 def armor_protection(item: dict) -> list[float] | None:
@@ -559,7 +561,7 @@ def items_page(categories: dict[str, list[tuple[dict, str]]]) -> str:
             cards.append(f'<a class="catalog-card" href="./{esc(slug)}.html">{image_tag(item, "./", "catalog-image", item.get("name_zh"))}<span class="catalog-copy"><b>{esc(item.get("name_zh"))}</b><small>{esc(item.get("name_en"))}</small>{usage}</span></a>')
         cards.append('</div></section>')
     recycling_count = recycling_item_count(categories)
-    attack_count = attack_item_count(categories)
+    attack_count = len(attack_items(categories))
     threat_count = threat_item_count()
     return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Oxide Wiki · Items</title><link rel="stylesheet" href="./styles.css"></head><body>{header("./", selected="items")}<main class="page-shell"><div class="search-row"><div><span class="eyebrow">OXIDE WIKI</span><h1>游戏物品数据库</h1><p>浏览物品、制造配方与生存资源。</p></div><div class="search">⌕ <span>搜索物品...</span></div></div><div class="catalog-layout">{sidebar(categories, "./", recycling_count=recycling_count, attack_count=attack_count, threat_count=threat_count)}<section id="items" class="catalog-content">{"".join(cards)}</section></div></main>{footer()}</body></html>'''
 
@@ -653,11 +655,12 @@ def recycling_page(categories: dict[str, list[tuple[dict, str]]], recycling_coun
 
 
 def attack_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: int, attack_count: int) -> str:
-    items = sorted(categories.get("Weapon", []), key=lambda pair: (pair[0].get("attack_power") is None, -(pair[0].get("attack_power") or 0), pair[0].get("name_zh") or ""))
+    items = sorted(attack_items(categories), key=lambda pair: (pair[0].get("attack_power") is None, -(pair[0].get("attack_power") or 0), pair[0].get("name_zh") or ""))
     # 对应关系取自物品配置：空字符串表示不使用弹药，缺少记录表示尚未确认。
     weapon_stats = json.loads((STATIC / "game-stats.json").read_text(encoding="utf-8"))
     ammunition_by_weapon = weapon_stats["weapon_ammunition"]
-    ammunition_items = {slug: item for item, slug in categories.get("Ammunition", [])}
+    # 动力工具可能消耗燃油，消耗物不一定归在弹药分类。
+    items_by_slug = {slug: item for group in categories.values() for item, slug in group}
     rows = []
     for item, slug in items:
         attack = item.get("attack_power")
@@ -668,7 +671,7 @@ def attack_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: 
         elif ammunition_id == "":
             ammunition = "不使用弹药"
         else:
-            ammunition_item = ammunition_items[ammunition_id]
+            ammunition_item = items_by_slug[ammunition_id]
             ammunition = f'<a href="./{esc(ammunition_id)}.html">{esc(ammunition_item["name_zh"])}</a>'
         # 仅展示已核对的基础配置；距离单位和衰减公式未确认，不标注为米或实测伤害。
         combat = weapon_stats.get("weapon_distance_reload", {}).get(slug)
@@ -687,7 +690,7 @@ def attack_page(categories: dict[str, list[tuple[dict, str]]], recycling_count: 
         combat_cells = "".join(combat_cells[:3])
         combat_cells += f'<td class="weapon-combat-note">{esc(combat_note)}</td>'
         rows.append(f'<tr><td><a class="recycle-item" href="./{esc(slug)}.html">{image_tag(item, "./", "recycle-image", item.get("name_zh"))}<span><b>{esc(item.get("name_zh"))}</b><small>{esc(item.get("name_en"))}</small></span></a></td><td class="attack-amount">{value}</td>{reload_cells}<td>{ammunition}</td>{combat_cells}<td class="weapon-description" data-item-description="{esc(slug)}"></td></tr>')
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>攻击力 · Oxide Wiki</title><link rel="stylesheet" href="./styles.css"><style>.ranking-intro{{margin-bottom:24px}}.ranking-intro h1{{margin:8px 0 5px;font:600 48px/1 var(--display)}}.ranking-intro p{{margin:0;color:var(--muted);font-size:13px}}.attack-table-wrap{{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:8px}}.attack-table{{width:100%;min-width:1600px;border-collapse:collapse;text-align:left}}.attack-table th{{padding:14px 16px;color:var(--muted);background:#f5f7f4;font:10px var(--mono);letter-spacing:.08em;border-bottom:1px solid var(--line)}}.attack-table td{{padding:10px 16px;border-bottom:1px solid #edf0ed}}.attack-table tr:last-child td{{border-bottom:0}}.attack-table tr:hover td{{background:#fbfcfa}}.attack-table .recycle-image{{width:50px;height:50px}}.weapon-config-value{{white-space:nowrap}}.weapon-combat-note{{min-width:180px;line-height:1.7}}.weapon-description{{min-width:280px;max-width:460px;line-height:1.7;font-size:13px;white-space:pre-line}}.attack-amount{{width:110px;color:var(--green);font:600 24px var(--display)}}.attack-note{{margin-top:13px;color:var(--muted);font-size:11px}}</style></head><body>{header("./", selected="attack")}<main class="page-shell"><div class="catalog-layout">{sidebar(categories, "./", "Attack", "./index.html", recycling_count, attack_count)}<section class="catalog-content"><div class="ranking-intro"><span class="eyebrow">ATTACK POWER RANKING</span><h1>攻击力</h1><p>武器按照攻击力从高到低排列。</p></div><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="attack-table-wrap" tabindex="0"><table class="attack-table"><thead><tr><th>武器</th><th>攻击力</th><th>基础弹匣</th><th>整体换弹时间</th><th>使用弹药</th><th>高伤害配置点（倍率, 距离）</th><th>低伤害配置点（倍率, 距离）</th><th>最大距离</th><th>交战提醒</th><th>游戏内描述</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div><p class="attack-note">距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。</p><p class="attack-note">共 {len(items)} 件武器；没有可靠攻击力数据的武器排在最后。</p></section></div></main>{footer()}</body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>攻击力 · Oxide Wiki</title><link rel="stylesheet" href="./styles.css"><style>.ranking-intro{{margin-bottom:24px}}.ranking-intro h1{{margin:8px 0 5px;font:600 48px/1 var(--display)}}.ranking-intro p{{margin:0;color:var(--muted);font-size:13px}}.attack-table-wrap{{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:8px}}.attack-table{{width:100%;min-width:1600px;border-collapse:collapse;text-align:left}}.attack-table th{{padding:14px 16px;color:var(--muted);background:#f5f7f4;font:10px var(--mono);letter-spacing:.08em;border-bottom:1px solid var(--line)}}.attack-table td{{padding:10px 16px;border-bottom:1px solid #edf0ed}}.attack-table tr:last-child td{{border-bottom:0}}.attack-table tr:hover td{{background:#fbfcfa}}.attack-table .recycle-image{{width:50px;height:50px}}.weapon-config-value{{white-space:nowrap}}.weapon-combat-note{{min-width:180px;line-height:1.7}}.weapon-description{{min-width:280px;max-width:460px;line-height:1.7;font-size:13px;white-space:pre-line}}.attack-amount{{width:110px;color:var(--green);font:600 24px var(--display)}}.attack-note{{margin-top:13px;color:var(--muted);font-size:11px}}</style></head><body>{header("./", selected="attack")}<main class="page-shell"><div class="catalog-layout">{sidebar(categories, "./", "Attack", "./index.html", recycling_count, attack_count)}<section class="catalog-content"><div class="ranking-intro"><span class="eyebrow">ATTACK POWER RANKING</span><h1>攻击力</h1><p>武器与工具按照基础攻击力从高到低排列。</p></div><p class="table-scroll-hint">窄屏下可左右滑动表格，查看完整信息。</p><div class="attack-table-wrap" tabindex="0"><table class="attack-table"><thead><tr><th>武器</th><th>攻击力</th><th>基础弹匣</th><th>整体换弹时间</th><th>使用弹药</th><th>高伤害配置点（倍率, 距离）</th><th>低伤害配置点（倍率, 距离）</th><th>最大距离</th><th>交战提醒</th><th>游戏内描述</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div><p class="attack-note">距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。</p><p class="attack-note">共 {len(items)} 件武器与工具；没有可靠攻击力数据的物品排在最后。</p></section></div></main>{footer()}</body></html>'''
 
 
 def healing_sort_key(entry: tuple[dict, str, dict]) -> tuple:
@@ -825,7 +828,7 @@ def main() -> None:
 
     categories = {category: categories[category] for category in DISPLAY_CATEGORY_ORDER if category in categories}
     recycling_count = recycling_item_count(categories)
-    attack_count = attack_item_count(categories)
+    attack_count = len(attack_items(categories))
     threat_count = threat_item_count()
 
     HTML_DIR.mkdir(exist_ok=True)

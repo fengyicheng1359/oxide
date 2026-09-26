@@ -204,5 +204,7 @@
   "不要等空仓后才找退路。": "Rückzug planen, bevor das Magazin leer ist.",
   "弹匣小，留意剩余弹量。": "Kleines Magazin: Restmunition beachten.",
   "换弹时间长，提前安排遮挡。": "Lange Nachladezeit: Deckung vorbereiten.",
-  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distanzen stammen aus den Grundeinstellungen von Version 11920; Einheiten und Abfallformel sind ungeprüft, keine gemessenen Schäden. Magazin und Nachladezeit ohne Aufsätze; Kampfhinweise sind Empfehlungen."
+  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distanzen stammen aus den Grundeinstellungen von Version 11920; Einheiten und Abfallformel sind ungeprüft, keine gemessenen Schäden. Magazin und Nachladezeit ohne Aufsätze; Kampfhinweise sind Empfehlungen.",
+  "武器与工具按照基础攻击力从高到低排列。": "Waffen und Werkzeuge sind nach absteigendem Grundschaden sortiert.",
+  "共 {count} 件武器与工具；没有可靠攻击力数据的物品排在最后。": "{count} Waffen und Werkzeuge; Gegenstände ohne verlässliche Schadensdaten stehen am Ende."
 }

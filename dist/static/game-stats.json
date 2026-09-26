@@ -861,7 +861,17 @@
     "assault.rifle": "ammo.rifle",
     "fn.fal": "ammo.rifle",
     "winchester": "ammo.pistol",
-    "mace": ""
+    "mace": "",
+    "building.plan": "",
+    "pickaxehammer": "",
+    "chainsaw": "fuel.bottle",
+    "pickaxe": "",
+    "jackhammer": "fuel.bottle",
+    "torch": "",
+    "building.hammer": "",
+    "stone.hatchet": "",
+    "saw.ripper": "",
+    "axe": ""
   },
   "weapon_attack_types": {
     "crossbow": "远程攻击",

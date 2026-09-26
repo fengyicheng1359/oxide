@@ -204,5 +204,7 @@
   "不要等空仓后才找退路。": "Prévoyez une retraite avant de vider le chargeur.",
   "弹匣小，留意剩余弹量。": "Petit chargeur : surveillez les munitions restantes.",
   "换弹时间长，提前安排遮挡。": "Rechargement long : prévoyez un abri.",
-  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distances issues des réglages de base 11920 ; unités et formule de diminution non vérifiées, pas des dégâts mesurés. Capacité et rechargement sans accessoires ; conseils indicatifs."
+  "距离数据来自 11920 版基础配置；单位和衰减公式未验证，不代表实测伤害。弹匣与换弹时间不含配件效果；交战提醒为操作建议。": "Distances issues des réglages de base 11920 ; unités et formule de diminution non vérifiées, pas des dégâts mesurés. Capacité et rechargement sans accessoires ; conseils indicatifs.",
+  "武器与工具按照基础攻击力从高到低排列。": "Les armes et outils sont classés par dégâts de base décroissants.",
+  "共 {count} 件武器与工具；没有可靠攻击力数据的物品排在最后。": "{count} armes et outils ; les objets sans données de dégâts fiables figurent en dernier."
 }
