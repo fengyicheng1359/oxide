@@ -178,5 +178,282 @@
     "source_locale": "en",
     "category": "生存基础",
     "source_label": "Resumen traducido del sitio · Fuente oficial"
+  },
+  "car-start-246": {
+    "title": "Cómo arrancar un coche abandonado: motor y batería",
+    "category": "交通与探索",
+    "html": "<p>Busca coches junto a las carreteras y cerca de distintos lugares. Necesitas batería, motor y botellas de combustible. Investiga y fabrica la batería; el motor no se fabrica, se busca bajo los capós. Instala ambas piezas y llena la ranura de combustible.</p><p>Las plazas varían. Los pasajeros pueden disparar, el conductor no. El maletero no tiene cerradura: úsalo para transportar, no para guardar objetos valiosos. Otra persona también puede llevarse el coche.</p>",
+    "text": "Busca coches junto a las carreteras y cerca de distintos lugares. Necesitas batería, motor y botellas de combustible. Investiga y fabrica la batería; el motor no se fabrica, se busca bajo los capós. Instala ambas piezas y llena la ranura de combustible. Las plazas varían. Los pasajeros pueden disparar, el conductor no. El maletero no tiene cerradura: úsalo para transportar, no para guardar objetos valiosos. Otra persona también puede llevarse el coche.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-find-and-start-a-car-246",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "vehicle-fuel-252": {
+    "title": "¿El coche no acepta combustible? Comprueba el tipo",
+    "category": "交通与探索",
+    "html": "<p>Helicópteros, buggies, coches, trenes y canteras usan botellas de combustible. El combustible de fábrica es otro objeto y los vehículos no lo aceptan.</p><p>Las botellas no requieren investigación y también aparecen como botín. Cazar proporciona grasa animal; consulta los ingredientes y la producción por lote en el menú. Reposta y lleva reservas antes de un viaje largo.</p>",
+    "text": "Helicópteros, buggies, coches, trenes y canteras usan botellas de combustible. El combustible de fábrica es otro objeto y los vehículos no lo aceptan. Las botellas no requieren investigación y también aparecen como botín. Cazar proporciona grasa animal; consulta los ingredientes y la producción por lote en el menú. Reposta y lleva reservas antes de un viaje largo.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-fuel-bottle-and-where-do-i-get-it-252",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "double-barrel-position-250": {
+    "title": "Escopeta de dos cañones: acércate y prepara la recarga",
+    "category": "战斗与装备",
+    "html": "<p>Carga dos cartuchos y dispara un cañón cada vez. Funciona mejor en puertas y pasillos; pierde eficacia con la distancia. Evita perseguir enemigos lejanos por terreno abierto.</p><p>Elige una cobertura antes del combate. Tras dos disparos tendrás que recargar: no lo hagas en medio de una puerta. Investiga el arma en el banco de trabajo, fabrícala y lleva munición compatible.</p>",
+    "text": "Carga dos cartuchos y dispara un cañón cada vez. Funciona mejor en puertas y pasillos; pierde eficacia con la distancia. Evita perseguir enemigos lejanos por terreno abierto. Elige una cobertura antes del combate. Tras dos disparos tendrás que recargar: no lo hagas en medio de una puerta. Investiga el arma en el banco de trabajo, fabrícala y lleva munición compatible.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-double-barrel-shotgun-250",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "recycler-output-full-81": {
+    "title": "¿Se paró la recicladora? Revisa la salida",
+    "category": "生存基础",
+    "html": "<p>Hay recicladoras en gasolineras, junto al minero y al leñador y en ciudades. Introduce objetos reciclables y enciéndela; las materias primas no se reciclan. Cada ranura muestra su progreso y tiempo restante.</p><p>Cuando la salida se llena, se detiene sin consumir más entradas ni tirar materiales al suelo. Vacíala y vuelve a encenderla. Reciclar munición puede perder materiales. El ruido atrae atención: vigila a otros jugadores.</p>",
+    "text": "Hay recicladoras en gasolineras, junto al minero y al leñador y en ciudades. Introduce objetos reciclables y enciéndela; las materias primas no se reciclan. Cada ranura muestra su progreso y tiempo restante. Cuando la salida se llena, se detiene sin consumir más entradas ni tirar materiales al suelo. Vacíala y vuelve a encenderla. Reciclar munición puede perder materiales. El ruido atrae atención: vigila a otros jugadores.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "quarry-decay-194": {
+    "title": "¿La cantera pierde vida? Comprueba el armario",
+    "category": "建造与基地",
+    "html": "<p>Una cantera normal se deteriora fuera de la protección del armario de herramientas o cuando faltan recursos de mantenimiento. El combustible no sustituye esa protección: revisa ubicación y reservas.</p><p>Colócala sobre un edificio protegido o justo al lado y comprueba el indicador de construcción. Repón recursos antes de desconectarte y tras ausencias largas para evitar que desaparezca antes de recoger la producción.</p>",
+    "text": "Una cantera normal se deteriora fuera de la protección del armario de herramientas o cuando faltan recursos de mantenimiento. El combustible no sustituye esa protección: revisa ubicación y reservas. Colócala sobre un edificio protegido o justo al lado y comprueba el indicador de construcción. Repón recursos antes de desconectarte y tras ausencias largas para evitar que desaparezca antes de recoger la producción.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-is-my-mining-quarry-decaying-194",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "pve-chest-access-206": {
+    "title": "PvE: tu compañero no abre cofres, revisa su autorización",
+    "category": "建造与基地",
+    "html": "<p>En PvE, los cofres dentro de edificios protegidos solo se abren para el dueño del armario y jugadores autorizados. Si un compañero entra pero no puede abrirlos, comprueba su autorización.</p><p>Los cofres fuera del alcance no tienen esa protección. Jugar en PvE no hace seguro cualquier lugar donde dejes objetos.</p>",
+    "text": "En PvE, los cofres dentro de edificios protegidos solo se abren para el dueño del armario y jugadores autorizados. Si un compañero entra pero no puede abrirlos, comprueba su autorización. Los cofres fuera del alcance no tienen esa protección. Jugar en PvE no hace seguro cualquier lugar donde dejes objetos.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/on-pv-e-who-can-open-chests-in-a-house-with-a-tool-cupboard-why-cant-i-loot-someones-chest-on-pv-e-206",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "clan-station-owner-211": {
+    "title": "Acordad quién coloca las estaciones del clan",
+    "category": "氏族与社交",
+    "html": "<p>Los aserraderos, recicladoras de chatarra y canteras del clan se desbloquean en su árbol de progreso. El líder o un oficial las coloca; hay una de cada tipo por clan y servidor. Solo quien la coloca puede abrirla, abastecerla, activarla y recoger productos, incluso si otro miembro es el líder.</p><p>Usan combustible de baja calidad y reservan moneda del clan al arrancar; lo no utilizado se devuelve al apagar. Detén la estación antes de añadir combustible y usa el botón del panel. Combustible agotado, almacén lleno o reinicio del servidor requieren volver a arrancarla.</p><p>Mantén un armario cerca y recoge regularmente. No admiten cerradura y pueden ser destruidas, soltando combustible y contenido. Las mejoras de producción por nivel se aplican estando apagadas: revisa y reinicia después de mejorar el clan.</p>",
+    "text": "Los aserraderos, recicladoras de chatarra y canteras del clan se desbloquean en su árbol de progreso. El líder o un oficial las coloca; hay una de cada tipo por clan y servidor. Solo quien la coloca puede abrirla, abastecerla, activarla y recoger productos, incluso si otro miembro es el líder. Usan combustible de baja calidad y reservan moneda del clan al arrancar; lo no utilizado se devuelve al apagar. Detén la estación antes de añadir combustible y usa el botón del panel. Combustible agotado, almacén lleno o reinicio del servidor requieren volver a arrancarla. Mantén un armario cerca y recoge regularmente. No admiten cerradura y pueden ser destruidas, soltando combustible y contenido. Las mejoras de producción por nivel se aplican estando apagadas: revisa y reinicia después de mejorar el clan.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/clan-scrap-recycler-what-is-it-who-can-build-it-and-who-can-collect-the-scrap-211",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial",
+    "additional_sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/clan-sawmill-what-is-it-who-can-build-it-and-who-can-collect-the-wood-210",
+      "https://support.playoxide.com/hc/en/oxide/articles/clan-quarry-mining-quarry-what-is-it-how-do-i-unlock-it-who-can-build-it-and-how-does-it-mine-ore-who-can-collect-the-resources-212"
+    ]
+  },
+  "clan-vault-access-198": {
+    "title": "Almacén del clan: ¿por qué puedo depositar pero no retirar?",
+    "category": "氏族与社交",
+    "html": "<p>Guarda armas, accesorios, componentes y recursos. Cualquier miembro puede depositar desde su caja fuerte personal, pero retirar requiere permiso del líder. Pídele que revise la lista de acceso.</p><p>El almacén se comparte entre servidores y recibe algunos beneficios y recompensas de Allowance abiertas. Los cambios de permisos notifican al clan: acordad quién recoge y reparte suministros.</p>",
+    "text": "Guarda armas, accesorios, componentes y recursos. Cualquier miembro puede depositar desde su caja fuerte personal, pero retirar requiere permiso del líder. Pídele que revise la lista de acceso. El almacén se comparte entre servidores y recibe algunos beneficios y recompensas de Allowance abiertas. Los cambios de permisos notifican al clan: acordad quién recoge y reparte suministros.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-clan-vault-warehouse-and-who-can-deposit-and-withdraw-items-198",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "clan-shop-216": {
+    "title": "Tienda del clan: cómo comprar y dónde llegan las recompensas",
+    "category": "氏族与社交",
+    "html": "<p>Ábrela desde el menú del clan y gasta moneda obtenida con actividades y progreso. Subir de nivel desbloquea artículos. Comprueba los límites semanales o totales antes de comprar.</p><p>Las recompensas son para el clan; los recursos van al almacén, no necesariamente a tu mochila. Revisa la descripción y pide a un miembro autorizado que los retire.</p>",
+    "text": "Ábrela desde el menú del clan y gasta moneda obtenida con actividades y progreso. Subir de nivel desbloquea artículos. Comprueba los límites semanales o totales antes de comprar. Las recompensas son para el clan; los recursos van al almacén, no necesariamente a tu mochila. Revisa la descripción y pide a un miembro autorizado que los retire.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-clan-shop-store-and-how-do-i-use-it-216",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "death-marker-recovery-120": {
+    "title": "Recuperar objetos: mira primero el marcador de muerte",
+    "category": "生存基础",
+    "html": "<p>Tras morir, localiza el marcador y las coordenadas en el mapa. Compáralos con los sacos de dormir numerados para elegir dónde reaparecer, en vez de confiar solo en recordar el camino.</p><p>El marcador no garantiza que siga el botín. Lleva suministros básicos y comprueba si quedan enemigos antes de acercarte.</p>",
+    "text": "Tras morir, localiza el marcador y las coordenadas en el mapa. Compáralos con los sacos de dormir numerados para elegir dónde reaparecer, en vez de confiar solo en recordar el camino. El marcador no garantiza que siga el botín. Lleva suministros básicos y comprueba si quedan enemigos antes de acercarte.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-death-marker-and-how-do-i-find-where-i-died-on-the-map-120",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "team-invite-26": {
+    "title": "Invitar al equipo en persona o a distancia",
+    "category": "氏族与社交",
+    "html": "<p>Acércate al jugador en el servidor hasta ver el icono de interacción y pulsa el botón de acción. Debe aceptar la invitación; acercarse no crea un equipo automáticamente.</p><p>Para un compañero de clan, busca su nombre en la lista de jugadores y selecciona Invitar al equipo en los tres puntos. No hace falta reunirse. Pertenecer al mismo clan no equivale a estar en el mismo equipo.</p>",
+    "text": "Acércate al jugador en el servidor hasta ver el icono de interacción y pulsa el botón de acción. Debe aceptar la invitación; acercarse no crea un equipo automáticamente. Para un compañero de clan, busca su nombre en la lista de jugadores y selecciona Invitar al equipo en los tres puntos. No hace falta reunirse. Pertenecer al mismo clan no equivale a estar en el mismo equipo.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-to-invite-a-player-to-your-team-26",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "deathmatch-practice-162": {
+    "title": "Practica disparos en DeathMatch antes de salir",
+    "category": "战斗与装备",
+    "html": "<p>Selecciona DeathMatch (DM) o Team DeathMatch (TDM) para practicar apuntado, disparo y recarga. Recibes armadura, fusil, munición y medicinas sin recolectar ni construir. Fabricación, tienda y caja fuerte están desactivadas.</p><p>En DM gana el primero con 30 bajas; en TDM, el equipo con 100, sin fuego amigo. Las bajas reponen vida y munición; reaparecer da protección breve. Practica aquí los controles y en supervivencia la gestión de recursos y retirada.</p>",
+    "text": "Selecciona DeathMatch (DM) o Team DeathMatch (TDM) para practicar apuntado, disparo y recarga. Recibes armadura, fusil, munición y medicinas sin recolectar ni construir. Fabricación, tienda y caja fuerte están desactivadas. En DM gana el primero con 30 bajas; en TDM, el equipo con 100, sin fuego amigo. Las bajas reponen vida y munición; reaparecer da protección breve. Practica aquí los controles y en supervivencia la gestión de recursos y retirada.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-the-new-game-modes-death-match-dm-and-team-death-match-tdm-162",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "firing-controls-98": {
+    "title": "Ajusta el disparo por tipo de arma",
+    "category": "战斗与装备",
+    "html": "<p>En Controles y HUD, configura ballestas, escopetas y fusiles por separado para tocar, mantener o soltar. Prueba primero un arma habitual antes de cambiar las demás.</p><p>El editor de botones permite moverlos y redimensionarlos solo desde el vestíbulo. El sprint, apuntado y recarga automáticos se ajustan durante la partida. También puedes activar el doble toque para mover objetos y ajustar su intervalo.</p>",
+    "text": "En Controles y HUD, configura ballestas, escopetas y fusiles por separado para tocar, mantener o soltar. Prueba primero un arma habitual antes de cambiar las demás. El editor de botones permite moverlos y redimensionarlos solo desde el vestíbulo. El sprint, apuntado y recarga automáticos se ajustan durante la partida. También puedes activar el doble toque para mover objetos y ajustar su intervalo.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-customize-controls-button-layout-firing-modes-and-sprint-mode-98",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "aim-sensitivity-99": {
+    "title": "¿La mira se mueve demasiado? Ajusta cada visor",
+    "category": "战斗与装备",
+    "html": "<p>Sensibilidad separa la vista general, miras metálicas y artesanales, holográficas y ópticas. Si solo falla una mira, modifica su ajuste sin alterar las demás.</p><p>El giroscopio puede apagarse, usarse solo al apuntar o siempre, con sensibilidades por visor. También hay aceleración, suavizado e inversión de ejes. Cambia poco a poco y prueba; tras una actualización, revisa los valores si cambia la sensación.</p>",
+    "text": "Sensibilidad separa la vista general, miras metálicas y artesanales, holográficas y ópticas. Si solo falla una mira, modifica su ajuste sin alterar las demás. El giroscopio puede apagarse, usarse solo al apuntar o siempre, con sensibilidades por visor. También hay aceleración, suavizado e inversión de ejes. Cambia poco a poco y prueba; tras una actualización, revisa los valores si cambia la sensación.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-set-up-sensitivity-and-gyroscope-aiming-99",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "graphics-fps-100": {
+    "title": "Pocos FPS: empieza por distancia de dibujado y sombras",
+    "category": "生存基础",
+    "html": "<p>En el vestíbulo, Reajustar gráficos adapta la configuración al dispositivo. Para ajustes manuales, baja primero distancia de dibujado, luego calidad y sombras; después resolución o posprocesado si hace falta.</p><p>Puedes cambiarlo desde la pausa sin salir del servidor. Si no mejora, revisa conexión y aplicaciones en segundo plano. El calor también reduce rendimiento: distingue imágenes entrecortadas de retrasos de red.</p>",
+    "text": "En el vestíbulo, Reajustar gráficos adapta la configuración al dispositivo. Para ajustes manuales, baja primero distancia de dibujado, luego calidad y sombras; después resolución o posprocesado si hace falta. Puedes cambiarlo desde la pausa sin salir del servidor. Si no mejora, revisa conexión y aplicaciones en segundo plano. El calor también reduce rendimiento: distingue imágenes entrecortadas de retrasos de red.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-improve-fps-fix-lag-and-change-graphics-settings-100",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "base-notifications-101": {
+    "title": "Activa avisos de ataques y mantenimiento antes de salir",
+    "category": "建造与基地",
+    "html": "<p>En Notificaciones, activa el interruptor general y los avisos de ataque, deterioro y reinicio del servidor. Ayudan a detectar incursiones, falta de recursos en el armario y reinicios próximos.</p><p>Actividad de amigos, eventos del mapa y ventanas emergentes tienen controles separados. Si las ventanas molestan, ajusta esas sin apagar todo. Los avisos no sustituyen revisar cerraduras y mantenimiento antes de desconectarte.</p>",
+    "text": "En Notificaciones, activa el interruptor general y los avisos de ataque, deterioro y reinicio del servidor. Ayudan a detectar incursiones, falta de recursos en el armario y reinicios próximos. Actividad de amigos, eventos del mapa y ventanas emergentes tienen controles separados. Si las ventanas molestan, ajusta esas sin apagar todo. Los avisos no sustituyen revisar cerraduras y mantenimiento antes de desconectarte.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-turn-on-or-off-attack-decay-wipe-friends-activity-and-event-notifications-101",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "building-rotation-59": {
+    "title": "¿La construcción no encaja? Mantén pulsado Girar",
+    "category": "建造与基地",
+    "html": "<p>En modo construcción, elige la pieza y ajusta la orientación. Un toque gira 45 grados; mantener permite un giro continuo más preciso. Revisa la vista previa antes de colocar.</p><p>El coste aparece en el centro: verde con recursos suficientes, rojo si faltan. Comprueba dirección, materiales y vista previa, no solo si tienes madera.</p>",
+    "text": "En modo construcción, elige la pieza y ajusta la orientación. Un toque gira 45 grados; mantener permite un giro continuo más preciso. Revisa la vista previa antes de colocar. El coste aparece en el centro: verde con recursos suficientes, rojo si faltan. Comprueba dirección, materiales y vista previa, no solo si tienes madera.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-start-building-where-is-the-building-plan-and-why-do-i-have-a-mallet-59",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "key-code-lock-choice-62": {
+    "title": "Qué cerradura elegir para jugar solo o en equipo",
+    "category": "建造与基地",
+    "html": "<p>La cerradura de llave solo permite al dueño abrir con su llave y no sirve como acceso compartido. Para compañeros que entran con frecuencia, considera una de código.</p><p>El código sirve en puertas, armarios y cajas grandes. Compártelo solo con personas de confianza. Protege especialmente el armario, pues su acceso afecta a los permisos de construcción.</p>",
+    "text": "La cerradura de llave solo permite al dueño abrir con su llave y no sirve como acceso compartido. Para compañeros que entran con frecuencia, considera una de código. El código sirve en puertas, armarios y cajas grandes. Compártelo solo con personas de confianza. Protege especialmente el armario, pues su acceso afecta a los permisos de construcción.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-lock-types-62",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "first-aid-preparation-71": {
+    "title": "Pon vendas y botiquines en accesos rápidos",
+    "category": "生存基础",
+    "html": "<p>Las vendas usan tela y no requieren investigación. Los botiquines recuperan más vida, pero necesitan desbloquear su plano. Investiga y fabrica antes de entrar en combate, no después de resultar herido.</p><p>Puedes consumirlos desde el inventario o colocarlos en accesos rápidos y pulsar acción. Revisa cantidades y posiciones antes de salir; consulta costes en el menú o la calculadora del sitio.</p>",
+    "text": "Las vendas usan tela y no requieren investigación. Los botiquines recuperan más vida, pero necesitan desbloquear su plano. Investiga y fabrica antes de entrar en combate, no después de resultar herido. Puedes consumirlos desde el inventario o colocarlos en accesos rápidos y pulsar acción. Revisa cantidades y posiciones antes de salir; consulta costes en el menú o la calculadora del sitio.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-first-aid-items-exist-and-how-do-i-use-them-71",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "sound-direction-223": {
+    "title": "¿De dónde vienen los pasos? Activa la visualización de sonido",
+    "category": "战斗与装备",
+    "html": "<p>Esta opción muestra indicadores de dirección para disparos, pasos y otros ruidos. Úsalos como pistas cuando oigas movimiento y no sepas dónde mirar.</p><p>Ve a Ajustes → Audio → Adicional → Visualización de efectos de sonido. Puedes cambiarlo en partida y marcarlo como favorito. Indica dirección, no la posición exacta del enemigo.</p>",
+    "text": "Esta opción muestra indicadores de dirección para disparos, pasos y otros ruidos. Úsalos como pistas cuando oigas movimiento y no sepas dónde mirar. Ve a Ajustes → Audio → Adicional → Visualización de efectos de sonido. Puedes cambiarlo en partida y marcarlo como favorito. Indica dirección, no la posición exacta del enemigo.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-visualization-of-sound-effects-and-how-do-i-turn-it-off-223",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "headset-microphone-102": {
+    "title": "¿Tus compañeros no te oyen con auriculares Bluetooth?",
+    "category": "氏族与社交",
+    "html": "<p>En Audio, comprueba Micrófono de auriculares. Al activarlo, se usa el micrófono Bluetooth en lugar del integrado del teléfono. Está desactivado por defecto.</p><p>Si no llega voz, vuelve al vestíbulo y revisa Acceso al micrófono en Sistema, pestaña que no aparece en partida. Pide a un compañero confirmar el audio antes de una acción coordinada.</p>",
+    "text": "En Audio, comprueba Micrófono de auriculares. Al activarlo, se usa el micrófono Bluetooth en lugar del integrado del teléfono. Está desactivado por defecto. Si no llega voz, vuelve al vestíbulo y revisa Acceso al micrófono en Sistema, pestaña que no aparece en partida. Pide a un compañero confirmar el audio antes de una acción coordinada.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-adjust-volume-mute-sounds-or-lower-ambient-audio-102",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "offscreen-teammates-111": {
+    "title": "Localiza la dirección de tus compañeros sin abrir el mapa",
+    "category": "氏族与社交",
+    "html": "<p>Activa Marcador fuera de pantalla en Ajustes → Básico → Visualización en partida. Si un compañero queda fuera de la vista, aparecen indicadores en los bordes.</p><p>Se puede modificar durante la partida y es independiente de la visibilidad de compañeros en el mapa. Abre el mapa si necesitas su ubicación cartográfica.</p>",
+    "text": "Activa Marcador fuera de pantalla en Ajustes → Básico → Visualización en partida. Si un compañero queda fuera de la vista, aparecen indicadores en los bordes. Se puede modificar durante la partida y es independiente de la visibilidad de compañeros en el mapa. Abre el mapa si necesitas su ubicación cartográfica.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-off-screen-marker-and-how-do-i-track-clanmates-on-screen-111",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "default-skin-159": {
+    "title": "Elige una apariencia predeterminada para fabricar y recoger",
+    "category": "战斗与装备",
+    "html": "<p>En el vestíbulo, pulsa el botón de apariencias a la derecha del personaje. Elige categoría, objeto y una apariencia que poseas, y establécela como predeterminada.</p><p>Se aplica al fabricar, recoger versiones sin apariencia y al hacha y antorcha iniciales al entrar en un servidor. Solo cambia el aspecto: no entrega equipo ni desbloquea planos.</p>",
+    "text": "En el vestíbulo, pulsa el botón de apariencias a la derecha del personaje. Elige categoría, objeto y una apariencia que poseas, y establécela como predeterminada. Se aplica al fabricar, recoger versiones sin apariencia y al hacha y antorcha iniciales al entrar en un servidor. Solo cambia el aspecto: no entrega equipo ni desbloquea planos.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-choose-and-set-a-default-skin-for-my-items-159",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial",
+    "additional_sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/what-does-setting-a-default-skin-actually-do-160"
+    ]
+  },
+  "sandbox-save-238": {
+    "title": "Practica construcción en Sandbox y guarda antes de salir",
+    "category": "建造与基地",
+    "html": "<p>Elige Sandbox en la lista de servidores o en Ajustes → Sistema. Construir y fabricar no consume recursos. Escoge materiales directamente y demuele para ajustar habitaciones y pasillos.</p><p>Hay tres espacios de guardado, sin guardado automático. Guarda y carga manualmente: rechazar guardar al salir pierde los cambios. Los archivos son locales, no se sincronizan con la cuenta; tenlo presente al reinstalar o cambiar de teléfono.</p><p>Esta guía solo cubre distribución y guardado. Las páginas oficiales discrepan sobre daño explosivo, así que no presentamos Sandbox como método confirmado para medir costes de incursión.</p>",
+    "text": "Elige Sandbox en la lista de servidores o en Ajustes → Sistema. Construir y fabricar no consume recursos. Escoge materiales directamente y demuele para ajustar habitaciones y pasillos. Hay tres espacios de guardado, sin guardado automático. Guarda y carga manualmente: rechazar guardar al salir pierde los cambios. Los archivos son locales, no se sincronizan con la cuenta; tenlo presente al reinstalar o cambiar de teléfono. Esta guía solo cubre distribución y guardado. Las páginas oficiales discrepan sobre daño explosivo, así que no presentamos Sandbox como método confirmado para medir costes de incursión.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-sandbox-and-how-do-i-open-it-238",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "leave-clan-179": {
+    "title": "Cambiar de clan: planifica la salida y el liderazgo",
+    "category": "氏族与社交",
+    "html": "<p>En la lista de miembros, pulsa los tres puntos junto a tu nombre y Salir del clan. Debes esperar dos horas antes de entrar en otro; cuenta con ello al quedar con un nuevo grupo.</p><p>Si eres líder y quieres conservar el clan, transfiere el liderazgo antes de salir. No expulses a todos solo para marcharte. Al salir el último miembro, el clan se disuelve.</p>",
+    "text": "En la lista de miembros, pulsa los tres puntos junto a tu nombre y Salir del clan. Debes esperar dos horas antes de entrar en otro; cuenta con ello al quedar con un nuevo grupo. Si eres líder y quieres conservar el clan, transfiere el liderazgo antes de salir. No expulses a todos solo para marcharte. Al salir el último miembro, el clan se disuelve.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-to-leave-or-disband-a-clan-179",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "free-drop-rewards-236": {
+    "title": "Recoge las recompensas del vestíbulo antes de que caduquen",
+    "category": "生存基础",
+    "html": "<p>Cuando aparezca FREE DROP, revisa progreso y tiempo restante. Sigue las indicaciones de visualización para obtener puntos y reclama manualmente cada recompensa desbloqueada. Las pendientes desaparecen al terminar el contador.</p><p>Una apariencia que ya posees se sustituye por plata. El límite diario puede desactivar el botón y los puntos tardar en llegar; lo ya desbloqueado sigue disponible para recoger. Si empieza durante una partida, aparecerá al volver al vestíbulo.</p>",
+    "text": "Cuando aparezca FREE DROP, revisa progreso y tiempo restante. Sigue las indicaciones de visualización para obtener puntos y reclama manualmente cada recompensa desbloqueada. Las pendientes desaparecen al terminar el contador. Una apariencia que ya posees se sustituye por plata. El límite diario puede desactivar el botón y los puntos tardar en llegar; lo ya desbloqueado sigue disponible para recoger. Si empieza durante una partida, aparecerá al volver al vestíbulo.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-free-drop-and-how-do-i-get-the-rewards-236",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
+  },
+  "replay-tutorial-103": {
+    "title": "¿Saltaste el tutorial? Repítelo desde el vestíbulo",
+    "category": "生存基础",
+    "html": "<p>Ve a Ajustes → Sistema, busca Complete Tutorial y pulsa GO. Sirve para aprender lo que omitiste o recordar controles tras una ausencia.</p><p>Incluye recolección, fabricación de herramientas y armas, y construcción. Sistema no aparece en la pausa de una partida: vuelve al vestíbulo. No necesitas otra cuenta.</p>",
+    "text": "Ve a Ajustes → Sistema, busca Complete Tutorial y pulsa GO. Sirve para aprender lo que omitiste o recordar controles tras una ausencia. Incluye recolección, fabricación de herramientas y armas, y construcción. Sistema no aparece en la pausa de una partida: vuelve al vestíbulo. No necesitas otra cuenta.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-restart-or-replay-the-tutorial-103",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Resumen del sitio · Fuente oficial"
   }
 }

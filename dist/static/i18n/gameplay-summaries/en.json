@@ -178,5 +178,282 @@
     "source_locale": "en",
     "category": "生存基础",
     "source_label": "Site summary · Official source"
+  },
+  "car-start-246": {
+    "title": "Starting a roadside car: find a motor and fit a battery",
+    "category": "交通与探索",
+    "html": "<p>Find abandoned cars along roads and near locations. You need a battery, a motor and Fuel Bottles. Research and craft the battery; motors cannot be crafted and must be found under roadside car hoods. Open the hood, install both parts and add fuel to the car&#x27;s fuel slot.</p><p>Seat counts vary. Passengers can use weapons, but drivers cannot. The boot cannot be locked, so anyone can take its contents. Use it for temporary transport, remove valuables when parking, and remember that someone else can drive the car away.</p>",
+    "text": "Find abandoned cars along roads and near locations. You need a battery, a motor and Fuel Bottles. Research and craft the battery; motors cannot be crafted and must be found under roadside car hoods. Open the hood, install both parts and add fuel to the car's fuel slot. Seat counts vary. Passengers can use weapons, but drivers cannot. The boot cannot be locked, so anyone can take its contents. Use it for temporary transport, remove valuables when parking, and remember that someone else can drive the car away.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-find-and-start-a-car-246",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "vehicle-fuel-252": {
+    "title": "Car won't refuel? Check which fuel you have",
+    "category": "交通与探索",
+    "html": "<p>Copters, buggies, roadside cars, trains and mining quarries use Fuel Bottles. Factory fuel is a different item and cannot go into vehicle fuel slots. Check the item before trying again.</p><p>Fuel Bottles need no research and can also be found in loot. Hunting provides Animal Fat for crafting; check the crafting menu for materials and batch output. Refuel and bring spare bottles before a long trip.</p>",
+    "text": "Copters, buggies, roadside cars, trains and mining quarries use Fuel Bottles. Factory fuel is a different item and cannot go into vehicle fuel slots. Check the item before trying again. Fuel Bottles need no research and can also be found in loot. Hunting provides Animal Fat for crafting; check the crafting menu for materials and batch output. Refuel and bring spare bottles before a long trip.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-fuel-bottle-and-where-do-i-get-it-252",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "double-barrel-position-250": {
+    "title": "Double Barrel: fight up close and plan your reload",
+    "category": "战斗与装备",
+    "html": "<p>The Double Barrel holds two shells and fires one barrel at a time. Use it at doorways and in corridors; effectiveness falls with distance, so avoid chasing distant enemies across open ground.</p><p>Choose cover you can retreat behind before engaging. After two shots you must reload: avoid doing so in the middle of a doorway. Research the weapon at a workbench before crafting it, and pack compatible shells.</p>",
+    "text": "The Double Barrel holds two shells and fires one barrel at a time. Use it at doorways and in corridors; effectiveness falls with distance, so avoid chasing distant enemies across open ground. Choose cover you can retreat behind before engaging. After two shots you must reload: avoid doing so in the middle of a doorway. Research the weapon at a workbench before crafting it, and pack compatible shells.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-double-barrel-shotgun-250",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "recycler-output-full-81": {
+    "title": "Recycler stopped? Check the output slots",
+    "category": "生存基础",
+    "html": "<p>Recyclers are found at gas stations, the Miner, the Forester and in towns. Insert recyclable items and start the machine; raw resources cannot be recycled. Each slot shows progress and remaining time.</p><p>When output slots are full, the machine stops without consuming more input or dropping output on the ground. Collect the materials and restart it. Recycling ammunition can lose some materials, so don&#x27;t expect a full refund. The running machine makes noise: watch for nearby players.</p>",
+    "text": "Recyclers are found at gas stations, the Miner, the Forester and in towns. Insert recyclable items and start the machine; raw resources cannot be recycled. Each slot shows progress and remaining time. When output slots are full, the machine stops without consuming more input or dropping output on the ground. Collect the materials and restart it. Recycling ammunition can lose some materials, so don't expect a full refund. The running machine makes noise: watch for nearby players.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "quarry-decay-194": {
+    "title": "Quarry losing health? Check cupboard protection",
+    "category": "建造与基地",
+    "html": "<p>A regular mining quarry decays outside Tool Cupboard protection or when the cupboard lacks upkeep resources. Fuel does not provide maintenance protection. Check both its location and the cupboard&#x27;s supplies.</p><p>Place it on or directly beside a protected building and check the building status indicator there. Refill upkeep before logging out and check again after a long absence, so decay does not destroy the quarry before you collect its output.</p>",
+    "text": "A regular mining quarry decays outside Tool Cupboard protection or when the cupboard lacks upkeep resources. Fuel does not provide maintenance protection. Check both its location and the cupboard's supplies. Place it on or directly beside a protected building and check the building status indicator there. Refill upkeep before logging out and check again after a long absence, so decay does not destroy the quarry before you collect its output.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-is-my-mining-quarry-decaying-194",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "pve-chest-access-206": {
+    "title": "PvE teammate can't open chests? Check cupboard authorization",
+    "category": "建造与基地",
+    "html": "<p>On PvE servers, chests inside a protected building can be opened only by the Tool Cupboard owner and authorized players. If a teammate can enter but cannot open chests, check their authorization.</p><p>This protection depends on cupboard coverage. Chests outside that area do not have the same protection; choosing PvE does not make storage safe everywhere.</p>",
+    "text": "On PvE servers, chests inside a protected building can be opened only by the Tool Cupboard owner and authorized players. If a teammate can enter but cannot open chests, check their authorization. This protection depends on cupboard coverage. Chests outside that area do not have the same protection; choosing PvE does not make storage safe everywhere.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/on-pv-e-who-can-open-chests-in-a-house-with-a-tool-cupboard-why-cant-i-loot-someones-chest-on-pv-e-206",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "clan-station-owner-211": {
+    "title": "Agree who places clan production stations",
+    "category": "氏族与社交",
+    "html": "<p>Clan sawmills, scrap recyclers and quarries are unlocked in the clan progression tree and placed by the leader or an officer. Each clan can have one of each type per server. Agree who will manage it: only the placer can open, fuel, start and collect from it, even if another member is the leader.</p><p>Stations use Low Grade Fuel. Starting reserves clan currency for the loaded fuel; stopping refunds the unused portion. Stop before refueling because the fuel slot is locked while running. Use the panel button. Empty fuel, full storage or a server restart means you must start it again.</p><p>Keep a Tool Cupboard nearby and collect output regularly. Stations cannot be locked and enemies can destroy them, dropping the contents and fuel. Clan-level production improvements apply while stopped; check the station after an upgrade before restarting.</p>",
+    "text": "Clan sawmills, scrap recyclers and quarries are unlocked in the clan progression tree and placed by the leader or an officer. Each clan can have one of each type per server. Agree who will manage it: only the placer can open, fuel, start and collect from it, even if another member is the leader. Stations use Low Grade Fuel. Starting reserves clan currency for the loaded fuel; stopping refunds the unused portion. Stop before refueling because the fuel slot is locked while running. Use the panel button. Empty fuel, full storage or a server restart means you must start it again. Keep a Tool Cupboard nearby and collect output regularly. Stations cannot be locked and enemies can destroy them, dropping the contents and fuel. Clan-level production improvements apply while stopped; check the station after an upgrade before restarting.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/clan-scrap-recycler-what-is-it-who-can-build-it-and-who-can-collect-the-scrap-211",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source",
+    "additional_sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/clan-sawmill-what-is-it-who-can-build-it-and-who-can-collect-the-wood-210",
+      "https://support.playoxide.com/hc/en/oxide/articles/clan-quarry-mining-quarry-what-is-it-how-do-i-unlock-it-who-can-build-it-and-how-does-it-mine-ore-who-can-collect-the-resources-212"
+    ]
+  },
+  "clan-vault-access-198": {
+    "title": "Clan warehouse: why can I deposit but not withdraw?",
+    "category": "氏族与社交",
+    "html": "<p>Clan storage holds weapons, attachments, components and resources. Every member can deposit from their personal Safe, but withdrawals need permission from the leader. If you can only deposit, ask the leader to check the warehouse access list.</p><p>Storage is shared across servers. Some clan perks and opened Allowance rewards also supply it. Granting or revoking access notifies the clan, so agree who collects and distributes supplies.</p>",
+    "text": "Clan storage holds weapons, attachments, components and resources. Every member can deposit from their personal Safe, but withdrawals need permission from the leader. If you can only deposit, ask the leader to check the warehouse access list. Storage is shared across servers. Some clan perks and opened Allowance rewards also supply it. Granting or revoking access notifies the clan, so agree who collects and distributes supplies.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-clan-vault-warehouse-and-who-can-deposit-and-withdraw-items-198",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "clan-shop-216": {
+    "title": "Using the clan shop: where do rewards go?",
+    "category": "氏族与社交",
+    "html": "<p>Open the shop from the clan menu and spend currency earned through clan activities and progression. Higher clan levels unlock more stock. Some purchases have weekly or total limits; check the remaining allowance first.</p><p>Rewards are for the clan. Resources go to the clan warehouse, not necessarily your backpack. Check the item description and warehouse, then have an authorized member withdraw them.</p>",
+    "text": "Open the shop from the clan menu and spend currency earned through clan activities and progression. Higher clan levels unlock more stock. Some purchases have weekly or total limits; check the remaining allowance first. Rewards are for the clan. Resources go to the clan warehouse, not necessarily your backpack. Check the item description and warehouse, then have an authorized member withdraw them.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-clan-shop-store-and-how-do-i-use-it-216",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "death-marker-recovery-120": {
+    "title": "Recovering loot: check the death marker first",
+    "category": "生存基础",
+    "html": "<p>After dying, check the map marker and coordinates. Compare them with the numbered sleeping bags to choose a useful respawn point instead of relying only on the direction you remember running.</p><p>The marker locates the spot but does not guarantee your loot remains. Bring essential supplies and check whether enemies are still nearby before approaching to recover items.</p>",
+    "text": "After dying, check the map marker and coordinates. Compare them with the numbered sleeping bags to choose a useful respawn point instead of relying only on the direction you remember running. The marker locates the spot but does not guarantee your loot remains. Bring essential supplies and check whether enemies are still nearby before approaching to recover items.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-death-marker-and-how-do-i-find-where-i-died-on-the-map-120",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "team-invite-26": {
+    "title": "Inviting teammates in person or remotely",
+    "category": "氏族与社交",
+    "html": "<p>Approach the player on the server until the interaction icon appears, then press the action button to send a team invitation. They must accept; standing nearby does not automatically form a team.</p><p>For a clanmate, open the player list, find their nickname and select Invite to Team from the three-dot menu. You need not meet in person. Clan membership and team membership are separate.</p>",
+    "text": "Approach the player on the server until the interaction icon appears, then press the action button to send a team invitation. They must accept; standing nearby does not automatically form a team. For a clanmate, open the player list, find their nickname and select Invite to Team from the three-dot menu. You need not meet in person. Clan membership and team membership are separate.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-to-invite-a-player-to-your-team-26",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "deathmatch-practice-162": {
+    "title": "Practice shooting in DeathMatch before heading out",
+    "category": "战斗与装备",
+    "html": "<p>Choose DeathMatch (DM) or Team DeathMatch (TDM) in the server list to practice aiming, firing and reloading. Armor, rifles, ammunition and medical supplies are provided; no gathering or base building is needed. Crafting, the shop and the Safe are disabled.</p><p>DM is free-for-all: the first player to 30 kills wins. In TDM, the first team to 100 kills wins and friendly fire is disabled. Kills restore health and ammunition; respawns have brief protection. Practice controls here, then return to survival servers to practice supply management and retreating.</p>",
+    "text": "Choose DeathMatch (DM) or Team DeathMatch (TDM) in the server list to practice aiming, firing and reloading. Armor, rifles, ammunition and medical supplies are provided; no gathering or base building is needed. Crafting, the shop and the Safe are disabled. DM is free-for-all: the first player to 30 kills wins. In TDM, the first team to 100 kills wins and friendly fire is disabled. Kills restore health and ammunition; respawns have brief protection. Practice controls here, then return to survival servers to practice supply management and retreating.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-the-new-game-modes-death-match-dm-and-team-death-match-tdm-162",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "firing-controls-98": {
+    "title": "Adjust firing controls for each weapon type",
+    "category": "战斗与装备",
+    "html": "<p>In Controls &amp; HUD, set crossbows, shotguns and rifles separately to Tap, Hold or Release. Adjust one familiar weapon and try it before changing the others.</p><p>The button editor lets you move and resize controls but is available only from the lobby. Sprint mode, Auto ADS and Auto Reload can be changed during a match. For inventory management, enable double-tap item movement and adjust its timing.</p>",
+    "text": "In Controls & HUD, set crossbows, shotguns and rifles separately to Tap, Hold or Release. Adjust one familiar weapon and try it before changing the others. The button editor lets you move and resize controls but is available only from the lobby. Sprint mode, Auto ADS and Auto Reload can be changed during a match. For inventory management, enable double-tap item movement and adjust its timing.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-customize-controls-button-layout-firing-modes-and-sprint-mode-98",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "aim-sensitivity-99": {
+    "title": "Unsteady aim? Adjust sensitivity by sight type",
+    "category": "战斗与装备",
+    "html": "<p>The Sensitivity tab has separate settings for general view, iron and handmade sights, holosights and optical scopes. If only one sight feels wrong, change that setting without disturbing the others.</p><p>Choose gyroscope Off, While ADS or Always, with separate sight sensitivities. Acceleration, camera smoothing and axis inversion are also available. Make small changes and test your aim; recheck values if an update changes the feel.</p>",
+    "text": "The Sensitivity tab has separate settings for general view, iron and handmade sights, holosights and optical scopes. If only one sight feels wrong, change that setting without disturbing the others. Choose gyroscope Off, While ADS or Always, with separate sight sensitivities. Acceleration, camera smoothing and axis inversion are also available. Make small changes and test your aim; recheck values if an update changes the feel.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-set-up-sensitivity-and-gyroscope-aiming-99",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "graphics-fps-100": {
+    "title": "Low FPS? Start with draw distance and shadows",
+    "category": "生存基础",
+    "html": "<p>In the lobby, use Re-adjust Graphics to match settings to your device. For manual changes, lower draw distance first, then graphics quality and shadows. If needed, lower resolution or disable post-processing.</p><p>These graphics options can be changed through the pause menu without leaving the server. If lowering quality does not help, check your connection and background apps. Heat can reduce performance too. Distinguish choppy rendering from network delay before adjusting more settings.</p>",
+    "text": "In the lobby, use Re-adjust Graphics to match settings to your device. For manual changes, lower draw distance first, then graphics quality and shadows. If needed, lower resolution or disable post-processing. These graphics options can be changed through the pause menu without leaving the server. If lowering quality does not help, check your connection and background apps. Heat can reduce performance too. Distinguish choppy rendering from network delay before adjusting more settings.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-improve-fps-fix-lag-and-change-graphics-settings-100",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "base-notifications-101": {
+    "title": "Enable base attack and upkeep notifications before logging out",
+    "category": "建造与基地",
+    "html": "<p>In Notifications, enable the master switch, then attack, decay and wipe alerts. Attack alerts help you notice raids; decay alerts prompt you to check cupboard resources; wipe alerts help you plan supplies.</p><p>Friend activity, map events and in-game pop-ups have separate controls. If pop-ups distract you, adjust those instead of disabling everything. Alerts only help you notice trouble: check locks and upkeep before leaving.</p>",
+    "text": "In Notifications, enable the master switch, then attack, decay and wipe alerts. Attack alerts help you notice raids; decay alerts prompt you to check cupboard resources; wipe alerts help you plan supplies. Friend activity, map events and in-game pop-ups have separate controls. If pop-ups distract you, adjust those instead of disabling everything. Alerts only help you notice trouble: check locks and upkeep before leaving.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-turn-on-or-off-attack-decay-wipe-friends-activity-and-event-notifications-101",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "building-rotation-59": {
+    "title": "Building piece won't line up? Hold Rotate",
+    "category": "建造与基地",
+    "html": "<p>In Build mode, select a piece before adjusting its orientation. Tapping Rotate turns it 45 degrees; holding rotates smoothly for finer placement. Check the preview before placing to avoid rebuilding.</p><p>The center of the screen shows the resource cost: green means sufficient materials, red means insufficient. Check orientation, cost and placement preview together rather than merely checking for wood in your inventory.</p>",
+    "text": "In Build mode, select a piece before adjusting its orientation. Tapping Rotate turns it 45 degrees; holding rotates smoothly for finer placement. Check the preview before placing to avoid rebuilding. The center of the screen shows the resource cost: green means sufficient materials, red means insufficient. Check orientation, cost and placement preview together rather than merely checking for wood in your inventory.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-start-building-where-is-the-building-plan-and-why-do-i-have-a-mallet-59",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "key-code-lock-choice-62": {
+    "title": "Which lock should you use alone or with teammates?",
+    "category": "建造与基地",
+    "html": "<p>A Key Lock allows only its owner to open it with the matching key and cannot serve as a shared entrance. It suits solo use; consider a Code Lock for teammates who need regular access.</p><p>Code Locks fit doors, cupboards and large storage boxes. Share the code only with trusted players. Protect the Tool Cupboard especially carefully because access also affects building privileges.</p>",
+    "text": "A Key Lock allows only its owner to open it with the matching key and cannot serve as a shared entrance. It suits solo use; consider a Code Lock for teammates who need regular access. Code Locks fit doors, cupboards and large storage boxes. Share the code only with trusted players. Protect the Tool Cupboard especially carefully because access also affects building privileges.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-lock-types-62",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "first-aid-preparation-71": {
+    "title": "Put bandages and medkits in quick slots before leaving",
+    "category": "生存基础",
+    "html": "<p>Bandages use cloth and require no workbench research, making them useful early supplies. Medkits restore more health but need their blueprint unlocked. Research and craft them before entering combat areas, not after you are injured.</p><p>Consume either item from the inventory or put it in a quick slot and use the action button. Check quantities and slot positions before leaving. Find exact material costs in the crafting menu or the site&#x27;s calculator.</p>",
+    "text": "Bandages use cloth and require no workbench research, making them useful early supplies. Medkits restore more health but need their blueprint unlocked. Research and craft them before entering combat areas, not after you are injured. Consume either item from the inventory or put it in a quick slot and use the action button. Check quantities and slot positions before leaving. Find exact material costs in the crafting menu or the site's calculator.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-first-aid-items-exist-and-how-do-i-use-them-71",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "sound-direction-223": {
+    "title": "Can't locate footsteps? Enable sound visualization",
+    "category": "战斗与装备",
+    "html": "<p>Sound visualization adds directional indicators for nearby gunshots, footsteps and other noises. Use them as clues when you hear movement but do not know where to look.</p><p>Go to Settings → Audio → Additional → Visualization of Sound Effects. You can change it during a match and star it for quick access from Favourites. The indicators show sound direction, not an enemy&#x27;s precise position.</p>",
+    "text": "Sound visualization adds directional indicators for nearby gunshots, footsteps and other noises. Use them as clues when you hear movement but do not know where to look. Go to Settings → Audio → Additional → Visualization of Sound Effects. You can change it during a match and star it for quick access from Favourites. The indicators show sound direction, not an enemy's precise position.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-visualization-of-sound-effects-and-how-do-i-turn-it-off-223",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "headset-microphone-102": {
+    "title": "Bluetooth headset connected, but teammates can't hear you?",
+    "category": "氏族与社交",
+    "html": "<p>Check Headset Mic in Audio settings. Enabling it captures speech through the connected headset microphone rather than the phone&#x27;s built-in microphone. It is off by default.</p><p>If no voice gets through, return to the lobby and check Microphone Access in System settings. The System tab is unavailable during a match. Ask a teammate to confirm the sound before starting an activity that needs voice coordination.</p>",
+    "text": "Check Headset Mic in Audio settings. Enabling it captures speech through the connected headset microphone rather than the phone's built-in microphone. It is off by default. If no voice gets through, return to the lobby and check Microphone Access in System settings. The System tab is unavailable during a match. Ask a teammate to confirm the sound before starting an activity that needs voice coordination.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-adjust-volume-mute-sounds-or-lower-ambient-audio-102",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "offscreen-teammates-111": {
+    "title": "See teammate direction without repeatedly opening the map",
+    "category": "氏族与社交",
+    "html": "<p>Enable Off-Screen Marker under Settings → Basic → In Game Display. When teammates are outside your view, edge markers show which direction they are in as you move.</p><p>You can change this during a match. It is separate from the map&#x27;s teammate visibility switch. Open the map when you need their actual map position.</p>",
+    "text": "Enable Off-Screen Marker under Settings → Basic → In Game Display. When teammates are outside your view, edge markers show which direction they are in as you move. You can change this during a match. It is separate from the map's teammate visibility switch. Open the map when you need their actual map position.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-off-screen-marker-and-how-do-i-track-clanmates-on-screen-111",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "default-skin-159": {
+    "title": "Set a default skin for crafting and pickups",
+    "category": "战斗与装备",
+    "html": "<p>In the lobby, tap the skin button to the right of your character. Select Weapons, Armor or Building Items, choose an item and an owned skin, then set it as default. You won&#x27;t need to choose it again each time you craft that item.</p><p>The default also applies to skinless versions you pick up and to your starting hatchet and torch when joining a server. It changes appearance only; it does not give you equipment or unlock its blueprint.</p>",
+    "text": "In the lobby, tap the skin button to the right of your character. Select Weapons, Armor or Building Items, choose an item and an owned skin, then set it as default. You won't need to choose it again each time you craft that item. The default also applies to skinless versions you pick up and to your starting hatchet and torch when joining a server. It changes appearance only; it does not give you equipment or unlock its blueprint.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-choose-and-set-a-default-skin-for-my-items-159",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source",
+    "additional_sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/what-does-setting-a-default-skin-actually-do-160"
+    ]
+  },
+  "sandbox-save-238": {
+    "title": "Practice building in the Sandbox, and save before leaving",
+    "category": "建造与基地",
+    "html": "<p>Choose Sandbox in the server list or open it through Settings → System. Building and crafting cost no resources. Select structural materials directly and demolish pieces to adjust rooms and passages.</p><p>There are three save slots and no autosave. Save and load manually; declining to save on exit loses your changes. Saves stay on the device rather than syncing with your account, so consider this before reinstalling or switching phones.</p><p>This guide covers layouts and saves only. Official pages disagree about explosion damage testing, so we do not treat the Sandbox as a verified way to measure raid costs.</p>",
+    "text": "Choose Sandbox in the server list or open it through Settings → System. Building and crafting cost no resources. Select structural materials directly and demolish pieces to adjust rooms and passages. There are three save slots and no autosave. Save and load manually; declining to save on exit loses your changes. Saves stay on the device rather than syncing with your account, so consider this before reinstalling or switching phones. This guide covers layouts and saves only. Official pages disagree about explosion damage testing, so we do not treat the Sandbox as a verified way to measure raid costs.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-sandbox-and-how-do-i-open-it-238",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "leave-clan-179": {
+    "title": "Changing clans? Plan your departure and leadership transfer",
+    "category": "氏族与社交",
+    "html": "<p>Open the clan member list, tap the three dots beside your name and choose Leave Clan. You must wait two hours before joining another clan, so allow for that when planning with a new group.</p><p>If the leader wants the clan to continue, transfer leadership before leaving. Do not kick everyone simply to leave. The clan automatically disbands when its last member leaves.</p>",
+    "text": "Open the clan member list, tap the three dots beside your name and choose Leave Clan. You must wait two hours before joining another clan, so allow for that when planning with a new group. If the leader wants the clan to continue, transfer leadership before leaving. Do not kick everyone simply to leave. The clan automatically disbands when its last member leaves.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-to-leave-or-disband-a-clan-179",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "free-drop-rewards-236": {
+    "title": "Claim unlocked lobby rewards before they expire",
+    "category": "生存基础",
+    "html": "<p>When FREE DROP appears in the lobby, check its progress and remaining time. Follow the event&#x27;s viewing instructions to earn points. Claim each unlocked reward manually: unclaimed rewards disappear when the timer ends.</p><p>A skin you already own is replaced by silver. Daily point limits can temporarily disable the button, and points may arrive late; unlocked rewards remain claimable. An event starting during a match appears when you next return to the lobby.</p>",
+    "text": "When FREE DROP appears in the lobby, check its progress and remaining time. Follow the event's viewing instructions to earn points. Claim each unlocked reward manually: unclaimed rewards disappear when the timer ends. A skin you already own is replaced by silver. Daily point limits can temporarily disable the button, and points may arrive late; unlocked rewards remain claimable. An event starting during a match appears when you next return to the lobby.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-free-drop-and-how-do-i-get-the-rewards-236",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
+  },
+  "replay-tutorial-103": {
+    "title": "Skipped the tutorial? Replay it from the lobby",
+    "category": "生存基础",
+    "html": "<p>From the lobby, go to Settings → System, find Complete Tutorial and press GO. Use it if you skipped the introduction or need a refresher after time away.</p><p>It covers gathering, crafting tools and weapons, and building. The System tab is absent from the in-match pause menu, so return to the lobby to find it. You do not need another account.</p>",
+    "text": "From the lobby, go to Settings → System, find Complete Tutorial and press GO. Use it if you skipped the introduction or need a refresher after time away. It covers gathering, crafting tools and weapons, and building. The System tab is absent from the in-match pause menu, so return to the lobby to find it. You do not need another account.",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-restart-or-replay-the-tutorial-103",
+    "source_locale": "en",
+    "source_kind": "summary",
+    "source_label": "Site summary · Official source"
   }
 }
