@@ -271,11 +271,8 @@ def gameplay_articles() -> list[dict]:
 
 
 def gameplay_page_styles() -> str:
-    return '''<style>
-.gameplay-shell{max-width:1180px;margin:auto;padding:42px 28px 72px}.gameplay-intro{display:grid;grid-template-columns:minmax(200px,1fr) minmax(0,480px);gap:32px;align-items:end;margin-bottom:34px}.gameplay-intro h1{margin:9px 0 10px;color:var(--ink);font:600 clamp(42px,6vw,72px)/.95 var(--display);letter-spacing:-.04em}.gameplay-intro p{max-width:480px;margin:0;color:var(--muted);font-size:14px;line-height:1.8}.gameplay-category{margin:42px 0}.gameplay-category-heading{display:flex;align-items:baseline;gap:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}.gameplay-category-heading h2{margin:0;color:var(--ink);font:600 30px var(--display)}.gameplay-category-heading span{color:var(--muted);font:10px var(--mono);letter-spacing:.08em}.gameplay-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-top:16px}.gameplay-card{display:flex;flex-direction:column;min-height:132px;padding:18px;background:var(--panel);border:1px solid var(--line);border-radius:8px;color:var(--ink);text-decoration:none;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}.gameplay-card:hover{transform:translateY(-3px);border-color:#8ebf5e;box-shadow:0 12px 26px #0007}.gameplay-card small{color:var(--green);font:10px var(--mono);letter-spacing:.08em}.gameplay-card strong{margin-top:12px;font-size:16px;line-height:1.45}.gameplay-card .arrow{margin-top:auto;padding-top:14px;color:var(--green);font-size:18px}.gameplay-article-shell{max-width:900px;margin:auto;padding:42px 28px 72px}.gameplay-breadcrumb{display:flex;gap:9px;margin-bottom:28px;color:var(--muted);font:10px var(--mono)}.gameplay-breadcrumb a{color:var(--green);text-decoration:none}.gameplay-article{padding:30px 34px 38px;background:var(--panel);border:1px solid var(--line);border-radius:10px;box-shadow:0 16px 36px #0005}.gameplay-article .eyebrow{color:var(--green)}.gameplay-article h1{margin:12px 0 28px;color:var(--ink);font:600 clamp(36px,5vw,62px)/1.05 var(--display);letter-spacing:-.03em}.gameplay-body{color:#dce8dc;font-size:16px;line-height:2}.gameplay-body p{margin:0 0 18px}.gameplay-back{display:inline-flex;margin-top:28px;color:var(--green);font-weight:700;text-decoration:none}.gameplay-back:hover{text-decoration:underline}@media(max-width:760px){.gameplay-shell,.gameplay-article-shell{padding:30px 18px 56px}.gameplay-intro{display:block}.gameplay-intro p{margin-top:18px}.gameplay-grid{grid-template-columns:1fr}.gameplay-article{padding:24px 20px 30px}.gameplay-body{font-size:15px;line-height:1.9}}
-.gameplay-layout{display:grid;grid-template-columns:190px 1fr;gap:42px}.gameplay-sidebar{align-self:start;position:sticky;top:20px}.gameplay-sidebar h2{margin:0 0 13px;color:var(--ink);font-size:13px}.gameplay-sidebar a{display:flex;justify-content:space-between;padding:9px 12px;margin:2px 0;border-radius:6px;color:var(--muted);font-size:12px;text-decoration:none}.gameplay-sidebar a:hover,.gameplay-sidebar a:focus,.gameplay-sidebar a.selected{color:var(--green);background:var(--light);font-weight:600}.gameplay-sidebar b{font:10px var(--mono);font-weight:400}.gameplay-sidebar-foot{margin:38px 12px 0;color:var(--muted);font:10px/1.8 var(--mono)}.gameplay-category{scroll-margin-top:24px}
-@media(max-width:760px){.gameplay-layout{display:block}.gameplay-sidebar{position:static;margin-bottom:34px;padding-bottom:18px;border-bottom:1px solid var(--line)}.gameplay-sidebar h2{margin-bottom:8px}.gameplay-sidebar a{display:inline-flex;margin:2px 3px 2px 0}.gameplay-sidebar-foot{display:none}}
-</style>'''
+    """攻略共用样式独立缓存，保持在全站样式之前加载以保留覆盖顺序。"""
+    return '<link rel="stylesheet" href="../static/gameplay.css">'
 
 
 def gameplay_header() -> str:
@@ -807,6 +804,11 @@ def write_crawl_files(pages: list[Path]) -> None:
     )
 
 
+def is_search_verification_page(page: Path) -> bool:
+    """搜索引擎验证文件保持原样，不删除、不注入模板，也不生成多语种副本。"""
+    return re.fullmatch(r'(?:naver[0-9a-f]+|yandex_[0-9a-f]+)\.html', page.name) is not None
+
+
 def main() -> None:
     config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
     categories: dict[str, list[tuple[dict, str]]] = {}
@@ -837,7 +839,8 @@ def main() -> None:
 
     HTML_DIR.mkdir(exist_ok=True)
     for old_page in HTML_DIR.glob("*.html"):
-        old_page.unlink()
+        if not is_search_verification_page(old_page):
+            old_page.unlink()
     for category, items in categories.items():
         for item, slug in items:
             (HTML_DIR / f"{slug}.html").write_text(detail_page(item, category, slug, categories, lookup, "./", recycling_count, attack_count, threat_count), encoding="utf-8")
@@ -854,10 +857,12 @@ def main() -> None:
     (HTML_DIR / "threat.html").write_text(threat_page(categories, recycling_count, attack_count, threat_count), encoding="utf-8")
     items_by_slug = {slug: item for items in categories.values() for item, slug in items}
     for page in HTML_DIR.glob("*.html"):
+        if is_search_verification_page(page):
+            continue
         content = clean_page_branding(page.read_text(encoding="utf-8"))
         page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
     gameplay_count = write_gameplay_pages()
-    crawl_pages = list(HTML_DIR.glob("*.html")) + list((HTML_DIR / "gameplay").glob("*.html"))
+    crawl_pages = [p for p in HTML_DIR.glob("*.html") if not is_search_verification_page(p)] + list((HTML_DIR / "gameplay").glob("*.html"))
     from build_i18n import build_localized_pages
     localized_pages = build_localized_pages(sorted(crawl_pages))
     write_crawl_files(localized_pages)

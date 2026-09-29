@@ -251,6 +251,8 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     structured = soup.new_tag('script', type='application/ld+json')
     structured.string = json.dumps({'@context': 'https://schema.org', '@type': 'WebPage', 'name': page_title, 'url': canonical, 'inLanguage': LANGUAGES[lang][1]}, ensure_ascii=False).replace('</', '<\\/')
     soup.head.append(structured)
+    from image_assets import optimize_images
+    optimize_images(soup, page, lang, localized)
     return str(soup)
 
 

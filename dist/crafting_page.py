@@ -44,6 +44,7 @@ def validate_recipes(config, recipes):
 
 def localized_data(translator, mapping):
     from build_static import display_category, category_name
+    from image_assets import thumbnail_image
     config = json.loads((ROOT / 'static/config.json').read_text())
     recipes = json.loads((ROOT / 'static/crafting-recipes.json').read_text())['recipes']
     validate_recipes(config, recipes)
@@ -57,7 +58,7 @@ def localized_data(translator, mapping):
             slug = Path(row['image']).stem
             token = mapping['items'][slug]['name']
             items[slug] = {'name': game_text(translator.game[token]), 'english': game_text(english[token]),
-                           'image': row['image'], 'category': translator.text(category_name(display_category(category)))}
+                           'image': thumbnail_image(row['image']), 'category': translator.text(category_name(display_category(category)))}
     for slug, recipe in recipes.items():
         assert slug in items and set(recipe['materials']) <= items.keys(), slug
         items[slug]['recipe'] = recipe
