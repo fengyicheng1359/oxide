@@ -25,7 +25,10 @@ def main():
             path = ROOT/lang/relative
             soup = BeautifulSoup(path.read_text(encoding='utf-8'), 'html.parser')
             assert soup.html['lang'] == html_lang, path
-            assert soup.select_one('link[rel=canonical]')['href'] == f'{site_url}/{lang}/{relative.as_posix()}', path
+            public_path = relative.as_posix()
+            if relative.name == 'index.html':
+                public_path = public_path[:-len('index.html')]
+            assert soup.select_one('link[rel=canonical]')['href'] == f'{site_url}/{lang}/{public_path}', path
             alternates = soup.select('link[rel=alternate][hreflang]')
             assert len(alternates) == 10 and len({a['hreflang'] for a in alternates}) == 10, path
             options = soup.select('#site-language option')
@@ -33,6 +36,7 @@ def main():
             assert [o['data-language'] for o in options if o.has_attr('selected')] == [lang], path
             for option in options:
                 target = (path.parent/option['value']).resolve()
+                if target.is_dir(): target = target / 'index.html'
                 assert target == (ROOT/option['data-language']/relative).resolve(), path
             for element in soup.select('[href], [src], [poster]'):
                 for attr in ('href', 'src', 'poster'):
@@ -40,6 +44,7 @@ def main():
                     url = urlsplit(element[attr])
                     if url.scheme or url.netloc or not url.path: continue
                     target = (path.parent/unquote(url.path)).resolve()
+                    if target.is_dir(): target = target / 'index.html'
                     if not target.is_file(): errors.append(f'{path.relative_to(ROOT)}: {element[attr]}')
                     if attr == 'href' and element.name == 'a' and target.suffix == '.html' and not element.find_parent('noscript'):
                         assert target.is_relative_to((ROOT/lang).resolve()), (path, element[attr])

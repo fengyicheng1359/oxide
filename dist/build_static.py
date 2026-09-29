@@ -788,8 +788,9 @@ def inject_seo(page: Path, content: str, items_by_slug: dict[str, dict]) -> str:
 def write_crawl_files(pages: list[Path]) -> None:
     """生成搜索引擎使用的站点地图和抓取规则。"""
     site_url = str(site_config().get("site_url") or "").rstrip("/")
+    from page_urls import directory_url
     urls = "\n".join(
-        f"  <url><loc>{html.escape(site_url + '/' + page.relative_to(HTML_DIR).as_posix())}</loc></url>"
+        f"  <url><loc>{html.escape(directory_url(site_url + '/' + page.relative_to(HTML_DIR).as_posix()))}</loc></url>"
         for page in sorted(pages, key=lambda path: path.relative_to(HTML_DIR).as_posix())
     )
     sitemap = f'''<?xml version="1.0" encoding="UTF-8"?>

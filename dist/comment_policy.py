@@ -4,6 +4,7 @@ from html import escape
 from pathlib import Path
 from bs4 import BeautifulSoup
 from build_i18n import LANGUAGES, add_language_picker
+from page_urls import normalize_index_links
 
 ROOT = Path(__file__).resolve().parent
 
@@ -45,7 +46,7 @@ def write_comment_policies() -> list[Path]:
         add_language_picker(soup, 'comment-policy.html', lang, localized, lambda _: text['language'])
         path = ROOT / relative
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(str(soup), encoding='utf-8')
+        path.write_text(normalize_index_links(str(soup), site_url), encoding='utf-8')
         pages.append(path)
     return pages
 

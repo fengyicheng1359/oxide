@@ -22,7 +22,8 @@
       const saved = localStorage.getItem('oxide-language');
       if (supported.has(saved)) language = saved;
     } catch (_) { /* 没有存储权限时继续使用浏览器语言。 */ }
-    const target = new URL(root.dataset.siteRoot + language + '/' + root.dataset.pagePath, location.href);
+    const pagePath = root.dataset.pagePath.replace(/(^|\/)index\.html$/, '$1');
+    const target = new URL(root.dataset.siteRoot + language + '/' + pagePath, location.href);
     target.search = location.search;
     target.hash = location.hash;
     location.replace(target.href);
