@@ -1,6 +1,7 @@
 {
   "site_name": "氧化物生存岛爱好者论坛",
   "site_url": "https://myoxide.fun",
+  "disqus_shortname": "myoxide",
   "favicon_path": "./static/assets/OSAAS.jpeg",
   "google_analytics_id": "G-Z2PF3GRWG4",
   "google_adsense_client": "ca-pub-4395750843781237",

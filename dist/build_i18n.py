@@ -253,7 +253,8 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     soup.head.append(structured)
     from image_assets import optimize_images
     optimize_images(soup, page, lang, localized)
-    return str(soup)
+    from comments import add_comments
+    return add_comments(str(soup), relative_root(page, localized), load(ROOT / 'static/site-config.json'))
 
 
 _EN = None

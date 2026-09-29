@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; line-height: 1.7; }
+    .policy { max-width: 800px; margin: 0 auto; padding: 40px 24px 64px; }
+    .policy article { padding: 32px; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; }
+    .policy h1 { margin: 0 0 16px; font-size: clamp(28px, 5vw, 40px); line-height: 1.2; }
+    .policy h2 { margin-top: 28px; font-size: 21px; }
+    .policy a { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+    .policy li { margin: 10px 0; }
+    .policy ul { padding-left: 24px; }
+    .policy footer { margin-top: 24px; font-size: 14px; }
+    @media (max-width: 480px) { .policy { padding: 24px 16px; } .policy article { padding: 24px 20px; } }
+.policy-languages { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-bottom: 20px; }

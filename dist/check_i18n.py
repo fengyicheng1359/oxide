@@ -10,7 +10,7 @@ def main():
     expected = {p.relative_to(ROOT/'zh') for p in (ROOT/'zh').rglob('*.html')}
     config = json.loads((ROOT/'static/config.json').read_text())
     item_pages = {Path(item['image']).stem + '.html' for items in config.values() for item in items if item.get('image')}
-    required = {Path(name) for name in item_pages | {'index.html', 'crafting.html', 'items.html', 'play.html', 'about.html', 'recycling.html', 'attack.html', 'defense.html', 'healing.html', 'threat.html'}}
+    required = {Path(name) for name in item_pages | {'comment-policy.html', 'index.html', 'crafting.html', 'items.html', 'play.html', 'about.html', 'recycling.html', 'attack.html', 'defense.html', 'healing.html', 'threat.html'}}
     required |= {Path('gameplay') / (slug + '.html') for slug in load_guides('zh')}
     required.add(Path('gameplay/index.html'))
     assert expected == required, (expected ^ required)
@@ -59,7 +59,8 @@ def main():
     assert not errors, '\n'.join(errors[:40])
     from xml.etree import ElementTree
     sitemap = ElementTree.parse(ROOT/'sitemap.xml')
-    assert len(sitemap.getroot()) == pages
+    assert len(sitemap.getroot()) == pages + 1
+    assert any(node.text == site_url + "/comment-policy.html" for node in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc"))
     print(f'PASS: {pages} localized pages; all nine language sets, links, assets, articles and SEO checked.')
 
 

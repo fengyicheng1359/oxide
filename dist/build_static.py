@@ -809,6 +809,10 @@ def is_search_verification_page(page: Path) -> bool:
     return re.fullmatch(r'(?:naver[0-9a-f]+|yandex_[0-9a-f]+)\.html', page.name) is not None
 
 
+# 政策页由独立生成器处理，不参与游戏页面模板注入和翻译。
+STANDALONE_PAGES = {"comment-policy.html"}
+
+
 def main() -> None:
     config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
     categories: dict[str, list[tuple[dict, str]]] = {}
@@ -839,7 +843,7 @@ def main() -> None:
 
     HTML_DIR.mkdir(exist_ok=True)
     for old_page in HTML_DIR.glob("*.html"):
-        if not is_search_verification_page(old_page):
+        if not is_search_verification_page(old_page) and old_page.name not in STANDALONE_PAGES:
             old_page.unlink()
     for category, items in categories.items():
         for item, slug in items:
@@ -857,15 +861,16 @@ def main() -> None:
     (HTML_DIR / "threat.html").write_text(threat_page(categories, recycling_count, attack_count, threat_count), encoding="utf-8")
     items_by_slug = {slug: item for items in categories.values() for item, slug in items}
     for page in HTML_DIR.glob("*.html"):
-        if is_search_verification_page(page):
+        if is_search_verification_page(page) or page.name in STANDALONE_PAGES:
             continue
         content = clean_page_branding(page.read_text(encoding="utf-8"))
         page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
     gameplay_count = write_gameplay_pages()
     crawl_pages = [p for p in HTML_DIR.glob("*.html") if not is_search_verification_page(p)] + list((HTML_DIR / "gameplay").glob("*.html"))
     from build_i18n import build_localized_pages
-    localized_pages = build_localized_pages(sorted(crawl_pages))
-    write_crawl_files(localized_pages)
+    localized_pages = build_localized_pages(sorted(p for p in crawl_pages if p.name not in STANDALONE_PAGES))
+    from comment_policy import write_comment_policies
+    write_crawl_files(localized_pages + write_comment_policies())
     print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page, 1 healing page, 1 threat page and {gameplay_count} gameplay pages")
 
 

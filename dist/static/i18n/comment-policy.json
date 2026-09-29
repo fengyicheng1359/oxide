@@ -1,0 +1,173 @@
+{
+  "en": {
+    "title": "Comment Policy",
+    "home": "MyOxide home",
+    "language": "Language",
+    "intro": "Welcome to MyOxide! Share your Oxide: Survival Island tips, ask questions, contribute information, or point out errors. When reporting a correction, please include the game version, platform, and relevant details so others can check it.",
+    "rules_title": "Community guidelines",
+    "rules": [
+      "Respect other players. Disagreements are welcome, but insults, threats, and harassment are not.",
+      "Do not post advertisements, spam, scam links, or content that impersonates official sources.",
+      "Do not share cheats, account-stealing tools, malware, or links to download them.",
+      "Do not disclose passwords, contact details, or other private information belonging to yourself or anyone else.",
+      "Keep discussions relevant to Oxide: Survival Island and avoid posting the same comment repeatedly. Pages in the same language share one community board; when reporting an issue with a particular page, please include its link."
+    ],
+    "moderation_title": "Comments and moderation",
+    "moderation": "Where comments are available, MyOxide uses Disqus to provide the commenting service. When guest commenting is enabled, you can submit a comment without registering for a Disqus account. Guest comments appear publicly only after a moderator approves them. Review may take some time, so please do not submit the same comment again while waiting.",
+    "enforcement": "Moderators may remove comments that violate these guidelines, repeat existing content, or are unrelated to the discussion. Accounts that repeatedly violate the rules may be restricted.",
+    "about_title": "About this community",
+    "about": "MyOxide is an unofficial, player-maintained resource. Comments express the views of their authors and do not represent MyOxide or the game's official team."
+  },
+  "zh": {
+    "title": "评论政策",
+    "home": "MyOxide 首页",
+    "language": "语言",
+    "intro": "欢迎在 MyOxide 分享《氧化物：生存岛》的游戏技巧、提出问题、补充资料或指出错误。纠错时，请尽量注明游戏版本、平台和具体情况，方便大家核对。",
+    "rules_title": "社区规则",
+    "rules": [
+      "尊重其他玩家，可以表达不同意见，但不要辱骂、威胁或骚扰他人。",
+      "不要发布推广广告、刷屏内容、诈骗链接或冒充官方的信息。",
+      "不要传播外挂、盗号工具、恶意程序或相关下载链接。",
+      "不要公开自己或他人的密码、联系方式等隐私信息。",
+      "请围绕《氧化物：生存岛》交流，避免重复提交。同一语言的页面共用一个留言板；反馈具体页面的问题时，请附上页面链接。"
+    ],
+    "moderation_title": "留言与审核",
+    "moderation": "本站在开放评论的页面使用 Disqus。开启访客评论后，无需注册 Disqus 账号即可提交留言；访客留言经管理员审核后才会公开显示。审核可能需要一些时间，请勿重复提交。",
+    "enforcement": "管理员可能删除违规、重复或与讨论无关的评论，并对持续违规的账号采取限制措施。",
+    "about_title": "关于社区",
+    "about": "MyOxide 是玩家维护的非官方资料站。用户评论代表发表者个人观点，不代表本站或游戏官方立场。"
+  },
+  "ja": {
+    "title": "コメントポリシー",
+    "home": "MyOxide ホーム",
+    "language": "言語",
+    "intro": "MyOxide へようこそ！Oxide: Survival Island の攻略情報、質問、補足や訂正をお寄せください。訂正の際は、確認できるようゲームのバージョン、プラットフォーム、具体的な状況を添えてください。",
+    "rules_title": "コミュニティのルール",
+    "rules": [
+      "他のプレイヤーを尊重してください。意見の違いは歓迎しますが、侮辱、脅迫、嫌がらせは禁止です。",
+      "広告、スパム、詐欺リンク、公式を装う情報を投稿しないでください。",
+      "チート、アカウント窃取ツール、マルウェアやそのダウンロードリンクを共有しないでください。",
+      "自分や他人のパスワード、連絡先などの個人情報を公開しないでください。",
+      "Oxide: Survival Island に関する話題で交流し、重複投稿は避けてください。同じ言語のページは掲示板を共有しています。特定のページの問題を報告する際はリンクを添えてください。"
+    ],
+    "moderation_title": "コメントと審査",
+    "moderation": "コメント対応ページでは Disqus を利用しています。ゲストコメントが有効な場合、アカウント登録なしで投稿できます。ゲストの投稿は管理者の承認後に公開されます。審査には時間がかかる場合があるため、再投稿せずにお待ちください。",
+    "enforcement": "管理者はルール違反、重複、無関係なコメントを削除する場合があります。違反を繰り返すアカウントは制限される場合があります。",
+    "about_title": "このコミュニティについて",
+    "about": "MyOxide はプレイヤーが運営する非公式の情報サイトです。コメントは投稿者個人の意見であり、当サイトやゲーム公式の見解ではありません。"
+  },
+  "ko": {
+    "title": "댓글 정책",
+    "home": "MyOxide 홈",
+    "language": "언어",
+    "intro": "MyOxide에 오신 것을 환영합니다! Oxide: Survival Island의 팁, 질문, 추가 정보나 오류를 공유해 주세요. 정정을 요청할 때는 확인할 수 있도록 게임 버전, 플랫폼 및 구체적인 상황을 알려 주세요.",
+    "rules_title": "커뮤니티 규칙",
+    "rules": [
+      "다른 플레이어를 존중해 주세요. 다른 의견은 환영하지만 모욕, 위협, 괴롭힘은 금지됩니다.",
+      "광고, 도배, 사기 링크 또는 공식 정보를 사칭하는 내용을 올리지 마세요.",
+      "핵, 계정 탈취 도구, 악성 프로그램이나 관련 다운로드 링크를 공유하지 마세요.",
+      "자신이나 다른 사람의 비밀번호, 연락처 등 개인정보를 공개하지 마세요.",
+      "Oxide: Survival Island와 관련된 이야기를 나누고 중복 게시를 피하세요. 같은 언어의 페이지는 게시판을 공유합니다. 특정 페이지의 오류를 제보할 때는 링크를 첨부해 주세요."
+    ],
+    "moderation_title": "댓글 및 검토",
+    "moderation": "댓글을 지원하는 페이지에서는 Disqus를 사용합니다. 게스트 댓글이 활성화되면 Disqus 계정 등록 없이 댓글을 제출할 수 있습니다. 게스트 댓글은 관리자의 승인 후 공개됩니다. 검토에 시간이 걸릴 수 있으므로 중복 제출하지 마세요.",
+    "enforcement": "관리자는 규칙 위반, 중복 또는 주제와 무관한 댓글을 삭제할 수 있습니다. 반복적으로 규칙을 위반하는 계정은 제한될 수 있습니다.",
+    "about_title": "커뮤니티 소개",
+    "about": "MyOxide는 플레이어가 운영하는 비공식 정보 사이트입니다. 댓글은 작성자의 개인 의견이며 사이트나 게임 공식 팀의 입장을 대변하지 않습니다."
+  },
+  "fr": {
+    "title": "Règles des commentaires",
+    "home": "Accueil MyOxide",
+    "language": "Langue",
+    "intro": "Bienvenue sur MyOxide ! Partagez vos astuces pour Oxide: Survival Island, posez des questions ou signalez des erreurs. Pour une correction, précisez la version du jeu, la plateforme et les détails utiles à la vérification.",
+    "rules_title": "Règles de la communauté",
+    "rules": [
+      "Respectez les autres joueurs. Les désaccords sont bienvenus, mais pas les insultes, les menaces ni le harcèlement.",
+      "Ne publiez pas de publicités, de spam, de liens frauduleux ou de contenus se faisant passer pour une source officielle.",
+      "Ne partagez pas de logiciels de triche, de vol de comptes, de programmes malveillants ni leurs liens de téléchargement.",
+      "Ne divulguez pas de mots de passe, de coordonnées ou d’autres informations privées, les vôtres comme celles d’autrui.",
+      "Restez dans le sujet d’Oxide: Survival Island et évitez les doublons. Les pages d’une même langue partagent un espace de discussion. Pour signaler un problème sur une page, ajoutez son lien."
+    ],
+    "moderation_title": "Commentaires et modération",
+    "moderation": "MyOxide utilise Disqus sur les pages proposant des commentaires. Si les commentaires invités sont activés, vous pouvez publier sans créer de compte Disqus. Les commentaires invités ne sont visibles qu’après validation. Cela peut prendre du temps : ne les soumettez pas à nouveau.",
+    "enforcement": "Les modérateurs peuvent supprimer les commentaires contraires aux règles, répétés ou hors sujet. Les comptes qui enfreignent régulièrement les règles peuvent être restreints.",
+    "about_title": "À propos de la communauté",
+    "about": "MyOxide est une ressource non officielle entretenue par des joueurs. Les commentaires expriment l’opinion de leurs auteurs, pas celle de MyOxide ni de l’équipe officielle du jeu."
+  },
+  "de": {
+    "title": "Kommentarregeln",
+    "home": "MyOxide-Startseite",
+    "language": "Sprache",
+    "intro": "Willkommen bei MyOxide! Teile Tipps zu Oxide: Survival Island, stelle Fragen, ergänze Informationen oder melde Fehler. Gib bei Korrekturen bitte Spielversion, Plattform und konkrete Details an, damit andere sie prüfen können.",
+    "rules_title": "Community-Regeln",
+    "rules": [
+      "Respektiere andere Spieler. Unterschiedliche Meinungen sind willkommen, Beleidigungen, Drohungen und Belästigungen nicht.",
+      "Veröffentliche keine Werbung, Spam, Betrugslinks oder Inhalte, die sich als offizielle Informationen ausgeben.",
+      "Teile keine Cheats, Werkzeuge zum Kontodiebstahl, Schadsoftware oder entsprechende Downloadlinks.",
+      "Veröffentliche keine Passwörter, Kontaktdaten oder sonstigen privaten Informationen über dich oder andere.",
+      "Bleibe beim Thema Oxide: Survival Island und vermeide doppelte Beiträge. Seiten derselben Sprache teilen einen Diskussionsbereich. Verlinke bei einer Fehlermeldung bitte die betroffene Seite."
+    ],
+    "moderation_title": "Kommentare und Moderation",
+    "moderation": "MyOxide verwendet Disqus auf Seiten mit Kommentarfunktion. Sind Gastkommentare aktiviert, kannst du ohne Disqus-Konto schreiben. Gastkommentare werden erst nach Freigabe sichtbar. Die Prüfung kann dauern; bitte sende den Kommentar nicht erneut.",
+    "enforcement": "Moderatoren können regelwidrige, doppelte oder themenfremde Kommentare löschen. Konten mit wiederholten Verstößen können eingeschränkt werden.",
+    "about_title": "Über diese Community",
+    "about": "MyOxide ist eine inoffizielle, von Spielern gepflegte Informationsseite. Kommentare geben die Meinung ihrer Autoren wieder, nicht die von MyOxide oder dem offiziellen Spielteam."
+  },
+  "es": {
+    "title": "Normas de comentarios",
+    "home": "Inicio de MyOxide",
+    "language": "Idioma",
+    "intro": "¡Bienvenido a MyOxide! Comparte consejos de Oxide: Survival Island, haz preguntas, aporta información o señala errores. Para las correcciones, incluye la versión del juego, la plataforma y detalles que permitan comprobarlas.",
+    "rules_title": "Reglas de la comunidad",
+    "rules": [
+      "Respeta a los demás jugadores. Se aceptan opiniones distintas, pero no insultos, amenazas ni acoso.",
+      "No publiques publicidad, spam, enlaces fraudulentos ni contenido que suplante a fuentes oficiales.",
+      "No compartas trampas, herramientas para robar cuentas, programas maliciosos ni enlaces para descargarlos.",
+      "No reveles contraseñas, datos de contacto ni otra información privada tuya o de otras personas.",
+      "Habla de Oxide: Survival Island y evita publicaciones duplicadas. Las páginas del mismo idioma comparten un espacio de comentarios. Si señalas un problema de una página, incluye su enlace."
+    ],
+    "moderation_title": "Comentarios y moderación",
+    "moderation": "MyOxide utiliza Disqus en las páginas con comentarios. Si los comentarios de invitados están activados, puedes participar sin crear una cuenta de Disqus. Los comentarios de invitados solo se publican tras su aprobación. La revisión puede tardar; no envíes el mismo comentario otra vez.",
+    "enforcement": "Los moderadores pueden eliminar comentarios que incumplan las reglas, estén repetidos o no tengan relación con la conversación. Las cuentas que incumplan las reglas repetidamente pueden ser restringidas.",
+    "about_title": "Acerca de la comunidad",
+    "about": "MyOxide es una fuente de información no oficial mantenida por jugadores. Los comentarios reflejan las opiniones de sus autores, no las de MyOxide ni las del equipo oficial del juego."
+  },
+  "pt": {
+    "title": "Regras dos comentários",
+    "home": "Início do MyOxide",
+    "language": "Idioma",
+    "intro": "Boas-vindas ao MyOxide! Compartilhe dicas de Oxide: Survival Island, faça perguntas, acrescente informações ou aponte erros. Ao sugerir uma correção, informe a versão do jogo, a plataforma e os detalhes necessários para conferência.",
+    "rules_title": "Regras da comunidade",
+    "rules": [
+      "Respeite os outros jogadores. Opiniões diferentes são bem-vindas, mas insultos, ameaças e assédio não são permitidos.",
+      "Não publique anúncios, spam, links fraudulentos ou conteúdo que se passe por fontes oficiais.",
+      "Não compartilhe cheats, ferramentas de roubo de contas, programas maliciosos ou links para baixá-los.",
+      "Não divulgue senhas, contatos ou outras informações privadas suas ou de outras pessoas.",
+      "Converse sobre Oxide: Survival Island e evite publicações repetidas. As páginas do mesmo idioma compartilham um espaço de comentários. Ao relatar um problema em uma página, inclua o link."
+    ],
+    "moderation_title": "Comentários e moderação",
+    "moderation": "O MyOxide usa o Disqus nas páginas com comentários. Quando os comentários de visitantes estão ativados, é possível participar sem criar uma conta no Disqus. Esses comentários só ficam públicos após aprovação. A análise pode levar algum tempo; não envie o mesmo comentário novamente.",
+    "enforcement": "Moderadores podem excluir comentários que violem as regras, sejam repetidos ou não tenham relação com a conversa. Contas com infrações recorrentes podem sofrer restrições.",
+    "about_title": "Sobre a comunidade",
+    "about": "O MyOxide é uma fonte de informações não oficial mantida por jogadores. Os comentários expressam as opiniões dos autores, não as do MyOxide nem as da equipe oficial do jogo."
+  },
+  "ru": {
+    "title": "Правила комментариев",
+    "home": "Главная MyOxide",
+    "language": "Язык",
+    "intro": "Добро пожаловать на MyOxide! Делитесь советами по Oxide: Survival Island, задавайте вопросы, дополняйте материалы и сообщайте об ошибках. Для проверки исправлений укажите версию игры, платформу и конкретные обстоятельства.",
+    "rules_title": "Правила сообщества",
+    "rules": [
+      "Уважайте других игроков. Разные мнения приветствуются, но оскорбления, угрозы и травля запрещены.",
+      "Не публикуйте рекламу, спам, мошеннические ссылки и материалы, выдающие себя за официальные.",
+      "Не распространяйте читы, инструменты для кражи аккаунтов, вредоносные программы и ссылки на их загрузку.",
+      "Не раскрывайте свои или чужие пароли, контактные данные и другую личную информацию.",
+      "Обсуждайте Oxide: Survival Island и не дублируйте сообщения. У страниц на одном языке общая площадка для комментариев. Сообщая об ошибке на конкретной странице, добавьте ссылку на неё."
+    ],
+    "moderation_title": "Комментарии и модерация",
+    "moderation": "На страницах с комментариями MyOxide использует Disqus. Если гостевые комментарии включены, можно написать без регистрации в Disqus. Гостевые сообщения публикуются только после одобрения модератором. Проверка может занять время; не отправляйте сообщение повторно.",
+    "enforcement": "Модераторы могут удалять сообщения, нарушающие правила, повторяющиеся или не относящиеся к обсуждению. Аккаунты с повторными нарушениями могут быть ограничены.",
+    "about_title": "О сообществе",
+    "about": "MyOxide — неофициальный справочник, который поддерживают игроки. Комментарии отражают мнение авторов, а не MyOxide или официальной команды игры."
+  }
+}
