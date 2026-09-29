@@ -13,10 +13,40 @@ LABELS = ['制作计算器', '添加', '移除', '制作数量', '制作次数',
           '回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。']
 
 
+def validate_recipes(config, recipes):
+    """阻止两份配方静默分叉：校验可制作集合、单次产量和每一种材料。"""
+    ids_by_name = {}
+    for rows in config.values():
+        for row in rows:
+            if row.get('image'):
+                key = (row['name_zh'], row['name_en'])
+                ids_by_name.setdefault(key, []).append(Path(row['image']).stem)
+    expected = {}
+    for rows in config.values():
+        for row in rows:
+            if not row.get('image') or not row.get('crafting_materials'):
+                continue
+            slug = Path(row['image']).stem
+            materials = {}
+            for material in row['crafting_materials']:
+                matches = ids_by_name.get((material['name_zh'], material['name_en']), [])
+                if len(matches) != 1:
+                    raise ValueError(f'{slug} 材料无法唯一对应物品 ID：{material["name_zh"]}')
+                material_id = matches[0]
+                materials[material_id] = materials.get(material_id, 0) + material['amount']
+            expected[slug] = {'output': row['crafting_output_per_batch'], 'materials': materials}
+    if expected.keys() != recipes.keys():
+        raise ValueError(f'可制作物品集合不同步：{expected.keys() ^ recipes.keys()}')
+    for slug, recipe in expected.items():
+        if recipe != recipes[slug]:
+            raise ValueError(f'{slug} 配方不同步：共用数据 {recipe}，计算器 {recipes[slug]}')
+
+
 def localized_data(translator, mapping):
     from build_static import display_category, category_name
     config = json.loads((ROOT / 'static/config.json').read_text())
     recipes = json.loads((ROOT / 'static/crafting-recipes.json').read_text())['recipes']
+    validate_recipes(config, recipes)
     english = json.loads((ROOT / 'static/i18n/game/en.json').read_text())
     from build_i18n import game_text
     items = {}
@@ -26,8 +56,6 @@ def localized_data(translator, mapping):
                 continue
             slug = Path(row['image']).stem
             token = mapping['items'][slug]['name']
-            if slug in recipes:
-                assert row['crafting_output_per_batch'] == recipes[slug]['output'], (slug, '配方单次产量不同步')
             items[slug] = {'name': game_text(translator.game[token]), 'english': game_text(english[token]),
                            'image': row['image'], 'category': translator.text(category_name(display_category(category)))}
     for slug, recipe in recipes.items():

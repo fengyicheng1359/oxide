@@ -101,9 +101,8 @@
       const count = input.value === '' && minimum === 0 ? 0 : input.valueAsNumber;
       if (!quantity(count, minimum)) { input.value = state[field][id] || minimum; return; }
       state[field][id] = count;
-      save(); renderPlan();
-      // 更新结果后恢复焦点，方便键盘连续调整同一个数量。
-      document.querySelector(`[data-field="${field}"][data-item="${id}"]`)?.focus();
+      input.value = count;
+      save(); updatePlanNumbers();
     });
     return input;
   }
@@ -154,13 +153,14 @@
       const list = element('ul', 'craft-recycling-list');
       for (const option of options) {
         const row = element('li', 'craft-recycling-source');
+        row.dataset.source = option.id;
         const name = element('div', 'craft-recycling-item');
         name.append(itemImage(option.id), itemLink(option.id));
         const yieldLabel = element('div');
         yieldLabel.append(element('small', '', t('每件回收产量')), element('strong', '', number(option.amount)));
         const required = element('div');
         required.append(element('small', '', t('补足缺口需回收')),
-          element('strong', option.count === null ? 'craft-probability' : '', option.count === null ? t('概率产出，不保证数量') : number(option.count)));
+          element('strong', option.count === null ? 'craft-source-count craft-probability' : 'craft-source-count', option.count === null ? t('概率产出，不保证数量') : number(option.count)));
         row.append(name, yieldLabel, required); list.append(row);
       }
       cell.append(list, element('p', 'craft-muted', t('回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。')));
@@ -184,6 +184,7 @@
     }
     for (const product of result.products) {
       const row = element('div', 'craft-target');
+      row.dataset.product = product.id;
       const copy = element('div', 'craft-target-copy');
       copy.append(itemLink(product.id), element('small', '', `${t('制作次数')} ${number(product.batches)} · ${t('实际产出')} ${number(product.produced)}`));
       const remove = element('button', 'craft-remove', '×');
@@ -195,13 +196,15 @@
     result.materials.sort((a, b) => items[a.id].name.localeCompare(items[b.id].name, language));
     for (const material of result.materials) {
       const row = element('tr', material.missing ? '' : 'craft-complete');
+      row.dataset.material = material.id;
       const name = element('th'); name.scope = 'row';
       const nameContent = element('div', 'craft-material-name'); nameContent.append(itemImage(material.id), itemLink(material.id)); name.append(nameContent);
       const owned = element('td'); owned.append(numberInput(material.id, material.owned, 0, 'inventory'));
       row.append(name, element('td', 'craft-required', number(material.required)), owned, element('td', 'craft-missing', number(material.missing)));
       byId('craft-materials').append(row);
-      if (material.missing > 0) {
-        const panel = recyclingPanel(material);
+      {
+        // 预先保留回收入口，缺口变化时只切换可见性，避免移除正在点击的节点。
+        const panel = recyclingPanel({ ...material, missing: Math.max(1, material.missing) });
         const button = element('button', 'craft-recycling-toggle'); button.type = 'button';
         button.setAttribute('aria-controls', panel.id);
         const updateButton = () => {
@@ -216,6 +219,34 @@
           updateButton();
         });
         name.append(button); byId('craft-materials').append(panel);
+      }
+    }
+    updatePlanNumbers(result);
+  }
+
+  function updatePlanNumbers(result = calculate(items, state.targets, state.inventory)) {
+    // 数量提交时不重建输入框、链接或按钮，让浏览器正常处理 Tab、失焦与点击。
+    byId('craft-copy-fallback').hidden = true;
+    byId('craft-message').textContent = '';
+    for (const product of result.products) {
+      const row = document.querySelector(`[data-product="${product.id}"]`);
+      row.querySelector('small').textContent = `${t('制作次数')} ${number(product.batches)} · ${t('实际产出')} ${number(product.produced)}`;
+    }
+    for (const material of result.materials) {
+      const row = document.querySelector(`[data-material="${material.id}"]`);
+      row.classList.toggle('craft-complete', material.missing === 0);
+      row.querySelector('.craft-required').textContent = number(material.required);
+      row.querySelector('.craft-missing').textContent = number(material.missing);
+      const button = row.querySelector('.craft-recycling-toggle');
+      const panel = byId('craft-recycling-' + material.id);
+      button.hidden = material.missing === 0;
+      panel.hidden = material.missing === 0 || !expandedMaterials.has(material.id);
+      button.textContent = t(panel.hidden ? '查看回收来源' : '收起回收来源');
+      button.setAttribute('aria-expanded', String(!panel.hidden));
+      button.setAttribute('aria-label', items[material.id].name + ' · ' + button.textContent);
+      for (const option of recyclingOptions(recyclingSources[material.id] || [], material.missing)) {
+        const output = panel.querySelector(`[data-source="${option.id}"] .craft-source-count`);
+        output.textContent = option.count === null ? t('概率产出，不保证数量') : number(option.count);
       }
     }
     const missing = result.materials.filter(row => row.missing > 0).length;
