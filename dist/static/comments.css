@@ -4,3 +4,8 @@
 .community-button{flex-shrink:0;border:1px solid #526f3c;border-radius:6px;padding:14px 20px;color:#fff;background:#526f3c;font:600 14px/1.4 var(--body,sans-serif);cursor:pointer;transition:background .15s}
 .community-button:hover{background:#3d562b}.community-button:focus-visible,.community a:focus-visible{outline:3px solid #273c1b;outline-offset:4px}.community-button:disabled{cursor:wait;opacity:.7}.community-status{padding-top:12px}.community-thread:not([hidden]){margin-top:24px;padding:24px;background:#fff;border:1px solid #dfe3df;border-radius:8px}.community [hidden]{display:none!important}
 @media(max-width:640px){.community{padding:0 16px;margin:24px auto}.community-invite{align-items:stretch;flex-direction:column;gap:20px;padding:24px 20px}.community-button{width:100%}.community-thread:not([hidden]){padding:16px 10px}}
+
+/* 点击展开后显示免注册说明，与 Disqus 表单分开，避免被组件重绘覆盖。 */
+.community-guest{margin-top:20px;padding:20px 24px;border:1px solid #e0bd64;border-left:5px solid #c68a16;border-radius:8px;background:#fff4d6;color:#48330e}
+.community-guest strong{display:block;margin-bottom:8px;font-size:20px;line-height:1.4}.community-guest p{font-size:15px;line-height:1.8}
+@media(max-width:640px){.community-guest{padding:16px 18px}.community-guest strong{font-size:18px}}
