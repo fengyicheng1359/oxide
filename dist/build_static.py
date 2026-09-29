@@ -160,6 +160,7 @@ def header(prefix: str, index_href: str | None = None, *, selected: str | None =
         ("items", "items.html", "物品"),
         ("gameplay", "gameplay/index.html", "玩法"),
         ("recycling", "recycling.html", "回收"),
+        ("crafting", "crafting.html", "制作计算器"),
         ("attack", "attack.html", "攻击力"),
         ("defense", "defense.html", "防御力"),
         ("healing", "healing.html", "治疗"),
@@ -463,7 +464,10 @@ def detail_page(item: dict, category: str, slug: str, categories: dict, lookup: 
     recycling_outputs = item.get("recycling_outputs", [])
     sections = []
     if cards:
-        sections.append(f'<div class="section-heading"><h2>制造配方</h2><span>CRAFTING RECIPE</span></div><div class="materials">{cards}</div>')
+        output = item.get('crafting_output_per_batch')
+        assert isinstance(output, int) and output > 0, (slug, '缺少单次产量')
+        batch_note = f'<p class="crafting-batch-note">每次制作产出 {output} 件；以下材料为制作一次的用量。</p>'
+        sections.append(f'<div class="section-heading"><h2>制造配方</h2><span>CRAFTING RECIPE</span></div>{batch_note}<div class="materials">{cards}</div>')
     if acquisition:
         methods = "".join(f'<div class="acquisition-row"><b>{esc(method.get("type"))}</b><span>{esc(method.get("detail"))}</span></div>' for method in acquisition)
         sections.append(f'<div class="section-heading"><h2>获取方式</h2><span>HOW TO OBTAIN</span></div><div class="acquisition-list">{methods}</div>')
@@ -838,6 +842,8 @@ def main() -> None:
         for item, slug in items:
             (HTML_DIR / f"{slug}.html").write_text(detail_page(item, category, slug, categories, lookup, "./", recycling_count, attack_count, threat_count), encoding="utf-8")
     (HTML_DIR / "index.html").write_text(add_pc_download(index_page()), encoding="utf-8")
+    from crafting_page import page as crafting_page
+    (HTML_DIR / "crafting.html").write_text(crafting_page(header, footer), encoding="utf-8")
     (HTML_DIR / "items.html").write_text(add_items_search(items_page(categories)), encoding="utf-8")
     (HTML_DIR / "play.html").write_text(play_page(), encoding="utf-8")
     (HTML_DIR / "about.html").write_text(about_page(), encoding="utf-8")

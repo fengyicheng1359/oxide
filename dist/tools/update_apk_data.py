@@ -40,8 +40,10 @@ def main():
         item = copy.deepcopy(existing.get(i, {'acquisition_methods': []}))
         item.update(names[i])
         item['attack_power'] = (d.get('combat') or {}).get('base_damage')
+        item['crafting_output_per_batch'] = d['crafting']['output_per_batch'] if d['crafting']['is_craftable'] else None
         item['crafting_materials'] = [material(x) for x in d['crafting']['ingredients']] if d['crafting']['is_craftable'] else []
-        item['recycling_outputs'] = [material(x) for x in d['recycling']['outputs']]
+        item['recycling_outputs'] = [{**material(x), 'item_id': x['item_id'], 'skip_chance': x.get('skip_chance_raw')}
+                                     for x in d['recycling']['outputs']]
         item['recycling_sources'] = sorted([
             {**names[x['source_item']['item_id']], 'amount': x['result_raw']['m_Amount']}
             for x in d['acquisition']['recycling_sources']], key=lambda x: -x['amount'])

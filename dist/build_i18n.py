@@ -214,6 +214,9 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
         if subtitle:
             subtitle.string = en_name
             if lang == 'en': subtitle.decompose()
+    if page == 'crafting.html':
+        from crafting_page import localized_data
+        soup.select_one('#craft-data').string = json.dumps(localized_data(translator, mapping), ensure_ascii=False).replace('</', '<\\/')
     add_language_picker(soup, page, lang, localized, tr)
     soup.html['lang'] = LANGUAGES[lang][1]
     soup.html['data-language'] = lang
@@ -225,7 +228,7 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     soup.head.append(script)
     heading = soup.body.find('h1')
     page_title = heading.get_text(' ', strip=True) if heading else tr('氧化物生存岛')
-    intro = soup.select_one('.gameplay-intro p, .ranking-intro p, .recycling-intro p, .about-hero p, .play-hero p, .search-row p')
+    intro = soup.select_one('.craft-intro p, .gameplay-intro p, .ranking-intro p, .recycling-intro p, .about-hero p, .play-hero p, .search-row p')
     description = official['text'][:180] if official else (intro.get_text(' ', strip=True)[:180] if intro else tr('浏览物品、制造配方与生存资源。'))
     if item and item.get('description'):
         description = game_text(translator.game[item['description']])[:180]

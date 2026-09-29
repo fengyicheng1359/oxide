@@ -23,14 +23,19 @@
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 1
+          "amount": 1,
+          "item_id": "gun.powder",
+          "skip_chance": 0.75
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.75
         }
-      ]
+      ],
+      "crafting_output_per_batch": 4
     },
     {
       "name_en": "Pistol Ammo",
@@ -64,14 +69,19 @@
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 1
+          "amount": 1,
+          "item_id": "gun.powder",
+          "skip_chance": 0.800000011920929
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.75
         }
-      ]
+      ],
+      "crafting_output_per_batch": 10
     },
     {
       "name_en": "5.56 Rifle Ammo",
@@ -105,14 +115,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.5
         },
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 1
+          "amount": 1,
+          "item_id": "gun.powder",
+          "skip_chance": 0.800000011920929
         }
-      ]
+      ],
+      "crafting_output_per_batch": 6
     },
     {
       "name_en": "12 Gauge Buckshot",
@@ -146,14 +161,19 @@
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 1
+          "amount": 1,
+          "item_id": "gun.powder",
+          "skip_chance": 0.5
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.800000011920929
         }
-      ]
+      ],
+      "crafting_output_per_batch": 4
     },
     {
       "name_en": "ammo.steel.ball",
@@ -173,9 +193,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.800000011920929
         }
-      ]
+      ],
+      "crafting_output_per_batch": 10
     },
     {
       "name_en": "Arrow",
@@ -205,9 +228,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 1
+          "amount": 1,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Bolt",
@@ -237,9 +263,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 1
+          "amount": 1,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "event.grenade.makeshift",
@@ -274,19 +303,26 @@
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 7
+          "amount": 7,
+          "item_id": "gun.powder",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 2
+          "amount": 2,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "grenade.smoke",
@@ -316,14 +352,19 @@
         {
           "name_zh": "硫",
           "name_en": "Sulfur",
-          "amount": 5
+          "amount": 5,
+          "item_id": "sulfur",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Snowball",
@@ -337,14 +378,19 @@
         {
           "name_zh": "南瓜",
           "name_en": "Pumpkin",
-          "amount": 1
+          "amount": 1,
+          "item_id": "pumpkin",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "浆果",
           "name_en": "Berries",
-          "amount": 1
+          "amount": 1,
+          "item_id": "berries",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "grenade.military",
@@ -374,14 +420,19 @@
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 15
+          "amount": 15,
+          "item_id": "gun.powder",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Rocket",
@@ -416,19 +467,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 12
+          "amount": 12,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 50
+          "amount": 50,
+          "item_id": "gun.powder",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "SAM Rocket",
@@ -438,7 +496,8 @@
       "image": "assets/image/sam.rocket.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Snowball",
@@ -454,7 +513,8 @@
       "image": "assets/image/snowball.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 25
     },
     {
       "name_en": "Signal Flare Cartridge",
@@ -469,7 +529,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Backpack Equipment": [
@@ -501,19 +562,26 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 12
+          "amount": 12,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "皮革",
           "name_en": "Leather",
-          "amount": 5
+          "amount": 5,
+          "item_id": "leather",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "绳子",
           "name_en": "Rope",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rope",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Backpack Big",
@@ -523,7 +591,8 @@
       "image": "assets/image/backpack.big.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Component": [
@@ -544,14 +613,19 @@
         {
           "name_zh": "科技垃圾",
           "name_en": "Tech Trash",
-          "amount": 2
+          "amount": 2,
+          "item_id": "tech.trash",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Semi Automatic Body",
@@ -574,14 +648,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 15
+          "amount": 15,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Empty Beans Can",
@@ -600,9 +679,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Empty Propane Tank",
@@ -621,14 +703,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 12
+          "amount": 12,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 8
+          "amount": 8,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Empty Tuna Can",
@@ -647,9 +734,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 4
+          "amount": 4,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Explosives",
@@ -684,19 +774,26 @@
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 7
+          "amount": 7,
+          "item_id": "gun.powder",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 2
+          "amount": 2,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "燃料瓶",
           "name_en": "Fuel Bottle",
-          "amount": 1
+          "amount": 1,
+          "item_id": "fuel.bottle",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Fuel",
@@ -711,7 +808,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "factory.product.common",
@@ -726,7 +824,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "factory.product.epic",
@@ -741,7 +840,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "factory.product.rare",
@@ -756,7 +856,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Fuel Bottle",
@@ -796,9 +897,12 @@
         {
           "name_zh": "动物脂肪",
           "name_en": "Animal Fat",
-          "amount": 1
+          "amount": 1,
+          "item_id": "fat.animal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 2
     },
     {
       "name_en": "Gears",
@@ -883,14 +987,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Gun Powder",
@@ -962,7 +1071,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 10
     },
     {
       "name_en": "Hard Drive",
@@ -981,14 +1091,19 @@
         {
           "name_zh": "科技垃圾",
           "name_en": "Tech Trash",
-          "amount": 2
+          "amount": 2,
+          "item_id": "tech.trash",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 15
+          "amount": 15,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Metal Blade",
@@ -1027,14 +1142,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 5
+          "amount": 5,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Metal Pipe",
@@ -1094,14 +1214,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 7
+          "amount": 7,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal Spring",
@@ -1186,14 +1311,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 12
+          "amount": 12,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Microprocessor",
@@ -1212,14 +1342,19 @@
         {
           "name_zh": "科技垃圾",
           "name_en": "Tech Trash",
-          "amount": 1
+          "amount": 1,
+          "item_id": "tech.trash",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 5
+          "amount": 5,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Portable Console",
@@ -1229,7 +1364,8 @@
       "image": "assets/image/portable.playstation.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Rifle Body",
@@ -1268,14 +1404,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 20
+          "amount": 20,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Rifle Part",
@@ -1294,14 +1435,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 20
+          "amount": 20,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Road Signs",
@@ -1320,9 +1466,12 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 4
+          "amount": 4,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Rope",
@@ -1383,9 +1532,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 6
+          "amount": 6,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Sewing Kit",
@@ -1446,14 +1598,19 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 10
+          "amount": 10,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "绳子",
           "name_en": "Rope",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rope",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Sheet Metal",
@@ -1502,19 +1659,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 20
+          "amount": 20,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 7
+          "amount": 7,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "SMG Body",
@@ -1537,14 +1701,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Targeting Computer",
@@ -1563,19 +1732,26 @@
         {
           "name_zh": "科技垃圾",
           "name_en": "Tech Trash",
-          "amount": 2
+          "amount": 2,
+          "item_id": "tech.trash",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 30
+          "amount": 30,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Tarp",
@@ -1605,9 +1781,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 7
+          "amount": 7,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Tech Trash",
@@ -1666,14 +1845,19 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "acquisition_methods": [],
@@ -1701,16 +1885,21 @@
         {
           "name_zh": "科技垃圾",
           "name_en": "Tech Trash",
-          "amount": 4
+          "amount": 4,
+          "item_id": "tech.trash",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属板",
           "name_en": "Sheet Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "sheet.metal",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/vehicle.part.battery.png"
+      "image": "assets/image/vehicle.part.battery.png",
+      "crafting_output_per_batch": 1
     },
     {
       "acquisition_methods": [
@@ -1727,26 +1916,35 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 20
+          "amount": 20,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 10
+          "amount": 10,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属板",
           "name_en": "Sheet Metal",
-          "amount": 3
+          "amount": 3,
+          "item_id": "sheet.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 2
+          "amount": 2,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/vehicle.part.motor.png"
+      "image": "assets/image/vehicle.part.motor.png",
+      "crafting_output_per_batch": null
     },
     {
       "acquisition_methods": [],
@@ -1758,21 +1956,28 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属板",
           "name_en": "Sheet Metal",
-          "amount": 3
+          "amount": 3,
+          "item_id": "sheet.metal",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/vehicle.part.propeller.png"
+      "image": "assets/image/vehicle.part.propeller.png",
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Cables",
@@ -1791,9 +1996,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 3
+          "amount": 3,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     }
   ],
   "Construction": [
@@ -1815,9 +2023,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Embrasure Metal",
@@ -1837,9 +2048,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "High Stone Gates",
@@ -1874,19 +2088,26 @@
         {
           "name_zh": "石头",
           "name_en": "Stone",
-          "amount": 125
+          "amount": 125,
+          "item_id": "stone",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "High Stone Wall",
@@ -1916,14 +2137,19 @@
         {
           "name_zh": "石头",
           "name_en": "Stone",
-          "amount": 75
+          "amount": 75,
+          "item_id": "stone",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "High Wooden Gates",
@@ -1958,19 +2184,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 100
+          "amount": 100,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "绳子",
           "name_en": "Rope",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rope",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "High Wooden Wall",
@@ -1995,9 +2228,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 75
+          "amount": 75,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Key Lock",
@@ -2017,9 +2253,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 10
+          "amount": 10,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Window",
@@ -2039,9 +2278,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 5
+          "amount": 5,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Consumable": [
@@ -2053,7 +2295,8 @@
       "image": "assets/image/aloe.food.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Berries",
@@ -2069,7 +2312,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Mochi",
@@ -2084,7 +2328,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Ramen",
@@ -2099,7 +2344,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Rolls",
@@ -2114,7 +2360,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Blueberries",
@@ -2124,7 +2371,8 @@
       "image": "assets/image/blueberries.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "BP EXP",
@@ -2139,7 +2387,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Cactus Food",
@@ -2149,7 +2398,8 @@
       "image": "assets/image/cactus.food.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Сandy Сane",
@@ -2164,7 +2414,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Cooked Fish",
@@ -2179,7 +2430,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Cooked Meat",
@@ -2198,7 +2450,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Fried mushrooms",
@@ -2213,7 +2466,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Easter Egg",
@@ -2223,7 +2477,8 @@
       "image": "assets/image/easter.egg.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Cheese",
@@ -2233,7 +2488,8 @@
       "image": "assets/image/event.cheese.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Chocolate Candies",
@@ -2248,7 +2504,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Cupid's Potion",
@@ -2258,7 +2515,8 @@
       "image": "assets/image/event.cupids.potion.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Heart Shards",
@@ -2273,7 +2531,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Love elixir",
@@ -2283,7 +2542,8 @@
       "image": "assets/image/event.love.elixir.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Warming Potion",
@@ -2293,7 +2553,8 @@
       "image": "assets/image/event.warming.potion.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "f2p.lootbox.epic",
@@ -2308,7 +2569,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "f2p.lootbox.legendary",
@@ -2323,7 +2585,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "f2p.lootbox.rare",
@@ -2338,7 +2601,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Granola Bar",
@@ -2353,7 +2617,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "granola.bar.fake.dvl",
@@ -2363,7 +2628,8 @@
       "image": "assets/image/granola.bar.fake.dvl.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "granola.bar.fake.hmlmg",
@@ -2373,7 +2639,8 @@
       "image": "assets/image/granola.bar.fake.hmlmg.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Halloween Candy",
@@ -2388,7 +2655,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Ice Shard",
@@ -2398,7 +2666,8 @@
       "image": "assets/image/ice.shard.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "BP EXP",
@@ -2413,7 +2682,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "BP EXP",
@@ -2428,7 +2698,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "BP EXP",
@@ -2443,7 +2714,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Pumpkin",
@@ -2459,7 +2731,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Raw Fish",
@@ -2469,7 +2742,8 @@
       "image": "assets/image/raw.fish.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Raw Meat",
@@ -2479,7 +2753,8 @@
       "image": "assets/image/raw.meat.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Raw mushrooms",
@@ -2489,7 +2764,8 @@
       "image": "assets/image/raw.mushroms.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Rotten Meat",
@@ -2504,7 +2780,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Water Bottle",
@@ -2519,7 +2796,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Feet Equipment": [
@@ -2551,14 +2829,19 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "骨头",
           "name_en": "Bone",
-          "amount": 7
+          "amount": 7,
+          "item_id": "bone",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Leather Boots",
@@ -2588,14 +2871,19 @@
         {
           "name_zh": "皮革",
           "name_en": "Leather",
-          "amount": 3
+          "amount": 3,
+          "item_id": "leather",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "缝纫套件",
           "name_en": "Sewing Kit",
-          "amount": 1
+          "amount": 1,
+          "item_id": "sewing.kit",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal Boots",
@@ -2634,19 +2922,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 16
+          "amount": 16,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden Sandals",
@@ -2676,9 +2971,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Head Equipment": [
@@ -2705,9 +3003,12 @@
         {
           "name_zh": "骨头",
           "name_en": "Bone",
-          "amount": 5
+          "amount": 5,
+          "item_id": "bone",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Elf Hat",
@@ -2732,9 +3033,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Leather Helmet",
@@ -2764,14 +3068,19 @@
         {
           "name_zh": "皮革",
           "name_en": "Leather",
-          "amount": 5
+          "amount": 5,
+          "item_id": "leather",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "缝纫套件",
           "name_en": "Sewing Kit",
-          "amount": 1
+          "amount": 1,
+          "item_id": "sewing.kit",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal Mask",
@@ -2810,19 +3119,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 16
+          "amount": 16,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Leather Helmet",
@@ -2836,9 +3152,12 @@
         {
           "name_zh": "皮革",
           "name_en": "Leather",
-          "amount": 5
+          "amount": 5,
+          "item_id": "leather",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Pumpkin Head",
@@ -2859,7 +3178,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Santa Hat",
@@ -2884,9 +3204,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Ski Mask",
@@ -2911,9 +3234,12 @@
         {
           "name_zh": "皮革",
           "name_en": "Leather",
-          "amount": 1
+          "amount": 1,
+          "item_id": "leather",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Snowman Head",
@@ -2943,9 +3269,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 1
+          "amount": 1,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Witch Hat",
@@ -2970,9 +3299,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden Helmet",
@@ -3002,9 +3334,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Interactable": [
@@ -3026,9 +3361,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Bed",
@@ -3058,19 +3396,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 20
+          "amount": 20,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 10
+          "amount": 10,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Campfire",
@@ -3090,9 +3435,12 @@
         {
           "name_zh": "石头",
           "name_en": "Stone",
-          "amount": 12
+          "amount": 12,
+          "item_id": "stone",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Candles",
@@ -3122,14 +3470,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 5
+          "amount": 5,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Cauldron",
@@ -3154,9 +3507,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Ceiling Light",
@@ -3176,9 +3532,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Cupboard",
@@ -3198,9 +3557,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 50
+          "amount": 50,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Armored door",
@@ -3230,19 +3592,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 10
+          "amount": 10,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 35
+          "amount": 35,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 35
+          "amount": 35,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Armored double door",
@@ -3272,19 +3641,26 @@
         {
           "name_zh": "金属板",
           "name_en": "Sheet Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "sheet.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 2
+          "amount": 2,
+          "item_id": "gears",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 20
+          "amount": 20,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal double door",
@@ -3304,9 +3680,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 40
+          "amount": 40,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden double door",
@@ -3326,9 +3705,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 25
+          "amount": 25,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal Door",
@@ -3348,9 +3730,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 18
+          "amount": 18,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Furnace",
@@ -3370,9 +3755,12 @@
         {
           "name_zh": "石头",
           "name_en": "Stone",
-          "amount": 25
+          "amount": 25,
+          "item_id": "stone",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "acquisition_methods": [],
@@ -3405,26 +3793,35 @@
         {
           "name_zh": "石头",
           "name_en": "Stone",
-          "amount": 125
+          "amount": 125,
+          "item_id": "stone",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 37
+          "amount": 37,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 40
+          "amount": 40,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/furnace.advanced.png"
+      "image": "assets/image/furnace.advanced.png",
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Garage Door",
@@ -3454,19 +3851,26 @@
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 1
+          "amount": 1,
+          "item_id": "gears",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属板",
           "name_en": "Sheet Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "sheet.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Gun Trap",
@@ -3501,19 +3905,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 30
+          "amount": 30,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 15
+          "amount": 15,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 12
+          "amount": 12,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Armored square hatch",
@@ -3538,14 +3949,19 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 10
+          "amount": 10,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 3
+          "amount": 3,
+          "item_id": "gears",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal square hatch",
@@ -3570,14 +3986,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 2
+          "amount": 2,
+          "item_id": "gears",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Armored triangular hatch",
@@ -3602,14 +4023,19 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 10
+          "amount": 10,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 3
+          "amount": 3,
+          "item_id": "gears",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal triangular hatch",
@@ -3634,14 +4060,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 2
+          "amount": 2,
+          "item_id": "gears",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Christmas Jukebox",
@@ -3671,9 +4102,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Mining Quarry",
@@ -3708,19 +4142,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 150
+          "amount": 150,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 25
+          "amount": 25,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Clan Mining Quarry",
@@ -3755,19 +4196,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 150
+          "amount": 150,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 50
+          "amount": 50,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 75
+          "amount": 75,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "SAM Turret",
@@ -3777,7 +4225,8 @@
       "image": "assets/image/sam.turret.png",
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Clan Sawmill",
@@ -3807,14 +4256,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 100
+          "amount": 100,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 50
+          "amount": 50,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Clan Scrap Recycler",
@@ -3844,14 +4298,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 150
+          "amount": 150,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 50
+          "amount": 50,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Sleeping Bag",
@@ -3871,9 +4330,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Snowball Turret",
@@ -3913,19 +4375,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 50
+          "amount": 50,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Storage Box",
@@ -3945,9 +4414,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 12
+          "amount": 12,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Large Storage Box",
@@ -3972,14 +4444,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 25
+          "amount": 25,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 10
+          "amount": 10,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Tower Wood",
@@ -4004,14 +4481,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 100
+          "amount": 100,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "绳子",
           "name_en": "Rope",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rope",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Turret",
@@ -4051,19 +4533,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 50
+          "amount": 50,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "acquisition_methods": [],
@@ -4101,26 +4590,35 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 30
+          "amount": 30,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 2
+          "amount": 2,
+          "item_id": "gears",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 30
+          "amount": 30,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 2
+          "amount": 2,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/turret.heavy.png"
+      "image": "assets/image/turret.heavy.png",
+      "crafting_output_per_batch": 1
     },
     {
       "acquisition_methods": [],
@@ -4158,26 +4656,35 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 20
+          "amount": 20,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 2
+          "amount": 2,
+          "item_id": "gears",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 20
+          "amount": 20,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 2
+          "amount": 2,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/turret.shotgun.png"
+      "image": "assets/image/turret.shotgun.png",
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Vending Machine",
@@ -4212,14 +4719,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 50
+          "amount": 50,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 35
+          "amount": 35,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden Door",
@@ -4239,9 +4751,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 10
+          "amount": 10,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Workbench",
@@ -4266,14 +4781,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 50
+          "amount": 50,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 25
+          "amount": 25,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Storage Box",
@@ -4293,9 +4813,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 5
+          "amount": 5,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Legs Equipment": [
@@ -4327,14 +4850,19 @@
         {
           "name_zh": "骨头",
           "name_en": "Bone",
-          "amount": 7
+          "amount": 7,
+          "item_id": "bone",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Leather Leggings",
@@ -4369,14 +4897,19 @@
         {
           "name_zh": "皮革",
           "name_en": "Leather",
-          "amount": 5
+          "amount": 5,
+          "item_id": "leather",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "缝纫套件",
           "name_en": "Sewing Kit",
-          "amount": 1
+          "amount": 1,
+          "item_id": "sewing.kit",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal Leggings",
@@ -4420,19 +4953,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 18
+          "amount": 18,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 3
+          "amount": 3,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 3
+          "amount": 3,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden Leggings",
@@ -4462,9 +5002,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Other": [
@@ -4481,7 +5024,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Bandage",
@@ -4506,9 +5050,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Christmas Lights",
@@ -4529,7 +5076,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Christmas Tree",
@@ -4555,7 +5103,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Event Fireworks",
@@ -4570,7 +5119,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Heart Garland",
@@ -4596,7 +5146,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Event rose",
@@ -4611,7 +5162,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "event.textbook",
@@ -4626,7 +5178,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "event.whistle",
@@ -4641,7 +5194,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Fireworks",
@@ -4671,9 +5225,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "golden.cartridge",
@@ -4687,9 +5244,12 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 100
+          "amount": 100,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "golden.gear",
@@ -4703,9 +5263,12 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 1
+          "amount": 1,
+          "item_id": "scrap",
+          "skip_chance": 0.10000000149011612
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Ice Statue",
@@ -4726,7 +5289,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "keycard_militarybase",
@@ -4741,7 +5305,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "keycard_planecaptain",
@@ -4756,7 +5321,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Medkit",
@@ -4795,14 +5361,19 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 7
+          "amount": 7,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Owl Statue",
@@ -4832,14 +5403,19 @@
         {
           "name_zh": "石头",
           "name_en": "Stone",
-          "amount": 5
+          "amount": 5,
+          "item_id": "stone",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Paper lantern",
@@ -4858,14 +5434,19 @@
         {
           "name_zh": "绳子",
           "name_en": "Rope",
-          "amount": 2
+          "amount": 2,
+          "item_id": "rope",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "防水布",
           "name_en": "Tarp",
-          "amount": 1
+          "amount": 1,
+          "item_id": "tarp",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Pinata",
@@ -4891,7 +5472,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Scarecrow",
@@ -4917,7 +5499,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "skin.bed.events.birthday.monster",
@@ -4927,7 +5510,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.door.double.metal.events.birthday.mural",
@@ -4937,7 +5521,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.garage.door.events.backtoschool.blackboard",
@@ -4947,7 +5532,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.garage.door.events.birthday.cosmos",
@@ -4957,7 +5543,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.bed.events.birthday.monster",
@@ -4967,7 +5554,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.sleeping.bag.events.birthday.vintage",
@@ -4977,7 +5565,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.sticker.events.backtoschool.apple",
@@ -4987,7 +5576,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.sticker.events.backtoschool.tired",
@@ -4997,7 +5587,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.sticker.events.birthday.pig",
@@ -5007,7 +5598,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.storage.box.events.backtoschool.pencilcase",
@@ -5017,7 +5609,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.storage.box.events.birthday.tech",
@@ -5027,7 +5620,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "skin.storage.box.large.events.backtoschool.lunchbox",
@@ -5037,7 +5631,8 @@
       "image": null,
       "acquisition_methods": [],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Snow Machine",
@@ -5067,9 +5662,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Snowman",
@@ -5095,7 +5693,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Stocking Garland",
@@ -5121,7 +5720,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Stone statue",
@@ -5142,7 +5742,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Stocking Garland",
@@ -5162,9 +5763,12 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 10
+          "amount": 10,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Paper lantern",
@@ -5183,7 +5787,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Resource": [
@@ -5216,7 +5821,8 @@
           "amount": 5
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Cloth",
@@ -5386,7 +5992,8 @@
           "amount": 2
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Coal",
@@ -5405,7 +6012,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Animal Fat",
@@ -5421,7 +6029,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "High Quality Metal",
@@ -5675,7 +6284,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "High Quality Metal Ore",
@@ -5694,7 +6304,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Leather",
@@ -5740,7 +6351,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Wood",
@@ -5974,7 +6586,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Metal Fragment",
@@ -6413,7 +7026,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Metal Ore",
@@ -6432,7 +7046,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Plank",
@@ -6446,9 +7061,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 1
+          "amount": 1,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Scrap",
@@ -6693,7 +7311,8 @@
           "amount": 1
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Stick",
@@ -6712,9 +7331,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 1
+          "amount": 1,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Stone",
@@ -6768,7 +7390,8 @@
           "amount": 5
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Sulfur",
@@ -6789,7 +7412,8 @@
           "amount": 5
         }
       ],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Sulfur Ore",
@@ -6808,7 +7432,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Suit": [
@@ -6845,19 +7470,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 4
+          "amount": 4,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "缝纫套件",
           "name_en": "Sewing Kit",
-          "amount": 4
+          "amount": 4,
+          "item_id": "sewing.kit",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "防水布",
           "name_en": "Tarp",
-          "amount": 4
+          "amount": 4,
+          "item_id": "tarp",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "military.suit",
@@ -6876,19 +7508,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 17
+          "amount": 17,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "缝纫套件",
           "name_en": "Sewing Kit",
-          "amount": 5
+          "amount": 5,
+          "item_id": "sewing.kit",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 50
+          "amount": 50,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     }
   ],
   "Tool": [
@@ -6924,14 +7563,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 10
+          "amount": 10,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Building Hammer",
@@ -6956,9 +7600,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 10
+          "amount": 10,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Building Plan",
@@ -6979,7 +7626,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "chainsaw",
@@ -7014,14 +7662,19 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 10
+          "amount": 10,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 35
+          "amount": 35,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "jackhammer",
@@ -7060,14 +7713,19 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 10
+          "amount": 10,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 35
+          "amount": 35,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Stonecracker",
@@ -7097,14 +7755,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 10
+          "amount": 10,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Pickaxe",
@@ -7143,14 +7806,19 @@
         {
           "name_zh": "金属刀片",
           "name_en": "Metal Blade",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.blade",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 30
+          "amount": 30,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Saw-Ripper",
@@ -7189,19 +7857,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 25
+          "amount": 25,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属刀片",
           "name_en": "Metal Blade",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.blade",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Stone Hatchet",
@@ -7226,9 +7901,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 5
+          "amount": 5,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Torch",
@@ -7258,9 +7936,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 5
+          "amount": 5,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Torso Equipment": [
@@ -7292,14 +7973,19 @@
         {
           "name_zh": "骨头",
           "name_en": "Bone",
-          "amount": 12
+          "amount": 12,
+          "item_id": "bone",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Leather Chestplate",
@@ -7334,14 +8020,19 @@
         {
           "name_zh": "皮革",
           "name_en": "Leather",
-          "amount": 7
+          "amount": 7,
+          "item_id": "leather",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "缝纫套件",
           "name_en": "Sewing Kit",
-          "amount": 2
+          "amount": 2,
+          "item_id": "sewing.kit",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Metal Chestplate",
@@ -7385,19 +8076,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 20
+          "amount": 20,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 4
+          "amount": 4,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 4
+          "amount": 4,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wood Chestplate",
@@ -7427,9 +8125,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 5
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Weapon": [
@@ -7475,24 +8176,33 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 35
+          "amount": 35,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 15
+          "amount": 15,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 4
+          "amount": 4,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Bone Club",
@@ -7522,9 +8232,12 @@
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Crossbow",
@@ -7559,19 +8272,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 15
+          "amount": 15,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 10
+          "amount": 10,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 6
+          "amount": 6,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "desert.eagle",
@@ -7610,19 +8330,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属管",
           "name_en": "Metal Pipe",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.pipe",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 30
+          "amount": 30,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "dmr",
@@ -7666,19 +8393,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 18
+          "amount": 18,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 20
+          "amount": 20,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 7
+          "amount": 7,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "acquisition_methods": [],
@@ -7706,21 +8440,28 @@
         {
           "name_zh": "金属管",
           "name_en": "Metal Pipe",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.pipe",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 15
+          "amount": 15,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 30
+          "amount": 30,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/double.barrel.png"
+      "image": "assets/image/double.barrel.png",
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "dvl",
@@ -7739,19 +8480,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 25
+          "amount": 25,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 2
+          "amount": 2,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "步枪枪身",
           "name_en": "Rifle Body",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rifle.body",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Timed Explosive Charge",
@@ -7791,19 +8539,26 @@
         {
           "name_zh": "火药",
           "name_en": "Gun Powder",
-          "amount": 100
+          "amount": 100,
+          "item_id": "gun.powder",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 20
+          "amount": 20,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "科技垃圾",
           "name_en": "Tech Trash",
-          "amount": 1
+          "amount": 1,
+          "item_id": "tech.trash",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Flare Gun",
@@ -7842,19 +8597,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 8
+          "amount": 8,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 4
+          "amount": 4,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "FN FAL",
@@ -7873,19 +8635,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 25
+          "amount": 25,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 2
+          "amount": 2,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "步枪枪身",
           "name_en": "Rifle Body",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rifle.body",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Handmade Pistol",
@@ -7920,14 +8689,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 12
+          "amount": 12,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 12
+          "amount": 12,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "hmlmg",
@@ -7971,24 +8745,33 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 22
+          "amount": 22,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "齿轮",
           "name_en": "Gears",
-          "amount": 1
+          "amount": 1,
+          "item_id": "gears",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 35
+          "amount": 35,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Hunting Rifle",
@@ -8032,24 +8815,33 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 30
+          "amount": 30,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 4
+          "amount": 4,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属管",
           "name_en": "Metal Pipe",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.pipe",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 10
+          "amount": 10,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Ice Spear",
@@ -8070,7 +8862,8 @@
         }
       ],
       "recycling_sources": [],
-      "recycling_outputs": []
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Iron Spear",
@@ -8095,14 +8888,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 25
+          "amount": 25,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 12
+          "amount": 12,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Kriss Vector",
@@ -8121,19 +8919,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 25
+          "amount": 25,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 2
+          "amount": 2,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "步枪枪身",
           "name_en": "Rifle Body",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rifle.body",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "Mace",
@@ -8172,19 +8977,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 50
+          "amount": 50,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 25
+          "amount": 25,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "绳子",
           "name_en": "Rope",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rope",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Machete",
@@ -8228,24 +9040,33 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 60
+          "amount": 60,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 40
+          "amount": 40,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属刀片",
           "name_en": "Metal Blade",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.blade",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "绳子",
           "name_en": "Rope",
-          "amount": 1
+          "amount": 1,
+          "item_id": "rope",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Revolver",
@@ -8284,19 +9105,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 7
+          "amount": 7,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 1
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Rocket Launcher",
@@ -8336,24 +9164,33 @@
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 7
+          "amount": 7,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 75
+          "amount": 75,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 15
+          "amount": 15,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属管",
           "name_en": "Metal Pipe",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.pipe",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Shotgun",
@@ -8397,19 +9234,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 25
+          "amount": 25,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属管",
           "name_en": "Metal Pipe",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.pipe",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "steel.ball.gun",
@@ -8434,14 +9278,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 12
+          "amount": 12,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Submachine Gun",
@@ -8481,19 +9330,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 12
+          "amount": 12,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Thompson",
@@ -8532,19 +9388,26 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 20
+          "amount": 20,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 6
+          "amount": 6,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "acquisition_methods": [
@@ -8561,11 +9424,14 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 7
+          "amount": 7,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
       ],
       "recycling_sources": [],
-      "image": "assets/image/weapon.flare.signal.png"
+      "image": "assets/image/weapon.flare.signal.png",
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "winchester",
@@ -8604,19 +9470,26 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 3
+          "amount": 3,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 25
+          "amount": 25,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属弹簧",
           "name_en": "Metal Spring",
-          "amount": 1
+          "amount": 1,
+          "item_id": "metal.spring",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden Bow",
@@ -8646,14 +9519,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 10
+          "amount": 10,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 7
+          "amount": 7,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden Spear",
@@ -8678,9 +9556,12 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 25
+          "amount": 25,
+          "item_id": "log",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Wooden Spiked Club",
@@ -8719,19 +9600,26 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 10
+          "amount": 10,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "布",
           "name_en": "Cloth",
-          "amount": 2
+          "amount": 2,
+          "item_id": "cloth",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 15
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Weapon Mod": [
@@ -8762,9 +9650,12 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "weapon.mod.ext.magazine",
@@ -8793,9 +9684,12 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "weapon.mod.holosight",
@@ -8829,14 +9723,19 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 3
+          "amount": 3,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 10
+          "amount": 10,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "weapon.mod.muzzle.brake",
@@ -8865,9 +9764,12 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 2
+          "amount": 2,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "weapon.mod.optical.scope",
@@ -8890,14 +9792,19 @@
         {
           "name_zh": "高品质金属",
           "name_en": "High Quality Metal",
-          "amount": 5
+          "amount": 5,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "科技垃圾",
           "name_en": "Tech Trash",
-          "amount": 2
+          "amount": 2,
+          "item_id": "tech.trash",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": null
     },
     {
       "name_en": "weapon.mod.simple.scope",
@@ -8931,14 +9838,19 @@
         {
           "name_zh": "木材",
           "name_en": "Wood",
-          "amount": 7
+          "amount": 7,
+          "item_id": "log",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 5
+          "amount": 5,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Vehicle": [
@@ -8980,14 +9892,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 150
+          "amount": 150,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 70
+          "amount": 70,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Copter",
@@ -9027,14 +9944,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 150
+          "amount": 150,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 100
+          "amount": 100,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     },
     {
       "name_en": "Sleigh",
@@ -9074,14 +9996,19 @@
         {
           "name_zh": "金属碎片",
           "name_en": "Metal Fragment",
-          "amount": 150
+          "amount": 150,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
         },
         {
           "name_zh": "废料",
           "name_en": "Scrap",
-          "amount": 70
+          "amount": 70,
+          "item_id": "scrap",
+          "skip_chance": 0.0
         }
-      ]
+      ],
+      "crafting_output_per_batch": 1
     }
   ]
 }

@@ -1,0 +1,995 @@
+{
+  "source": "apk-analysis-11920/output-staging",
+  "version": "1.13.11920",
+  "recipes": {
+    "ammo.handmade.shell": {
+      "output": 4,
+      "materials": {
+        "gun.powder": 2,
+        "metal.fragment": 2
+      }
+    },
+    "ammo.pistol": {
+      "output": 10,
+      "materials": {
+        "gun.powder": 4,
+        "metal.fragment": 5
+      }
+    },
+    "ammo.rifle": {
+      "output": 6,
+      "materials": {
+        "gun.powder": 4,
+        "metal.fragment": 6
+      }
+    },
+    "ammo.shotgun": {
+      "output": 4,
+      "materials": {
+        "gun.powder": 4,
+        "metal.fragment": 6
+      }
+    },
+    "ammo.steel.ball": {
+      "output": 10,
+      "materials": {
+        "metal.fragment": 4
+      }
+    },
+    "arrow": {
+      "output": 1,
+      "materials": {
+        "log": 1,
+        "stone": 1
+      }
+    },
+    "bolt": {
+      "output": 1,
+      "materials": {
+        "log": 1,
+        "metal.fragment": 1
+      }
+    },
+    "event.grenade.makeshift": {
+      "output": 1,
+      "materials": {
+        "gun.powder": 15,
+        "scrap": 5,
+        "metal.fragment": 10
+      }
+    },
+    "event.grenade.smoke": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 10,
+        "sulfur": 10,
+        "cloth": 5
+      }
+    },
+    "grenade.military": {
+      "output": 1,
+      "materials": {
+        "gun.powder": 30,
+        "metal.fragment": 30
+      }
+    },
+    "rocket": {
+      "output": 1,
+      "materials": {
+        "gun.powder": 50,
+        "metal.pipe": 3,
+        "explosives": 5
+      }
+    },
+    "snowball": {
+      "output": 25,
+      "materials": {
+        "ice.shard": 1
+      }
+    },
+    "backpack": {
+      "output": 1,
+      "materials": {
+        "cloth": 24,
+        "rope": 2,
+        "leather": 10
+      }
+    },
+    "explosives": {
+      "output": 1,
+      "materials": {
+        "gun.powder": 15,
+        "fuel.bottle": 2,
+        "metal.fragment": 5
+      }
+    },
+    "fuel.bottle": {
+      "output": 2,
+      "materials": {
+        "fat.animal": 2,
+        "cloth": 1
+      }
+    },
+    "gears": {
+      "output": 1,
+      "materials": {
+        "scrap": 35,
+        "metal.fragment": 12,
+        "hq.metal": 1
+      }
+    },
+    "gun.powder": {
+      "output": 10,
+      "materials": {
+        "coal": 15,
+        "sulfur": 10
+      }
+    },
+    "metal.pipe": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 2,
+        "scrap": 22
+      }
+    },
+    "metal.spring": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 2,
+        "scrap": 35
+      }
+    },
+    "rope": {
+      "output": 1,
+      "materials": {
+        "cloth": 12
+      }
+    },
+    "sewing.kit": {
+      "output": 1,
+      "materials": {
+        "cloth": 20,
+        "rope": 2
+      }
+    },
+    "vehicle.part.battery": {
+      "output": 1,
+      "materials": {
+        "targeting.computer": 1,
+        "tech.trash": 6,
+        "sheet.metal": 4
+      }
+    },
+    "codelock": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 30
+      }
+    },
+    "embrasure.metal": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 30
+      }
+    },
+    "high.stone.gates": {
+      "output": 1,
+      "materials": {
+        "stone": 250,
+        "gears": 4,
+        "hq.metal": 2
+      }
+    },
+    "high.stone.wall": {
+      "output": 1,
+      "materials": {
+        "stone": 150,
+        "hq.metal": 2
+      }
+    },
+    "high.wooden.gates": {
+      "output": 1,
+      "materials": {
+        "log": 250,
+        "rope": 3,
+        "gears": 2
+      }
+    },
+    "high.wooden.wall": {
+      "output": 1,
+      "materials": {
+        "log": 150
+      }
+    },
+    "keylock": {
+      "output": 1,
+      "materials": {
+        "log": 20
+      }
+    },
+    "window.wood": {
+      "output": 1,
+      "materials": {
+        "log": 10
+      }
+    },
+    "bone.boots": {
+      "output": 1,
+      "materials": {
+        "bone": 15,
+        "cloth": 5
+      }
+    },
+    "leather.boots": {
+      "output": 1,
+      "materials": {
+        "leather": 7,
+        "sewing.kit": 2
+      }
+    },
+    "metal.boots": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 3,
+        "sewing.kit": 3,
+        "leather": 10
+      }
+    },
+    "wooden.sandals": {
+      "output": 1,
+      "materials": {
+        "log": 15,
+        "cloth": 5
+      }
+    },
+    "bone.helmet": {
+      "output": 1,
+      "materials": {
+        "bone": 10
+      }
+    },
+    "elf.hat": {
+      "output": 1,
+      "materials": {
+        "cloth": 10
+      }
+    },
+    "leather.helmet": {
+      "output": 1,
+      "materials": {
+        "leather": 10,
+        "sewing.kit": 2
+      }
+    },
+    "metal.helmet": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 5,
+        "sewing.kit": 3,
+        "rope": 1
+      }
+    },
+    "pumpkin.head": {
+      "output": 1,
+      "materials": {
+        "pumpkin": 1
+      }
+    },
+    "santa.hat": {
+      "output": 1,
+      "materials": {
+        "cloth": 10
+      }
+    },
+    "witch.hat": {
+      "output": 1,
+      "materials": {
+        "cloth": 10
+      }
+    },
+    "wooden.helmet": {
+      "output": 1,
+      "materials": {
+        "log": 10,
+        "cloth": 5
+      }
+    },
+    "anvil": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 30
+      }
+    },
+    "bed": {
+      "output": 1,
+      "materials": {
+        "log": 40,
+        "cloth": 20,
+        "metal.fragment": 30
+      }
+    },
+    "campfire": {
+      "output": 1,
+      "materials": {
+        "stone": 25
+      }
+    },
+    "candles": {
+      "output": 1,
+      "materials": {
+        "log": 10,
+        "cloth": 5
+      }
+    },
+    "cauldron": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 30
+      }
+    },
+    "ceiling.light": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 10
+      }
+    },
+    "cupboard.tool": {
+      "output": 1,
+      "materials": {
+        "log": 100
+      }
+    },
+    "door.armored": {
+      "output": 1,
+      "materials": {
+        "gears": 3,
+        "sheet.metal": 3,
+        "hq.metal": 20
+      }
+    },
+    "door.double.armored": {
+      "output": 1,
+      "materials": {
+        "sheet.metal": 4,
+        "gears": 4,
+        "hq.metal": 40
+      }
+    },
+    "door.double.metal": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 80
+      }
+    },
+    "door.double.wood": {
+      "output": 1,
+      "materials": {
+        "log": 50
+      }
+    },
+    "door.metal": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 35
+      }
+    },
+    "furnace": {
+      "output": 1,
+      "materials": {
+        "stone": 50
+      }
+    },
+    "furnace.advanced": {
+      "output": 1,
+      "materials": {
+        "stone": 250,
+        "log": 75,
+        "metal.fragment": 80,
+        "hq.metal": 10
+      }
+    },
+    "garage.door": {
+      "output": 1,
+      "materials": {
+        "gears": 2,
+        "metal.fragment": 50,
+        "sheet.metal": 2
+      }
+    },
+    "guntrap": {
+      "output": 1,
+      "materials": {
+        "scrap": 20,
+        "log": 25,
+        "gears": 2,
+        "metal.fragment": 60
+      }
+    },
+    "hatch.square.armored": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 20,
+        "gears": 6
+      }
+    },
+    "hatch.square.metal": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 50,
+        "gears": 3
+      }
+    },
+    "hatch.triangle.armored": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 20,
+        "gears": 6
+      }
+    },
+    "hatch.triangle.metal": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 50,
+        "gears": 3
+      }
+    },
+    "mining.quarry": {
+      "output": 1,
+      "materials": {
+        "log": 300,
+        "hq.metal": 10,
+        "scrap": 50
+      }
+    },
+    "mining.quarry.clan": {
+      "output": 1,
+      "materials": {
+        "log": 300,
+        "metal.fragment": 150,
+        "scrap": 100,
+        "gears": 2
+      }
+    },
+    "sawmill.clan": {
+      "output": 1,
+      "materials": {
+        "log": 200,
+        "metal.fragment": 100,
+        "gears": 3
+      }
+    },
+    "scrap.recycler.clan": {
+      "output": 1,
+      "materials": {
+        "log": 300,
+        "metal.fragment": 100,
+        "sheet.metal": 2
+      }
+    },
+    "sleeping.bag": {
+      "output": 1,
+      "materials": {
+        "cloth": 10
+      }
+    },
+    "storage.box": {
+      "output": 1,
+      "materials": {
+        "log": 25
+      }
+    },
+    "storage.box.large": {
+      "output": 1,
+      "materials": {
+        "log": 50,
+        "metal.fragment": 20
+      }
+    },
+    "tower.wood": {
+      "output": 1,
+      "materials": {
+        "log": 200,
+        "rope": 3
+      }
+    },
+    "turret": {
+      "output": 1,
+      "materials": {
+        "cctv.camera": 1,
+        "targeting.computer": 1,
+        "metal.fragment": 30,
+        "hq.metal": 10
+      }
+    },
+    "turret.heavy": {
+      "output": 1,
+      "materials": {
+        "cctv.camera": 1,
+        "targeting.computer": 1,
+        "hq.metal": 20,
+        "metal.spring": 5,
+        "hmlmg": 1
+      }
+    },
+    "turret.shotgun": {
+      "output": 1,
+      "materials": {
+        "cctv.camera": 1,
+        "targeting.computer": 1,
+        "hq.metal": 20,
+        "metal.spring": 5,
+        "shotgun": 1
+      }
+    },
+    "vending.machine": {
+      "output": 1,
+      "materials": {
+        "gears": 2,
+        "tech.trash": 2,
+        "metal.fragment": 20,
+        "hq.metal": 5
+      }
+    },
+    "wooden.door": {
+      "output": 1,
+      "materials": {
+        "log": 20
+      }
+    },
+    "workbench": {
+      "output": 1,
+      "materials": {
+        "log": 100,
+        "scrap": 50
+      }
+    },
+    "bone.leggings": {
+      "output": 1,
+      "materials": {
+        "bone": 15,
+        "cloth": 5
+      }
+    },
+    "leather.leggings": {
+      "output": 1,
+      "materials": {
+        "leather": 10,
+        "sewing.kit": 2,
+        "rope": 1
+      }
+    },
+    "metal.leggings": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 8,
+        "sewing.kit": 3,
+        "rope": 3,
+        "sheet.metal": 3
+      }
+    },
+    "wooden.leggings": {
+      "output": 1,
+      "materials": {
+        "log": 20,
+        "cloth": 5
+      }
+    },
+    "bandage": {
+      "output": 1,
+      "materials": {
+        "cloth": 5
+      }
+    },
+    "christmas.lights": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 10
+      }
+    },
+    "christmas.tree": {
+      "output": 1,
+      "materials": {
+        "log": 30,
+        "metal.fragment": 10
+      }
+    },
+    "fireworks": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 30,
+        "metal.pipe": 1
+      }
+    },
+    "medkit": {
+      "output": 1,
+      "materials": {
+        "cloth": 15,
+        "metal.fragment": 10,
+        "fuel.bottle": 10
+      }
+    },
+    "pinata.decor": {
+      "output": 1,
+      "materials": {
+        "log": 5,
+        "cloth": 3
+      }
+    },
+    "scarecrow": {
+      "output": 1,
+      "materials": {
+        "log": 10,
+        "cloth": 30
+      }
+    },
+    "snow.machine": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 50,
+        "gears": 1
+      }
+    },
+    "snowman": {
+      "output": 1,
+      "materials": {
+        "cloth": 10,
+        "log": 2
+      }
+    },
+    "hazmat": {
+      "output": 1,
+      "materials": {
+        "sewing.kit": 8,
+        "tarp": 10,
+        "hq.metal": 10
+      }
+    },
+    "axe": {
+      "output": 1,
+      "materials": {
+        "log": 20,
+        "metal.fragment": 10
+      }
+    },
+    "building.hammer": {
+      "output": 1,
+      "materials": {
+        "log": 20
+      }
+    },
+    "building.plan": {
+      "output": 1,
+      "materials": {
+        "log": 5
+      }
+    },
+    "chainsaw": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 15,
+        "metal.blade": 3,
+        "gears": 3
+      }
+    },
+    "jackhammer": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 15,
+        "metal.blade": 3,
+        "gears": 3
+      }
+    },
+    "pickaxe": {
+      "output": 1,
+      "materials": {
+        "log": 20,
+        "metal.fragment": 10
+      }
+    },
+    "pickaxehammer": {
+      "output": 1,
+      "materials": {
+        "metal.blade": 2,
+        "metal.pipe": 1,
+        "metal.fragment": 30
+      }
+    },
+    "saw.ripper": {
+      "output": 1,
+      "materials": {
+        "log": 50,
+        "metal.blade": 2,
+        "metal.fragment": 30
+      }
+    },
+    "stone.hatchet": {
+      "output": 1,
+      "materials": {
+        "log": 10
+      }
+    },
+    "torch": {
+      "output": 1,
+      "materials": {
+        "log": 10,
+        "cloth": 5
+      }
+    },
+    "bone.chestplate": {
+      "output": 1,
+      "materials": {
+        "bone": 30,
+        "cloth": 10
+      }
+    },
+    "leather.chestplate": {
+      "output": 1,
+      "materials": {
+        "leather": 15,
+        "sewing.kit": 4,
+        "rope": 1
+      }
+    },
+    "metal.chestplate": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 10,
+        "sewing.kit": 4,
+        "rope": 3,
+        "sheet.metal": 4
+      }
+    },
+    "wood.chestplate": {
+      "output": 1,
+      "materials": {
+        "log": 30,
+        "cloth": 5
+      }
+    },
+    "assault.rifle": {
+      "output": 1,
+      "materials": {
+        "rifle.body": 1,
+        "metal.pipe": 3,
+        "hq.metal": 30,
+        "metal.spring": 2
+      }
+    },
+    "bone.club": {
+      "output": 1,
+      "materials": {
+        "bone": 1,
+        "cloth": 5
+      }
+    },
+    "crossbow": {
+      "output": 1,
+      "materials": {
+        "log": 30,
+        "metal.fragment": 20,
+        "rope": 1
+      }
+    },
+    "desert.eagle": {
+      "output": 1,
+      "materials": {
+        "metal.pipe": 3,
+        "metal.spring": 1,
+        "hq.metal": 10
+      }
+    },
+    "dmr": {
+      "output": 1,
+      "materials": {
+        "dmr.body": 1,
+        "metal.pipe": 2,
+        "hq.metal": 15,
+        "metal.spring": 1
+      }
+    },
+    "double.barrel": {
+      "output": 1,
+      "materials": {
+        "metal.pipe": 2,
+        "log": 30,
+        "metal.fragment": 60
+      }
+    },
+    "explosive.charge": {
+      "output": 1,
+      "materials": {
+        "gun.powder": 100,
+        "cloth": 10,
+        "explosives": 5,
+        "tech.trash": 2
+      }
+    },
+    "flare.gun": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 15,
+        "scrap": 10,
+        "cloth": 10
+      }
+    },
+    "handmade.pistol": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 25,
+        "scrap": 10,
+        "metal.pipe": 1
+      }
+    },
+    "hmlmg": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 45,
+        "gears": 3,
+        "rifle.body": 1,
+        "metal.spring": 3
+      }
+    },
+    "hunting.rifle": {
+      "output": 1,
+      "materials": {
+        "rifle.body": 1,
+        "metal.spring": 1,
+        "metal.pipe": 2,
+        "hq.metal": 20
+      }
+    },
+    "iron.spear": {
+      "output": 1,
+      "materials": {
+        "log": 50,
+        "metal.fragment": 25
+      }
+    },
+    "mace": {
+      "output": 1,
+      "materials": {
+        "log": 100,
+        "metal.fragment": 50,
+        "rope": 2
+      }
+    },
+    "machete": {
+      "output": 1,
+      "materials": {
+        "log": 120,
+        "metal.fragment": 80,
+        "metal.blade": 2,
+        "rope": 2
+      }
+    },
+    "revolver": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 3,
+        "metal.fragment": 30,
+        "metal.pipe": 1
+      }
+    },
+    "rocket.launcher": {
+      "output": 1,
+      "materials": {
+        "metal.pipe": 2,
+        "metal.fragment": 100,
+        "hq.metal": 30,
+        "tech.trash": 1
+      }
+    },
+    "shotgun": {
+      "output": 1,
+      "materials": {
+        "metal.pipe": 2,
+        "metal.spring": 1,
+        "log": 50,
+        "hq.metal": 10
+      }
+    },
+    "steel.ball.gun": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 25,
+        "scrap": 20
+      }
+    },
+    "submachine.gun": {
+      "output": 1,
+      "materials": {
+        "metal.spring": 1,
+        "metal.pipe": 1,
+        "metal.fragment": 25,
+        "scrap": 20
+      }
+    },
+    "thompson": {
+      "output": 1,
+      "materials": {
+        "smg.body": 1,
+        "metal.spring": 2,
+        "hq.metal": 12
+      }
+    },
+    "winchester": {
+      "output": 1,
+      "materials": {
+        "metal.spring": 2,
+        "log": 50,
+        "hq.metal": 7
+      }
+    },
+    "wooden.bow": {
+      "output": 1,
+      "materials": {
+        "log": 20,
+        "cloth": 15
+      }
+    },
+    "wooden.spear": {
+      "output": 1,
+      "materials": {
+        "log": 50
+      }
+    },
+    "wooden.spiked.club": {
+      "output": 1,
+      "materials": {
+        "log": 20,
+        "cloth": 5,
+        "metal.fragment": 30
+      }
+    },
+    "weapon.mod.compensator": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 10
+      }
+    },
+    "weapon.mod.ext.magazine": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 5
+      }
+    },
+    "weapon.mod.holosight": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 5,
+        "tech.trash": 1
+      }
+    },
+    "weapon.mod.muzzle.brake": {
+      "output": 1,
+      "materials": {
+        "hq.metal": 5
+      }
+    },
+    "weapon.mod.simple.scope": {
+      "output": 1,
+      "materials": {
+        "log": 15,
+        "metal.fragment": 10
+      }
+    },
+    "buggy": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 150,
+        "scrap": 100,
+        "gears": 5,
+        "sheet.metal": 2
+      }
+    },
+    "copter": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 200,
+        "scrap": 50,
+        "gears": 5,
+        "sheet.metal": 1
+      }
+    }
+  }
+}
