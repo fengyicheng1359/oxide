@@ -33,5 +33,29 @@
     "text": "Combine cloth gathering, roadside sign collection and recycling spare items to build up useful resources as you explore. More ways to get cloth Collect harvestable cloth when you find it in the wilderness. In the desert, you can also harvest cacti for cloth, but watch out for cactus damage and keep an eye on your health. Use an axe or machete to chop the bodies of dead animals or NPCs and obtain cloth. The amount may vary between bodies. Recycle spare items into cloth Recyclers offer another source of cloth. Sewing kits, tarps and rope have cloth among their recycling outputs. Recycle spares, check the outputs first and keep equipment you still need. Collect signs along the road While exploring roads, hit roadside signs to collect Road Signs items, then take them to a recycler. This lets you gather recyclable resources along your route. The site’s current item table lists scrap as the recycling output for Road Signs. Scrap and metal fragments are different items, so this guide does not present signs as a confirmed source of metal fragments. Tip: shoot barrels and road signs with a crossbow Carry a crossbow and some bolts. Shooting metal barrels and road signs is a quick way to gather resources without repeatedly swinging a melee tool, saving that tool’s durability. Make each trip count Gather cloth when you see it, look for cacti in the desert, harvest animal or NPC bodies when safe, and collect signs along roads. Recycle suitable spare items when you return to a recycler.",
     "source_kind": "local-analysis",
     "source_note": "Source: Compiled from player gathering experience and checked against the site’s current recycling table. Cactus and body harvesting have not been individually tested on the current server."
+  },
+  "scrap-road-loop": {
+    "title": "Collect scrap along the road, then return home",
+    "category": "生存基础",
+    "text": "Check your tools’ durability before leaving and bring spare tools and basic supplies. Link nearby roads, town outskirts and barrel areas into a loop. Return home to store your haul after one circuit instead of continuing farther and farther. If an area has already been looted, move to the next stretch rather than waiting there. End the trip when your tools are nearly broken or you have collected plenty of scrap. Your haul depends on the route and other players, so do not chase a fixed hourly yield.",
+    "html": "<p>Check your tools’ durability before leaving and bring spare tools and basic supplies. Link nearby roads, town outskirts and barrel areas into a loop. Return home to store your haul after one circuit instead of continuing farther and farther.</p><p>If an area has already been looted, move to the next stretch rather than waiting there. End the trip when your tools are nearly broken or you have collected plenty of scrap. Your haul depends on the route and other players, so do not chase a fixed hourly yield.</p>",
+    "source_kind": "local-analysis",
+    "source_note": ""
+  },
+  "weapon-choice-by-trip": {
+    "title": "Choose weapons for the trip",
+    "category": "战斗与装备",
+    "text": "Before equipping yourself, decide whether you are gathering, fighting at close range or exploring a dangerous area. For everyday gathering, you can pair a melee weapon with a reliable ranged weapon. Indoor encounters call for close-range handling, while fights in open areas require attention to range. Before unlocking a new gun, budget for both crafting materials and future ammunition. Research weapons you use often and can keep supplied with ammo; you do not need to unlock every gun at once. Even after getting more expensive equipment, keep an affordable everyday loadout.",
+    "html": "<p>Before equipping yourself, decide whether you are gathering, fighting at close range or exploring a dangerous area. For everyday gathering, you can pair a melee weapon with a reliable ranged weapon. Indoor encounters call for close-range handling, while fights in open areas require attention to range.</p><p>Before unlocking a new gun, budget for both crafting materials and future ammunition. Research weapons you use often and can keep supplied with ammo; you do not need to unlock every gun at once. Even after getting more expensive equipment, keep an affordable everyday loadout.</p>",
+    "source_kind": "local-analysis",
+    "source_note": ""
+  },
+  "battle-pass-mission-route": {
+    "title": "Check Battle Pass missions before planning your route",
+    "category": "生存基础",
+    "text": "Check daily missions when you log in and fit objectives such as opening crates and mining into your planned route. Click Claim after completing a mission; watching the progress bar is not enough. Daily missions are replaced the next day, and unfinished ones do not carry over. Spread longer weekly missions over several sessions. You can still complete earlier weeks’ objectives before the season ends; some missions require the Elite Pass. Near the end of the season, check the time remaining and unfinished objectives before deciding which missions to focus on.",
+    "html": "<p>Check daily missions when you log in and fit objectives such as opening crates and mining into your planned route. Click Claim after completing a mission; watching the progress bar is not enough. Daily missions are replaced the next day, and unfinished ones do not carry over.</p><p>Spread longer weekly missions over several sessions. You can still complete earlier weeks’ objectives before the season ends; some missions require the Elite Pass. Near the end of the season, check the time remaining and unfinished objectives before deciding which missions to focus on.</p>",
+    "source_kind": "local-analysis",
+    "source_note": ""
   }
 }

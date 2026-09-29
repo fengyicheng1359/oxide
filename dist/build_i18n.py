@@ -173,13 +173,17 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
                 else:
                     anchor['href'] = re.sub(r'/hc/[^/]+/', '/hc/' + official['source_locale'] + '/', anchor['href'])
         if official.get('source_kind') == 'local-analysis':
-            credit = soup.new_tag('p', attrs={'class': 'article-source'})
-            credit.string = official['source_note']
+            # 未配置来源说明的本站文章不生成空署名节点。
+            credit = None
+            if official['source_note']:
+                credit = soup.new_tag('p', attrs={'class': 'article-source'})
+                credit.string = official['source_note']
         else:
             credit = soup.new_tag('a', href=official['source_url'], attrs={'class': 'article-source', 'rel': 'noopener', 'target': '_blank'})
             # 精简译述明确标注本站整理及原始来源，不将玩家经验标成官方资料。
             credit.string = (official.get('source_label') or tr('官方原文')) + ' ↗'
-        body.append(credit)
+        if credit is not None:
+            body.append(credit)
     # 表格说明直接读取当前语言的游戏描述，与物品详情页共用同一份文本。
     for description in soup.select('[data-item-description]'):
         description_item = mapping['items'][description['data-item-description']]

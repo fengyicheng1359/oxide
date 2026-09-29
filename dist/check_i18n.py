@@ -46,7 +46,12 @@ def main():
             if relative.parts[0] == 'gameplay' and relative.stem != 'index':
                 assert soup.select_one('.gameplay-article h1').get_text() == guides[relative.stem]['title'], path
                 body = soup.select_one('.gameplay-body')
-                body.select_one('.article-source').decompose()
+                credit = body.select_one('.article-source')
+                if guides[relative.stem].get('source_kind') == 'local-analysis' and not guides[relative.stem]['source_note']:
+                    assert credit is None, path
+                else:
+                    assert credit is not None, path
+                    credit.decompose()
                 assert body.get_text(' ', strip=True) == guides[relative.stem]['text'], path
             assert '__OFFICIAL_TITLE__' not in str(soup), path
             pages += 1
