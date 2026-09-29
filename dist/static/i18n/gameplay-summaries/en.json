@@ -1,0 +1,182 @@
+{
+  "server-modes-12": {
+    "title": "How should beginners choose a server?",
+    "text": "Choose PvE to learn gathering and building: players cannot attack one another, and bases with a Tool Cupboard cannot be raided or destroyed by other players. Choose PvP for combat and raiding. Before joining, check resource rates, wipe frequency and the No PC tag, which means PC players are not allowed on that server.",
+    "html": "<p>Choose PvE to learn gathering and building: players cannot attack one another, and bases with a Tool Cupboard cannot be raided or destroyed by other players. Choose PvP for combat and raiding. Before joining, check resource rates, wipe frequency and the No PC tag, which means PC players are not allowed on that server.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/server-modes-and-filters-in-oxide-12",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Site summary · Official source"
+  },
+  "newbie-servers-105": {
+    "title": "Why has my newbie server disappeared?",
+    "text": "Newbie servers are temporary learning environments. When their opening period ends, they are permanently removed from the list along with the wipe and cannot be restored. Use them to learn the basics rather than as a server for long-term progress.",
+    "html": "<p>Newbie servers are temporary learning environments. When their opening period ends, they are permanently removed from the list along with the wipe and cannot be restored. Use them to learn the basics rather than as a server for long-term progress.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-newbie-servers-why-has-my-server-disappeared-105",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Site summary · Official source"
+  },
+  "server-wipe-8": {
+    "title": "What is a wipe, and where can I check its time?",
+    "text": "A wipe regularly resets server data, clearing buildings, loot and debris from the map for a new survival cycle. In the lobby, open the server list and select the server you want to join. Its details show the creation time and the scheduled time of the next wipe.",
+    "html": "<p>A wipe regularly resets server data, clearing buildings, loot and debris from the map for a new survival cycle. In the lobby, open the server list and select the server you want to join. Its details show the creation time and the scheduled time of the next wipe.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-wipe-and-how-to-know-when-it-will-happen-8",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Site summary · Official source"
+  },
+  "solo-duo-trio-248": {
+    "title": "What limits apply on Solo, Duo and Trio servers?",
+    "text": "SOLO, DUO and TRIO limit groups to one, two and three players respectively. The limits also apply to Tool Cupboard authorization and code-lock users. Once full, a lock may refuse a friend even with the correct code. Changing the code or picking up and replacing the door clears the user list; players must then enter the code again. Teaming beyond the limit breaks these servers' rules.",
+    "html": "<p>SOLO, DUO and TRIO limit groups to one, two and three players respectively. The limits also apply to Tool Cupboard authorization and code-lock users. Once full, a lock may refuse a friend even with the correct code. Changing the code or picking up and replacing the door clears the user list; players must then enter the code again. Teaming beyond the limit breaks these servers&#x27; rules.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-solo-duo-and-trio-servers-248",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Site summary · Official source"
+  },
+  "base-upkeep-245": {
+    "title": "Why is my base upkeep getting more expensive?",
+    "text": "On PvP servers, more structural pieces increase the upkeep surcharge; the largest size bracket can cost twice the base amount. Authorizing more than four players in the cupboard adds a further surcharge. Doors and hatches need upkeep but do not count toward the size bracket. PvE has no such surcharges. Check the cupboard's daily cost for the resources currently required.",
+    "html": "<p>On PvP servers, more structural pieces increase the upkeep surcharge; the largest size bracket can cost twice the base amount. Authorizing more than four players in the cupboard adds a further surcharge. Doors and hatches need upkeep but do not count toward the size bracket. PvE has no such surcharges. Check the cupboard&#x27;s daily cost for the resources currently required.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-did-my-base-upkeep-get-more-expensive-245",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "building-privileges-191": {
+    "title": "Why can't I build despite having cupboard authorization?",
+    "text": "A cupboard's build zone follows foundations, walls and floors rather than forming a fixed circle around the cupboard. Where several protected zones overlap, the building containing the oldest structural piece determines building permission. Authorization in another nearby cupboard may therefore be insufficient. Walk around and watch the building status indicator to find the boundary.",
+    "html": "<p>A cupboard&#x27;s build zone follows foundations, walls and floors rather than forming a fixed circle around the cupboard. Where several protected zones overlap, the building containing the oldest structural piece determines building permission. Authorization in another nearby cupboard may therefore be insufficient. Walk around and watch the building status indicator to find the boundary.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-building-privileges-and-build-zones-work-191",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "merge-buildings-190": {
+    "title": "How can separated buildings be merged again?",
+    "text": "Restoring full side-to-side contact between structural pieces lets the system treat them as one building again. This usually works for a base that was originally connected and later damaged; separately started buildings are difficult to align precisely. After merging, one cupboard and one build zone remain, and the extra cupboard in the absorbed section is removed.",
+    "html": "<p>Restoring full side-to-side contact between structural pieces lets the system treat them as one building again. This usually works for a base that was originally connected and later damaged; separately started buildings are difficult to align precisely. After merging, one cupboard and one build zone remain, and the extra cupboard in the absorbed section is removed.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-merge-two-buildings-into-one-190",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "rebuild-debris-200": {
+    "title": "Why can't I immediately replace a destroyed wall?",
+    "text": "Destroyed building pieces briefly leave debris that blocks new construction in the same spot. Wait for the construction-blocked countdown to end; the official guide gives about 30 seconds. For some walls, the debris may clear sooner if the supporting pieces are also destroyed.",
+    "html": "<p>Destroyed building pieces briefly leave debris that blocks new construction in the same spot. Wait for the construction-blocked countdown to end; the official guide gives about 30 seconds. For some walls, the debris may clear sooner if the supporting pieces are also destroyed.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-cant-i-rebuild-right-after-my-wall-foundation-was-destroyed-200",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "fence-snapping-209": {
+    "title": "How can I reduce gaps between fences?",
+    "text": "When placing fences, adjacent sections now snap together and align automatically. This makes a continuous perimeter easier to build and reduces gaps enemies can peek or shoot through. The source describes alignment during placement; it does not say that existing gaps repair themselves.",
+    "html": "<p>When placing fences, adjacent sections now snap together and align automatically. This makes a continuous perimeter easier to build and reduces gaps enemies can peek or shoot through. The source describes alignment during placement; it does not say that existing gaps repair themselves.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/do-fences-connect-automatically-now-why-is-there-a-gap-between-my-fences-and-how-do-i-close-it-209",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "signal-airdrop-249": {
+    "title": "How do I call an airdrop with a signal flare gun?",
+    "text": "The signal flare gun is found only in loot and cannot be crafted. Fire toward open sky at least 45 degrees above the horizon, avoiding roofs, bridges and rock faces. After a successful shot, the plane arrives in roughly one to two minutes and the drop lands near the firing position. Other players may notice the signal, so choose somewhere you can defend while waiting.",
+    "html": "<p>The signal flare gun is found only in loot and cannot be crafted. Fire toward open sky at least 45 degrees above the horizon, avoiding roofs, bridges and rock faces. After a successful shot, the plane arrives in roughly one to two minutes and the drop lands near the firing position. Other players may notice the signal, so choose somewhere you can defend while waiting.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-call-an-airdrop-with-the-signal-flare-gun-249",
+    "source_locale": "en",
+    "category": "交通与探索",
+    "source_label": "Site summary · Official source"
+  },
+  "first-day-progression": {
+    "title": "Your first day: make tools, then build a small home",
+    "text": "Start with wood, stone and food, make basic gathering tools, then choose a resource-accessible spot with fewer passing players for a small home. Gather materials before building so you do not run out halfway. Once you have storage, take only essentials outside and return to deposit a good haul. Invest in expensive gear and major expansion after gathering and storage are reliable.",
+    "html": "<p>Start with wood, stone and food, make basic gathering tools, then choose a resource-accessible spot with fewer passing players for a small home. Gather materials before building so you do not run out halfway. Once you have storage, take only essentials outside and return to deposit a good haul. Invest in expensive gear and major expansion after gathering and storage are reliable.</p>",
+    "source_url": "https://www.topuplive.com/news/oxide-survival-island-beginner-guide.html/",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Site summary · TOPUPlive (third-party advice)"
+  },
+  "gather-hit-markers-116": {
+    "title": "Follow the markers when chopping trees and mining",
+    "text": "With ordinary tools, hit a tree once, then aim the next strike at the red trunk marker for more resources and faster felling. Stone and ore nodes show a glowing spot that moves after a successful hit. Locate it again after each hit instead of holding attack on the same spot.",
+    "html": "<p>With ordinary tools, hit a tree once, then aim the next strike at the red trunk marker for more resources and faster felling. Stone and ore nodes show a glowing spot that moves after a successful hit. Locate it again after each hit instead of holding attack on the same spot.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-resource-gathering-work-with-the-hit-marker-system-116",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Site summary · Official source"
+  },
+  "workbench-research-path-243": {
+    "title": "Select your target technology to see the full research cost",
+    "text": "Select the equipment you want in the technology tree, even if prerequisites remain locked. The screen shows the remaining scrap cost of the entire path. Confirming researches the missing prerequisites and the target together. Check the total before spending. Actual research requires a workbench within about five metres; opening the tree farther away is view-only and spends nothing.",
+    "html": "<p>Select the equipment you want in the technology tree, even if prerequisites remain locked. The screen shows the remaining scrap cost of the entire path. Confirming researches the missing prerequisites and the target together. Check the total before spending. Actual research requires a workbench within about five metres; opening the tree farther away is view-only and spends nothing.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-research-at-the-workbench-work-now-243",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "solo-base-core-upgrades": {
+    "title": "Solo building: strengthen the core before the outer layers",
+    "text": "With limited solo resources, put the Tool Cupboard deep inside the core. Upgrade the core structures to stone first, then gradually to metal, while strengthening the doors. Add outer defensive layers once the core is secure. Tuck furnaces into corners to leave walking room. The author's design uses an entrance buffer room to reduce direct exposure of the interior when checking outside.",
+    "html": "<p>With limited solo resources, put the Tool Cupboard deep inside the core. Upgrade the core structures to stone first, then gradually to metal, while strengthening the doors. Add outer defensive layers once the core is secure. Tuck furnaces into corners to leave walking room. The author&#x27;s design uses an entrance buffer room to reduce direct exposure of the interior when checking outside.</p>",
+    "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-solo-base-design-in-oxide.html",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Theundr (player advice)"
+  },
+  "spread-base-loot-83": {
+    "title": "Spread valuables around your base to limit losses from one breach",
+    "text": "Add defensive layers outside important rooms so attackers must break through more obstacles. Store valuables in different parts of the base instead of risking everything at a single breach. The Tool Cupboard remains a priority: keep it protected and locked. Spreading loot reduces the damage from one breach; it does not guarantee that supplies survive a complete raid.",
+    "html": "<p>Add defensive layers outside important rooms so attackers must break through more obstacles. Store valuables in different parts of the base instead of risking everything at a single breach. The Tool Cupboard remains a priority: keep it protected and locked. Spreading loot reduces the damage from one breach; it does not guarantee that supplies survive a complete raid.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-protect-my-base-83",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "turret-placement-247": {
+    "title": "Aim turrets at doors and corridors, then check ammunition",
+    "text": "While placing a turret, use the translucent sector on the ground to aim it at a doorway or a corridor enemies must cross. Load the correct ammunition and check the remaining rounds when restocking the cupboard: an empty turret will not fire. Teammates need authorization in the cupboard covering the turret or may become targets. Crafting also consumes the actual weapon in the recipe, so include it in your budget.",
+    "html": "<p>While placing a turret, use the translucent sector on the ground to aim it at a doorway or a corridor enemies must cross. Load the correct ammunition and check the remaining rounds when restocking the cupboard: an empty turret will not fire. Teammates need authorization in the cupboard covering the turret or may become targets. Crafting also consumes the actual weapon in the recipe, so include it in your budget.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-turrets-are-there-and-how-do-i-set-one-up-247",
+    "source_locale": "en",
+    "category": "战斗与装备",
+    "source_label": "Site summary · Official source"
+  },
+  "backup-supplies-84": {
+    "title": "Keep backup supplies elsewhere in case your base falls",
+    "text": "Besides defending your main base, keep basic supplies in another hidden location so a bad night does not force a complete restart. Travel with others when carrying valuable cargo. This preparation addresses what happens after the main base falls: supplies spread inside it can still all be lost, while a separate reserve offers another route to recovery.",
+    "html": "<p>Besides defending your main base, keep basic supplies in another hidden location so a bad night does not force a complete restart. Travel with others when carrying valuable cargo. This preparation addresses what happens after the main base falls: supplies spread inside it can still all be lost, while a separate reserve offers another route to recovery.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-defend-against-raids-84",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Site summary · Official source"
+  },
+  "raid-preparation": {
+    "title": "Check four equipment groups before a raid",
+    "text": "Before leaving, check your primary weapon and spare ammunition, backup weapon, breaching rockets or C4, and armor and supplies. Prepare medkits, bandages, water and sleeping bags, and repair worn gear first. Do not take all your most valuable items at once; keep emergency equipment in reserve. Consider retaliation when choosing targets: a base close to home is not necessarily a good choice.",
+    "html": "<p>Before leaving, check your primary weapon and spare ammunition, backup weapon, breaching rockets or C4, and armor and supplies. Prepare medkits, bandages, water and sleeping bags, and repair worn gear first. Do not take all your most valuable items at once; keep emergency equipment in reserve. Consider retaliation when choosing targets: a base close to home is not necessarily a good choice.</p>",
+    "source_url": "https://t.me/playoxide/180",
+    "source_locale": "en",
+    "category": "战斗与装备",
+    "source_label": "Site summary · Official OXIDE channel"
+  },
+  "player-shop-stock-79": {
+    "title": "Check player shops on the map before travelling",
+    "text": "Open the map and select a player shop icon to check goods and prices before making the trip. The marker disappears when the shop sells out. When running your own shop, place the vending machine within a cupboard's zone or others may take goods and earnings from the back. Empty the earnings storage regularly; trades stop when it is full.",
+    "html": "<p>Open the map and select a player shop icon to check goods and prices before making the trip. The marker disappears when the shop sells out. When running your own shop, place the vending machine within a cupboard&#x27;s zone or others may take goods and earnings from the back. Empty the earnings storage regularly; trades stop when it is full.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-vending-machine-how-many-can-i-place-how-do-i-check-a-player-shops-stock-on-the-map-79",
+    "source_locale": "en",
+    "category": "交通与探索",
+    "source_label": "Site summary · Official source"
+  },
+  "quarry-collection-80": {
+    "title": "Collect quarry output regularly after adding fuel",
+    "text": "After unlocking the Mining Quarry blueprint, gather the materials and craft it on the server; buying it in the main shop does not give you a finished machine. Place it and add fuel to produce stone and ores. Running it makes noise that attracts enemies, and other players may take resources left inside. Protect the surroundings and collect the output promptly.",
+    "html": "<p>After unlocking the Mining Quarry blueprint, gather the materials and craft it on the server; buying it in the main shop does not give you a finished machine. Place it and add fuel to produce stone and ores. Running it makes noise that attracts enemies, and other players may take resources left inside. Protect the surroundings and collect the output promptly.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-mining-quarry-80",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Site summary · Official source"
+  }
+}

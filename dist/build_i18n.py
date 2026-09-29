@@ -23,12 +23,15 @@ def load(path: Path):
 
 
 def load_guides(lang: str) -> dict:
-    """合并官方文章和本站说明；本站内容独立保存，避免被官方同步覆盖。"""
+    """合并官方全文、本站说明和精简译述；独立保存，避免官方同步覆盖。"""
     guides = load(DATA / 'gameplay' / f'{lang}.json')
     local = load(DATA / 'gameplay-local' / f'{lang}.json')
     if guides.keys() & local.keys():
         raise ValueError(f'{lang} 本站玩法与官方文章标识重复')
-    return {**guides, **local}
+    summaries = load(DATA / 'gameplay-summaries' / f'{lang}.json')
+    if summaries.keys() & (guides.keys() | local.keys()):
+        raise ValueError(f'{lang} 玩法精简译述与已有文章标识重复')
+    return {**guides, **local, **summaries}
 
 
 def game_text(value: str) -> str:
@@ -174,7 +177,8 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
             credit.string = official['source_note']
         else:
             credit = soup.new_tag('a', href=official['source_url'], attrs={'class': 'article-source', 'rel': 'noopener', 'target': '_blank'})
-            credit.string = tr('官方原文') + ' ↗'
+            # 精简译述明确标注本站整理及原始来源，不将玩家经验标成官方资料。
+            credit.string = (official.get('source_label') or tr('官方原文')) + ' ↗'
         body.append(credit)
     # 表格说明直接读取当前语言的游戏描述，与物品详情页共用同一份文本。
     for description in soup.select('[data-item-description]'):

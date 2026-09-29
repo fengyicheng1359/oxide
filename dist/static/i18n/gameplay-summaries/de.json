@@ -1,0 +1,182 @@
+{
+  "server-modes-12": {
+    "title": "Welchen Server sollten Anfänger wählen?",
+    "text": "Wähle PvE, um Sammeln und Bauen zu lernen: Spieler können einander nicht angreifen, und Basen mit Werkzeugschrank können von anderen Spielern weder geraidet noch zerstört werden. Für Kämpfe und Raids eignet sich PvP. Prüfe vor dem Beitritt Ressourcenmultiplikatoren, Wipe-Zyklus und das Kennzeichen No PC. Letzteres bedeutet, dass PC-Spieler dort nicht zugelassen sind.",
+    "html": "<p>Wähle PvE, um Sammeln und Bauen zu lernen: Spieler können einander nicht angreifen, und Basen mit Werkzeugschrank können von anderen Spielern weder geraidet noch zerstört werden. Für Kämpfe und Raids eignet sich PvP. Prüfe vor dem Beitritt Ressourcenmultiplikatoren, Wipe-Zyklus und das Kennzeichen No PC. Letzteres bedeutet, dass PC-Spieler dort nicht zugelassen sind.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/server-modes-and-filters-in-oxide-12",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "newbie-servers-105": {
+    "title": "Warum ist mein Anfängerserver verschwunden?",
+    "text": "Anfängerserver sind zeitlich begrenzte Lernumgebungen. Nach Ende ihrer Laufzeit werden sie zusammen mit dem Wipe dauerhaft aus der Liste entfernt und können nicht wiederhergestellt werden. Nutze sie zum Lernen der Grundlagen und nicht als Ort für langfristigen Fortschritt.",
+    "html": "<p>Anfängerserver sind zeitlich begrenzte Lernumgebungen. Nach Ende ihrer Laufzeit werden sie zusammen mit dem Wipe dauerhaft aus der Liste entfernt und können nicht wiederhergestellt werden. Nutze sie zum Lernen der Grundlagen und nicht als Ort für langfristigen Fortschritt.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-newbie-servers-why-has-my-server-disappeared-105",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "server-wipe-8": {
+    "title": "Was ist ein Wipe und wo steht der Termin?",
+    "text": "Ein Wipe setzt regelmäßig die Serverdaten zurück. Gebäude, Beute und Trümmer werden von der Karte entfernt, damit ein neuer Überlebenszyklus beginnen kann. Öffne in der Lobby die Serverliste und wähle den gewünschten Server. Die Details zeigen das Erstellungsdatum sowie Datum und Uhrzeit des nächsten geplanten Wipes.",
+    "html": "<p>Ein Wipe setzt regelmäßig die Serverdaten zurück. Gebäude, Beute und Trümmer werden von der Karte entfernt, damit ein neuer Überlebenszyklus beginnen kann. Öffne in der Lobby die Serverliste und wähle den gewünschten Server. Die Details zeigen das Erstellungsdatum sowie Datum und Uhrzeit des nächsten geplanten Wipes.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-wipe-and-how-to-know-when-it-will-happen-8",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "solo-duo-trio-248": {
+    "title": "Welche Grenzen gelten auf Solo-, Duo- und Trio-Servern?",
+    "text": "SOLO, DUO und TRIO erlauben Gruppen mit einer, zwei beziehungsweise drei Personen. Die Grenzen gelten auch für Berechtigungen am Werkzeugschrank und Nutzer von Codeschlössern. Ist die Grenze erreicht, kann selbst der richtige Code einen Freund nicht hineinlassen. Ein Codewechsel oder das Aufheben und erneute Platzieren der Tür löscht die Nutzerliste; danach muss der Code erneut eingegeben werden. Größere Gruppen verstoßen gegen die Serverregeln.",
+    "html": "<p>SOLO, DUO und TRIO erlauben Gruppen mit einer, zwei beziehungsweise drei Personen. Die Grenzen gelten auch für Berechtigungen am Werkzeugschrank und Nutzer von Codeschlössern. Ist die Grenze erreicht, kann selbst der richtige Code einen Freund nicht hineinlassen. Ein Codewechsel oder das Aufheben und erneute Platzieren der Tür löscht die Nutzerliste; danach muss der Code erneut eingegeben werden. Größere Gruppen verstoßen gegen die Serverregeln.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-solo-duo-and-trio-servers-248",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "base-upkeep-245": {
+    "title": "Warum wird der Unterhalt meiner Basis teurer?",
+    "text": "Auf PvP-Servern steigt der Unterhaltszuschlag mit der Zahl der Bauteile. Die höchste Größenstufe kann das Doppelte des Grundbetrags kosten. Mehr als vier berechtigte Spieler am Schrank verursachen einen weiteren Zuschlag. Türen und Luken brauchen Unterhalt, zählen aber nicht für die Größenstufe. Im PvE gibt es diese Zuschläge nicht. Der Tagesverbrauch im Schrank zeigt den aktuellen Ressourcenbedarf.",
+    "html": "<p>Auf PvP-Servern steigt der Unterhaltszuschlag mit der Zahl der Bauteile. Die höchste Größenstufe kann das Doppelte des Grundbetrags kosten. Mehr als vier berechtigte Spieler am Schrank verursachen einen weiteren Zuschlag. Türen und Luken brauchen Unterhalt, zählen aber nicht für die Größenstufe. Im PvE gibt es diese Zuschläge nicht. Der Tagesverbrauch im Schrank zeigt den aktuellen Ressourcenbedarf.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-did-my-base-upkeep-get-more-expensive-245",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "building-privileges-191": {
+    "title": "Warum kann ich trotz Schrankberechtigung nicht bauen?",
+    "text": "Die Bauzone folgt Fundamenten, Wänden und Böden und ist kein fester Kreis um den Schrank. Überschneiden sich mehrere geschützte Zonen, bestimmt das Gebäude mit dem ältesten Bauteil die Bauberechtigung an dieser Stelle. Die Freigabe an einem anderen nahen Schrank reicht dann möglicherweise nicht. Gehe umher und beobachte die Bauanzeige, um die Grenze zu erkennen.",
+    "html": "<p>Die Bauzone folgt Fundamenten, Wänden und Böden und ist kein fester Kreis um den Schrank. Überschneiden sich mehrere geschützte Zonen, bestimmt das Gebäude mit dem ältesten Bauteil die Bauberechtigung an dieser Stelle. Die Freigabe an einem anderen nahen Schrank reicht dann möglicherweise nicht. Gehe umher und beobachte die Bauanzeige, um die Grenze zu erkennen.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-building-privileges-and-build-zones-work-191",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "merge-buildings-190": {
+    "title": "Wie lassen sich getrennte Gebäude wieder verbinden?",
+    "text": "Stelle den vollständigen seitlichen Kontakt zwischen Bauteilen wieder her, damit sie erneut als ein Gebäude gelten. Das funktioniert meist bei einer ursprünglich verbundenen, später beschädigten Basis. Unabhängig begonnene Gebäude lassen sich nur schwer exakt ausrichten. Nach der Verbindung bleiben ein Schrank und eine Bauzone; der zusätzliche Schrank im aufgenommenen Teil wird entfernt.",
+    "html": "<p>Stelle den vollständigen seitlichen Kontakt zwischen Bauteilen wieder her, damit sie erneut als ein Gebäude gelten. Das funktioniert meist bei einer ursprünglich verbundenen, später beschädigten Basis. Unabhängig begonnene Gebäude lassen sich nur schwer exakt ausrichten. Nach der Verbindung bleiben ein Schrank und eine Bauzone; der zusätzliche Schrank im aufgenommenen Teil wird entfernt.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-merge-two-buildings-into-one-190",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "rebuild-debris-200": {
+    "title": "Warum lässt sich eine zerstörte Wand nicht sofort ersetzen?",
+    "text": "Zerstörte Bauteile hinterlassen kurzzeitig Trümmer, die Neubauten an derselben Stelle blockieren. Warte, bis der Countdown der Bausperre endet; laut offizieller Anleitung dauert es ungefähr 30 Sekunden. Bei manchen Wänden können die Trümmer früher verschwinden, wenn auch die tragenden Teile zerstört werden.",
+    "html": "<p>Zerstörte Bauteile hinterlassen kurzzeitig Trümmer, die Neubauten an derselben Stelle blockieren. Warte, bis der Countdown der Bausperre endet; laut offizieller Anleitung dauert es ungefähr 30 Sekunden. Bei manchen Wänden können die Trümmer früher verschwinden, wenn auch die tragenden Teile zerstört werden.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-cant-i-rebuild-right-after-my-wall-foundation-was-destroyed-200",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "fence-snapping-209": {
+    "title": "Wie lassen sich Lücken zwischen Zäunen vermeiden?",
+    "text": "Beim Platzieren rasten benachbarte Zäune jetzt automatisch aneinander ein und richten sich aus. Dadurch lässt sich leichter eine geschlossene Umzäunung bauen, mit weniger Spalten zum Hindurchsehen oder Schießen. Die Quelle beschreibt das Ausrichten beim Aufstellen, nicht eine automatische Reparatur bereits vorhandener Lücken.",
+    "html": "<p>Beim Platzieren rasten benachbarte Zäune jetzt automatisch aneinander ein und richten sich aus. Dadurch lässt sich leichter eine geschlossene Umzäunung bauen, mit weniger Spalten zum Hindurchsehen oder Schießen. Die Quelle beschreibt das Ausrichten beim Aufstellen, nicht eine automatische Reparatur bereits vorhandener Lücken.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/do-fences-connect-automatically-now-why-is-there-a-gap-between-my-fences-and-how-do-i-close-it-209",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "signal-airdrop-249": {
+    "title": "Wie rufe ich mit der Signalpistole einen Airdrop?",
+    "text": "Die Signalpistole gibt es nur als Beute; sie kann nicht hergestellt werden. Schieße mindestens 45 Grad über dem Horizont in den freien Himmel, ohne Dächer, Brücken oder Felswände zu treffen. Bei Erfolg kommt das Flugzeug nach etwa ein bis zwei Minuten, und die Ladung landet nahe dem Abschussort. Andere Spieler können das Signal bemerken. Warte daher an einer gut verteidigbaren Stelle.",
+    "html": "<p>Die Signalpistole gibt es nur als Beute; sie kann nicht hergestellt werden. Schieße mindestens 45 Grad über dem Horizont in den freien Himmel, ohne Dächer, Brücken oder Felswände zu treffen. Bei Erfolg kommt das Flugzeug nach etwa ein bis zwei Minuten, und die Ladung landet nahe dem Abschussort. Andere Spieler können das Signal bemerken. Warte daher an einer gut verteidigbaren Stelle.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-call-an-airdrop-with-the-signal-flare-gun-249",
+    "source_locale": "en",
+    "category": "交通与探索",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "first-day-progression": {
+    "title": "Am ersten Tag: erst Werkzeuge, dann ein kleines Zuhause",
+    "text": "Sammle zunächst Holz, Stein und Nahrung und stelle einfache Sammelwerkzeuge her. Suche danach einen ressourcennahen, wenig frequentierten Platz für eine kleine Basis. Lege vor Baubeginn genügend Material bereit, damit es nicht mittendrin ausgeht. Sobald Lagerplatz vorhanden ist, nimm nur das Nötigste mit und bringe größere Funde nach Hause. Teure Ausrüstung und große Erweiterungen kommen erst bei verlässlicher Versorgung und Lagerung.",
+    "html": "<p>Sammle zunächst Holz, Stein und Nahrung und stelle einfache Sammelwerkzeuge her. Suche danach einen ressourcennahen, wenig frequentierten Platz für eine kleine Basis. Lege vor Baubeginn genügend Material bereit, damit es nicht mittendrin ausgeht. Sobald Lagerplatz vorhanden ist, nimm nur das Nötigste mit und bringe größere Funde nach Hause. Teure Ausrüstung und große Erweiterungen kommen erst bei verlässlicher Versorgung und Lagerung.</p>",
+    "source_url": "https://www.topuplive.com/news/oxide-survival-island-beginner-guide.html/",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Zusammenfassung dieser Website · TOPUPlive (externe Tipps)"
+  },
+  "gather-hit-markers-116": {
+    "title": "Beim Holzfällen und Bergbau den Markierungen folgen",
+    "text": "Schlage mit einem normalen Werkzeug einmal gegen den Baum und ziele beim nächsten Schlag auf die rote Markierung am Stamm. Das bringt mehr Ressourcen und fällt den Baum schneller. An Steinen und Erzvorkommen erscheint ein leuchtender Punkt, der nach einem Treffer wandert. Suche ihn nach jedem Schlag neu, statt dauerhaft dieselbe Stelle anzugreifen.",
+    "html": "<p>Schlage mit einem normalen Werkzeug einmal gegen den Baum und ziele beim nächsten Schlag auf die rote Markierung am Stamm. Das bringt mehr Ressourcen und fällt den Baum schneller. An Steinen und Erzvorkommen erscheint ein leuchtender Punkt, der nach einem Treffer wandert. Suche ihn nach jedem Schlag neu, statt dauerhaft dieselbe Stelle anzugreifen.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-resource-gathering-work-with-the-hit-marker-system-116",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "workbench-research-path-243": {
+    "title": "Zieltechnologie auswählen und die gesamten Forschungskosten sehen",
+    "text": "Wähle im Technologiebaum direkt die gewünschte Ausrüstung, auch wenn Voraussetzungen noch fehlen. Angezeigt werden die verbleibenden Schrottkosten des ganzen Wegs. Eine Bestätigung erforscht die fehlenden Schritte und das Ziel zusammen. Prüfe vorher die Gesamtsumme. Zum Forschen musst du ungefähr fünf Meter oder näher an einer Werkbank sein. Aus der Ferne ist der Baum nur zur Ansicht geöffnet und verbraucht nichts.",
+    "html": "<p>Wähle im Technologiebaum direkt die gewünschte Ausrüstung, auch wenn Voraussetzungen noch fehlen. Angezeigt werden die verbleibenden Schrottkosten des ganzen Wegs. Eine Bestätigung erforscht die fehlenden Schritte und das Ziel zusammen. Prüfe vorher die Gesamtsumme. Zum Forschen musst du ungefähr fünf Meter oder näher an einer Werkbank sein. Aus der Ferne ist der Baum nur zur Ansicht geöffnet und verbraucht nichts.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-research-at-the-workbench-work-now-243",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "solo-base-core-upgrades": {
+    "title": "Solo zuerst den Kern sichern, dann die Außenhülle",
+    "text": "Bei knappen Solo-Ressourcen gehört der Werkzeugschrank tief in den Kern der Basis. Verstärke die zentralen Bauteile zuerst mit Stein, später mit Metall, und verbessere auch die Türen. Erst danach kommen äußere Schutzschichten. Stelle Öfen in Ecken, damit Wege frei bleiben. Der Autor nutzt einen Vorraum am Eingang, um beim Blick nach draußen das Innere weniger direkt offenzulegen.",
+    "html": "<p>Bei knappen Solo-Ressourcen gehört der Werkzeugschrank tief in den Kern der Basis. Verstärke die zentralen Bauteile zuerst mit Stein, später mit Metall, und verbessere auch die Türen. Erst danach kommen äußere Schutzschichten. Stelle Öfen in Ecken, damit Wege frei bleiben. Der Autor nutzt einen Vorraum am Eingang, um beim Blick nach draußen das Innere weniger direkt offenzulegen.</p>",
+    "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-solo-base-design-in-oxide.html",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Theundr (Spielertipps)"
+  },
+  "spread-base-loot-83": {
+    "title": "Vorräte verteilen und Verluste durch einen einzelnen Durchbruch begrenzen",
+    "text": "Errichte zusätzliche Schutzschichten vor wichtigen Räumen, damit Angreifer mehr Hindernisse überwinden müssen. Verteile Wertsachen auf verschiedene Bereiche der Basis, statt bei einem einzigen Durchbruch alles zu riskieren. Der Werkzeugschrank hat weiterhin Vorrang: Schütze ihn und schließe ihn ab. Verteilte Vorräte verringern den Verlust bei einem einzelnen Durchbruch, garantieren aber keine Sicherheit, wenn die gesamte Basis erobert wird.",
+    "html": "<p>Errichte zusätzliche Schutzschichten vor wichtigen Räumen, damit Angreifer mehr Hindernisse überwinden müssen. Verteile Wertsachen auf verschiedene Bereiche der Basis, statt bei einem einzigen Durchbruch alles zu riskieren. Der Werkzeugschrank hat weiterhin Vorrang: Schütze ihn und schließe ihn ab. Verteilte Vorräte verringern den Verlust bei einem einzelnen Durchbruch, garantieren aber keine Sicherheit, wenn die gesamte Basis erobert wird.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-protect-my-base-83",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "turret-placement-247": {
+    "title": "Geschütze auf Türen und Gänge ausrichten und Munition prüfen",
+    "text": "Nutze beim Platzieren den durchsichtigen Sektor am Boden, um das Geschütz auf eine Tür oder einen nötigen Durchgang auszurichten. Lade passende Munition und prüfe den Vorrat beim Auffüllen des Schranks: Ein leeres Geschütz schießt nicht. Teammitglieder brauchen die Berechtigung am zuständigen Schrank, sonst können sie Ziele werden. Die Herstellung verbraucht auch die echte Waffe aus dem Rezept; plane sie in die Kosten ein.",
+    "html": "<p>Nutze beim Platzieren den durchsichtigen Sektor am Boden, um das Geschütz auf eine Tür oder einen nötigen Durchgang auszurichten. Lade passende Munition und prüfe den Vorrat beim Auffüllen des Schranks: Ein leeres Geschütz schießt nicht. Teammitglieder brauchen die Berechtigung am zuständigen Schrank, sonst können sie Ziele werden. Die Herstellung verbraucht auch die echte Waffe aus dem Rezept; plane sie in die Kosten ein.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-turrets-are-there-and-how-do-i-set-one-up-247",
+    "source_locale": "en",
+    "category": "战斗与装备",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "backup-supplies-84": {
+    "title": "Für den Verlust der Basis anderswo Vorräte bereithalten",
+    "text": "Verteidige nicht nur die Hauptbasis, sondern verstecke Grundvorräte an einem anderen Ort, damit eine schlechte Nacht keinen vollständigen Neustart erzwingt. Transportiere wertvolle Güter möglichst gemeinsam mit anderen. Diese Vorbereitung hilft nach dem Fall der Hauptbasis: Verteilte Lager im selben Gebäude können alle verloren gehen, ein externer Vorrat ermöglicht dagegen einen anderen Weg zum Wiederaufbau.",
+    "html": "<p>Verteidige nicht nur die Hauptbasis, sondern verstecke Grundvorräte an einem anderen Ort, damit eine schlechte Nacht keinen vollständigen Neustart erzwingt. Transportiere wertvolle Güter möglichst gemeinsam mit anderen. Diese Vorbereitung hilft nach dem Fall der Hauptbasis: Verteilte Lager im selben Gebäude können alle verloren gehen, ein externer Vorrat ermöglicht dagegen einen anderen Weg zum Wiederaufbau.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-defend-against-raids-84",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "raid-preparation": {
+    "title": "Vor einem Raid vier Ausrüstungsgruppen prüfen",
+    "text": "Prüfe vor dem Aufbruch Hauptwaffe und Reservemunition, Zweitwaffe, Raketen oder C4 zum Durchbrechen sowie Rüstung und Vorräte. Packe Medkits, Verbände, Wasser und Schlafsäcke ein und repariere abgenutzte Ausrüstung vorher. Nimm nicht alle wertvollsten Dinge auf einmal mit; behalte Notfallausrüstung zurück. Bedenke bei der Zielwahl mögliche Vergeltung: Eine Basis nahe deinem Zuhause ist nicht unbedingt ein gutes Ziel.",
+    "html": "<p>Prüfe vor dem Aufbruch Hauptwaffe und Reservemunition, Zweitwaffe, Raketen oder C4 zum Durchbrechen sowie Rüstung und Vorräte. Packe Medkits, Verbände, Wasser und Schlafsäcke ein und repariere abgenutzte Ausrüstung vorher. Nimm nicht alle wertvollsten Dinge auf einmal mit; behalte Notfallausrüstung zurück. Bedenke bei der Zielwahl mögliche Vergeltung: Eine Basis nahe deinem Zuhause ist nicht unbedingt ein gutes Ziel.</p>",
+    "source_url": "https://t.me/playoxide/180",
+    "source_locale": "en",
+    "category": "战斗与装备",
+    "source_label": "Zusammenfassung dieser Website · Offizieller OXIDE-Kanal"
+  },
+  "player-shop-stock-79": {
+    "title": "Spielerläden vor der Reise auf der Karte prüfen",
+    "text": "Wähle auf der Karte das Symbol eines Spielerladens, um Waren und Preise vor dem Weg dorthin zu prüfen. Ist alles ausverkauft, verschwindet die Markierung. Deinen eigenen Verkaufsautomaten solltest du in einer Schrankzone aufstellen; sonst können andere Waren und Einnahmen von hinten entnehmen. Leere das Einnahmenlager regelmäßig, denn bei vollem Lager stoppen die Verkäufe.",
+    "html": "<p>Wähle auf der Karte das Symbol eines Spielerladens, um Waren und Preise vor dem Weg dorthin zu prüfen. Ist alles ausverkauft, verschwindet die Markierung. Deinen eigenen Verkaufsautomaten solltest du in einer Schrankzone aufstellen; sonst können andere Waren und Einnahmen von hinten entnehmen. Leere das Einnahmenlager regelmäßig, denn bei vollem Lager stoppen die Verkäufe.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-vending-machine-how-many-can-i-place-how-do-i-check-a-player-shops-stock-on-the-map-79",
+    "source_locale": "en",
+    "category": "交通与探索",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  },
+  "quarry-collection-80": {
+    "title": "Nach dem Betanken die Erträge des Steinbruchs regelmäßig abholen",
+    "text": "Nach dem Freischalten des Bauplans musst du auf dem Server die Materialien sammeln und den Steinbruch herstellen. Der Kauf im Hauptshop liefert keine fertige Maschine. Stelle ihn auf und fülle Treibstoff ein, damit er Stein und Erze fördert. Der Betrieb erzeugt Lärm und lockt Feinde an; andere Spieler können zurückgelassene Erträge mitnehmen. Sichere die Umgebung und hole die Ressourcen rechtzeitig ab.",
+    "html": "<p>Nach dem Freischalten des Bauplans musst du auf dem Server die Materialien sammeln und den Steinbruch herstellen. Der Kauf im Hauptshop liefert keine fertige Maschine. Stelle ihn auf und fülle Treibstoff ein, damit er Stein und Erze fördert. Der Betrieb erzeugt Lärm und lockt Feinde an; andere Spieler können zurückgelassene Erträge mitnehmen. Sichere die Umgebung und hole die Ressourcen rechtzeitig ab.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-mining-quarry-80",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Zusammenfassung dieser Website · Offizielle Quelle"
+  }
+}

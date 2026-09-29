@@ -1,0 +1,182 @@
+{
+  "server-modes-12": {
+    "title": "Qual servidor escolher ao começar?",
+    "text": "Escolha PvE para aprender a coletar e construir: jogadores não podem atacar uns aos outros, e bases com armário de ferramentas não podem ser invadidas ou destruídas por outros jogadores. Para combates e ataques a bases, escolha PvP. Antes de entrar, confira os multiplicadores de recursos, o ciclo de reinício e a indicação No PC, que proíbe jogadores de PC naquele servidor.",
+    "html": "<p>Escolha PvE para aprender a coletar e construir: jogadores não podem atacar uns aos outros, e bases com armário de ferramentas não podem ser invadidas ou destruídas por outros jogadores. Para combates e ataques a bases, escolha PvP. Antes de entrar, confira os multiplicadores de recursos, o ciclo de reinício e a indicação No PC, que proíbe jogadores de PC naquele servidor.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/server-modes-and-filters-in-oxide-12",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "newbie-servers-105": {
+    "title": "Por que meu servidor de iniciantes desapareceu?",
+    "text": "Servidores de iniciantes são ambientes temporários para aprender o jogo. Ao fim do período de funcionamento, são removidos permanentemente da lista junto com o reinício e não podem ser restaurados. Use-os para aprender o básico, e não para manter progresso a longo prazo.",
+    "html": "<p>Servidores de iniciantes são ambientes temporários para aprender o jogo. Ao fim do período de funcionamento, são removidos permanentemente da lista junto com o reinício e não podem ser restaurados. Use-os para aprender o básico, e não para manter progresso a longo prazo.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-newbie-servers-why-has-my-server-disappeared-105",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "server-wipe-8": {
+    "title": "O que é um reinício do servidor e onde consultar a data?",
+    "text": "O reinício, ou wipe, redefine periodicamente os dados do servidor, removendo construções, saques e destroços do mapa para iniciar outro ciclo de sobrevivência. No lobby, abra a lista e selecione o servidor desejado. Os detalhes mostram a data de criação e a data e hora previstas para o próximo reinício.",
+    "html": "<p>O reinício, ou wipe, redefine periodicamente os dados do servidor, removendo construções, saques e destroços do mapa para iniciar outro ciclo de sobrevivência. No lobby, abra a lista e selecione o servidor desejado. Os detalhes mostram a data de criação e a data e hora previstas para o próximo reinício.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-wipe-and-how-to-know-when-it-will-happen-8",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "solo-duo-trio-248": {
+    "title": "Quais são os limites dos servidores Solo, Duo e Trio?",
+    "text": "SOLO, DUO e TRIO permitem grupos de uma, duas e três pessoas. O limite também vale para autorizações no armário e usuários de fechaduras com código. Com a lista cheia, um amigo pode não entrar mesmo digitando o código certo. Alterar o código ou recolher e recolocar a porta apaga a lista de usuários, que precisam digitá-lo novamente. Cooperar acima do limite viola as regras desses servidores.",
+    "html": "<p>SOLO, DUO e TRIO permitem grupos de uma, duas e três pessoas. O limite também vale para autorizações no armário e usuários de fechaduras com código. Com a lista cheia, um amigo pode não entrar mesmo digitando o código certo. Alterar o código ou recolher e recolocar a porta apaga a lista de usuários, que precisam digitá-lo novamente. Cooperar acima do limite viola as regras desses servidores.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-solo-duo-and-trio-servers-248",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "base-upkeep-245": {
+    "title": "Por que a manutenção da base ficou mais cara?",
+    "text": "No PvP, quanto mais peças estruturais, maior o acréscimo de manutenção; a maior faixa de tamanho pode custar o dobro do valor básico. Mais de quatro jogadores autorizados no armário geram outro acréscimo. Portas e alçapões precisam de manutenção, mas não contam para a faixa de tamanho. Esses acréscimos não existem no PvE. Veja o consumo diário no armário para saber a necessidade atual de recursos.",
+    "html": "<p>No PvP, quanto mais peças estruturais, maior o acréscimo de manutenção; a maior faixa de tamanho pode custar o dobro do valor básico. Mais de quatro jogadores autorizados no armário geram outro acréscimo. Portas e alçapões precisam de manutenção, mas não contam para a faixa de tamanho. Esses acréscimos não existem no PvE. Veja o consumo diário no armário para saber a necessidade atual de recursos.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-did-my-base-upkeep-get-more-expensive-245",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "building-privileges-191": {
+    "title": "Por que não consigo construir mesmo com autorização?",
+    "text": "A área de construção acompanha fundações, paredes e pisos, em vez de formar um círculo fixo ao redor do armário. Se áreas protegidas se sobrepõem, a construção que contém a peça estrutural mais antiga determina a permissão naquele lugar. Ter autorização em outro armário próximo pode não bastar. Caminhe observando o indicador de construção para localizar o limite.",
+    "html": "<p>A área de construção acompanha fundações, paredes e pisos, em vez de formar um círculo fixo ao redor do armário. Se áreas protegidas se sobrepõem, a construção que contém a peça estrutural mais antiga determina a permissão naquele lugar. Ter autorização em outro armário próximo pode não bastar. Caminhe observando o indicador de construção para localizar o limite.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-building-privileges-and-build-zones-work-191",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "merge-buildings-190": {
+    "title": "Como unir novamente construções separadas?",
+    "text": "Restaure o contato completo entre as laterais das peças estruturais para que voltem a contar como uma única construção. Isso costuma servir para reparar uma base antes conectada que foi separada por danos; alinhar exatamente duas construções iniciadas separadamente é difícil. Após a união, restam um armário e uma área de construção, e o armário extra da parte absorvida é removido.",
+    "html": "<p>Restaure o contato completo entre as laterais das peças estruturais para que voltem a contar como uma única construção. Isso costuma servir para reparar uma base antes conectada que foi separada por danos; alinhar exatamente duas construções iniciadas separadamente é difícil. Após a união, restam um armário e uma área de construção, e o armário extra da parte absorvida é removido.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-merge-two-buildings-into-one-190",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "rebuild-debris-200": {
+    "title": "Por que não consigo repor uma parede logo após sua destruição?",
+    "text": "Uma peça destruída deixa destroços por pouco tempo, impedindo outra no mesmo lugar. Espere acabar a contagem de construção bloqueada; a orientação oficial indica cerca de 30 segundos. Em algumas paredes, os destroços podem sumir antes se as peças de sustentação também forem destruídas.",
+    "html": "<p>Uma peça destruída deixa destroços por pouco tempo, impedindo outra no mesmo lugar. Espere acabar a contagem de construção bloqueada; a orientação oficial indica cerca de 30 segundos. Em algumas paredes, os destroços podem sumir antes se as peças de sustentação também forem destruídas.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-cant-i-rebuild-right-after-my-wall-foundation-was-destroyed-200",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "fence-snapping-209": {
+    "title": "Como reduzir os vãos entre cercas?",
+    "text": "Ao colocar cercas, as peças vizinhas agora se encaixam e alinham automaticamente. Isso facilita fechar o perímetro e reduz vãos pelos quais inimigos podem olhar ou atirar. A fonte descreve o alinhamento durante a colocação, sem afirmar que vãos já existentes se corrigem sozinhos.",
+    "html": "<p>Ao colocar cercas, as peças vizinhas agora se encaixam e alinham automaticamente. Isso facilita fechar o perímetro e reduz vãos pelos quais inimigos podem olhar ou atirar. A fonte descreve o alinhamento durante a colocação, sem afirmar que vãos já existentes se corrigem sozinhos.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/do-fences-connect-automatically-now-why-is-there-a-gap-between-my-fences-and-how-do-i-close-it-209",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "signal-airdrop-249": {
+    "title": "Como chamar um suprimento aéreo com a pistola sinalizadora?",
+    "text": "A pistola sinalizadora só é encontrada como saque e não pode ser fabricada. Dispare para o céu aberto, pelo menos 45 graus acima do horizonte, evitando telhados, pontes e paredões de rocha. Se funcionar, o avião chega em aproximadamente um a dois minutos, e o suprimento cai perto do ponto do disparo. Outros jogadores podem notar o sinal, então espere num local fácil de defender.",
+    "html": "<p>A pistola sinalizadora só é encontrada como saque e não pode ser fabricada. Dispare para o céu aberto, pelo menos 45 graus acima do horizonte, evitando telhados, pontes e paredões de rocha. Se funcionar, o avião chega em aproximadamente um a dois minutos, e o suprimento cai perto do ponto do disparo. Outros jogadores podem notar o sinal, então espere num local fácil de defender.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-call-an-airdrop-with-the-signal-flare-gun-249",
+    "source_locale": "en",
+    "category": "交通与探索",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "first-day-progression": {
+    "title": "Primeiro dia: faça ferramentas e depois uma casa pequena",
+    "text": "Comece juntando madeira, pedra e comida, faça ferramentas básicas e procure um lugar com recursos e pouco movimento para uma casa pequena. Prepare os materiais antes de construir para não ficar sem eles no meio. Quando tiver armazenamento, leve só o necessário e volte para guardar boas coletas. Invista em equipamentos caros e grandes ampliações depois que a coleta e o armazenamento estiverem estáveis.",
+    "html": "<p>Comece juntando madeira, pedra e comida, faça ferramentas básicas e procure um lugar com recursos e pouco movimento para uma casa pequena. Prepare os materiais antes de construir para não ficar sem eles no meio. Quando tiver armazenamento, leve só o necessário e volte para guardar boas coletas. Invista em equipamentos caros e grandes ampliações depois que a coleta e o armazenamento estiverem estáveis.</p>",
+    "source_url": "https://www.topuplive.com/news/oxide-survival-island-beginner-guide.html/",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Resumo traduzido pelo site · TOPUPlive (dicas externas)"
+  },
+  "gather-hit-markers-116": {
+    "title": "Siga as marcas ao cortar árvores e minerar",
+    "text": "Com ferramentas comuns, dê um golpe na árvore e mire o próximo na marca vermelha do tronco para receber mais recursos e derrubá-la mais rápido. Pedras e minérios exibem um ponto brilhante que muda de posição após um acerto. Procure a nova posição a cada golpe em vez de manter o ataque no mesmo lugar.",
+    "html": "<p>Com ferramentas comuns, dê um golpe na árvore e mire o próximo na marca vermelha do tronco para receber mais recursos e derrubá-la mais rápido. Pedras e minérios exibem um ponto brilhante que muda de posição após um acerto. Procure a nova posição a cada golpe em vez de manter o ataque no mesmo lugar.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-resource-gathering-work-with-the-hit-marker-system-116",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "workbench-research-path-243": {
+    "title": "Selecione a tecnologia desejada para ver o custo total",
+    "text": "Selecione diretamente o equipamento desejado na árvore tecnológica, mesmo com pré-requisitos bloqueados. A tela mostra a sucata restante para todo o caminho. Ao confirmar, pesquisa os pré-requisitos faltantes e o item escolhido. Confira o total antes de gastar. É preciso estar a cerca de cinco metros ou menos de uma bancada para pesquisar; de longe, o modo é apenas de consulta e não consome materiais.",
+    "html": "<p>Selecione diretamente o equipamento desejado na árvore tecnológica, mesmo com pré-requisitos bloqueados. A tela mostra a sucata restante para todo o caminho. Ao confirmar, pesquisa os pré-requisitos faltantes e o item escolhido. Confira o total antes de gastar. É preciso estar a cerca de cinco metros ou menos de uma bancada para pesquisar; de longe, o modo é apenas de consulta e não consome materiais.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-research-at-the-workbench-work-now-243",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "solo-base-core-upgrades": {
+    "title": "Jogando solo, reforce o núcleo antes do exterior",
+    "text": "Com poucos recursos, coloque o armário de ferramentas no fundo do núcleo da base. Melhore primeiro as estruturas centrais para pedra e depois, aos poucos, para metal, reforçando também as portas. Adicione camadas externas quando o núcleo estiver seguro. Ponha fornalhas nos cantos para deixar passagem. O autor usa uma pequena área intermediária na entrada para reduzir a exposição do interior ao olhar para fora.",
+    "html": "<p>Com poucos recursos, coloque o armário de ferramentas no fundo do núcleo da base. Melhore primeiro as estruturas centrais para pedra e depois, aos poucos, para metal, reforçando também as portas. Adicione camadas externas quando o núcleo estiver seguro. Ponha fornalhas nos cantos para deixar passagem. O autor usa uma pequena área intermediária na entrada para reduzir a exposição do interior ao olhar para fora.</p>",
+    "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-solo-base-design-in-oxide.html",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Theundr (dicas de jogador)"
+  },
+  "spread-base-loot-83": {
+    "title": "Distribua os recursos para reduzir perdas por uma única brecha",
+    "text": "Adicione camadas de defesa ao redor dos cômodos importantes para que os invasores precisem superar mais obstáculos. Guarde os itens valiosos em diferentes partes da base para não perder tudo quando um único ponto for rompido. O armário de ferramentas continua sendo prioridade: proteja-o e mantenha-o trancado. Distribuir o saque reduz as perdas de uma abertura na defesa, mas não garante a segurança dos recursos se toda a base for tomada.",
+    "html": "<p>Adicione camadas de defesa ao redor dos cômodos importantes para que os invasores precisem superar mais obstáculos. Guarde os itens valiosos em diferentes partes da base para não perder tudo quando um único ponto for rompido. O armário de ferramentas continua sendo prioridade: proteja-o e mantenha-o trancado. Distribuir o saque reduz as perdas de uma abertura na defesa, mas não garante a segurança dos recursos se toda a base for tomada.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-protect-my-base-83",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "turret-placement-247": {
+    "title": "Aponte torretas para portas e corredores e confira a munição",
+    "text": "Ao colocar uma torreta, use o setor translúcido no chão para apontá-la para uma porta ou corredor por onde os inimigos precisem passar. Carregue a munição correta e confira a reserva ao reabastecer o armário: uma torreta vazia não atira. Colegas precisam de autorização no armário que cobre a torreta ou podem virar alvos. A fabricação também consome a arma real da receita; inclua isso no custo.",
+    "html": "<p>Ao colocar uma torreta, use o setor translúcido no chão para apontá-la para uma porta ou corredor por onde os inimigos precisem passar. Carregue a munição correta e confira a reserva ao reabastecer o armário: uma torreta vazia não atira. Colegas precisam de autorização no armário que cobre a torreta ou podem virar alvos. A fabricação também consome a arma real da receita; inclua isso no custo.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-turrets-are-there-and-how-do-i-set-one-up-247",
+    "source_locale": "en",
+    "category": "战斗与装备",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "backup-supplies-84": {
+    "title": "Guarde suprimentos em outro lugar caso perca a base",
+    "text": "Além de defender a base principal, deixe suprimentos básicos em outro local escondido para não recomeçar do zero após uma noite ruim. Transporte cargas valiosas em grupo sempre que possível. Essa preparação ajuda depois da queda da base: estoques separados dentro dela ainda podem ser perdidos juntos, enquanto uma reserva externa oferece outro caminho para se recuperar.",
+    "html": "<p>Além de defender a base principal, deixe suprimentos básicos em outro local escondido para não recomeçar do zero após uma noite ruim. Transporte cargas valiosas em grupo sempre que possível. Essa preparação ajuda depois da queda da base: estoques separados dentro dela ainda podem ser perdidos juntos, enquanto uma reserva externa oferece outro caminho para se recuperar.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-defend-against-raids-84",
+    "source_locale": "en",
+    "category": "建造与基地",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "raid-preparation": {
+    "title": "Confira quatro grupos de equipamento antes de atacar uma base",
+    "text": "Antes de sair, confira arma principal e munição extra, arma secundária, foguetes ou C4 para abrir passagem, e armadura e suprimentos. Prepare kits médicos, bandagens, água e sacos de dormir, e conserte os equipamentos gastos. Não leve todos os itens mais valiosos de uma vez; mantenha equipamento de emergência guardado. Considere retaliações ao escolher o alvo: uma base perto da sua nem sempre é uma boa opção.",
+    "html": "<p>Antes de sair, confira arma principal e munição extra, arma secundária, foguetes ou C4 para abrir passagem, e armadura e suprimentos. Prepare kits médicos, bandagens, água e sacos de dormir, e conserte os equipamentos gastos. Não leve todos os itens mais valiosos de uma vez; mantenha equipamento de emergência guardado. Considere retaliações ao escolher o alvo: uma base perto da sua nem sempre é uma boa opção.</p>",
+    "source_url": "https://t.me/playoxide/180",
+    "source_locale": "en",
+    "category": "战斗与装备",
+    "source_label": "Resumo traduzido pelo site · Canal oficial OXIDE"
+  },
+  "player-shop-stock-79": {
+    "title": "Confira lojas de jogadores no mapa antes de sair",
+    "text": "Abra o mapa e toque no ícone da loja para ver produtos e preços antes da viagem. O marcador some quando tudo é vendido. Na sua própria loja, coloque a máquina de vendas dentro da área do armário; caso contrário, outros podem pegar mercadorias e ganhos pela parte de trás. Esvazie regularmente o armazenamento de ganhos, pois as vendas param quando ele fica cheio.",
+    "html": "<p>Abra o mapa e toque no ícone da loja para ver produtos e preços antes da viagem. O marcador some quando tudo é vendido. Na sua própria loja, coloque a máquina de vendas dentro da área do armário; caso contrário, outros podem pegar mercadorias e ganhos pela parte de trás. Esvazie regularmente o armazenamento de ganhos, pois as vendas param quando ele fica cheio.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-vending-machine-how-many-can-i-place-how-do-i-check-a-player-shops-stock-on-the-map-79",
+    "source_locale": "en",
+    "category": "交通与探索",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  },
+  "quarry-collection-80": {
+    "title": "Recolha a produção da pedreira com frequência",
+    "text": "Depois de desbloquear o projeto da pedreira, reúna os materiais e fabrique-a no servidor. Comprar na loja principal não entrega uma máquina pronta. Coloque-a e adicione combustível para produzir pedra e minérios. O funcionamento faz barulho e atrai inimigos; outros jogadores também podem levar os recursos deixados dentro dela. Proteja os arredores e recolha a produção a tempo.",
+    "html": "<p>Depois de desbloquear o projeto da pedreira, reúna os materiais e fabrique-a no servidor. Comprar na loja principal não entrega uma máquina pronta. Coloque-a e adicione combustível para produzir pedra e minérios. O funcionamento faz barulho e atrai inimigos; outros jogadores também podem levar os recursos deixados dentro dela. Proteja os arredores e recolha a produção a tempo.</p>",
+    "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-mining-quarry-80",
+    "source_locale": "en",
+    "category": "生存基础",
+    "source_label": "Resumo traduzido pelo site · Fonte oficial"
+  }
+}

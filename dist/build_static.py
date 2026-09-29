@@ -233,7 +233,7 @@ def gameplay_articles() -> list[dict]:
         from build_i18n import load_guides
         rows = load_guides('zh')
         return [{"slug": slug, "title": row["title"],
-                 "category": GAMEPLAY_SLUG_CATEGORIES[slug],
+                 "category": row["category"] if "category" in row else GAMEPLAY_SLUG_CATEGORIES[slug],
                  "content": row["text"], "source_file": slug + ".html"}
                 for slug, row in sorted(rows.items())]
     articles = []

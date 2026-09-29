@@ -5,7 +5,8 @@
     "html": "<p>想先熟悉采集和建造，可以选择 PvE 服务器：玩家之间不能互相攻击，放置工具柜的基地也不能被其他玩家袭击或摧毁。喜欢对战和抄家的玩家可以选择 PvP。进入前留意资源倍率、清档周期和 No PC 标签；No PC 表示该服务器不允许 PC 玩家进入。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/server-modes-and-filters-in-oxide-12",
     "source_locale": "en",
-    "category": "生存基础"
+    "category": "生存基础",
+    "source_label": "本站译述 · 官方原文"
   },
   "newbie-servers-105": {
     "title": "新手服务器为什么突然找不到了？",
@@ -13,7 +14,8 @@
     "html": "<p>新手服务器是限时开放的练习环境，方便刚入门的玩家熟悉游戏。开放期结束时，服务器会随清档一起从列表中永久移除，不能恢复。它适合用来学习基础操作，不适合作为长期保留进度的服务器。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-newbie-servers-why-has-my-server-disappeared-105",
     "source_locale": "en",
-    "category": "生存基础"
+    "category": "生存基础",
+    "source_label": "本站译述 · 官方原文"
   },
   "server-wipe-8": {
     "title": "清档是什么，去哪里查时间？",
@@ -21,7 +23,8 @@
     "html": "<p>清档是服务器定期重置数据，会清理地图上的建筑、战利品和残留物，让玩家开始新一轮生存。想知道什么时候清档，在游戏大厅打开服务器列表，点击准备进入的服务器，即可查看服务器创建时间与下一次计划清档时间。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-wipe-and-how-to-know-when-it-will-happen-8",
     "source_locale": "en",
-    "category": "生存基础"
+    "category": "生存基础",
+    "source_label": "本站译述 · 官方原文"
   },
   "solo-duo-trio-248": {
     "title": "单人、双人、三人服有哪些限制？",
@@ -29,7 +32,8 @@
     "html": "<p>SOLO、DUO、TRIO 分别限制一人、两人、三人一起游玩，限制也适用于工具柜授权和密码锁使用者。人数满了，即使朋友输入正确密码也可能进不了门。修改密码，或收起门再放回，会清空锁的使用者名单，之后需要重新输入密码。超过人数限制组队违反这类服务器的规则。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-are-solo-duo-and-trio-servers-248",
     "source_locale": "en",
-    "category": "生存基础"
+    "category": "生存基础",
+    "source_label": "本站译述 · 官方原文"
   },
   "base-upkeep-245": {
     "title": "为什么基地维护越来越贵？",
@@ -37,7 +41,8 @@
     "html": "<p>在 PvP 服务器，建筑结构越多，维护费附加比例越高，大型建筑按规模计算的费用最高可达基础费用的两倍；工具柜授权超过四人，还会额外加价。门和舱门需要维护，但不计入建筑规模的加价档位。PvE 不收这些附加费用。查看工具柜中的每日消耗，就能知道当前实际需要多少资源。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-did-my-base-upkeep-get-more-expensive-245",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "building-privileges-191": {
     "title": "已经有工具柜权限，为什么仍然不能建造？",
@@ -45,7 +50,8 @@
     "html": "<p>工具柜的保护范围沿地基、墙和楼板展开，并不是以柜子为中心的固定圆圈。如果多栋建筑的保护区重叠，由包含最早结构部件的建筑决定这里的建造权限。你在附近的另一个柜子获得授权，也可能仍然无法建造。边走边观察屏幕上的建造状态提示，可以判断范围边界。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-building-privileges-and-build-zones-work-191",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "merge-buildings-190": {
     "title": "分开的两栋建筑怎样重新合并？",
@@ -53,7 +59,8 @@
     "html": "<p>恢复结构部件之间完整的侧面对接，可以让系统重新将它们视为同一栋建筑。这个方法通常用于修复原本相连、后来被破坏的基地；两栋独立起建的房子，很难准确对齐。合并后只保留一个工具柜和一套建造区域，被并入部分的多余工具柜会被移除。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-merge-two-buildings-into-one-190",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "rebuild-debris-200": {
     "title": "墙被炸掉后，为什么不能立即补墙？",
@@ -61,7 +68,8 @@
     "html": "<p>建筑部件被摧毁后，原地会短暂留下残骸，占住新部件的位置。看到“建造受阻”倒计时，等它结束后再放置即可，官方说明约为 30 秒。某些墙体的支撑部件也被破坏时，残骸可能提前清除。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/why-cant-i-rebuild-right-after-my-wall-foundation-was-destroyed-200",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "fence-snapping-209": {
     "title": "怎样减少围栏之间的缝隙？",
@@ -69,7 +77,8 @@
     "html": "<p>放置围栏时，相邻围栏现在会自动吸附并对齐，更容易建出连续的外围防线，减少敌人能窥视或射击的缝隙。原文介绍的是放置时的对齐机制，没有说明已经存在的旧缝隙会自动修复。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/do-fences-connect-automatically-now-why-is-there-a-gap-between-my-fences-and-how-do-i-close-it-209",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "signal-airdrop-249": {
     "title": "怎样用信号枪呼叫空投？",
@@ -77,7 +86,8 @@
     "html": "<p>信号枪只能从战利品中获得，不能制造。朝开阔天空发射，角度至少高于水平线 45 度，避免信号弹撞到屋顶、桥梁或岩壁。成功后，飞机约一到两分钟到达，空投落在发射位置附近。其他玩家也可能注意到信号，最好选择便于防守的地方等待。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-call-an-airdrop-with-the-signal-flare-gun-249",
     "source_locale": "en",
-    "category": "交通与探索"
+    "category": "交通与探索",
+    "source_label": "本站译述 · 官方原文"
   },
   "first-day-progression": {
     "title": "第一天怎么发展：先做工具，再建小家",
@@ -86,7 +96,7 @@
     "source_url": "https://www.topuplive.com/news/oxide-survival-island-beginner-guide.html/",
     "source_locale": "en",
     "category": "生存基础",
-    "source_label": "原文：TOPUPlive（第三方经验）"
+    "source_label": "本站译述 · TOPUPlive（第三方经验）"
   },
   "gather-hit-markers-116": {
     "title": "砍树挖矿时，追着标记打",
@@ -94,7 +104,8 @@
     "html": "<p>用普通工具砍树时，先打一击，再把下一击对准树干上出现的红色标记，这样能增加采集收益，也能更快砍倒树。石头和矿石上会出现发光点，成功命中后位置会改变。每次命中后重新找亮点，不要一直对着同一个位置按住攻击。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-resource-gathering-work-with-the-hit-marker-system-116",
     "source_locale": "en",
-    "category": "生存基础"
+    "category": "生存基础",
+    "source_label": "本站译述 · 官方原文"
   },
   "workbench-research-path-243": {
     "title": "想解锁某件装备，直接点目标看总花费",
@@ -102,7 +113,8 @@
     "html": "<p>打开科技树后，可以直接选择想要的目标装备，即使它前面还有科技未解锁，界面也会显示整条路线剩余的废料费用。确认后会一起研究缺少的前置项目和目标物品。先看总价，再决定是否投入；实际研究需要靠近工作台，约五米内，远处打开只能查看，不会扣材料。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-does-research-at-the-workbench-work-now-243",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "solo-base-core-upgrades": {
     "title": "单人建家先加固核心，再做外围",
@@ -111,7 +123,7 @@
     "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-solo-base-design-in-oxide.html",
     "source_locale": "en",
     "category": "建造与基地",
-    "source_label": "原文：Theundr（玩家经验）"
+    "source_label": "本站译述 · Theundr（玩家经验）"
   },
   "spread-base-loot-83": {
     "title": "物资分区存放，减少一次破口的损失",
@@ -119,7 +131,8 @@
     "html": "<p>布置基地时，在重要房间外增加防护层，让进攻者需要突破更多障碍。贵重物品分散放在基地不同位置，避免一处被打穿就损失全部库存。工具柜仍是重点保护对象，必须锁好。分散存放的目的，是降低单个破口带来的损失，不能保证基地被彻底攻破后物资仍然安全。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-protect-my-base-83",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "turret-placement-247": {
     "title": "炮塔先对准门口和走廊，再检查弹药",
@@ -127,7 +140,8 @@
     "html": "<p>放炮塔时，观察地面显示的半透明射界，调整方向，让它覆盖门口或敌人需要经过的走廊。装入对应弹药，并在补工具柜资源时顺手检查余弹，空炮塔不会开火。队友需要获得覆盖该炮塔的工具柜授权，否则也可能成为目标。制作炮塔还会消耗配方中的实际武器，要提前算进成本。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-turrets-are-there-and-how-do-i-set-one-up-247",
     "source_locale": "en",
-    "category": "战斗与装备"
+    "category": "战斗与装备",
+    "source_label": "本站译述 · 官方原文"
   },
   "backup-supplies-84": {
     "title": "防抄家要留后路：在别处准备基础物资",
@@ -135,7 +149,8 @@
     "html": "<p>除了守住主基地，还可以在其他隐蔽位置留一份基础物资，避免一夜被抄后只能从零开始。搬运值得被抢的物品时，尽量结伴行动。这个准备解决的是“主家失守之后怎么办”：基地内分散库存仍有可能一起丢失，留在别处的备用物资才是另一条恢复路线。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/how-do-i-defend-against-raids-84",
     "source_locale": "en",
-    "category": "建造与基地"
+    "category": "建造与基地",
+    "source_label": "本站译述 · 官方原文"
   },
   "raid-preparation": {
     "title": "出门抄家前，按四类检查装备",
@@ -144,7 +159,7 @@
     "source_url": "https://t.me/playoxide/180",
     "source_locale": "en",
     "category": "战斗与装备",
-    "source_label": "原文：OXIDE 官方频道"
+    "source_label": "本站译述 · OXIDE 官方频道"
   },
   "player-shop-stock-79": {
     "title": "去玩家商店前，先在地图上查货",
@@ -152,7 +167,8 @@
     "html": "<p>打开地图，点击玩家商店图标，可以先看商品和价格，确认有需要的东西再跑过去；商品售空时，标记会隐藏。自己开店时，要把售货机放在工具柜覆盖范围内，否则别人可能从背面取走货物和收入。定期清理收入仓，仓位满了会导致交易停止。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-vending-machine-how-many-can-i-place-how-do-i-check-a-player-shops-stock-on-the-map-79",
     "source_locale": "en",
-    "category": "交通与探索"
+    "category": "交通与探索",
+    "source_label": "本站译述 · 官方原文"
   },
   "quarry-collection-80": {
     "title": "用采矿机时，加油后也要及时收矿",
@@ -160,6 +176,7 @@
     "html": "<p>已经解锁采矿机蓝图后，需要在服务器中凑齐材料制作，主商店购买并不会直接给一台成品。放下采矿机并加入燃料后，它会产出石头和矿石。机器运转会发出噪声、吸引敌人，产物留在里面也可能被别人取走，因此要保护好周边，并及时把矿物收回。</p>",
     "source_url": "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-mining-quarry-80",
     "source_locale": "en",
-    "category": "生存基础"
+    "category": "生存基础",
+    "source_label": "本站译述 · 官方原文"
   }
 }
