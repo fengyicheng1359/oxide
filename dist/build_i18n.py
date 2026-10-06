@@ -18,6 +18,15 @@ LANGUAGES = {'zh': ('中文', 'zh-CN'), 'en': ('English', 'en'), 'ja': ('日本�
 HAN = re.compile(r'[\u3400-\u9fff]')
 
 
+def add_ad_script(soup: BeautifulSoup) -> None:
+    """将广告入口放在 head 首位；重复构建时先移除同一入口，避免重复加载。"""
+    url = 'https://quge5.com/88/tag.min.js'
+    for script in soup.select(f'script[src="{url}"]'):
+        script.decompose()
+    script = soup.new_tag('script', src=url, attrs={'data-zone': '291343', 'async': '', 'data-cfasync': 'false'})
+    soup.head.insert(0, script)
+
+
 def load(path: Path):
     return json.loads(path.read_text(encoding='utf-8'))
 
@@ -124,6 +133,7 @@ def local_link(value: str, page: str, localized: bool, lang: str) -> str:
 def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
            translator: Translator, site_url: str, localized: bool = True) -> str:
     soup = BeautifulSoup(source, 'html.parser')
+    add_ad_script(soup)
     tr = translator.text
     # 官方文章按稳定的数字 ID 对应，标题及正文均不再自行翻译。
     official = guides.get(Path(page).stem) if page.startswith('gameplay/') else None

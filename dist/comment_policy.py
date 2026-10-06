@@ -3,7 +3,7 @@ import json
 from html import escape
 from pathlib import Path
 from bs4 import BeautifulSoup
-from build_i18n import LANGUAGES, add_language_picker
+from build_i18n import LANGUAGES, add_language_picker, add_ad_script
 from page_urls import normalize_index_links
 
 ROOT = Path(__file__).resolve().parent
@@ -43,6 +43,7 @@ def write_comment_policies() -> list[Path]:
 <h2>{escape(text['about_title'])}</h2><p>{escape(text['about'])}</p>
 </article><footer>MyOxide · Oxide: Survival Island</footer></main></body></html>'''
         soup = BeautifulSoup(source, 'html.parser')
+        add_ad_script(soup)
         add_language_picker(soup, 'comment-policy.html', lang, localized, lambda _: text['language'])
         path = ROOT / relative
         path.parent.mkdir(parents=True, exist_ok=True)
