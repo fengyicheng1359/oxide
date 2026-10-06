@@ -19,11 +19,11 @@ HAN = re.compile(r'[\u3400-\u9fff]')
 
 
 def add_ad_script(soup: BeautifulSoup) -> None:
-    """将广告入口放在 head 首位；重复构建时先移除同一入口，避免重复加载。"""
-    url = 'https://quge5.com/88/tag.min.js'
-    for script in soup.select(f'script[src="{url}"]'):
+    """将广告入口放在 head 首位；替换旧广告入口，并避免重复构建时重复加载。"""
+    url = 'https://5gvci.com/act/files/tag.min.js?z=11967672'
+    for script in soup.select(f'script[src="{url}"], script[src="https://quge5.com/88/tag.min.js"]'):
         script.decompose()
-    script = soup.new_tag('script', src=url, attrs={'data-zone': '291343', 'async': '', 'data-cfasync': 'false'})
+    script = soup.new_tag('script', src=url, attrs={'data-cfasync': 'false', 'async': ''})
     soup.head.insert(0, script)
 
 
