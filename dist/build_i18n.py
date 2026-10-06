@@ -263,9 +263,8 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     soup.head.append(structured)
     from image_assets import optimize_images
     optimize_images(soup, page, lang, localized)
-    from comments import add_comments
     from page_urls import normalize_index_links
-    return normalize_index_links(add_comments(str(soup), relative_root(page, localized), load(ROOT / 'static/site-config.json')), site_url)
+    return normalize_index_links(str(soup), site_url)
 
 
 _EN = None
