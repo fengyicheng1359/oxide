@@ -18,15 +18,6 @@ LANGUAGES = {'zh': ('中文', 'zh-CN'), 'en': ('English', 'en'), 'ja': ('日本�
 HAN = re.compile(r'[\u3400-\u9fff]')
 
 
-def add_ad_script(soup: BeautifulSoup) -> None:
-    """将广告入口放在 head 首位；替换旧广告入口，并避免重复构建时重复加载。"""
-    url = 'https://5gvci.com/act/files/tag.min.js?z=11967672'
-    for script in soup.select(f'script[src="{url}"], script[src="https://quge5.com/88/tag.min.js"]'):
-        script.decompose()
-    script = soup.new_tag('script', src=url, attrs={'data-cfasync': 'false', 'async': ''})
-    soup.head.insert(0, script)
-
-
 def load(path: Path):
     return json.loads(path.read_text(encoding='utf-8'))
 
@@ -133,7 +124,6 @@ def local_link(value: str, page: str, localized: bool, lang: str) -> str:
 def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
            translator: Translator, site_url: str, localized: bool = True) -> str:
     soup = BeautifulSoup(source, 'html.parser')
-    add_ad_script(soup)
     tr = translator.text
     # 官方文章按稳定的数字 ID 对应，标题及正文均不再自行翻译。
     official = guides.get(Path(page).stem) if page.startswith('gameplay/') else None
@@ -263,8 +253,9 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     soup.head.append(structured)
     from image_assets import optimize_images
     optimize_images(soup, page, lang, localized)
+    from comments import add_comments
     from page_urls import normalize_index_links
-    return normalize_index_links(str(soup), site_url)
+    return normalize_index_links(add_comments(str(soup), relative_root(page, localized), load(ROOT / 'static/site-config.json')), site_url)
 
 
 _EN = None
