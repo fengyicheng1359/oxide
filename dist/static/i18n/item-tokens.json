@@ -76,14 +76,19 @@
       "description": "tactical.marker.descr",
       "craft_description": null
     },
-    "backpack.big": {
-      "name": "backpack.big",
-      "description": null,
+    "mine.pressure": {
+      "name": "mine.pressure",
+      "description": "mine.pressure.descr",
       "craft_description": null
     },
     "backpack": {
       "name": "backpack",
       "description": "backpack.descr",
+      "craft_description": null
+    },
+    "backpack.big": {
+      "name": "backpack.big",
+      "description": null,
       "craft_description": null
     },
     "cctv.camera": {
@@ -231,6 +236,21 @@
       "description": "tech.trash.descr",
       "craft_description": "tech.trash.descr.craft"
     },
+    "vehicle.part.battery": {
+      "name": "vehicle.part.battery",
+      "description": null,
+      "craft_description": null
+    },
+    "vehicle.part.motor": {
+      "name": "vehicle.part.motor",
+      "description": null,
+      "craft_description": null
+    },
+    "vehicle.part.propeller": {
+      "name": "vehicle.part.propeller",
+      "description": null,
+      "craft_description": null
+    },
     "wires": {
       "name": "wires",
       "description": "wires.descr",
@@ -371,6 +391,11 @@
       "description": "event.warming.potion.descr",
       "craft_description": null
     },
+    "granola.bar": {
+      "name": "granola.bar",
+      "description": "granola.bar.descr",
+      "craft_description": null
+    },
     "granola.bar.fake.dvl": {
       "name": "dvl",
       "description": "dvl.descr",
@@ -379,11 +404,6 @@
     "granola.bar.fake.hmlmg": {
       "name": "hmlmg",
       "description": "hmlmg.descr",
-      "craft_description": null
-    },
-    "granola.bar": {
-      "name": "granola.bar",
-      "description": "granola.bar.descr",
       "craft_description": null
     },
     "halloween.candy": {
@@ -571,6 +591,11 @@
       "description": "furnace.descr",
       "craft_description": null
     },
+    "furnace.advanced": {
+      "name": "furnace.advanced",
+      "description": "furnace.advanced.descr",
+      "craft_description": null
+    },
     "garage.door": {
       "name": "garage.door",
       "description": "garage.door.descr",
@@ -601,14 +626,14 @@
       "description": "hatch.triangle.metal.descr",
       "craft_description": null
     },
-    "mining.quarry.clan": {
-      "name": "mining.quarry.clan",
-      "description": "mining.quarry.clan.descr",
-      "craft_description": null
-    },
     "mining.quarry": {
       "name": "mining.quarry",
       "description": "mining.quarry.descr",
+      "craft_description": null
+    },
+    "mining.quarry.clan": {
+      "name": "mining.quarry.clan",
+      "description": "mining.quarry.clan.descr",
       "craft_description": null
     },
     "sam.turret": {
@@ -649,6 +674,16 @@
     "turret": {
       "name": "turret",
       "description": "turret.descr",
+      "craft_description": null
+    },
+    "turret.heavy": {
+      "name": "turret.heavy",
+      "description": "turret.heavy.descr",
+      "craft_description": null
+    },
+    "turret.shotgun": {
+      "name": "turret.shotgun",
+      "description": "turret.shotgun.descr",
       "craft_description": null
     },
     "vending.machine": {
@@ -696,11 +731,6 @@
       "description": "bandage.descr",
       "craft_description": null
     },
-    "buggy": {
-      "name": "buggy",
-      "description": "buggy.descr",
-      "craft_description": null
-    },
     "christmas.lights": {
       "name": "christmas.lights",
       "description": "christmas.lights.descr",
@@ -709,11 +739,6 @@
     "christmas.tree": {
       "name": "christmas.tree",
       "description": "christmas.tree.descr",
-      "craft_description": null
-    },
-    "copter": {
-      "name": "copter",
-      "description": "copter.descr",
       "craft_description": null
     },
     "event.fireworks": {
@@ -784,6 +809,11 @@
     "snowman": {
       "name": "snowman",
       "description": "snowman.descr",
+      "craft_description": null
+    },
+    "knight.shield": {
+      "name": "knight.shield",
+      "description": null,
       "craft_description": null
     },
     "bone": {
@@ -971,6 +1001,11 @@
       "description": "dmr.descr",
       "craft_description": null
     },
+    "double.barrel": {
+      "name": "double.barrel",
+      "description": "double.barrel.descr",
+      "craft_description": null
+    },
     "dvl": {
       "name": "dvl",
       "description": "dvl.descr",
@@ -1051,6 +1086,11 @@
       "description": "thompson.descr",
       "craft_description": null
     },
+    "weapon.flare.signal": {
+      "name": "weapon.flare.signal",
+      "description": "weapon.flare.signal.descr",
+      "craft_description": null
+    },
     "winchester": {
       "name": "winchester",
       "description": "winchester.descr",
@@ -1101,44 +1141,14 @@
       "description": "weapon.mod.simple.scope.descr",
       "craft_description": null
     },
-    "double.barrel": {
-      "name": "double.barrel",
-      "description": "double.barrel.descr",
+    "buggy": {
+      "name": "buggy",
+      "description": "buggy.descr",
       "craft_description": null
     },
-    "furnace.advanced": {
-      "name": "furnace.advanced",
-      "description": "furnace.advanced.descr",
-      "craft_description": null
-    },
-    "turret.heavy": {
-      "name": "turret.heavy",
-      "description": "turret.heavy.descr",
-      "craft_description": null
-    },
-    "turret.shotgun": {
-      "name": "turret.shotgun",
-      "description": "turret.shotgun.descr",
-      "craft_description": null
-    },
-    "vehicle.part.battery": {
-      "name": "vehicle.part.battery",
-      "description": null,
-      "craft_description": null
-    },
-    "vehicle.part.motor": {
-      "name": "vehicle.part.motor",
-      "description": null,
-      "craft_description": null
-    },
-    "vehicle.part.propeller": {
-      "name": "vehicle.part.propeller",
-      "description": null,
-      "craft_description": null
-    },
-    "weapon.flare.signal": {
-      "name": "weapon.flare.signal",
-      "description": "weapon.flare.signal.descr",
+    "copter": {
+      "name": "copter",
+      "description": "copter.descr",
       "craft_description": null
     }
   },
@@ -1157,9 +1167,10 @@
     "火箭弹": "rocket",
     "防空导弹": "sam.rocket",
     "雪球": "snowball",
-    "战术空中标记器": "tactical.marker.title",
-    "大型背包": "backpack.big",
+    "信号弹药": "tactical.marker.title",
+    "压力地雷": "mine.pressure",
     "背包": "backpack",
+    "大型背包": "backpack.big",
     "监控摄像头": "cctv.camera",
     "半自动枪身": "dmr.body",
     "空豆罐头": "empty.beans.can",
@@ -1189,6 +1200,9 @@
     "瞄准计算机": "targeting.computer",
     "防水布": "tarp",
     "科技垃圾": "tech.trash",
+    "载具电池": "vehicle.part.battery",
+    "载具发动机": "vehicle.part.motor",
+    "载具螺旋桨": "vehicle.part.propeller",
     "电缆": "wires",
     "密码锁": "codelock",
     "金属射击孔": "embrasure.metal",
@@ -1217,9 +1231,9 @@
     "心形碎片": "event.heart.fragment",
     "爱情灵药": "event.love.elixir",
     "暖身药水": "event.warming.potion",
+    "谷物棒": "granola.bar",
     "谷物棒伪装物品（dvl，待核实）": "dvl",
     "谷物棒伪装物品（hmlmg，待核实）": "hmlmg",
-    "谷物棒": "granola.bar",
     "万圣节糖果": "halloween.candy",
     "冰晶碎片": "ice.shard",
     "大份迷你通行证经验道具": "mini.bp.exp.item.big",
@@ -1257,14 +1271,15 @@
     "木制双开门": "door.double.wood",
     "金属门": "door.metal",
     "熔炉": "furnace",
+    "高级熔炉": "furnace.advanced",
     "车库门": "garage.door",
     "枪械陷阱": "guntrap",
     "装甲方形舱门": "hatch.square.armored",
     "金属方形舱门": "hatch.square.metal",
     "装甲三角舱门": "hatch.triangle.armored",
     "金属三角舱门": "hatch.triangle.metal",
-    "氏族采石场": "mining.quarry.clan",
     "采石场": "mining.quarry",
+    "氏族采石场": "mining.quarry.clan",
     "防空导弹炮塔": "sam.turret",
     "氏族锯木厂": "sawmill.clan",
     "氏族废料回收机": "scrap.recycler.clan",
@@ -1273,6 +1288,8 @@
     "大型储物箱": "storage.box.large",
     "木塔": "tower.wood",
     "炮塔": "turret",
+    "机枪炮塔": "turret.heavy",
+    "霰弹枪炮塔": "turret.shotgun",
     "自动售货机": "vending.machine",
     "木门": "wooden.door",
     "工作台": "workbench",
@@ -1282,10 +1299,8 @@
     "木制护腿": "wooden.leggings",
     "抗辐射药片": "antiradpills",
     "绷带": "bandage",
-    "越野车": "buggy",
     "圣诞彩灯": "christmas.lights",
     "圣诞树": "christmas.tree",
-    "直升机": "copter",
     "活动烟花": "event.fireworks",
     "活动课本": "event.textbook",
     "活动哨子": "event.whistle",
@@ -1300,6 +1315,7 @@
     "稻草人": "scarecrow",
     "造雪机": "snow.machine",
     "雪人": "snowman",
+    "骑士盾": "knight.shield",
     "骨头": "bone",
     "布": "cloth",
     "煤": "coal",
@@ -1337,6 +1353,7 @@
     "弩": "crossbow",
     "沙漠之鹰手枪": "desert.eagle",
     "精确射手步枪": "dmr",
+    "双管霰弹枪": "double.barrel",
     "DVL 步枪": "dvl",
     "定时炸药": "explosive.charge",
     "信号枪": "flare.gun",
@@ -1353,6 +1370,7 @@
     "钢珠枪": "steel.ball.gun",
     "冲锋枪": "submachine.gun",
     "汤普森冲锋枪": "thompson",
+    "信号发射枪": "weapon.flare.signal",
     "温彻斯特步枪": "winchester",
     "木弓": "wooden.bow",
     "木矛": "wooden.spear",
@@ -1363,6 +1381,8 @@
     "枪口制退器": "weapon.mod.muzzle.brake",
     "光学瞄准镜": "weapon.mod.optical.scope",
     "简易瞄准镜": "weapon.mod.simple.scope",
+    "越野车": "buggy",
+    "直升机": "copter",
     "圣诞倒数日历（用途待核实）": "xmas.advent",
     "贴纸（原英文显示名为袜子花环）": "sticker",
     "FN FAL 步枪": "fn.fal",
@@ -1371,15 +1391,6 @@
     "雪人头": "snowman.head",
     "雪橇": "winter.sleigh.frosty.shop",
     "圣诞点唱机": "holiday.jukebox",
-    "猫头鹰雕像": "owl.statue",
-    "双管霰弹枪": "double.barrel",
-    "高级熔炉": "furnace.advanced",
-    "机枪炮塔": "turret.heavy",
-    "霰弹枪炮塔": "turret.shotgun",
-    "载具电池": "vehicle.part.battery",
-    "载具发动机": "vehicle.part.motor",
-    "载具螺旋桨": "vehicle.part.propeller",
-    "信号发射枪": "weapon.flare.signal",
-    "信号弹药": "tactical.marker.title"
+    "猫头鹰雕像": "owl.statue"
   }
 }

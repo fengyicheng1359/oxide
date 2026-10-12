@@ -245,7 +245,7 @@
   "计算方式": "Méthode de calcul",
   "仅统计配方直接需要的材料，不继续拆解火药等半成品，也不把它们视为可自动回收的库存。": "Seuls les ingrédients directs des recettes sont comptés. Les produits intermédiaires comme la poudre ne sont ni décomposés davantage ni considérés comme un stock automatiquement recyclable.",
   "实际产出可能略多于目标数量。相同材料合并后只扣一次库存；库存不会因计算而被消耗。": "La production réelle peut dépasser votre objectif. Les matériaux communs sont regroupés avant de soustraire une seule fois le stock ; le calcul ne consomme pas le stock enregistré.",
-  "配方依据游戏版本 1.13.11920 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "Les recettes proviennent des données locales de la version 1.13.11920. Le déblocage des plans, les conditions d’établi et les modifications des serveurs ne sont pas inclus.",
+  "配方依据游戏版本 1.14.11949 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "Les recettes proviennent des données locales de la version 1.14.11949. Le déblocage des plans, les conditions d’établi et les modifications des serveurs ne sont pas inclus.",
   "请启用 JavaScript 使用计算器；也可以在物品百科查看配方。": "Activez JavaScript pour utiliser le calculateur, ou consultez les recettes dans l’encyclopédie des objets.",
   "每次制作产出 {count} 件；以下材料为制作一次的用量。": "Chaque fabrication produit {count} objets. Les matériaux ci-dessous correspondent à une fabrication.",
   "查看回收来源": "Voir les sources de recyclage",

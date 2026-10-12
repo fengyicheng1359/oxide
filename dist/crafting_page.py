@@ -101,7 +101,7 @@ def page(header, footer):
       <div class="craft-actions"><button id="craft-copy" type="button">复制材料清单</button><span id="craft-save" class="craft-muted" role="status"></span></div>
       <textarea id="craft-copy-fallback" hidden readonly aria-label="材料清单"></textarea>
       <p id="craft-message" class="craft-muted" role="status"></p>
-      <details class="craft-notes"><summary>计算方式</summary><p>仅统计配方直接需要的材料，不继续拆解火药等半成品，也不把它们视为可自动回收的库存。</p><p>实际产出可能略多于目标数量。相同材料合并后只扣一次库存；库存不会因计算而被消耗。</p><p>配方依据游戏版本 1.13.11920 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。</p></details>
+      <details class="craft-notes"><summary>计算方式</summary><p>仅统计配方直接需要的材料，不继续拆解火药等半成品，也不把它们视为可自动回收的库存。</p><p>实际产出可能略多于目标数量。相同材料合并后只扣一次库存；库存不会因计算而被消耗。</p><p>配方依据游戏版本 1.14.11949 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。</p></details>
     </section>
   </div>
   <noscript><p>请启用 JavaScript 使用计算器；也可以在物品百科查看配方。</p><a href="./items.html">物品百科</a></noscript>

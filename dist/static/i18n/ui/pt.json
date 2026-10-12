@@ -245,7 +245,7 @@
   "计算方式": "Como funciona",
   "仅统计配方直接需要的材料，不继续拆解火药等半成品，也不把它们视为可自动回收的库存。": "São contados apenas os ingredientes diretos da receita. Produtos intermediários, como pólvora, não são decompostos nem considerados estoque automaticamente reciclável.",
   "实际产出可能略多于目标数量。相同材料合并后只扣一次库存；库存不会因计算而被消耗。": "A produção real pode superar a meta. Materiais comuns são somados antes de descontar o estoque uma única vez; o cálculo não consome o estoque salvo.",
-  "配方依据游戏版本 1.13.11920 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "As receitas usam dados locais da versão 1.13.11920. Desbloqueios de projetos, requisitos de bancada e alterações dos servidores não estão incluídos.",
+  "配方依据游戏版本 1.14.11949 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "As receitas usam dados locais da versão 1.14.11949. Desbloqueios de projetos, requisitos de bancada e alterações dos servidores não estão incluídos.",
   "请启用 JavaScript 使用计算器；也可以在物品百科查看配方。": "Ative o JavaScript para usar a calculadora ou consulte as receitas na enciclopédia de itens.",
   "每次制作产出 {count} 件；以下材料为制作一次的用量。": "Cada fabricação produz {count} unidades. Os materiais abaixo correspondem a uma fabricação.",
   "查看回收来源": "Ver fontes de reciclagem",

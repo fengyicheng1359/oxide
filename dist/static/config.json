@@ -531,6 +531,55 @@
       "recycling_sources": [],
       "recycling_outputs": [],
       "crafting_output_per_batch": null
+    },
+    {
+      "name_en": "Pressure Mine",
+      "name_zh": "压力地雷",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_zh": "火药",
+          "name_en": "Gun Powder",
+          "amount": 30
+        },
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 30
+        },
+        {
+          "name_zh": "金属弹簧",
+          "name_en": "Metal Spring",
+          "amount": 1
+        }
+      ],
+      "image": "assets/image/mine.pressure.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "火药",
+          "name_en": "Gun Powder",
+          "amount": 15,
+          "item_id": "gun.powder",
+          "skip_chance": 0.0
+        },
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 15,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
+        },
+        {
+          "name_zh": "高品质金属",
+          "name_en": "High Quality Metal",
+          "amount": 1,
+          "item_id": "hq.metal",
+          "skip_chance": 0.0
+        }
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Backpack Equipment": [
@@ -1038,6 +1087,11 @@
         {
           "name_zh": "军用手榴弹",
           "name_en": "grenade.military",
+          "amount": 15
+        },
+        {
+          "name_zh": "压力地雷",
+          "name_en": "Pressure Mine",
           "amount": 15
         },
         {
@@ -2284,6 +2338,50 @@
         }
       ],
       "crafting_output_per_batch": 1
+    },
+    {
+      "name_en": "Armored Structures",
+      "name_zh": "装甲建筑结构",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "name_en": "Metal Structures",
+      "name_zh": "金属建筑结构",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "name_en": "Stone Structures",
+      "name_zh": "石制建筑结构",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "name_en": "Wooden Structures",
+      "name_zh": "木制建筑结构",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Consumable": [
@@ -5789,6 +5887,31 @@
       "recycling_sources": [],
       "recycling_outputs": [],
       "crafting_output_per_batch": null
+    },
+    {
+      "name_en": "Knight Shield",
+      "name_zh": "骑士盾",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 40
+        }
+      ],
+      "image": "assets/image/knight.shield.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "金属碎片",
+          "name_en": "Metal Fragment",
+          "amount": 20,
+          "item_id": "metal.fragment",
+          "skip_chance": 0.0
+        }
+      ],
+      "crafting_output_per_batch": 1
     }
   ],
   "Resource": [
@@ -6282,6 +6405,11 @@
           "name_zh": "冲锋枪枪身",
           "name_en": "SMG Body",
           "amount": 1
+        },
+        {
+          "name_zh": "压力地雷",
+          "name_en": "Pressure Mine",
+          "amount": 1
         }
       ],
       "recycling_outputs": [],
@@ -6771,6 +6899,11 @@
           "amount": 20
         },
         {
+          "name_zh": "骑士盾",
+          "name_en": "Knight Shield",
+          "amount": 20
+        },
+        {
           "name_zh": "金属门",
           "name_en": "Metal Door",
           "amount": 18
@@ -6858,6 +6991,11 @@
         {
           "name_zh": "金属射击孔",
           "name_en": "Embrasure Metal",
+          "amount": 15
+        },
+        {
+          "name_zh": "压力地雷",
+          "name_en": "Pressure Mine",
           "amount": 15
         },
         {

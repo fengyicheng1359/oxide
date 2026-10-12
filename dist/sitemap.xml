@@ -229,6 +229,7 @@
   <url><loc>https://myoxide.fun/de/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/de/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/de/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/de/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/de/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/de/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/de/leather.chestplate.html</loc></url>
@@ -250,6 +251,7 @@
   <url><loc>https://myoxide.fun/de/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/de/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/de/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/de/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/de/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/de/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/de/mini.bp.exp.item.small.html</loc></url>
@@ -566,6 +568,7 @@
   <url><loc>https://myoxide.fun/en/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/en/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/en/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/en/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/en/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/en/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/en/leather.chestplate.html</loc></url>
@@ -587,6 +590,7 @@
   <url><loc>https://myoxide.fun/en/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/en/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/en/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/en/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/en/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/en/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/en/mini.bp.exp.item.small.html</loc></url>
@@ -903,6 +907,7 @@
   <url><loc>https://myoxide.fun/es/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/es/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/es/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/es/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/es/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/es/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/es/leather.chestplate.html</loc></url>
@@ -924,6 +929,7 @@
   <url><loc>https://myoxide.fun/es/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/es/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/es/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/es/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/es/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/es/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/es/mini.bp.exp.item.small.html</loc></url>
@@ -1240,6 +1246,7 @@
   <url><loc>https://myoxide.fun/fr/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/fr/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/fr/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/fr/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/fr/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/fr/leather.chestplate.html</loc></url>
@@ -1261,6 +1268,7 @@
   <url><loc>https://myoxide.fun/fr/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/fr/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/fr/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/fr/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/fr/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/fr/mini.bp.exp.item.small.html</loc></url>
@@ -1577,6 +1585,7 @@
   <url><loc>https://myoxide.fun/ja/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/ja/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/ja/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/ja/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/ja/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/ja/leather.chestplate.html</loc></url>
@@ -1598,6 +1607,7 @@
   <url><loc>https://myoxide.fun/ja/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/ja/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/ja/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/ja/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/ja/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/ja/mini.bp.exp.item.small.html</loc></url>
@@ -1914,6 +1924,7 @@
   <url><loc>https://myoxide.fun/ko/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/ko/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/ko/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/ko/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/ko/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/ko/leather.chestplate.html</loc></url>
@@ -1935,6 +1946,7 @@
   <url><loc>https://myoxide.fun/ko/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/ko/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/ko/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/ko/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/ko/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/ko/mini.bp.exp.item.small.html</loc></url>
@@ -2251,6 +2263,7 @@
   <url><loc>https://myoxide.fun/pt/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/pt/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/pt/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/pt/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/pt/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/pt/leather.chestplate.html</loc></url>
@@ -2272,6 +2285,7 @@
   <url><loc>https://myoxide.fun/pt/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/pt/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/pt/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/pt/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/pt/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/pt/mini.bp.exp.item.small.html</loc></url>
@@ -2588,6 +2602,7 @@
   <url><loc>https://myoxide.fun/ru/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/ru/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/ru/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/ru/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/ru/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/ru/leather.chestplate.html</loc></url>
@@ -2609,6 +2624,7 @@
   <url><loc>https://myoxide.fun/ru/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/ru/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/ru/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/ru/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/ru/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/ru/mini.bp.exp.item.small.html</loc></url>
@@ -2925,6 +2941,7 @@
   <url><loc>https://myoxide.fun/zh/keycard_militarybase.html</loc></url>
   <url><loc>https://myoxide.fun/zh/keycard_planecaptain.html</loc></url>
   <url><loc>https://myoxide.fun/zh/keylock.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/knight.shield.html</loc></url>
   <url><loc>https://myoxide.fun/zh/kriss.vector.html</loc></url>
   <url><loc>https://myoxide.fun/zh/leather.boots.html</loc></url>
   <url><loc>https://myoxide.fun/zh/leather.chestplate.html</loc></url>
@@ -2946,6 +2963,7 @@
   <url><loc>https://myoxide.fun/zh/metal.spring.html</loc></url>
   <url><loc>https://myoxide.fun/zh/microprocessor.html</loc></url>
   <url><loc>https://myoxide.fun/zh/military.suit.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/mine.pressure.html</loc></url>
   <url><loc>https://myoxide.fun/zh/mini.bp.exp.item.big.html</loc></url>
   <url><loc>https://myoxide.fun/zh/mini.bp.exp.item.medium.html</loc></url>
   <url><loc>https://myoxide.fun/zh/mini.bp.exp.item.small.html</loc></url>

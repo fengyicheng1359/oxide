@@ -1,0 +1,301 @@
+{
+  "old_version": "1.13.11920",
+  "new_version": "1.14.11949",
+  "old_item_count": 259,
+  "new_item_count": 265,
+  "added_item_ids": [
+    "knight.shield",
+    "mine.pressure",
+    "structure.hqm",
+    "structure.metal",
+    "structure.stone",
+    "structure.wood"
+  ],
+  "removed_item_ids": [],
+  "old_category_counts": {
+    "Component": 33,
+    "Construction": 8,
+    "Interactable": 38,
+    "Weapon": 29,
+    "Weapon Mod": 6,
+    "Feet Equipment": 4,
+    "Legs Equipment": 4,
+    "Head Equipment": 11,
+    "Consumable": 36,
+    "Other": 38,
+    "Ammunition": 15,
+    "Backpack Equipment": 2,
+    "Resource": 16,
+    "Tool": 10,
+    "Torso Equipment": 4,
+    "Vehicle": 3,
+    "Suit": 2
+  },
+  "new_category_counts": {
+    "Component": 33,
+    "Construction": 12,
+    "Interactable": 38,
+    "Weapon": 29,
+    "Weapon Mod": 6,
+    "Feet Equipment": 4,
+    "Legs Equipment": 4,
+    "Head Equipment": 11,
+    "Consumable": 36,
+    "Other": 39,
+    "Ammunition": 16,
+    "Backpack Equipment": 2,
+    "Resource": 16,
+    "Tool": 10,
+    "Torso Equipment": 4,
+    "Vehicle": 3,
+    "Suit": 2
+  },
+  "old_recipe_count": 181,
+  "new_recipe_count": 183,
+  "existing_recipe_changes": [],
+  "old_protection_count": 26,
+  "new_protection_count": 26,
+  "existing_protection_changes": [],
+  "weapon_damage_changes": [],
+  "bullet_speed_changes": [
+    {
+      "name": "44_DoubleBarrel_WeaponConfig",
+      "old": 300.0,
+      "new": 350.0
+    },
+    {
+      "name": "28_DMR_WeaponConfig",
+      "old": 525.0,
+      "new": 550.0
+    },
+    {
+      "name": "07_AssaultRifle_WeaponConfig",
+      "old": 450.0,
+      "new": 500.0
+    },
+    {
+      "name": "32_DVL_WeaponConfig",
+      "old": 300.0,
+      "new": 550.0
+    },
+    {
+      "name": "26_DesertEagle_WeaponConfig",
+      "old": 350.0,
+      "new": 400.0
+    },
+    {
+      "name": "04_Revolver_WeaponConfig",
+      "old": 300.0,
+      "new": 400.0
+    },
+    {
+      "name": "37_KrissVector_WeaponConfig",
+      "old": 350.0,
+      "new": 450.0
+    },
+    {
+      "name": "20_SubmachineGun_WeaponConfig",
+      "old": 350.0,
+      "new": 450.0
+    },
+    {
+      "name": "43_FnFal_WeaponConfig",
+      "old": 450.0,
+      "new": 500.0
+    },
+    {
+      "name": "27_Thompson_WeaponConfig",
+      "old": 350.0,
+      "new": 450.0
+    },
+    {
+      "name": "30_Winchester_WeaponConfig",
+      "old": 450.0,
+      "new": 600.0
+    },
+    {
+      "name": "33_HMLMG_WeaponConfig",
+      "old": 450.0,
+      "new": 500.0
+    },
+    {
+      "name": "21_FlareGun_WeaponConfig",
+      "old": 300.0,
+      "new": 350.0
+    },
+    {
+      "name": "05_Shotgun_WeaponConfig",
+      "old": 300.0,
+      "new": 350.0
+    },
+    {
+      "name": "35_HandmadePistol_WeaponConfig",
+      "old": 300.0,
+      "new": 400.0
+    }
+  ],
+  "items": [
+    {
+      "item_id": "knight.shield",
+      "numeric_id": 927,
+      "name_en_raw": "",
+      "name_zh_explanatory": "骑士盾（暂译）",
+      "category": "Other",
+      "craftable_flag": true,
+      "recipe_source_path_id": -2378660430693066347,
+      "craft_count": 1,
+      "craft_inputs": [
+        {
+          "item_id": "metal.fragment",
+          "name_en": "Metal Fragment",
+          "amount": 40
+        }
+      ],
+      "recycle_outputs": [
+        {
+          "item_id": "metal.fragment",
+          "name_en": "Metal Fragment",
+          "amount": 20,
+          "skip_chance_raw": 0.0
+        }
+      ],
+      "protection_reference": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "durability_max_raw": 1.0,
+      "attack_config": null,
+      "item_source_path_id": -2410207523597481181
+    },
+    {
+      "item_id": "mine.pressure",
+      "numeric_id": 928,
+      "name_en_raw": "Pressure Mine",
+      "name_zh_explanatory": "压力地雷（暂译）",
+      "category": "Ammunition",
+      "craftable_flag": true,
+      "recipe_source_path_id": -2813990539295583150,
+      "craft_count": 1,
+      "craft_inputs": [
+        {
+          "item_id": "gun.powder",
+          "name_en": "Gun Powder",
+          "amount": 30
+        },
+        {
+          "item_id": "metal.fragment",
+          "name_en": "Metal Fragment",
+          "amount": 30
+        },
+        {
+          "item_id": "metal.spring",
+          "name_en": "Metal Spring",
+          "amount": 1
+        }
+      ],
+      "recycle_outputs": [
+        {
+          "item_id": "gun.powder",
+          "name_en": "Gun Powder",
+          "amount": 15,
+          "skip_chance_raw": 0.0
+        },
+        {
+          "item_id": "metal.fragment",
+          "name_en": "Metal Fragment",
+          "amount": 15,
+          "skip_chance_raw": 0.0
+        },
+        {
+          "item_id": "hq.metal",
+          "name_en": "High Quality Metal",
+          "amount": 1,
+          "skip_chance_raw": 0.0
+        }
+      ],
+      "protection_reference": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "durability_max_raw": 1.0,
+      "attack_config": null,
+      "item_source_path_id": 7506310374097708477
+    },
+    {
+      "item_id": "structure.hqm",
+      "numeric_id": 923,
+      "name_en_raw": "Armored Structures",
+      "name_zh_explanatory": "装甲建筑结构（暂译）",
+      "category": "Construction",
+      "craftable_flag": false,
+      "recipe_source_path_id": null,
+      "craft_count": null,
+      "craft_inputs": null,
+      "recycle_outputs": null,
+      "protection_reference": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "durability_max_raw": 0.0,
+      "attack_config": null,
+      "item_source_path_id": -126876184493002904
+    },
+    {
+      "item_id": "structure.metal",
+      "numeric_id": 920,
+      "name_en_raw": "Metal Structures",
+      "name_zh_explanatory": "金属建筑结构（暂译）",
+      "category": "Construction",
+      "craftable_flag": false,
+      "recipe_source_path_id": null,
+      "craft_count": null,
+      "craft_inputs": null,
+      "recycle_outputs": null,
+      "protection_reference": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "durability_max_raw": 0.0,
+      "attack_config": null,
+      "item_source_path_id": -8660340746258238035
+    },
+    {
+      "item_id": "structure.stone",
+      "numeric_id": 919,
+      "name_en_raw": "Stone Structures",
+      "name_zh_explanatory": "石制建筑结构（暂译）",
+      "category": "Construction",
+      "craftable_flag": false,
+      "recipe_source_path_id": null,
+      "craft_count": null,
+      "craft_inputs": null,
+      "recycle_outputs": null,
+      "protection_reference": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "durability_max_raw": 0.0,
+      "attack_config": null,
+      "item_source_path_id": 2156934706776166682
+    },
+    {
+      "item_id": "structure.wood",
+      "numeric_id": 918,
+      "name_en_raw": "Wooden Structures",
+      "name_zh_explanatory": "木制建筑结构（暂译）",
+      "category": "Construction",
+      "craftable_flag": false,
+      "recipe_source_path_id": null,
+      "craft_count": null,
+      "craft_inputs": null,
+      "recycle_outputs": null,
+      "protection_reference": {
+        "m_FileID": 0,
+        "m_PathID": 0
+      },
+      "durability_max_raw": 0.0,
+      "attack_config": null,
+      "item_source_path_id": 2344771526492208345
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "source": "apk-analysis-11920/output-staging",
-  "version": "1.13.11920",
+  "source": "apk-1012/split_UnityDataAssetPack.apk; apk-analysis-1012/新增物品数据.json",
+  "version": "1.14.11949",
   "recipes": {
     "ammo.handmade.shell": {
       "output": 4,
@@ -989,6 +989,20 @@
         "scrap": 50,
         "gears": 5,
         "sheet.metal": 1
+      }
+    },
+    "knight.shield": {
+      "output": 1,
+      "materials": {
+        "metal.fragment": 40
+      }
+    },
+    "mine.pressure": {
+      "output": 1,
+      "materials": {
+        "gun.powder": 30,
+        "metal.fragment": 30,
+        "metal.spring": 1
       }
     }
   }

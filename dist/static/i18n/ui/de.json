@@ -245,7 +245,7 @@
   "计算方式": "Berechnung",
   "仅统计配方直接需要的材料，不继续拆解火药等半成品，也不把它们视为可自动回收的库存。": "Es zählen nur die direkten Zutaten des Rezepts. Zwischenprodukte wie Schießpulver werden nicht weiter zerlegt oder als automatisch recycelbarer Vorrat behandelt.",
   "实际产出可能略多于目标数量。相同材料合并后只扣一次库存；库存不会因计算而被消耗。": "Die tatsächliche Ausgabe kann das Ziel überschreiten. Gemeinsame Materialien werden vor dem einmaligen Abzug der Vorräte zusammengefasst. Die Berechnung verbraucht keine gespeicherten Vorräte.",
-  "配方依据游戏版本 1.13.11920 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "Die Rezepte stammen aus lokalen Daten der Spielversion 1.13.11920. Bauplanfreischaltungen, Werkbankanforderungen und Serveranpassungen sind nicht enthalten.",
+  "配方依据游戏版本 1.14.11949 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "Die Rezepte stammen aus lokalen Daten der Spielversion 1.14.11949. Bauplanfreischaltungen, Werkbankanforderungen und Serveranpassungen sind nicht enthalten.",
   "请启用 JavaScript 使用计算器；也可以在物品百科查看配方。": "Aktiviere JavaScript für den Rechner oder sieh dir Rezepte im Gegenstandslexikon an.",
   "每次制作产出 {count} 件；以下材料为制作一次的用量。": "Ein Herstellungsvorgang ergibt {count} Gegenstände. Die folgenden Materialien werden für einen Vorgang benötigt.",
   "查看回收来源": "Recyclingquellen anzeigen",

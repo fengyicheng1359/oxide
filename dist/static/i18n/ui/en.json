@@ -245,7 +245,7 @@
   "计算方式": "How it works",
   "仅统计配方直接需要的材料，不继续拆解火药等半成品，也不把它们视为可自动回收的库存。": "Counts only direct recipe ingredients. Intermediate items such as gunpowder are not broken down further or treated as inventory that can be automatically recycled.",
   "实际产出可能略多于目标数量。相同材料合并后只扣一次库存；库存不会因计算而被消耗。": "Actual output may exceed your target. Shared materials are combined before inventory is subtracted once; calculating does not consume your saved inventory.",
-  "配方依据游戏版本 1.13.11920 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "Recipes use local data from game version 1.13.11920. Blueprint unlocks, workbench requirements and custom server changes are not included.",
+  "配方依据游戏版本 1.14.11949 的本地数据，未包含蓝图解锁、工作台条件与服务器自定义改动。": "Recipes use local data from game version 1.14.11949. Blueprint unlocks, workbench requirements and custom server changes are not included.",
   "请启用 JavaScript 使用计算器；也可以在物品百科查看配方。": "Enable JavaScript to use the calculator, or browse recipes in the item encyclopedia.",
   "每次制作产出 {count} 件；以下材料为制作一次的用量。": "Each crafting batch produces {count} items. Materials below are required for one batch.",
   "查看回收来源": "View recycling sources",

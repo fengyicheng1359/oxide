@@ -175,5 +175,82 @@
     "es": "Torreta de corto alcance que dispara perdigones en ráfagas cortas y luego recarga.",
     "pt": "Torreta de curto alcance que dispara chumbo grosso em rajadas curtas e depois recarrega.",
     "ru": "Турель ближнего боя, стреляющая картечью короткими очередями с последующей перезарядкой."
+  },
+  "knight.shield": {
+    "zh": "骑士盾",
+    "en": "Knight Shield",
+    "ja": "騎士の盾",
+    "ko": "기사 방패",
+    "fr": "Bouclier de chevalier",
+    "de": "Ritterschild",
+    "es": "Escudo de caballero",
+    "pt": "Escudo de cavaleiro",
+    "ru": "Рыцарский щит"
+  },
+  "mine.pressure": {
+    "zh": "压力地雷",
+    "en": "Pressure Mine",
+    "ja": "感圧地雷",
+    "ko": "압력 지뢰",
+    "fr": "Mine à pression",
+    "de": "Druckmine",
+    "es": "Mina de presión",
+    "pt": "Mina de pressão",
+    "ru": "Нажимная мина"
+  },
+  "structure.wood": {
+    "zh": "木制建筑结构",
+    "en": "Wooden Structures",
+    "ja": "木造建築構造物",
+    "ko": "목재 건축 구조물",
+    "fr": "Structures en bois",
+    "de": "Holzkonstruktionen",
+    "es": "Estructuras de madera",
+    "pt": "Estruturas de madeira",
+    "ru": "Деревянные конструкции"
+  },
+  "structure.stone": {
+    "zh": "石制建筑结构",
+    "en": "Stone Structures",
+    "ja": "石造建築構造物",
+    "ko": "석재 건축 구조물",
+    "fr": "Structures en pierre",
+    "de": "Steinkonstruktionen",
+    "es": "Estructuras de piedra",
+    "pt": "Estruturas de pedra",
+    "ru": "Каменные конструкции"
+  },
+  "structure.metal": {
+    "zh": "金属建筑结构",
+    "en": "Metal Structures",
+    "ja": "金属製建築構造物",
+    "ko": "금속 건축 구조물",
+    "fr": "Structures métalliques",
+    "de": "Metallkonstruktionen",
+    "es": "Estructuras de metal",
+    "pt": "Estruturas de metal",
+    "ru": "Металлические конструкции"
+  },
+  "structure.hqm": {
+    "zh": "装甲建筑结构",
+    "en": "Armored Structures",
+    "ja": "装甲建築構造物",
+    "ko": "장갑 건축 구조물",
+    "fr": "Structures blindées",
+    "de": "Gepanzerte Konstruktionen",
+    "es": "Estructuras blindadas",
+    "pt": "Estruturas blindadas",
+    "ru": "Бронированные конструкции"
+  },
+  "mine.pressure.descr": {
+    "zh": "压力地雷可放置在平地、地板、岩石和大石头上；有人踩上后离开时爆炸，对所有人都会触发。放置上限为 10。",
+    "en": "A pressure mine can be placed on flat ground, floors, rocks and large stones. It explodes when someone steps off, triggers for everyone and has a placement limit of 10.",
+    "ja": "感圧地雷は平地、床、岩、大きな石に設置できる。踏んだ人が離れると爆発し、誰に対しても作動する。設置上限は10個。",
+    "ko": "압력 지뢰는 평지, 바닥, 바위, 큰 돌에 설치할 수 있습니다. 밟은 사람이 발을 떼면 폭발하며 누구에게나 작동합니다. 설치 한도는 10개입니다.",
+    "fr": "Cette mine se pose sur un sol plat, un plancher, un rocher ou une grosse pierre. Elle explose quand la personne qui la presse s’en éloigne, se déclenche pour tous et se limite à 10 poses.",
+    "de": "Diese Druckmine kann auf ebenem Boden, Böden, Felsen und großen Steinen platziert werden. Sie explodiert, wenn jemand nach dem Betreten wieder heruntertritt, löst bei allen aus und ist auf 10 Stück begrenzt.",
+    "es": "La mina se coloca en suelo plano, pisos, rocas y piedras grandes. Explota cuando quien la pisa se aparta, se activa con cualquier persona y tiene un límite de 10 colocaciones.",
+    "pt": "A mina pode ser colocada em solo plano, pisos, rochas e pedras grandes. Ela explode quando alguém tira o pé, é acionada por qualquer pessoa e tem limite de 10 unidades.",
+    "ru": "Мину можно установить на ровной земле, полу, скалах и крупных камнях. Она взрывается, когда наступивший сходит с неё, срабатывает на любого человека; предел установки — 10 штук."
   }
 }
