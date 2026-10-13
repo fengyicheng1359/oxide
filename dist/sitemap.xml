@@ -138,6 +138,7 @@
   <url><loc>https://myoxide.fun/de/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/battle-pass-mission-route.html</loc></url>
@@ -148,9 +149,11 @@
   <url><loc>https://myoxide.fun/de/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/firing-controls-98.html</loc></url>
@@ -167,7 +170,9 @@
   <url><loc>https://myoxide.fun/de/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/player-shop-stock-79.html</loc></url>
@@ -179,6 +184,8 @@
   <url><loc>https://myoxide.fun/de/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/server-modes-12.html</loc></url>
@@ -188,10 +195,13 @@
   <url><loc>https://myoxide.fun/de/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/de/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/de/gears.html</loc></url>
@@ -477,6 +487,7 @@
   <url><loc>https://myoxide.fun/en/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/battle-pass-mission-route.html</loc></url>
@@ -487,9 +498,11 @@
   <url><loc>https://myoxide.fun/en/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/firing-controls-98.html</loc></url>
@@ -506,7 +519,9 @@
   <url><loc>https://myoxide.fun/en/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/player-shop-stock-79.html</loc></url>
@@ -518,6 +533,8 @@
   <url><loc>https://myoxide.fun/en/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/server-modes-12.html</loc></url>
@@ -527,10 +544,13 @@
   <url><loc>https://myoxide.fun/en/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/en/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/en/gears.html</loc></url>
@@ -816,6 +836,7 @@
   <url><loc>https://myoxide.fun/es/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/battle-pass-mission-route.html</loc></url>
@@ -826,9 +847,11 @@
   <url><loc>https://myoxide.fun/es/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/firing-controls-98.html</loc></url>
@@ -845,7 +868,9 @@
   <url><loc>https://myoxide.fun/es/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/player-shop-stock-79.html</loc></url>
@@ -857,6 +882,8 @@
   <url><loc>https://myoxide.fun/es/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/server-modes-12.html</loc></url>
@@ -866,10 +893,13 @@
   <url><loc>https://myoxide.fun/es/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/es/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/es/gears.html</loc></url>
@@ -1155,6 +1185,7 @@
   <url><loc>https://myoxide.fun/fr/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/battle-pass-mission-route.html</loc></url>
@@ -1165,9 +1196,11 @@
   <url><loc>https://myoxide.fun/fr/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/firing-controls-98.html</loc></url>
@@ -1184,7 +1217,9 @@
   <url><loc>https://myoxide.fun/fr/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/player-shop-stock-79.html</loc></url>
@@ -1196,6 +1231,8 @@
   <url><loc>https://myoxide.fun/fr/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/server-modes-12.html</loc></url>
@@ -1205,10 +1242,13 @@
   <url><loc>https://myoxide.fun/fr/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/fr/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gears.html</loc></url>
@@ -1494,6 +1534,7 @@
   <url><loc>https://myoxide.fun/ja/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/battle-pass-mission-route.html</loc></url>
@@ -1504,9 +1545,11 @@
   <url><loc>https://myoxide.fun/ja/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/firing-controls-98.html</loc></url>
@@ -1523,7 +1566,9 @@
   <url><loc>https://myoxide.fun/ja/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/player-shop-stock-79.html</loc></url>
@@ -1535,6 +1580,8 @@
   <url><loc>https://myoxide.fun/ja/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/server-modes-12.html</loc></url>
@@ -1544,10 +1591,13 @@
   <url><loc>https://myoxide.fun/ja/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/ja/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gears.html</loc></url>
@@ -1833,6 +1883,7 @@
   <url><loc>https://myoxide.fun/ko/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/battle-pass-mission-route.html</loc></url>
@@ -1843,9 +1894,11 @@
   <url><loc>https://myoxide.fun/ko/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/firing-controls-98.html</loc></url>
@@ -1862,7 +1915,9 @@
   <url><loc>https://myoxide.fun/ko/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/player-shop-stock-79.html</loc></url>
@@ -1874,6 +1929,8 @@
   <url><loc>https://myoxide.fun/ko/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/server-modes-12.html</loc></url>
@@ -1883,10 +1940,13 @@
   <url><loc>https://myoxide.fun/ko/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/ko/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gears.html</loc></url>
@@ -2172,6 +2232,7 @@
   <url><loc>https://myoxide.fun/pt/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/battle-pass-mission-route.html</loc></url>
@@ -2182,9 +2243,11 @@
   <url><loc>https://myoxide.fun/pt/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/firing-controls-98.html</loc></url>
@@ -2201,7 +2264,9 @@
   <url><loc>https://myoxide.fun/pt/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/player-shop-stock-79.html</loc></url>
@@ -2213,6 +2278,8 @@
   <url><loc>https://myoxide.fun/pt/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/server-modes-12.html</loc></url>
@@ -2222,10 +2289,13 @@
   <url><loc>https://myoxide.fun/pt/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/pt/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gears.html</loc></url>
@@ -2511,6 +2581,7 @@
   <url><loc>https://myoxide.fun/ru/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/battle-pass-mission-route.html</loc></url>
@@ -2521,9 +2592,11 @@
   <url><loc>https://myoxide.fun/ru/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/firing-controls-98.html</loc></url>
@@ -2540,7 +2613,9 @@
   <url><loc>https://myoxide.fun/ru/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/player-shop-stock-79.html</loc></url>
@@ -2552,6 +2627,8 @@
   <url><loc>https://myoxide.fun/ru/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/server-modes-12.html</loc></url>
@@ -2561,10 +2638,13 @@
   <url><loc>https://myoxide.fun/ru/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/ru/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gears.html</loc></url>
@@ -2850,6 +2930,7 @@
   <url><loc>https://myoxide.fun/zh/gameplay/aim-sensitivity-99.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/avoid-animal-attacks.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/backup-supplies-84.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/base-location-checklist.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/base-notifications-101.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/base-upkeep-245.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/battle-pass-mission-route.html</loc></url>
@@ -2860,9 +2941,11 @@
   <url><loc>https://myoxide.fun/zh/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/clan-vault-access-198.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/compact-base-storage.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/death-marker-recovery-120.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/deathmatch-practice-162.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/default-skin-159.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/door-path-retreat.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/double-barrel-position-250.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/fence-snapping-209.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/firing-controls-98.html</loc></url>
@@ -2879,7 +2962,9 @@
   <url><loc>https://myoxide.fun/zh/gameplay/lighthouse-basement.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/merge-buildings-190.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/military-base-keycard.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/new-gun-total-cost.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/newbie-servers-105.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/nighttime-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/offscreen-teammates-111.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/plane-crash-keycard.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/player-shop-stock-79.html</loc></url>
@@ -2891,6 +2976,8 @@
   <url><loc>https://myoxide.fun/zh/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/recycler-output-full-81.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/replay-tutorial-103.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/respawn-point-layout.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/scrap-road-loop.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/server-modes-12.html</loc></url>
@@ -2900,10 +2987,13 @@
   <url><loc>https://myoxide.fun/zh/gameplay/solo-duo-trio-248.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/spread-base-loot-83.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/starter-core-expansion.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/team-invite-26.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/turret-placement-247.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/two-door-entry.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/vehicle-fuel-252.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/weapon-choice-by-trip.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/window-exit-scouting.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/workbench-research-path-243.html</loc></url>
   <url><loc>https://myoxide.fun/zh/garage.door.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gears.html</loc></url>

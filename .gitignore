@@ -9,6 +9,9 @@
 !dist/
 !dist/**
 
+# 审核草稿及站外网页缓存仅供本地核对，不随静态网站发布
+dist/review/
+
 # 不提交 Python 运行缓存
 dist/__pycache__/
 *.pyc
