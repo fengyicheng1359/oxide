@@ -147,5 +147,59 @@
     "source_kind": "external-analysis",
     "source_url": "https://www.topuplive.com/en/news/oxide-survival-island-weapons-guide.html",
     "source_label": "Guide du site · source externe"
+  },
+  "radiation-trip-preparation": {
+    "title": "Préparer sa protection et sa sortie avant une zone irradiée",
+    "html": "<p>Vérifiez la protection respiratoire, les vêtements et les soins avant d’entrer. Repérez le chemin du retour, surveillez les alertes et quittez la zone si votre protection est insuffisante ou si votre état se dégrade.</p><p>La distinction entre protection des poumons et du corps est utile. Les seuils, dégâts par seconde et effets des soins cités par la source ne sont pas vérifiés sur les serveurs actuels : ne calculez pas une durée sûre à partir de ces chiffres.</p>",
+    "text": "Vérifiez la protection respiratoire, les vêtements et les soins avant d’entrer. Repérez le chemin du retour, surveillez les alertes et quittez la zone si votre protection est insuffisante ou si votre état se dégrade. La distinction entre protection des poumons et du corps est utile. Les seuils, dégâts par seconde et effets des soins cités par la source ne sont pas vérifiés sur les serveurs actuels : ne calculez pas une durée sûre à partir de ces chiffres.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/radiatsiya-v-oxide-survival-island-kak-vyzhit-v-zarazhennyh-zonah/",
+    "source_label": "Guide du site · source externe"
+  },
+  "scrap-route-and-return": {
+    "title": "Prévoir le trajet de collecte de ferraille et le retour",
+    "html": "<p>Choisissez entre les barils au bord des routes et les caisses des zones plus dangereuses, puis prenez les outils adaptés. Rentrez déposer la ferraille et les composants dès que vous portez plus que ce que vous acceptez de perdre.</p><p>Les ventes dépendent des acheteurs et la roue peut faire perdre de la ferraille. Les rendements fixes et délais de réapparition avancés par la source ne sont pas vérifiés sur les serveurs actuels.</p>",
+    "text": "Choisissez entre les barils au bord des routes et les caisses des zones plus dangereuses, puis prenez les outils adaptés. Rentrez déposer la ferraille et les composants dès que vous portez plus que ce que vous acceptez de perdre. Les ventes dépendent des acheteurs et la roue peut faire perdre de la ferraille. Les rendements fixes et délais de réapparition avancés par la source ne sont pas vérifiés sur les serveurs actuels.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://www.topuplive.com/news/oxide-survival-island-scrap-farming-guide.html",
+    "source_label": "Guide du site · source externe"
+  },
+  "silver-coin-spending": {
+    "title": "Vérifier les règles actuelles avant de dépenser de l’argent",
+    "html": "<p>L’argent est distinct des Coins ordinaires. Comparez les activités, les provisions gratuites, le Battle Pass et la boutique disponibles dans votre jeu. Avant de payer, distinguez un achat garanti d’une caisse au contenu aléatoire.</p><p>La source affirme que cette monnaie vient uniquement des activités gratuites et ne sert qu’aux cosmétiques. L’aide officielle décrit davantage de sources et de produits : fiez-vous aux règles affichées dans le jeu.</p>",
+    "text": "L’argent est distinct des Coins ordinaires. Comparez les activités, les provisions gratuites, le Battle Pass et la boutique disponibles dans votre jeu. Avant de payer, distinguez un achat garanti d’une caisse au contenu aléatoire. La source affirme que cette monnaie vient uniquement des activités gratuites et ne sert qu’aux cosmétiques. L’aide officielle décrit davantage de sources et de produits : fiez-vous aux règles affichées dans le jeu.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/novaya-valuta-v-oxide/",
+    "source_label": "Guide du site · source externe"
+  },
+  "solo-start-and-upkeep": {
+    "title": "En solo, assurer son point de réapparition et son entretien",
+    "html": "<p>Fabriquez des outils de base, prenez de quoi boire et manger, puis bâtissez un petit abri facile à entretenir. Placez un sac de couchage, vérifiez le point de réapparition et approvisionnez le placard à outils avant de partir loin.</p><p>Choisissez l’emplacement selon la circulation et les ressources du serveur actuel. Aucun terrain ne reste sûr pour toujours ; l’ancien numéro de version cité par la source ne décrit pas l’APK actuel.</p>",
+    "text": "Fabriquez des outils de base, prenez de quoi boire et manger, puis bâtissez un petit abri facile à entretenir. Placez un sac de couchage, vérifiez le point de réapparition et approvisionnez le placard à outils avant de partir loin. Choisissez l’emplacement selon la circulation et les ressources du serveur actuel. Aucun terrain ne reste sûr pour toujours ; l’ancien numéro de version cité par la source ne décrit pas l’APK actuel.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://mmogrounds.com/games/oxide-survival-island",
+    "source_label": "Guide du site · source externe"
+  },
+  "clan-shared-resources": {
+    "title": "Définir les droits sur les ressources partagées du clan",
+    "html": "<p>Si votre serveur propose un entrepôt et une carrière de clan, vérifiez qui peut déposer et retirer les objets. Répartissez le carburant, les rondes et l’usage des matériaux rares avant une grande construction ou une attaque.</p><p>La production de la carrière comporte des risques. Les détails donnés par la source sur les récompenses, droits, délais et limites de placement ne sont pas tous confirmés pour la version actuelle. Vérifiez dans le jeu.</p>",
+    "text": "Si votre serveur propose un entrepôt et une carrière de clan, vérifiez qui peut déposer et retirer les objets. Répartissez le carburant, les rondes et l’usage des matériaux rares avant une grande construction ou une attaque. La production de la carrière comporte des risques. Les détails donnés par la source sur les récompenses, droits, délais et limites de placement ne sont pas tous confirmés pour la version actuelle. Vérifiez dans le jeu.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://news.kardz.com/news/oxide-clan-system-update-guide",
+    "source_label": "Guide du site · source externe"
+  },
+  "solo-base-storage-and-doors": {
+    "title": "Organiser le stockage et les portes d’une base solo",
+    "html": "<p>Gardez les outils, le carburant et les matériaux courants à portée de main ; répartissez les objets précieux dans des rangements plus profonds. Ajoutez des portes à mesure que vos ressources le permettent et vérifiez leur accès.</p><p>Le plan spacieux de la source est une idée, pas une base imprenable. Les limites de construction, le coût d’entretien et la défense doivent être vérifiés sur votre serveur ; aucun coût de raid fixe n’est garanti.</p>",
+    "text": "Gardez les outils, le carburant et les matériaux courants à portée de main ; répartissez les objets précieux dans des rangements plus profonds. Ajoutez des portes à mesure que vos ressources le permettent et vérifiez leur accès. Le plan spacieux de la source est une idée, pas une base imprenable. Les limites de construction, le coût d’entretien et la défense doivent être vérifiés sur votre serveur ; aucun coût de raid fixe n’est garanti.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-oxide-solo-base-design.html",
+    "source_label": "Guide du site · source externe"
   }
 }

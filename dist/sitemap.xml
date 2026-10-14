@@ -146,6 +146,7 @@
   <url><loc>https://myoxide.fun/de/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/clan-vault-access-198.html</loc></url>
@@ -180,6 +181,7 @@
   <url><loc>https://myoxide.fun/de/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/recycler-output-full-81.html</loc></url>
@@ -188,11 +190,15 @@
   <url><loc>https://myoxide.fun/de/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/de/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/de/gameplay/starter-core-expansion.html</loc></url>
@@ -495,6 +501,7 @@
   <url><loc>https://myoxide.fun/en/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/clan-vault-access-198.html</loc></url>
@@ -529,6 +536,7 @@
   <url><loc>https://myoxide.fun/en/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/recycler-output-full-81.html</loc></url>
@@ -537,11 +545,15 @@
   <url><loc>https://myoxide.fun/en/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/en/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/en/gameplay/starter-core-expansion.html</loc></url>
@@ -844,6 +856,7 @@
   <url><loc>https://myoxide.fun/es/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/clan-vault-access-198.html</loc></url>
@@ -878,6 +891,7 @@
   <url><loc>https://myoxide.fun/es/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/recycler-output-full-81.html</loc></url>
@@ -886,11 +900,15 @@
   <url><loc>https://myoxide.fun/es/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/es/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/es/gameplay/starter-core-expansion.html</loc></url>
@@ -1193,6 +1211,7 @@
   <url><loc>https://myoxide.fun/fr/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/clan-vault-access-198.html</loc></url>
@@ -1227,6 +1246,7 @@
   <url><loc>https://myoxide.fun/fr/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/recycler-output-full-81.html</loc></url>
@@ -1235,11 +1255,15 @@
   <url><loc>https://myoxide.fun/fr/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/fr/gameplay/starter-core-expansion.html</loc></url>
@@ -1542,6 +1566,7 @@
   <url><loc>https://myoxide.fun/ja/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/clan-vault-access-198.html</loc></url>
@@ -1576,6 +1601,7 @@
   <url><loc>https://myoxide.fun/ja/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/recycler-output-full-81.html</loc></url>
@@ -1584,11 +1610,15 @@
   <url><loc>https://myoxide.fun/ja/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/ja/gameplay/starter-core-expansion.html</loc></url>
@@ -1891,6 +1921,7 @@
   <url><loc>https://myoxide.fun/ko/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/clan-vault-access-198.html</loc></url>
@@ -1925,6 +1956,7 @@
   <url><loc>https://myoxide.fun/ko/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/recycler-output-full-81.html</loc></url>
@@ -1933,11 +1965,15 @@
   <url><loc>https://myoxide.fun/ko/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/ko/gameplay/starter-core-expansion.html</loc></url>
@@ -2240,6 +2276,7 @@
   <url><loc>https://myoxide.fun/pt/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/clan-vault-access-198.html</loc></url>
@@ -2274,6 +2311,7 @@
   <url><loc>https://myoxide.fun/pt/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/recycler-output-full-81.html</loc></url>
@@ -2282,11 +2320,15 @@
   <url><loc>https://myoxide.fun/pt/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/pt/gameplay/starter-core-expansion.html</loc></url>
@@ -2589,6 +2631,7 @@
   <url><loc>https://myoxide.fun/ru/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/clan-vault-access-198.html</loc></url>
@@ -2623,6 +2666,7 @@
   <url><loc>https://myoxide.fun/ru/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/recycler-output-full-81.html</loc></url>
@@ -2631,11 +2675,15 @@
   <url><loc>https://myoxide.fun/ru/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/ru/gameplay/starter-core-expansion.html</loc></url>
@@ -2938,6 +2986,7 @@
   <url><loc>https://myoxide.fun/zh/gameplay/building-rotation-59.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/car-start-246.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/citadel-221.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/clan-shared-resources.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/clan-shop-216.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/clan-station-owner-211.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/clan-vault-access-198.html</loc></url>
@@ -2972,6 +3021,7 @@
   <url><loc>https://myoxide.fun/zh/gameplay/quarry-collection-80.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/quarry-decay-194.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/quick-craft-47.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/radiation-trip-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/raid-preparation.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/rebuild-debris-200.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/recycler-output-full-81.html</loc></url>
@@ -2980,11 +3030,15 @@
   <url><loc>https://myoxide.fun/zh/gameplay/return-with-valuable-loot.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/sandbox-save-238.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/scrap-road-loop.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/scrap-route-and-return.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/server-modes-12.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/server-wipe-8.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/signal-airdrop-249.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/silver-coin-spending.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/solo-base-core-upgrades.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/solo-base-storage-and-doors.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/solo-duo-trio-248.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/gameplay/solo-start-and-upkeep.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/sound-direction-223.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/spread-base-loot-83.html</loc></url>
   <url><loc>https://myoxide.fun/zh/gameplay/starter-core-expansion.html</loc></url>

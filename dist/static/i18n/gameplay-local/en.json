@@ -147,5 +147,59 @@
     "source_kind": "external-analysis",
     "source_url": "https://www.topuplive.com/en/news/oxide-survival-island-weapons-guide.html",
     "source_label": "Site guide · external source"
+  },
+  "radiation-trip-preparation": {
+    "title": "Prepare protection and an exit before entering a radiation zone",
+    "html": "<p>Check breathing protection, clothing and treatment supplies before entering. Identify a return route, watch the warning sound and status indicators, and leave if your protection is insufficient or your condition keeps worsening.</p><p>The source separates lung and body protection, a useful equipment checklist. Its exact thresholds, damage rates and treatment claims have not been verified on current servers; do not use them to calculate a safe stay.</p>",
+    "text": "Check breathing protection, clothing and treatment supplies before entering. Identify a return route, watch the warning sound and status indicators, and leave if your protection is insufficient or your condition keeps worsening. The source separates lung and body protection, a useful equipment checklist. Its exact thresholds, damage rates and treatment claims have not been verified on current servers; do not use them to calculate a safe stay.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/radiatsiya-v-oxide-survival-island-kak-vyzhit-v-zarazhennyh-zonah/",
+    "source_label": "Site guide · external source"
+  },
+  "scrap-route-and-return": {
+    "title": "Plan both your Scrap route and the trip home",
+    "html": "<p>Choose whether to search roadside barrels or riskier crate areas, then bring suitable tools and protection. Return to store Scrap and components once your carried loot exceeds what you are willing to lose.</p><p>Vending income depends on buyers, while the wheel can lose your Scrap. The source’s fixed yields per tool or hour and crate respawn times lack current server checks, so this guide does not repeat them.</p>",
+    "text": "Choose whether to search roadside barrels or riskier crate areas, then bring suitable tools and protection. Return to store Scrap and components once your carried loot exceeds what you are willing to lose. Vending income depends on buyers, while the wheel can lose your Scrap. The source’s fixed yields per tool or hour and crate respawn times lack current server checks, so this guide does not repeat them.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://www.topuplive.com/news/oxide-survival-island-scrap-farming-guide.html",
+    "source_label": "Site guide · external source"
+  },
+  "silver-coin-spending": {
+    "title": "Check current in-game rules before spending Silver",
+    "html": "<p>Silver is separate from regular Coins. Compare the activities, free supplies, Battle Pass and Silver Shop available in your game. Before spending, distinguish a direct purchase from a crate with random contents.</p><p>The source says Silver comes only from free activities and buys only cosmetics. Official support lists a wider range of sources and shop contents, so verify the current in-game terms instead of relying on those absolute claims.</p>",
+    "text": "Silver is separate from regular Coins. Compare the activities, free supplies, Battle Pass and Silver Shop available in your game. Before spending, distinguish a direct purchase from a crate with random contents. The source says Silver comes only from free activities and buys only cosmetics. Official support lists a wider range of sources and shop contents, so verify the current in-game terms instead of relying on those absolute claims.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/novaya-valuta-v-oxide/",
+    "source_label": "Site guide · external source"
+  },
+  "solo-start-and-upkeep": {
+    "title": "Solo start: secure a respawn point and upkeep",
+    "html": "<p>Make basic tools, gather food and water, then build a small base you can maintain. Place a sleeping bag and check its respawn location. Stock your Tool Cupboard and store important resources before longer trips.</p><p>Choose a base location from the current server’s traffic, routes and resources; no terrain is permanently safe. The older version number in the source does not describe the current APK.</p>",
+    "text": "Make basic tools, gather food and water, then build a small base you can maintain. Place a sleeping bag and check its respawn location. Stock your Tool Cupboard and store important resources before longer trips. Choose a base location from the current server’s traffic, routes and resources; no terrain is permanently safe. The older version number in the source does not describe the current APK.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://mmogrounds.com/games/oxide-survival-island",
+    "source_label": "Site guide · external source"
+  },
+  "clan-shared-resources": {
+    "title": "Set access rules for shared clan resources",
+    "html": "<p>If your server offers a clan warehouse, quarry and missions, check who can deposit and withdraw items. Agree on fuel supply, patrols and who may spend scarce materials before a large build or raid.</p><p>Quarry output still carries risk. The source’s exact reward, permission, claim-period and structure-limit claims have not been checked against the current version; use the in-game interface.</p>",
+    "text": "If your server offers a clan warehouse, quarry and missions, check who can deposit and withdraw items. Agree on fuel supply, patrols and who may spend scarce materials before a large build or raid. Quarry output still carries risk. The source’s exact reward, permission, claim-period and structure-limit claims have not been checked against the current version; use the in-game interface.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://news.kardz.com/news/oxide-clan-system-update-guide",
+    "source_label": "Site guide · external source"
+  },
+  "solo-base-storage-and-doors": {
+    "title": "Arrange solo storage and doors around daily use",
+    "html": "<p>Keep everyday tools, fuel and common materials convenient, and split valuables among deeper storage areas. Extend the door path as resources allow, checking that each door and box remains usable.</p><p>The source’s large storage layout is an idea, not an unraidable design. Verify building limits, upkeep and defense on your server; a fixed raid cost cannot be promised.</p>",
+    "text": "Keep everyday tools, fuel and common materials convenient, and split valuables among deeper storage areas. Extend the door path as resources allow, checking that each door and box remains usable. The source’s large storage layout is an idea, not an unraidable design. Verify building limits, upkeep and defense on your server; a fixed raid cost cannot be promised.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-oxide-solo-base-design.html",
+    "source_label": "Site guide · external source"
   }
 }

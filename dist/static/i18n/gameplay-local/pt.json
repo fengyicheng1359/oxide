@@ -147,5 +147,59 @@
     "source_kind": "external-analysis",
     "source_url": "https://www.topuplive.com/en/news/oxide-survival-island-weapons-guide.html",
     "source_label": "Guia do site · fonte externa"
+  },
+  "radiation-trip-preparation": {
+    "title": "Prepare proteção e rota de saída antes de entrar em área radioativa",
+    "html": "<p>Confira a proteção respiratória, a roupa e os itens de tratamento. Defina o caminho de volta, observe os avisos e saia se a proteção for insuficiente ou se a condição do personagem continuar piorando.</p><p>A fonte separa a proteção dos pulmões e do corpo, uma lista útil para conferir o equipamento. Seus limites, danos por segundo e efeitos de cura não foram verificados nos servidores atuais; não calcule um tempo seguro a partir deles.</p>",
+    "text": "Confira a proteção respiratória, a roupa e os itens de tratamento. Defina o caminho de volta, observe os avisos e saia se a proteção for insuficiente ou se a condição do personagem continuar piorando. A fonte separa a proteção dos pulmões e do corpo, uma lista útil para conferir o equipamento. Seus limites, danos por segundo e efeitos de cura não foram verificados nos servidores atuais; não calcule um tempo seguro a partir deles.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/radiatsiya-v-oxide-survival-island-kak-vyzhit-v-zarazhennyh-zonah/",
+    "source_label": "Guia do site · fonte externa"
+  },
+  "scrap-route-and-return": {
+    "title": "Planeje a rota de sucata e o retorno",
+    "html": "<p>Decida se vai procurar barris nas estradas ou caixas em áreas mais perigosas e leve as ferramentas certas. Volte para guardar sucata e componentes quando estiver carregando mais do que aceita perder.</p><p>Vendas dependem de compradores, e a roleta pode causar perdas. Os ganhos fixos e tempos de reaparecimento citados pela fonte não têm confirmação nos servidores atuais.</p>",
+    "text": "Decida se vai procurar barris nas estradas ou caixas em áreas mais perigosas e leve as ferramentas certas. Volte para guardar sucata e componentes quando estiver carregando mais do que aceita perder. Vendas dependem de compradores, e a roleta pode causar perdas. Os ganhos fixos e tempos de reaparecimento citados pela fonte não têm confirmação nos servidores atuais.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://www.topuplive.com/news/oxide-survival-island-scrap-farming-guide.html",
+    "source_label": "Guia do site · fonte externa"
+  },
+  "silver-coin-spending": {
+    "title": "Confira as regras atuais antes de gastar prata",
+    "html": "<p>A prata é separada das Coins comuns. Veja as atividades, suprimentos gratuitos, Battle Pass e loja disponíveis no jogo. Antes de gastar, confirme se a compra é direta ou se a caixa tem conteúdo aleatório.</p><p>A fonte diz que a prata vem apenas de atividades gratuitas e compra apenas itens visuais. O suporte oficial descreve mais fontes e produtos; siga as condições exibidas atualmente no jogo.</p>",
+    "text": "A prata é separada das Coins comuns. Veja as atividades, suprimentos gratuitos, Battle Pass e loja disponíveis no jogo. Antes de gastar, confirme se a compra é direta ou se a caixa tem conteúdo aleatório. A fonte diz que a prata vem apenas de atividades gratuitas e compra apenas itens visuais. O suporte oficial descreve mais fontes e produtos; siga as condições exibidas atualmente no jogo.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/novaya-valuta-v-oxide/",
+    "source_label": "Guia do site · fonte externa"
+  },
+  "solo-start-and-upkeep": {
+    "title": "Começo solo: garanta renascimento e manutenção",
+    "html": "<p>Faça ferramentas básicas, consiga comida e água e construa um abrigo pequeno e fácil de manter. Coloque um saco de dormir, confirme o ponto de renascimento e abasteça o armário de ferramentas antes de viagens longas.</p><p>Escolha o local conforme rotas, jogadores e recursos do servidor atual. Nenhum terreno é seguro para sempre; o número de versão antigo da fonte não descreve o APK atual.</p>",
+    "text": "Faça ferramentas básicas, consiga comida e água e construa um abrigo pequeno e fácil de manter. Coloque um saco de dormir, confirme o ponto de renascimento e abasteça o armário de ferramentas antes de viagens longas. Escolha o local conforme rotas, jogadores e recursos do servidor atual. Nenhum terreno é seguro para sempre; o número de versão antigo da fonte não descreve o APK atual.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://mmogrounds.com/games/oxide-survival-island",
+    "source_label": "Guia do site · fonte externa"
+  },
+  "clan-shared-resources": {
+    "title": "Defina acesso aos recursos compartilhados do clã",
+    "html": "<p>Se o servidor oferece depósito e pedreira do clã, confira quem pode guardar e retirar itens. Combine abastecimento, patrulha e uso de materiais raros antes de grandes construções ou ataques.</p><p>A produção da pedreira também pode ser perdida. Os detalhes da fonte sobre recompensas, permissões, prazos e limites de construção não foram todos verificados na versão atual; confira a interface do jogo.</p>",
+    "text": "Se o servidor oferece depósito e pedreira do clã, confira quem pode guardar e retirar itens. Combine abastecimento, patrulha e uso de materiais raros antes de grandes construções ou ataques. A produção da pedreira também pode ser perdida. Os detalhes da fonte sobre recompensas, permissões, prazos e limites de construção não foram todos verificados na versão atual; confira a interface do jogo.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://news.kardz.com/news/oxide-clan-system-update-guide",
+    "source_label": "Guia do site · fonte externa"
+  },
+  "solo-base-storage-and-doors": {
+    "title": "Organize armazenamento e portas de uma base solo",
+    "html": "<p>Deixe ferramentas, combustível e materiais comuns à mão e distribua itens valiosos em caixas mais internas. Amplie o caminho de portas conforme obtiver recursos e confirme que todas as portas e caixas continuam acessíveis.</p><p>O projeto espaçoso da fonte é uma ideia, não uma base impossível de invadir. Confira limites de construção, manutenção e defesa no servidor atual; um custo fixo de invasão não é garantido.</p>",
+    "text": "Deixe ferramentas, combustível e materiais comuns à mão e distribua itens valiosos em caixas mais internas. Amplie o caminho de portas conforme obtiver recursos e confirme que todas as portas e caixas continuam acessíveis. O projeto espaçoso da fonte é uma ideia, não uma base impossível de invadir. Confira limites de construção, manutenção e defesa no servidor atual; um custo fixo de invasão não é garantido.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-oxide-solo-base-design.html",
+    "source_label": "Guia do site · fonte externa"
   }
 }

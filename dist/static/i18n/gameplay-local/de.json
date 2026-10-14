@@ -147,5 +147,59 @@
     "source_kind": "external-analysis",
     "source_url": "https://www.topuplive.com/en/news/oxide-survival-island-weapons-guide.html",
     "source_label": "Eigener Guide · externe Quelle"
+  },
+  "radiation-trip-preparation": {
+    "title": "Vor dem Betreten eines Strahlungsgebiets Schutz und Rückweg prüfen",
+    "html": "<p>Prüfe Atemschutz, Kleidung und Heilmittel und plane den Rückweg. Achte auf Warntöne und Statusanzeigen; verlasse das Gebiet, wenn dein Schutz nicht reicht oder sich dein Zustand weiter verschlechtert.</p><p>Die Quelle unterscheidet zwischen Lungen- und Körperschutz. Ihre genauen Grenzwerte, Schadensraten und Heilwirkungen wurden auf aktuellen Servern nicht geprüft. Berechne daraus keine sichere Aufenthaltsdauer.</p>",
+    "text": "Prüfe Atemschutz, Kleidung und Heilmittel und plane den Rückweg. Achte auf Warntöne und Statusanzeigen; verlasse das Gebiet, wenn dein Schutz nicht reicht oder sich dein Zustand weiter verschlechtert. Die Quelle unterscheidet zwischen Lungen- und Körperschutz. Ihre genauen Grenzwerte, Schadensraten und Heilwirkungen wurden auf aktuellen Servern nicht geprüft. Berechne daraus keine sichere Aufenthaltsdauer.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/radiatsiya-v-oxide-survival-island-kak-vyzhit-v-zarazhennyh-zonah/",
+    "source_label": "Eigener Guide · externe Quelle"
+  },
+  "scrap-route-and-return": {
+    "title": "Bei der Schrottsuche auch den Rückweg einplanen",
+    "html": "<p>Entscheide vorab, ob du Fässer entlang der Straße oder Kisten in gefährlicheren Gebieten suchst. Nimm passende Werkzeuge mit und kehre zurück, sobald du mehr Schrott und Bauteile trägst, als du verlieren möchtest.</p><p>Einnahmen am Verkaufsautomaten hängen von Käufern ab; das Glücksrad kann Schrott kosten. Die festen Erträge und Spawnzeiten aus der Quelle sind für aktuelle Server nicht belegt.</p>",
+    "text": "Entscheide vorab, ob du Fässer entlang der Straße oder Kisten in gefährlicheren Gebieten suchst. Nimm passende Werkzeuge mit und kehre zurück, sobald du mehr Schrott und Bauteile trägst, als du verlieren möchtest. Einnahmen am Verkaufsautomaten hängen von Käufern ab; das Glücksrad kann Schrott kosten. Die festen Erträge und Spawnzeiten aus der Quelle sind für aktuelle Server nicht belegt.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://www.topuplive.com/news/oxide-survival-island-scrap-farming-guide.html",
+    "source_label": "Eigener Guide · externe Quelle"
+  },
+  "silver-coin-spending": {
+    "title": "Vor dem Ausgeben von Silber aktuelle Spielregeln prüfen",
+    "html": "<p>Silber ist eine eigene Währung neben normalen Coins. Vergleiche Aktivitäten, kostenlose Vorräte, Battle Pass und Silbershop in deiner Spielversion. Prüfe vor dem Kauf, ob du einen festen Gegenstand oder eine Zufallskiste erhältst.</p><p>Die Quelle behauptet, Silber stamme nur aus kostenlosen Aktivitäten und kaufe nur kosmetische Artikel. Der offizielle Support nennt weitere Quellen und Shopinhalte. Maßgeblich sind die aktuellen Angaben im Spiel.</p>",
+    "text": "Silber ist eine eigene Währung neben normalen Coins. Vergleiche Aktivitäten, kostenlose Vorräte, Battle Pass und Silbershop in deiner Spielversion. Prüfe vor dem Kauf, ob du einen festen Gegenstand oder eine Zufallskiste erhältst. Die Quelle behauptet, Silber stamme nur aus kostenlosen Aktivitäten und kaufe nur kosmetische Artikel. Der offizielle Support nennt weitere Quellen und Shopinhalte. Maßgeblich sind die aktuellen Angaben im Spiel.",
+    "category": "生存基础",
+    "source_kind": "external-analysis",
+    "source_url": "https://oxide-survival.net/novaya-valuta-v-oxide/",
+    "source_label": "Eigener Guide · externe Quelle"
+  },
+  "solo-start-and-upkeep": {
+    "title": "Solo-Start: Respawnpunkt und Unterhalt sichern",
+    "html": "<p>Stelle einfache Werkzeuge her, sammle Essen und Wasser und baue eine kleine, leicht zu unterhaltende Basis. Prüfe den Respawnpunkt deines Schlafsacks, fülle den Werkzeugschrank und lagere Wertvolles vor längeren Ausflügen ein.</p><p>Wähle den Standort nach Wegen, Spielern und Rohstoffen des aktuellen Servers. Kein Gelände ist dauerhaft sicher; die ältere Versionsnummer der Quelle beschreibt nicht das aktuelle APK.</p>",
+    "text": "Stelle einfache Werkzeuge her, sammle Essen und Wasser und baue eine kleine, leicht zu unterhaltende Basis. Prüfe den Respawnpunkt deines Schlafsacks, fülle den Werkzeugschrank und lagere Wertvolles vor längeren Ausflügen ein. Wähle den Standort nach Wegen, Spielern und Rohstoffen des aktuellen Servers. Kein Gelände ist dauerhaft sicher; die ältere Versionsnummer der Quelle beschreibt nicht das aktuelle APK.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://mmogrounds.com/games/oxide-survival-island",
+    "source_label": "Eigener Guide · externe Quelle"
+  },
+  "clan-shared-resources": {
+    "title": "Zugriffsregeln für gemeinsame Clanressourcen festlegen",
+    "html": "<p>Falls dein Server Clanlager und Steinbruch bietet, prüfe, wer Gegenstände einzahlen und entnehmen darf. Klärt Treibstoff, Patrouillen und die Nutzung seltener Materialien vor größeren Bauvorhaben oder Angriffen.</p><p>Auch ein Steinbruch birgt Verlustrisiken. Genaue Aussagen der Quelle zu Belohnungen, Rechten, Fristen und Gebäudelimits sind für die aktuelle Version nicht vollständig geprüft. Prüfe die Spielanzeige.</p>",
+    "text": "Falls dein Server Clanlager und Steinbruch bietet, prüfe, wer Gegenstände einzahlen und entnehmen darf. Klärt Treibstoff, Patrouillen und die Nutzung seltener Materialien vor größeren Bauvorhaben oder Angriffen. Auch ein Steinbruch birgt Verlustrisiken. Genaue Aussagen der Quelle zu Belohnungen, Rechten, Fristen und Gebäudelimits sind für die aktuelle Version nicht vollständig geprüft. Prüfe die Spielanzeige.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://news.kardz.com/news/oxide-clan-system-update-guide",
+    "source_label": "Eigener Guide · externe Quelle"
+  },
+  "solo-base-storage-and-doors": {
+    "title": "Lager und Türen einer Solo-Basis praktisch anordnen",
+    "html": "<p>Lagere tägliche Werkzeuge, Treibstoff und gewöhnliche Rohstoffe griffbereit und verteile Wertvolles auf weiter innen liegende Kisten. Erweitere den Türweg schrittweise und prüfe, ob Türen und Kisten nutzbar bleiben.</p><p>Der große Grundriss der Quelle ist eine Anregung, keine uneinnehmbare Basis. Baugrenzen, Unterhalt und Verteidigung hängen vom aktuellen Server ab; feste Überfallkosten sind nicht garantiert.</p>",
+    "text": "Lagere tägliche Werkzeuge, Treibstoff und gewöhnliche Rohstoffe griffbereit und verteile Wertvolles auf weiter innen liegende Kisten. Erweitere den Türweg schrittweise und prüfe, ob Türen und Kisten nutzbar bleiben. Der große Grundriss der Quelle ist eine Anregung, keine uneinnehmbare Basis. Baugrenzen, Unterhalt und Verteidigung hängen vom aktuellen Server ab; feste Überfallkosten sind nicht garantiert.",
+    "category": "建造与基地",
+    "source_kind": "external-analysis",
+    "source_url": "https://theundrbase.blogspot.com/2026/07/the-ultimate-oxide-solo-base-design.html",
+    "source_label": "Eigener Guide · externe Quelle"
   }
 }
