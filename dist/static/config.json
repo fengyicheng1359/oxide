@@ -2896,6 +2896,18 @@
       "recycling_sources": [],
       "recycling_outputs": [],
       "crafting_output_per_batch": null
+    },
+    {
+      "item_id": "halloween.candy.mystery",
+      "name_en": "Mystery Candy",
+      "name_zh": "神秘糖果",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": "assets/image/halloween.candy.mystery.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Feet Equipment": [
@@ -5912,6 +5924,208 @@
         }
       ],
       "crafting_output_per_batch": 1
+    },
+    {
+      "item_id": "pumpkin.lamp",
+      "name_en": "Night Watch (Pumpkin Lamp)",
+      "name_zh": "守夜人（南瓜灯）",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 10
+        },
+        {
+          "name_zh": "布",
+          "name_en": "Cloth",
+          "amount": 10
+        },
+        {
+          "name_zh": "南瓜",
+          "name_en": "Pumpkin",
+          "amount": 1
+        }
+      ],
+      "image": "assets/image/pumpkin.lamp.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 5,
+          "item_id": "log",
+          "skip_chance": 0.0
+        },
+        {
+          "name_zh": "布",
+          "name_en": "Cloth",
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
+        }
+      ],
+      "crafting_output_per_batch": 1
+    },
+    {
+      "item_id": "skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal",
+      "name_en": "Skeleton in the Cupboard Skin Voucher",
+      "name_zh": "柜子里的骷髅皮肤券",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "item_id": "skin.vaucher.skin.sticker.events.halloween.trader.nozombies",
+      "name_en": "Zombie-Free Zone Skin Voucher",
+      "name_zh": "无丧尸区皮肤券",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "item_id": "skin.vaucher.skin.sticker.events.halloween.trader.okhand",
+      "name_en": "Grave Approval Skin Voucher",
+      "name_zh": "阴间认证皮肤券",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "item_id": "skin.vaucher.skin.thompson.events.halloween.trader.cannibal",
+      "name_en": "Silver Harvest Skin Voucher",
+      "name_zh": "银色丰收皮肤券",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "item_id": "skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal",
+      "name_en": "Nobody's Home Skin Voucher",
+      "name_zh": "家里没人皮肤券",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "item_id": "tombstone.decor",
+      "name_en": "Abode of Dreams (Tombstone)",
+      "name_zh": "梦境栖所（墓碑）",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_zh": "石头",
+          "name_en": "Stone",
+          "amount": 50
+        }
+      ],
+      "image": "assets/image/tombstone.decor.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "石头",
+          "name_en": "Stone",
+          "amount": 25,
+          "item_id": "stone",
+          "skip_chance": 0.0
+        }
+      ],
+      "crafting_output_per_batch": 1
+    },
+    {
+      "item_id": "werewolf.trophy",
+      "name_en": "Plethora Guardian (Werewolf Trophy)",
+      "name_zh": "充血卫士（狼人战利品）",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 10
+        },
+        {
+          "name_zh": "布",
+          "name_en": "Cloth",
+          "amount": 10
+        }
+      ],
+      "image": "assets/image/werewolf.trophy.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 5,
+          "item_id": "log",
+          "skip_chance": 0.0
+        },
+        {
+          "name_zh": "布",
+          "name_en": "Cloth",
+          "amount": 5,
+          "item_id": "cloth",
+          "skip_chance": 0.0
+        }
+      ],
+      "crafting_output_per_batch": 1
+    },
+    {
+      "item_id": "zombie.brain",
+      "name_en": "Zombie Brain",
+      "name_zh": "僵尸脑",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": "assets/image/zombie.brain.png",
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
+    },
+    {
+      "item_id": "zombie.garland",
+      "name_en": "Headless Company (Zombie Garland)",
+      "name_zh": "«无头公司»（僵尸花环）",
+      "attack_power": null,
+      "crafting_materials": [
+        {
+          "name_zh": "布",
+          "name_en": "Cloth",
+          "amount": 10
+        },
+        {
+          "name_zh": "木材",
+          "name_en": "Wood",
+          "amount": 2
+        }
+      ],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": 1
     }
   ],
   "Resource": [
@@ -6042,6 +6256,16 @@
         {
           "name_zh": "木制护腿",
           "name_en": "Wooden Leggings",
+          "amount": 5
+        },
+        {
+          "name_zh": "守夜人（南瓜灯）",
+          "name_en": "Night Watch (Pumpkin Lamp)",
+          "amount": 5
+        },
+        {
+          "name_zh": "充血卫士（狼人战利品）",
+          "name_en": "Plethora Guardian (Werewolf Trophy)",
           "amount": 5
         },
         {
@@ -6686,6 +6910,16 @@
         {
           "name_zh": "石斧",
           "name_en": "Stone Hatchet",
+          "amount": 5
+        },
+        {
+          "name_zh": "守夜人（南瓜灯）",
+          "name_en": "Night Watch (Pumpkin Lamp)",
+          "amount": 5
+        },
+        {
+          "name_zh": "充血卫士（狼人战利品）",
+          "name_en": "Plethora Guardian (Werewolf Trophy)",
           "amount": 5
         },
         {
@@ -7515,6 +7749,11 @@
         {
           "name_zh": "熔炉",
           "name_en": "Furnace",
+          "amount": 25
+        },
+        {
+          "name_zh": "梦境栖所（墓碑）",
+          "name_en": "Abode of Dreams (Tombstone)",
           "amount": 25
         },
         {
@@ -9758,6 +9997,18 @@
         }
       ],
       "crafting_output_per_batch": 1
+    },
+    {
+      "item_id": "zombie.claws",
+      "name_en": "Zombie Claws",
+      "name_zh": "僵尸爪",
+      "attack_power": null,
+      "crafting_materials": [],
+      "image": null,
+      "acquisition_methods": [],
+      "recycling_sources": [],
+      "recycling_outputs": [],
+      "crafting_output_per_batch": null
     }
   ],
   "Weapon Mod": [

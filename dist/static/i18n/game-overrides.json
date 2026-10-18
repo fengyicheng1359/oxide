@@ -1,5 +1,5 @@
 {
-  "reason": "本站补译：新版缺失的物品名称与说明，以及 11920 已改变含义的信号弹说明。其余翻译保留原来源。",
+  "reason": "本站补译：旧版缺失及 11966 新物品的名称、说明；节日主题展示名补充物品类型，外观券补充用途。其他翻译保留游戏语言包来源。",
   "backpack.big": {
     "zh": "大型背包",
     "en": "Large Backpack",
@@ -252,5 +252,159 @@
     "es": "La mina se coloca en suelo plano, pisos, rocas y piedras grandes. Explota cuando quien la pisa se aparta, se activa con cualquier persona y tiene un límite de 10 colocaciones.",
     "pt": "A mina pode ser colocada em solo plano, pisos, rochas e pedras grandes. Ela explode quando alguém tira o pé, é acionada por qualquer pessoa e tem limite de 10 unidades.",
     "ru": "Мину можно установить на ровной земле, полу, скалах и крупных камнях. Она взрывается, когда наступивший сходит с неё, срабатывает на любого человека; предел установки — 10 штук."
+  },
+  "halloween.candy.mystery": {
+    "zh": "神秘糖果",
+    "en": "Mystery Candy",
+    "ja": "ミステリーキャンディ",
+    "ko": "미스터리 캔디",
+    "fr": "Bonbon mystère",
+    "de": "Überraschungsbonbon",
+    "es": "Caramelo misterioso",
+    "pt": "Doce Misterioso",
+    "ru": "Загадочная конфета"
+  },
+  "pumpkin.lamp": {
+    "zh": "守夜人（南瓜灯）",
+    "en": "Night Watch (Pumpkin Lamp)",
+    "ja": "ナイト・ウォッチ（カボチャのランプ）",
+    "ko": "나이트 워치（호박 램프）",
+    "fr": "Ronde de nuit (Lampe citrouille)",
+    "de": "Nachtwache (Kürbislampe)",
+    "es": "Guardia nocturna (Lámpara de calabaza)",
+    "pt": "Patrulha da Noite (Luminária de abóbora)",
+    "ru": "Ночной дозор (Тыквенная лампа)"
+  },
+  "skin.cupboard.tool.events.halloween.trader.cannibal": {
+    "zh": "柜子里的骷髅皮肤券",
+    "en": "Skeleton in the Cupboard Skin Voucher",
+    "ja": "戸棚の骸骨スキン引換券",
+    "ko": "벽장 속의 해골스킨 교환권",
+    "fr": "Un cadavre dans le placard Bon de skin",
+    "de": "Skelett im Schrank Skin-Gutschein",
+    "es": "Esqueleto en el Armario Vale de aspecto",
+    "pt": "Esqueleto no Armário Cupom de visual",
+    "ru": "Скелет в Шкафу Купон на скин"
+  },
+  "skin.sticker.events.halloween.trader.nozombies": {
+    "zh": "无丧尸区皮肤券",
+    "en": "Zombie-Free Zone Skin Voucher",
+    "ja": "ゾンビ立入禁止スキン引換券",
+    "ko": "좀비 출입 금지스킨 교환권",
+    "fr": "Zone sans zombies Bon de skin",
+    "de": "Zombiefreie Zone Skin-Gutschein",
+    "es": "Zona Libre de Zombis Vale de aspecto",
+    "pt": "Zona Livre de Zumbis Cupom de visual",
+    "ru": "Зона Без Зомби Купон на скин"
+  },
+  "skin.sticker.events.halloween.trader.okhand": {
+    "zh": "阴间认证皮肤券",
+    "en": "Grave Approval Skin Voucher",
+    "ja": "あの世からOKスキン引換券",
+    "ko": "저승에서도 OK스킨 교환권",
+    "fr": "Approuvé d'outre-tombe Bon de skin",
+    "de": "Abgesegnet aus dem Jenseits Skin-Gutschein",
+    "es": "Aprobado desde el Más Allá Vale de aspecto",
+    "pt": "Aprovado do Além Cupom de visual",
+    "ru": "Одобрено с Того Света Купон на скин"
+  },
+  "skin.thompson.events.halloween.trader.cannibal": {
+    "zh": "银色丰收皮肤券",
+    "en": "Silver Harvest Skin Voucher",
+    "ja": "銀の収穫スキン引換券",
+    "ko": "은빛 수확스킨 교환권",
+    "fr": "Moisson d'argent Bon de skin",
+    "de": "Silberne Ernte Skin-Gutschein",
+    "es": "Cosecha de Plata Vale de aspecto",
+    "pt": "Colheita de Prata Cupom de visual",
+    "ru": "Серебряный Урожай Купон на скин"
+  },
+  "skin.wooden.door.events.halloween.trader.cannibal": {
+    "zh": "家里没人皮肤券",
+    "en": "Nobody's Home Skin Voucher",
+    "ja": "誰もいませんよスキン引換券",
+    "ko": "아무도 없어요스킨 교환권",
+    "fr": "Il n'y a personne Bon de skin",
+    "de": "Niemand zu Hause Skin-Gutschein",
+    "es": "No Hay Nadie en Casa Vale de aspecto",
+    "pt": "Não Tem Ninguém em Casa Cupom de visual",
+    "ru": "Никого Нет Дома Купон на скин"
+  },
+  "tombstone.decor": {
+    "zh": "梦境栖所（墓碑）",
+    "en": "Abode of Dreams (Tombstone)",
+    "ja": "夢の棲家（墓石）",
+    "ko": "꿈의 안식처（묘비）",
+    "fr": "Demeure des songes (Pierre tombale)",
+    "de": "Reich der Träume (Grabstein)",
+    "es": "Morada de los sueños (Lápida)",
+    "pt": "Morada dos Sonhos (Lápide)",
+    "ru": "Обитель сновидений (Надгробие)"
+  },
+  "werewolf.trophy": {
+    "zh": "充血卫士（狼人战利品）",
+    "en": "Plethora Guardian (Werewolf Trophy)",
+    "ja": "充血のガーディアン（狼男のトロフィー）",
+    "ko": "충혈의 수호자（늑대인간 전리품）",
+    "fr": "Gardien de la pléthore (Trophée de loup-garou)",
+    "de": "Vollblutwächter (Werwolf-Trophäe)",
+    "es": "Guardián de la plétora (Trofeo de hombre lobo)",
+    "pt": "Guardião da Sanguinidade (Troféu de lobisomem)",
+    "ru": "Страж полнокровия (Трофей оборотня)"
+  },
+  "zombie.brain": {
+    "zh": "僵尸脑",
+    "en": "Zombie Brain",
+    "ja": "ゾンビの脳",
+    "ko": "좀비 뇌",
+    "fr": "Cerveau de zombie",
+    "de": "Zombie-Gehirn",
+    "es": "Cerebro de zombi",
+    "pt": "Cérebro de Zumbi",
+    "ru": "Мозг зомби"
+  },
+  "zombie.claws": {
+    "zh": "僵尸爪",
+    "en": "Zombie Claws",
+    "ja": "ゾンビの爪",
+    "ko": "좀비 발톱",
+    "fr": "Griffes de zombie",
+    "de": "Zombie-Klauen",
+    "es": "Garras de zombi",
+    "pt": "Garras de zumbi",
+    "ru": "Когти зомби"
+  },
+  "zombie.claws.descr": {
+    "zh": "变异的利爪，可用于快速近距离攻击。",
+    "en": "Mutated claws for quick close-range slashes.",
+    "ja": "変異した爪。近距離で素早く切り裂ける。",
+    "ko": "변이된 발톱으로 근거리에서 빠르게 할퀼 수 있습니다.",
+    "fr": "Des griffes mutantes pour frapper rapidement au corps à corps.",
+    "de": "Mutierte Klauen für schnelle Hiebe im Nahkampf.",
+    "es": "Garras mutadas para atacar rápidamente a corta distancia.",
+    "pt": "Garras mutantes para golpes rápidos a curta distância.",
+    "ru": "Мутировавшие когти для быстрых ударов в ближнем бою."
+  },
+  "zombie.garland": {
+    "zh": "«无头公司»（僵尸花环）",
+    "en": "«Headless Company» (Zombie Garland)",
+    "ja": "「首なしカンパニー」（ゾンビのガーランド）",
+    "ko": "«목 없는 회사»（좀비 화환）",
+    "fr": "« La compagnie sans tête » (Guirlande de zombies)",
+    "de": "«Kopflose Truppe» (Zombie-Girlande)",
+    "es": "«Compañía sin cabeza» (Guirnalda de zombis)",
+    "pt": "«Companhia Sem Cabeça» (Guirlanda de zumbis)",
+    "ru": "«Безголовая компания» (Гирлянда из зомби)"
+  },
+  "skin.vaucher.descr": {
+    "zh": "对应节日外观的皮肤兑换券。",
+    "en": "A voucher for the corresponding Halloween skin.",
+    "ja": "対応するハロウィンスキンの引換券。",
+    "ko": "해당 할로윈 스킨의 교환권입니다.",
+    "fr": "Un bon pour le skin d’Halloween correspondant.",
+    "de": "Ein Gutschein für den entsprechenden Halloween-Skin.",
+    "es": "Un vale para el aspecto de Halloween correspondiente.",
+    "pt": "Um cupom para o visual de Halloween correspondente.",
+    "ru": "Купон на соответствующий хэллоуинский скин."
   }
 }

@@ -255,5 +255,6 @@
   "补足缺口需回收": "Zu recycelnde Anzahl",
   "概率产出，不保证数量": "Zufälliger Ertrag, keine Mengengarantie",
   "各方案单独补足当前缺口，不会自动扣减清单或库存。": "Jede Option deckt den Fehlbestand allein. Liste und Vorräte bleiben unverändert.",
-  "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Die Mengen sind Schätzungen anhand aktueller Daten. Gegenstandszustand oder Serverregeln können den Ertrag beeinflussen."
+  "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Die Mengen sind Schätzungen anhand aktueller Daten. Gegenstandszustand oder Serverregeln können den Ertrag beeinflussen.",
+  "NO IMAGE": "Kein Bild"
 }

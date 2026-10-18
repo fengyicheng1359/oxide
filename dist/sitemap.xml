@@ -222,6 +222,7 @@
   <url><loc>https://myoxide.fun/de/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/de/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/de/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/de/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/de/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/de/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/de/hatch.square.armored.html</loc></url>
@@ -284,6 +285,7 @@
   <url><loc>https://myoxide.fun/de/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/de/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/de/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/de/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/de/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/de/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/de/raw.mushroms.html</loc></url>
@@ -307,6 +309,11 @@
   <url><loc>https://myoxide.fun/de/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/de/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/de/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/de/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/de/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/de/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/de/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/de/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/de/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/de/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/de/snow.machine.html</loc></url>
@@ -327,6 +334,7 @@
   <url><loc>https://myoxide.fun/de/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/de/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/de/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/de/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/de/torch.html</loc></url>
   <url><loc>https://myoxide.fun/de/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/de/turret.heavy.html</loc></url>
@@ -344,6 +352,7 @@
   <url><loc>https://myoxide.fun/de/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/de/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/de/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/de/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/de/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/de/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/de/wires.html</loc></url>
@@ -357,6 +366,9 @@
   <url><loc>https://myoxide.fun/de/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/de/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/de/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/de/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/de/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/de/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/en/about.html</loc></url>
   <url><loc>https://myoxide.fun/en/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/en/ammo.handmade.shell.html</loc></url>
@@ -578,6 +590,7 @@
   <url><loc>https://myoxide.fun/en/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/en/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/en/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/en/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/en/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/en/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/en/hatch.square.armored.html</loc></url>
@@ -640,6 +653,7 @@
   <url><loc>https://myoxide.fun/en/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/en/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/en/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/en/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/en/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/en/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/en/raw.mushroms.html</loc></url>
@@ -663,6 +677,11 @@
   <url><loc>https://myoxide.fun/en/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/en/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/en/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/en/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/en/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/en/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/en/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/en/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/en/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/en/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/en/snow.machine.html</loc></url>
@@ -683,6 +702,7 @@
   <url><loc>https://myoxide.fun/en/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/en/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/en/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/en/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/en/torch.html</loc></url>
   <url><loc>https://myoxide.fun/en/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/en/turret.heavy.html</loc></url>
@@ -700,6 +720,7 @@
   <url><loc>https://myoxide.fun/en/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/en/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/en/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/en/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/en/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/en/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/en/wires.html</loc></url>
@@ -713,6 +734,9 @@
   <url><loc>https://myoxide.fun/en/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/en/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/en/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/en/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/en/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/en/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/es/about.html</loc></url>
   <url><loc>https://myoxide.fun/es/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/es/ammo.handmade.shell.html</loc></url>
@@ -934,6 +958,7 @@
   <url><loc>https://myoxide.fun/es/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/es/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/es/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/es/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/es/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/es/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/es/hatch.square.armored.html</loc></url>
@@ -996,6 +1021,7 @@
   <url><loc>https://myoxide.fun/es/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/es/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/es/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/es/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/es/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/es/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/es/raw.mushroms.html</loc></url>
@@ -1019,6 +1045,11 @@
   <url><loc>https://myoxide.fun/es/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/es/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/es/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/es/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/es/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/es/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/es/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/es/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/es/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/es/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/es/snow.machine.html</loc></url>
@@ -1039,6 +1070,7 @@
   <url><loc>https://myoxide.fun/es/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/es/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/es/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/es/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/es/torch.html</loc></url>
   <url><loc>https://myoxide.fun/es/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/es/turret.heavy.html</loc></url>
@@ -1056,6 +1088,7 @@
   <url><loc>https://myoxide.fun/es/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/es/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/es/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/es/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/es/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/es/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/es/wires.html</loc></url>
@@ -1069,6 +1102,9 @@
   <url><loc>https://myoxide.fun/es/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/es/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/es/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/es/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/es/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/es/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/fr/about.html</loc></url>
   <url><loc>https://myoxide.fun/fr/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/fr/ammo.handmade.shell.html</loc></url>
@@ -1290,6 +1326,7 @@
   <url><loc>https://myoxide.fun/fr/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/fr/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/fr/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/fr/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/fr/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/fr/hatch.square.armored.html</loc></url>
@@ -1352,6 +1389,7 @@
   <url><loc>https://myoxide.fun/fr/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/fr/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/fr/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/fr/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/fr/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/fr/raw.mushroms.html</loc></url>
@@ -1375,6 +1413,11 @@
   <url><loc>https://myoxide.fun/fr/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/fr/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/fr/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/fr/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/fr/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/fr/snow.machine.html</loc></url>
@@ -1395,6 +1438,7 @@
   <url><loc>https://myoxide.fun/fr/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/fr/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/fr/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/fr/torch.html</loc></url>
   <url><loc>https://myoxide.fun/fr/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/fr/turret.heavy.html</loc></url>
@@ -1412,6 +1456,7 @@
   <url><loc>https://myoxide.fun/fr/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/fr/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/fr/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/fr/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/fr/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/fr/wires.html</loc></url>
@@ -1425,6 +1470,9 @@
   <url><loc>https://myoxide.fun/fr/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/fr/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/fr/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/ja/about.html</loc></url>
   <url><loc>https://myoxide.fun/ja/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/ja/ammo.handmade.shell.html</loc></url>
@@ -1646,6 +1694,7 @@
   <url><loc>https://myoxide.fun/ja/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/ja/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/ja/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/ja/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/ja/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/ja/hatch.square.armored.html</loc></url>
@@ -1708,6 +1757,7 @@
   <url><loc>https://myoxide.fun/ja/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/ja/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/ja/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/ja/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/ja/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/ja/raw.mushroms.html</loc></url>
@@ -1731,6 +1781,11 @@
   <url><loc>https://myoxide.fun/ja/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/ja/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/ja/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/ja/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/ja/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/ja/snow.machine.html</loc></url>
@@ -1751,6 +1806,7 @@
   <url><loc>https://myoxide.fun/ja/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/ja/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/ja/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/ja/torch.html</loc></url>
   <url><loc>https://myoxide.fun/ja/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ja/turret.heavy.html</loc></url>
@@ -1768,6 +1824,7 @@
   <url><loc>https://myoxide.fun/ja/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/ja/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/ja/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/ja/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/ja/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ja/wires.html</loc></url>
@@ -1781,6 +1838,9 @@
   <url><loc>https://myoxide.fun/ja/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/ja/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/ja/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/ko/about.html</loc></url>
   <url><loc>https://myoxide.fun/ko/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/ko/ammo.handmade.shell.html</loc></url>
@@ -2002,6 +2062,7 @@
   <url><loc>https://myoxide.fun/ko/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/ko/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/ko/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/ko/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/ko/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/ko/hatch.square.armored.html</loc></url>
@@ -2064,6 +2125,7 @@
   <url><loc>https://myoxide.fun/ko/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/ko/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/ko/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/ko/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/ko/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/ko/raw.mushroms.html</loc></url>
@@ -2087,6 +2149,11 @@
   <url><loc>https://myoxide.fun/ko/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/ko/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/ko/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/ko/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/ko/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/ko/snow.machine.html</loc></url>
@@ -2107,6 +2174,7 @@
   <url><loc>https://myoxide.fun/ko/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/ko/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/ko/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/ko/torch.html</loc></url>
   <url><loc>https://myoxide.fun/ko/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ko/turret.heavy.html</loc></url>
@@ -2124,6 +2192,7 @@
   <url><loc>https://myoxide.fun/ko/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/ko/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/ko/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/ko/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/ko/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ko/wires.html</loc></url>
@@ -2137,6 +2206,9 @@
   <url><loc>https://myoxide.fun/ko/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/ko/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/ko/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/pt/about.html</loc></url>
   <url><loc>https://myoxide.fun/pt/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/pt/ammo.handmade.shell.html</loc></url>
@@ -2358,6 +2430,7 @@
   <url><loc>https://myoxide.fun/pt/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/pt/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/pt/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/pt/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/pt/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/pt/hatch.square.armored.html</loc></url>
@@ -2420,6 +2493,7 @@
   <url><loc>https://myoxide.fun/pt/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/pt/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/pt/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/pt/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/pt/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/pt/raw.mushroms.html</loc></url>
@@ -2443,6 +2517,11 @@
   <url><loc>https://myoxide.fun/pt/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/pt/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/pt/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/pt/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/pt/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/pt/snow.machine.html</loc></url>
@@ -2463,6 +2542,7 @@
   <url><loc>https://myoxide.fun/pt/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/pt/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/pt/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/pt/torch.html</loc></url>
   <url><loc>https://myoxide.fun/pt/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/pt/turret.heavy.html</loc></url>
@@ -2480,6 +2560,7 @@
   <url><loc>https://myoxide.fun/pt/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/pt/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/pt/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/pt/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/pt/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/pt/wires.html</loc></url>
@@ -2493,6 +2574,9 @@
   <url><loc>https://myoxide.fun/pt/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/pt/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/pt/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/ru/about.html</loc></url>
   <url><loc>https://myoxide.fun/ru/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/ru/ammo.handmade.shell.html</loc></url>
@@ -2714,6 +2798,7 @@
   <url><loc>https://myoxide.fun/ru/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/ru/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/ru/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/ru/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/ru/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/ru/hatch.square.armored.html</loc></url>
@@ -2776,6 +2861,7 @@
   <url><loc>https://myoxide.fun/ru/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/ru/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/ru/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/ru/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/ru/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/ru/raw.mushroms.html</loc></url>
@@ -2799,6 +2885,11 @@
   <url><loc>https://myoxide.fun/ru/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/ru/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/ru/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/ru/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/ru/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/ru/snow.machine.html</loc></url>
@@ -2819,6 +2910,7 @@
   <url><loc>https://myoxide.fun/ru/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/ru/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/ru/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/ru/torch.html</loc></url>
   <url><loc>https://myoxide.fun/ru/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ru/turret.heavy.html</loc></url>
@@ -2836,6 +2928,7 @@
   <url><loc>https://myoxide.fun/ru/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/ru/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/ru/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/ru/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/ru/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/ru/wires.html</loc></url>
@@ -2849,6 +2942,9 @@
   <url><loc>https://myoxide.fun/ru/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/ru/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/ru/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/zombie.garland.html</loc></url>
   <url><loc>https://myoxide.fun/zh/about.html</loc></url>
   <url><loc>https://myoxide.fun/zh/aloe.food.html</loc></url>
   <url><loc>https://myoxide.fun/zh/ammo.handmade.shell.html</loc></url>
@@ -3070,6 +3166,7 @@
   <url><loc>https://myoxide.fun/zh/gun.powder.html</loc></url>
   <url><loc>https://myoxide.fun/zh/guntrap.html</loc></url>
   <url><loc>https://myoxide.fun/zh/halloween.candy.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/halloween.candy.mystery.html</loc></url>
   <url><loc>https://myoxide.fun/zh/handmade.pistol.html</loc></url>
   <url><loc>https://myoxide.fun/zh/hard.drive.html</loc></url>
   <url><loc>https://myoxide.fun/zh/hatch.square.armored.html</loc></url>
@@ -3132,6 +3229,7 @@
   <url><loc>https://myoxide.fun/zh/portable.playstation.html</loc></url>
   <url><loc>https://myoxide.fun/zh/pumpkin.head.html</loc></url>
   <url><loc>https://myoxide.fun/zh/pumpkin.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/pumpkin.lamp.html</loc></url>
   <url><loc>https://myoxide.fun/zh/raw.fish.html</loc></url>
   <url><loc>https://myoxide.fun/zh/raw.meat.html</loc></url>
   <url><loc>https://myoxide.fun/zh/raw.mushroms.html</loc></url>
@@ -3155,6 +3253,11 @@
   <url><loc>https://myoxide.fun/zh/sewing.kit.html</loc></url>
   <url><loc>https://myoxide.fun/zh/sheet.metal.html</loc></url>
   <url><loc>https://myoxide.fun/zh/shotgun.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/skin.vaucher.skin.sticker.events.halloween.trader.nozombies.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/skin.vaucher.skin.sticker.events.halloween.trader.okhand.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/skin.vaucher.skin.thompson.events.halloween.trader.cannibal.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal.html</loc></url>
   <url><loc>https://myoxide.fun/zh/sleeping.bag.html</loc></url>
   <url><loc>https://myoxide.fun/zh/smg.body.html</loc></url>
   <url><loc>https://myoxide.fun/zh/snow.machine.html</loc></url>
@@ -3175,6 +3278,7 @@
   <url><loc>https://myoxide.fun/zh/tech.trash.html</loc></url>
   <url><loc>https://myoxide.fun/zh/thompson.html</loc></url>
   <url><loc>https://myoxide.fun/zh/threat.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/tombstone.decor.html</loc></url>
   <url><loc>https://myoxide.fun/zh/torch.html</loc></url>
   <url><loc>https://myoxide.fun/zh/tower.wood.html</loc></url>
   <url><loc>https://myoxide.fun/zh/turret.heavy.html</loc></url>
@@ -3192,6 +3296,7 @@
   <url><loc>https://myoxide.fun/zh/weapon.mod.muzzle.brake.html</loc></url>
   <url><loc>https://myoxide.fun/zh/weapon.mod.optical.scope.html</loc></url>
   <url><loc>https://myoxide.fun/zh/weapon.mod.simple.scope.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/werewolf.trophy.html</loc></url>
   <url><loc>https://myoxide.fun/zh/winchester.html</loc></url>
   <url><loc>https://myoxide.fun/zh/window.wood.html</loc></url>
   <url><loc>https://myoxide.fun/zh/wires.html</loc></url>
@@ -3205,4 +3310,7 @@
   <url><loc>https://myoxide.fun/zh/wooden.spear.html</loc></url>
   <url><loc>https://myoxide.fun/zh/wooden.spiked.club.html</loc></url>
   <url><loc>https://myoxide.fun/zh/workbench.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/zombie.brain.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/zombie.claws.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/zombie.garland.html</loc></url>
 </urlset>

@@ -73,6 +73,7 @@
     return node;
   }
   function itemImage(id) {
+    if (!items[id].image) return element('span', 'craft-icon missing-image', '—');
     const img = element('img', 'craft-icon');
     img.src = root + 'static/' + items[id].image;
     img.alt = '';

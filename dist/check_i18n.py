@@ -9,7 +9,8 @@ from build_i18n import ROOT, DATA, LANGUAGES, load_guides
 def main():
     expected = {p.relative_to(ROOT/'zh') for p in (ROOT/'zh').rglob('*.html')}
     config = json.loads((ROOT/'static/config.json').read_text())
-    item_pages = {Path(item['image']).stem + '.html' for items in config.values() for item in items if item.get('image')}
+    item_pages = {(item.get('item_id') or Path(item['image']).stem) + '.html'
+                  for items in config.values() for item in items if item.get('image') or item.get('item_id')}
     required = {Path(name) for name in item_pages | {'comment-policy.html', 'index.html', 'crafting.html', 'items.html', 'play.html', 'about.html', 'recycling.html', 'attack.html', 'defense.html', 'healing.html', 'threat.html'}}
     required |= {Path('gameplay') / (slug + '.html') for slug in load_guides('zh')}
     required.add(Path('gameplay/index.html'))

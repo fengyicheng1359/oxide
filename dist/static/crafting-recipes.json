@@ -1,6 +1,6 @@
 {
-  "source": "apk-1012/split_UnityDataAssetPack.apk; apk-analysis-1012/新增物品数据.json",
-  "version": "1.14.11949",
+  "source": "apk-1016/split_UnityDataAssetPack.apk; static/apk-11966-new-items.json",
+  "version": "1.15.11966",
   "recipes": {
     "ammo.handmade.shell": {
       "output": 4,
@@ -1003,6 +1003,34 @@
         "gun.powder": 30,
         "metal.fragment": 30,
         "metal.spring": 1
+      }
+    },
+    "pumpkin.lamp": {
+      "output": 1,
+      "materials": {
+        "log": 10,
+        "cloth": 10,
+        "pumpkin": 1
+      }
+    },
+    "tombstone.decor": {
+      "output": 1,
+      "materials": {
+        "stone": 50
+      }
+    },
+    "werewolf.trophy": {
+      "output": 1,
+      "materials": {
+        "log": 10,
+        "cloth": 10
+      }
+    },
+    "zombie.garland": {
+      "output": 1,
+      "materials": {
+        "cloth": 10,
+        "log": 2
       }
     }
   }

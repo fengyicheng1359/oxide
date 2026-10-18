@@ -255,5 +255,6 @@
   "补足缺口需回收": "Items to recycle",
   "概率产出，不保证数量": "Random yield; quantity not guaranteed",
   "各方案单独补足当前缺口，不会自动扣减清单或库存。": "Each option covers the shortage independently. Your list and inventory are not changed.",
-  "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Recycling quantities are estimates from current data. Item condition or server rules may affect actual yields."
+  "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Recycling quantities are estimates from current data. Item condition or server rules may affect actual yields.",
+  "NO IMAGE": "No image"
 }

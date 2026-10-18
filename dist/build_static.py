@@ -90,6 +90,8 @@ def esc(value: object) -> str:
 
 
 def slug_for(item: dict, index: int) -> str:
+    if item.get("item_id"):
+        return item["item_id"]
     image = item.get("image") or ""
     if image:
         return Path(image).stem
@@ -820,7 +822,7 @@ def main() -> None:
         category = display_category(source_category)
         categories.setdefault(category, [])
         for item in items:
-            if not item.get("image"):
+            if not item.get("image") and not item.get("item_id"):
                 continue
             slug = slug_for(item, index)
             original_slug = slug

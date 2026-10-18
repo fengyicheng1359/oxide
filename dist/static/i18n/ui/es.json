@@ -255,5 +255,6 @@
   "补足缺口需回收": "Objetos que reciclar",
   "概率产出，不保证数量": "Producción aleatoria, cantidad no garantizada",
   "各方案单独补足当前缺口，不会自动扣减清单或库存。": "Cada opción cubre por sí sola lo que falta. La lista y las existencias no cambian.",
-  "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Las cantidades se estiman con los datos actuales. El estado del objeto o las reglas del servidor pueden afectar al rendimiento."
+  "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Las cantidades se estiman con los datos actuales. El estado del objeto o las reglas del servidor pueden afectar al rendimiento.",
+  "NO IMAGE": "Sin imagen"
 }

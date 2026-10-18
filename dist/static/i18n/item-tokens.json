@@ -1150,6 +1150,66 @@
       "name": "copter",
       "description": "copter.descr",
       "craft_description": null
+    },
+    "halloween.candy.mystery": {
+      "name": "halloween.candy.mystery",
+      "description": "halloween.candy.mystery.descr",
+      "craft_description": null
+    },
+    "pumpkin.lamp": {
+      "name": "pumpkin.lamp",
+      "description": "pumpkin.lamp.descr",
+      "craft_description": null
+    },
+    "skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal": {
+      "name": "skin.cupboard.tool.events.halloween.trader.cannibal",
+      "description": "skin.vaucher.descr",
+      "craft_description": null
+    },
+    "skin.vaucher.skin.sticker.events.halloween.trader.nozombies": {
+      "name": "skin.sticker.events.halloween.trader.nozombies",
+      "description": "skin.vaucher.descr",
+      "craft_description": null
+    },
+    "skin.vaucher.skin.sticker.events.halloween.trader.okhand": {
+      "name": "skin.sticker.events.halloween.trader.okhand",
+      "description": "skin.vaucher.descr",
+      "craft_description": null
+    },
+    "skin.vaucher.skin.thompson.events.halloween.trader.cannibal": {
+      "name": "skin.thompson.events.halloween.trader.cannibal",
+      "description": "skin.vaucher.descr",
+      "craft_description": null
+    },
+    "skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal": {
+      "name": "skin.wooden.door.events.halloween.trader.cannibal",
+      "description": "skin.vaucher.descr",
+      "craft_description": null
+    },
+    "tombstone.decor": {
+      "name": "tombstone.decor",
+      "description": "tombstone.decor.descr",
+      "craft_description": null
+    },
+    "werewolf.trophy": {
+      "name": "werewolf.trophy",
+      "description": "werewolf.trophy.descr",
+      "craft_description": null
+    },
+    "zombie.brain": {
+      "name": "zombie.brain",
+      "description": "zombie.brain.descr",
+      "craft_description": null
+    },
+    "zombie.claws": {
+      "name": "zombie.claws",
+      "description": "zombie.claws.descr",
+      "craft_description": null
+    },
+    "zombie.garland": {
+      "name": "zombie.garland",
+      "description": "zombie.garland.descr",
+      "craft_description": null
     }
   },
   "legacy_names": {
@@ -1391,6 +1451,18 @@
     "雪人头": "snowman.head",
     "雪橇": "winter.sleigh.frosty.shop",
     "圣诞点唱机": "holiday.jukebox",
-    "猫头鹰雕像": "owl.statue"
+    "猫头鹰雕像": "owl.statue",
+    "神秘糖果": "halloween.candy.mystery",
+    "守夜人（南瓜灯）": "pumpkin.lamp",
+    "柜子里的骷髅皮肤券": "skin.cupboard.tool.events.halloween.trader.cannibal",
+    "无丧尸区皮肤券": "skin.sticker.events.halloween.trader.nozombies",
+    "阴间认证皮肤券": "skin.sticker.events.halloween.trader.okhand",
+    "银色丰收皮肤券": "skin.thompson.events.halloween.trader.cannibal",
+    "家里没人皮肤券": "skin.wooden.door.events.halloween.trader.cannibal",
+    "梦境栖所（墓碑）": "tombstone.decor",
+    "充血卫士（狼人战利品）": "werewolf.trophy",
+    "僵尸脑": "zombie.brain",
+    "僵尸爪": "zombie.claws",
+    "«无头公司»（僵尸花环）": "zombie.garland"
   }
 }

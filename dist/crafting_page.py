@@ -3,6 +3,12 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+
+
+def item_id(row):
+    return row.get('item_id') or (Path(row['image']).stem if row.get('image') else None)
+
+
 LABELS = ['制作计算器', '添加', '移除', '制作数量', '制作次数', '实际产出', '每次产出', '材料',
           '需要', '已有', '还缺', '清单为空', '从左侧选择要制作的物品。', '没有找到匹配的物品。',
           '已保存到此浏览器', '无法保存，刷新后清单可能丢失', '已复制', '复制失败，请手动复制下方清单',
@@ -18,15 +24,15 @@ def validate_recipes(config, recipes):
     ids_by_name = {}
     for rows in config.values():
         for row in rows:
-            if row.get('image'):
+            if item_id(row):
                 key = (row['name_zh'], row['name_en'])
-                ids_by_name.setdefault(key, []).append(Path(row['image']).stem)
+                ids_by_name.setdefault(key, []).append(item_id(row))
     expected = {}
     for rows in config.values():
         for row in rows:
-            if not row.get('image') or not row.get('crafting_materials'):
+            if not item_id(row) or not row.get('crafting_materials'):
                 continue
-            slug = Path(row['image']).stem
+            slug = item_id(row)
             materials = {}
             for material in row['crafting_materials']:
                 matches = ids_by_name.get((material['name_zh'], material['name_en']), [])
@@ -53,21 +59,22 @@ def localized_data(translator, mapping):
     items = {}
     for category, rows in config.items():
         for row in rows:
-            if not row.get('image'):
+            if not item_id(row):
                 continue
-            slug = Path(row['image']).stem
+            slug = item_id(row)
             token = mapping['items'][slug]['name']
             items[slug] = {'name': game_text(translator.game[token]), 'english': game_text(english[token]),
-                           'image': thumbnail_image(row['image']), 'category': translator.text(category_name(display_category(category)))}
+                           'image': thumbnail_image(row['image']) if row.get('image') else None,
+                           'category': translator.text(category_name(display_category(category)))}
     for slug, recipe in recipes.items():
         assert slug in items and set(recipe['materials']) <= items.keys(), slug
         items[slug]['recipe'] = recipe
     recycling_sources = {}
     for category, rows in config.items():
         for row in rows:
-            if not row.get('image'):
+            if not item_id(row):
                 continue
-            source = Path(row['image']).stem
+            source = item_id(row)
             for output in row.get('recycling_outputs', []):
                 material = output['item_id']
                 if material not in items or output['amount'] <= 0 or output.get('skip_chance') == 1:

@@ -1,0 +1,243 @@
+{
+  "old_version": "1.14.11949",
+  "new_version": "1.15.11966",
+  "old_item_count": 265,
+  "new_item_count": 277,
+  "added_item_ids": [
+    "halloween.candy.mystery",
+    "pumpkin.lamp",
+    "skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal",
+    "skin.vaucher.skin.sticker.events.halloween.trader.nozombies",
+    "skin.vaucher.skin.sticker.events.halloween.trader.okhand",
+    "skin.vaucher.skin.thompson.events.halloween.trader.cannibal",
+    "skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal",
+    "tombstone.decor",
+    "werewolf.trophy",
+    "zombie.brain",
+    "zombie.claws",
+    "zombie.garland"
+  ],
+  "removed_item_ids": [],
+  "items": [
+    {
+      "item_id": "halloween.candy.mystery",
+      "numeric_id": 929,
+      "category": "Consumable",
+      "display_token": "halloween.candy.mystery",
+      "description_token": "halloween.candy.mystery.descr",
+      "image_guid": "2d5132326868942c3830596d08f38412",
+      "image_in_apk": true,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "pumpkin.lamp",
+      "numeric_id": 932,
+      "category": "Other",
+      "display_token": "pumpkin.lamp",
+      "description_token": "pumpkin.lamp.descr",
+      "image_guid": "5f60878225194304fbe2c42ec6fa3973",
+      "image_in_apk": true,
+      "recipe_path_id": -4354833530138388873,
+      "craft_count": 1,
+      "craft_inputs": [
+        {
+          "item_id": "log",
+          "amount": 10
+        },
+        {
+          "item_id": "cloth",
+          "amount": 10
+        },
+        {
+          "item_id": "pumpkin",
+          "amount": 1
+        }
+      ],
+      "recycle_outputs": [
+        {
+          "item_id": "log",
+          "amount": 5,
+          "skip_chance": 0.0
+        },
+        {
+          "item_id": "cloth",
+          "amount": 5,
+          "skip_chance": 0.0
+        }
+      ]
+    },
+    {
+      "item_id": "skin.vaucher.skin.cupboard.tool.events.halloween.trader.cannibal",
+      "numeric_id": 934,
+      "category": "Other",
+      "display_token": "skin.cupboard.tool.events.halloween.trader.cannibal",
+      "description_token": "skin.vaucher.descr",
+      "image_guid": "4305ee8790783274297d3a43d03d091c",
+      "image_in_apk": false,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "skin.vaucher.skin.sticker.events.halloween.trader.nozombies",
+      "numeric_id": 937,
+      "category": "Other",
+      "display_token": "skin.sticker.events.halloween.trader.nozombies",
+      "description_token": "skin.vaucher.descr",
+      "image_guid": "d5af3339b7e85c14a87ea49ac5b6991c",
+      "image_in_apk": false,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "skin.vaucher.skin.sticker.events.halloween.trader.okhand",
+      "numeric_id": 938,
+      "category": "Other",
+      "display_token": "skin.sticker.events.halloween.trader.okhand",
+      "description_token": "skin.vaucher.descr",
+      "image_guid": "1628b91f71fe130498cc225bcda81533",
+      "image_in_apk": false,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "skin.vaucher.skin.thompson.events.halloween.trader.cannibal",
+      "numeric_id": 935,
+      "category": "Other",
+      "display_token": "skin.thompson.events.halloween.trader.cannibal",
+      "description_token": "skin.vaucher.descr",
+      "image_guid": "b53ee3dddcc2eec4d8cbb44725f58724",
+      "image_in_apk": false,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "skin.vaucher.skin.wooden.door.events.halloween.trader.cannibal",
+      "numeric_id": 936,
+      "category": "Other",
+      "display_token": "skin.wooden.door.events.halloween.trader.cannibal",
+      "description_token": "skin.vaucher.descr",
+      "image_guid": "cb81b5da715a38d4e8650e87dea28dee",
+      "image_in_apk": false,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "tombstone.decor",
+      "numeric_id": 933,
+      "category": "Other",
+      "display_token": "tombstone.decor",
+      "description_token": "tombstone.decor.descr",
+      "image_guid": "871255519c557544d8cf8045f8a2c0a9",
+      "image_in_apk": true,
+      "recipe_path_id": -621119196495439546,
+      "craft_count": 1,
+      "craft_inputs": [
+        {
+          "item_id": "stone",
+          "amount": 50
+        }
+      ],
+      "recycle_outputs": [
+        {
+          "item_id": "stone",
+          "amount": 25,
+          "skip_chance": 0.0
+        }
+      ]
+    },
+    {
+      "item_id": "werewolf.trophy",
+      "numeric_id": 940,
+      "category": "Other",
+      "display_token": "werewolf.trophy",
+      "description_token": "werewolf.trophy.descr",
+      "image_guid": "11fafe71fec3a134da6bf9a943ba9d63",
+      "image_in_apk": true,
+      "recipe_path_id": -8686657426715408353,
+      "craft_count": 1,
+      "craft_inputs": [
+        {
+          "item_id": "log",
+          "amount": 10
+        },
+        {
+          "item_id": "cloth",
+          "amount": 10
+        }
+      ],
+      "recycle_outputs": [
+        {
+          "item_id": "log",
+          "amount": 5,
+          "skip_chance": 0.0
+        },
+        {
+          "item_id": "cloth",
+          "amount": 5,
+          "skip_chance": 0.0
+        }
+      ]
+    },
+    {
+      "item_id": "zombie.brain",
+      "numeric_id": 930,
+      "category": "Other",
+      "display_token": "zombie.brain",
+      "description_token": "zombie.brain.descr",
+      "image_guid": "b7fc5ca7766564f6aaa1a86aa9ff8b83",
+      "image_in_apk": true,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "zombie.claws",
+      "numeric_id": 931,
+      "category": "Weapon",
+      "display_token": "zombie.claws",
+      "description_token": "zombie.claws.descr",
+      "image_guid": "607c3c0a4620d694286719e0bced9ed0",
+      "image_in_apk": false,
+      "recipe_path_id": null,
+      "craft_count": null,
+      "craft_inputs": [],
+      "recycle_outputs": []
+    },
+    {
+      "item_id": "zombie.garland",
+      "numeric_id": 939,
+      "category": "Other",
+      "display_token": "zombie.garland",
+      "description_token": "zombie.garland.descr",
+      "image_guid": "ee5fa7a38d98cde44bd50403a641ec65",
+      "image_in_apk": false,
+      "recipe_path_id": -431568492730578454,
+      "craft_count": 1,
+      "craft_inputs": [
+        {
+          "item_id": "cloth",
+          "amount": 10
+        },
+        {
+          "item_id": "log",
+          "amount": 2
+        }
+      ],
+      "recycle_outputs": []
+    }
+  ]
+}
