@@ -165,6 +165,10 @@ body.promo-page > main.promo-shell,
 .item-description{margin-top:24px;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
 .item-description h2{margin:0 0 12px;font-size:20px}
 .item-description p{white-space:pre-line;line-height:1.8;margin:0;overflow-wrap:anywhere}
+.related-pages{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+.related-pages h2{width:100%;margin:0 0 2px;font-size:16px}
+.related-pages a{display:inline-flex;align-items:center;padding:8px 12px;color:var(--green);border:1px solid var(--line);border-radius:6px;font-size:13px;line-height:1.5;text-decoration:none;overflow-wrap:anywhere}
+.related-pages a:hover,.related-pages a:focus-visible{border-color:var(--green);background:var(--light)}
 .gameplay-body img{display:block;max-width:100%;height:auto;margin:18px auto}
 .gameplay-body table{display:block;max-width:100%;overflow-x:auto}
 .gameplay-body a{color:var(--green);text-decoration:underline;overflow-wrap:anywhere}

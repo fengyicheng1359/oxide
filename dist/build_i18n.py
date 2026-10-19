@@ -17,6 +17,19 @@ LANGUAGES = {'zh': ('中文', 'zh-CN'), 'en': ('English', 'en'), 'ja': ('日本�
              'es': ('Español', 'es'), 'pt': ('Português', 'pt'), 'ru': ('Русский', 'ru')}
 HAN = re.compile(r'[\u3400-\u9fff]')
 
+# 只连接明确相关的物品和攻略，详情页保持原有的简短说明。
+RELATED_PAGES = {
+    'explosives.html': ['rocket.html', 'explosive.charge.html'],
+    'tactical.air.marker.html': ['weapon.flare.signal.html', 'gameplay/signal-airdrop-249.html'],
+    'weapon.flare.signal.html': ['tactical.air.marker.html', 'gameplay/signal-airdrop-249.html'],
+    'gameplay/signal-airdrop-249.html': ['weapon.flare.signal.html', 'tactical.air.marker.html'],
+    'keycard_planecaptain.html': ['gameplay/plane-crash-keycard.html'],
+    'gameplay/plane-crash-keycard.html': ['keycard_planecaptain.html'],
+    'factory.product.epic.html': ['factory.product.rare.html', 'factory.product.common.html'],
+    'factory.product.rare.html': ['factory.product.epic.html', 'factory.product.common.html'],
+    'factory.product.common.html': ['factory.product.epic.html', 'factory.product.rare.html'],
+}
+
 
 def load(path: Path):
     return json.loads(path.read_text(encoding='utf-8'))
@@ -121,6 +134,35 @@ def local_link(value: str, page: str, localized: bool, lang: str) -> str:
     return urlunsplit(('', '', path, parts.query, parts.fragment))
 
 
+def add_related_pages(soup: BeautifulSoup, page: str, lang: str, localized: bool,
+                      mapping: dict, guides: dict, translator: Translator) -> None:
+    """在内容末尾连接同语种页面；物品名称用游戏词典，攻略名称用文章词典。"""
+    targets = RELATED_PAGES.get(page)
+    if not targets:
+        return
+    container = soup.select_one('.gameplay-article' if page.startswith('gameplay/') else '.item-content')
+    for kind, label in [('item', '物品'), ('guide', '玩法攻略')]:
+        related = [target for target in targets if target.startswith('gameplay/') == (kind == 'guide')]
+        if not related:
+            continue
+        section = soup.new_tag('nav', attrs={'class': 'related-pages'})
+        heading = soup.new_tag('h2'); heading.string = translator.text(label); section.append(heading)
+        for target in related:
+            relative = posixpath.relpath(target, posixpath.dirname(page) or '.')
+            href = local_link('./' + relative if not relative.startswith('../') else relative, page, localized, lang)
+            anchor = soup.new_tag('a', href=href)
+            if kind == 'guide':
+                anchor.string = guides[Path(target).stem]['title']
+            else:
+                item = mapping['items'][Path(target).stem]
+                anchor.string = game_text(translator.game[item['name']])
+            section.append(anchor)
+        if page.startswith('gameplay/'):
+            container.select_one('.gameplay-back').insert_before(section)
+        else:
+            container.append(section)
+
+
 def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
            translator: Translator, site_url: str, localized: bool = True) -> str:
     soup = BeautifulSoup(source, 'html.parser')
@@ -214,6 +256,7 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
         if subtitle:
             subtitle.string = en_name
             if lang == 'en': subtitle.decompose()
+    add_related_pages(soup, page, lang, localized, mapping, guides, translator)
     if page == 'crafting.html':
         from crafting_page import localized_data
         soup.select_one('#craft-data').string = json.dumps(localized_data(translator, mapping), ensure_ascii=False).replace('</', '<\\/')
