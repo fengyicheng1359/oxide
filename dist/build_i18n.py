@@ -29,6 +29,11 @@ RELATED_PAGES = {
     'factory.product.rare.html': ['factory.product.epic.html', 'factory.product.common.html'],
     'factory.product.common.html': ['factory.product.epic.html', 'factory.product.rare.html'],
 }
+CATALOG_SHORTCUTS = {
+    'items.html': ['explosives', 'tactical.air.marker', 'weapon.flare.signal',
+                   'factory.product.epic', 'keycard_planecaptain'],
+    'gameplay/index.html': ['plane-crash-keycard', 'signal-airdrop-249'],
+}
 
 
 def load(path: Path):
@@ -163,6 +168,28 @@ def add_related_pages(soup: BeautifulSoup, page: str, lang: str, localized: bool
             container.append(section)
 
 
+def add_catalog_shortcuts(soup: BeautifulSoup, page: str, lang: str, localized: bool,
+                          mapping: dict, guides: dict, translator: Translator) -> None:
+    """目录页直接展示已出现搜索点击的主题，避免用户在长列表中反复查找。"""
+    slugs = CATALOG_SHORTCUTS.get(page)
+    if not slugs:
+        return
+    is_guide = page.startswith('gameplay/')
+    nav = soup.new_tag('nav', attrs={'class': 'catalog-shortcuts',
+                                    'aria-label': translator.text('玩法攻略' if is_guide else '物品')})
+    for slug in slugs:
+        anchor = soup.new_tag('a', href=local_link('./' + slug + '.html', page, localized, lang))
+        if is_guide:
+            anchor.string = guides[slug]['title']
+        else:
+            anchor.string = game_text(translator.game[mapping['items'][slug]['name']])
+        nav.append(anchor)
+    if is_guide:
+        soup.select_one('.gameplay-intro').insert_after(nav)
+    else:
+        soup.select_one('.catalog-content').insert(0, nav)
+
+
 def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
            translator: Translator, site_url: str, localized: bool = True) -> str:
     soup = BeautifulSoup(source, 'html.parser')
@@ -257,6 +284,7 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
             subtitle.string = en_name
             if lang == 'en': subtitle.decompose()
     add_related_pages(soup, page, lang, localized, mapping, guides, translator)
+    add_catalog_shortcuts(soup, page, lang, localized, mapping, guides, translator)
     if page == 'crafting.html':
         from crafting_page import localized_data
         soup.select_one('#craft-data').string = json.dumps(localized_data(translator, mapping), ensure_ascii=False).replace('</', '<\\/')

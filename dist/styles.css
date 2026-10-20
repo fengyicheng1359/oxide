@@ -169,6 +169,9 @@ body.promo-page > main.promo-shell,
 .related-pages h2{width:100%;margin:0 0 2px;font-size:16px}
 .related-pages a{display:inline-flex;align-items:center;padding:8px 12px;color:var(--green);border:1px solid var(--line);border-radius:6px;font-size:13px;line-height:1.5;text-decoration:none;overflow-wrap:anywhere}
 .related-pages a:hover,.related-pages a:focus-visible{border-color:var(--green);background:var(--light)}
+.catalog-shortcuts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+.catalog-shortcuts a{padding:9px 12px;color:var(--green);background:var(--panel);border:1px solid var(--line);border-radius:6px;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+.catalog-shortcuts a:hover,.catalog-shortcuts a:focus-visible{border-color:var(--green);background:var(--light)}
 .gameplay-body img{display:block;max-width:100%;height:auto;margin:18px auto}
 .gameplay-body table{display:block;max-width:100%;overflow-x:auto}
 .gameplay-body a{color:var(--green);text-decoration:underline;overflow-wrap:anywhere}
