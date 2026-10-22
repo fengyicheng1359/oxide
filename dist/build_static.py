@@ -566,28 +566,10 @@ def items_page(categories: dict[str, list[tuple[dict, str]]]) -> str:
 
 
 def add_items_search(page: str) -> str:
-    """给物品页增加纯前端即时搜索，不影响其他静态页面。"""
-    search_box = '''<label class="search" for="item-search"><span aria-hidden="true">⌕</span><input id="item-search" type="search" placeholder="搜索物品..." autocomplete="off"></label>'''
-    script = '''<script>
-      (() => {
-        const input = document.querySelector('#item-search');
-        const cards = [...document.querySelectorAll('.catalog-card')];
-        const sections = [...document.querySelectorAll('.category-section')];
-        if (!input || !cards.length) return;
-        const normalize = value => value.trim().toLocaleLowerCase();
-        const update = () => {
-          const keyword = normalize(input.value);
-          cards.forEach(card => {
-            card.hidden = Boolean(keyword) && !normalize(card.textContent).includes(keyword);
-          });
-          sections.forEach(section => {
-            section.hidden = !section.querySelector('.catalog-card:not([hidden])');
-          });
-        };
-        input.addEventListener('input', update);
-      })();
-    </script>'''
-    return page.replace('<div class="search">⌕ <span>搜索物品...</span></div>', search_box).replace('</body>', script + '</body>')
+    """搜索行为由 discovery.js 统一处理；无脚本时仍显示完整物品目录。"""
+    search_box = '''<label class="search" for="item-search"><span aria-hidden="true">⌕</span><input id="item-search" type="search" placeholder="搜索名称、英文名或别名" autocomplete="off"></label>'''
+    empty = '<div id="search-empty" class="search-empty" role="status" hidden><p>没有找到匹配的物品。</p><button id="search-reset" type="button">清空搜索</button></div>'
+    return page.replace('<div class="search">⌕ <span>搜索物品...</span></div>', search_box).replace('<section id="items" class="catalog-content">', '<section id="items" class="catalog-content">' + empty)
 
 
 def add_pc_download(page: str) -> str:

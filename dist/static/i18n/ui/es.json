@@ -256,5 +256,17 @@
   "概率产出，不保证数量": "Producción aleatoria, cantidad no garantizada",
   "各方案单独补足当前缺口，不会自动扣减清单或库存。": "Cada opción cubre por sí sola lo que falta. La lista y las existencias no cambian.",
   "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Las cantidades se estiman con los datos actuales. El estado del objeto o las reglas del servidor pueden afectar al rendimiento.",
-  "NO IMAGE": "Sin imagen"
+  "NO IMAGE": "Sin imagen",
+  "搜索名称、英文名或别名": "Buscar nombre o alias",
+  "搜索": "Buscar",
+  "物品与生存工具": "Objetos y herramientas de supervivencia",
+  "常用工具": "Herramientas útiles",
+  "版本新增物品": "Novedades de esta versión",
+  "物品工具": "Herramientas del objeto",
+  "加入制作清单": "Añadir al plan de fabricación",
+  "用于制作": "Se usa para fabricar",
+  "清空搜索": "Borrar búsqueda",
+  "配方数据版本": "Versión de los datos de recetas",
+  "未包含蓝图解锁、工作台条件与服务器自定义改动。": "No se incluyen los desbloqueos de planos, requisitos del banco de trabajo ni cambios del servidor.",
+  "文章目录": "En esta página"
 }

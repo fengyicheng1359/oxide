@@ -117,8 +117,9 @@
   function renderCatalog() {
     const query = byId('craft-search').value.trim().toLocaleLowerCase();
     const category = byId('craft-category').value;
+    const exact = craftable.filter(id => items[id].aliases.some(alias => alias.toLocaleLowerCase() === query));
     const matches = craftable.filter(id => (!category || items[id].category === category) &&
-      (items[id].name + ' ' + items[id].english + ' ' + id).toLocaleLowerCase().includes(query));
+      (exact.length ? exact.includes(id) : (items[id].name + ' ' + items[id].english + ' ' + id).toLocaleLowerCase().includes(query)));
     byId('craft-items').replaceChildren();
     byId('craft-catalog-status').textContent = matches.length ? `${number(matches.length)} / ${number(craftable.length)}` : t('没有找到匹配的物品。');
     for (const id of matches) {
@@ -272,6 +273,14 @@
     }
   });
   // 不在首次打开时覆写存储；语言页面共享同一份物品 ID 清单。
+  // 从详情页带入的目标只在缺失时加入，保留原数量和库存；消费参数后刷新不会重复添加。
+  const incoming = new URL(location.href);
+  const itemId = incoming.searchParams.get('item');
+  if (itemId && Object.hasOwn(items, itemId) && items[itemId].recipe) {
+    if (!Object.hasOwn(state.targets, itemId)) { state.targets[itemId] = 1; save(); }
+    incoming.searchParams.delete('item');
+    history.replaceState(null, '', incoming);
+  }
   byId('craft-save').textContent = t(storageAvailable ? '已保存到此浏览器' : '无法保存，刷新后清单可能丢失');
   renderCatalog(); renderPlan();
 })();

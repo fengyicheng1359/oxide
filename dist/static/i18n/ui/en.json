@@ -256,5 +256,17 @@
   "概率产出，不保证数量": "Random yield; quantity not guaranteed",
   "各方案单独补足当前缺口，不会自动扣减清单或库存。": "Each option covers the shortage independently. Your list and inventory are not changed.",
   "回收数量按当前数据估算，实际产出可能受物品状态或服务器规则影响。": "Recycling quantities are estimates from current data. Item condition or server rules may affect actual yields.",
-  "NO IMAGE": "No image"
+  "NO IMAGE": "No image",
+  "搜索名称、英文名或别名": "Search names or aliases",
+  "搜索": "Search",
+  "物品与生存工具": "Items & survival tools",
+  "常用工具": "Useful tools",
+  "版本新增物品": "Added in this version",
+  "物品工具": "Item tools",
+  "加入制作清单": "Add to crafting plan",
+  "用于制作": "Used to craft",
+  "清空搜索": "Clear search",
+  "配方数据版本": "Recipe data version",
+  "未包含蓝图解锁、工作台条件与服务器自定义改动。": "Blueprint unlocks, workbench requirements and custom server changes are not included.",
+  "文章目录": "On this page"
 }

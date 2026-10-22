@@ -1,0 +1,10 @@
+{
+  "assault.rifle": ["AK", "AK47", "AK-47", "AK 47"],
+  "rocket.launcher": ["RPG", "火箭筒"],
+  "hq.metal": ["HQM", "高品质金属"],
+  "hq.metal.ore": ["高品质金属矿石"],
+  "metal.fragment": ["铁碎片"],
+  "cupboard.tool": ["工具柜", "修理柜", "领地柜"],
+  "medkit": ["急救包"],
+  "ammo.handmade.shell": ["土制弹药", "手工弹药"]
+}

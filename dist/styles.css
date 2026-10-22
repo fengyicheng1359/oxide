@@ -219,6 +219,53 @@ body.promo-page > main.promo-shell,
   body .gameplay-intro h1,body .ranking-intro h1,body .recycling-intro h1{font-size:36px}
 }
 
+/* 查询入口沿用现有军绿主题；常用工具先于宣传视频展示。 */
+.site-header .header-inner:has(.site-search){grid-template-columns:auto minmax(0,1fr) minmax(180px,220px) auto;gap:16px}
+.site-search,.wiki-search{display:flex;min-width:0;border:1px solid var(--line);border-radius:6px;background:var(--panel);overflow:hidden}
+.site-search label,.wiki-search label{flex:1;min-width:0}
+.site-search input,.wiki-search input{width:100%;border:0;padding:12px;background:transparent;color:var(--ink);font:inherit;min-height:44px}
+.site-search button,.wiki-search button,.search-empty button{border:0;padding:10px 16px;background:var(--green);color:#15220e;font:inherit;cursor:pointer;min-height:44px}
+.site-search:focus-within,.wiki-search:focus-within{outline:2px solid var(--green);outline-offset:2px}
+.wiki-tools{padding:26px 0 28px;border-bottom:1px solid var(--line)}
+.wiki-tools h2{font:600 clamp(28px,4vw,44px)/1.15 var(--display);margin:0 0 20px;letter-spacing:-.02em}
+.wiki-search{max-width:740px;font-size:16px}
+.wiki-tool-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.wiki-tool-links a,.item-actions a{display:flex;align-items:center;min-height:44px;padding:11px 16px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--green);font-size:14px}
+.wiki-tool-links a:hover,.item-actions a:hover{border-color:var(--green);background:var(--light)}
+.wiki-release{padding:22px 0 28px}
+.wiki-release h2{display:flex;align-items:center;flex-wrap:wrap;gap:12px;font-size:18px;margin:0 0 14px}
+.data-version,.craft-data-version{color:var(--muted);font:12px var(--mono)}
+.release-items{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.release-items a{display:flex;align-items:center;padding:12px;min-height:44px;border:1px solid var(--line);border-radius:5px;background:var(--panel);font-size:13px;overflow-wrap:anywhere}
+.release-items a:hover{color:var(--green);border-color:var(--green)}
+.item-actions{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 20px}
+.used-in,.article-toc{margin-top:24px;padding:18px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.used-in summary{cursor:pointer;color:var(--green);min-height:28px}
+.used-in .related-pages{margin:12px 0 0;padding:0;border:0}
+.article-toc{margin-bottom:26px}.article-toc h2{font-size:16px;margin:0 0 10px}.article-toc a{display:block;color:var(--green);padding:7px 0;line-height:1.6;overflow-wrap:anywhere}
+.gameplay-body h2[id]{scroll-margin-top:24px}
+.category-menu{min-width:0}.category-menu > summary{display:none}
+.search-empty{padding:24px;border:1px solid var(--line);border-radius:6px;color:var(--muted)}
+.search-empty[hidden]{display:none}.search-empty p{margin-top:0}
+.site-search button:focus-visible,.wiki-search button:focus-visible,.wiki-tool-links a:focus-visible,.item-actions a:focus-visible,.release-items a:focus-visible,.category-menu > summary:focus-visible,.search-empty button:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+@media(max-width:1100px){
+  .site-header .header-inner:has(.site-search){grid-template-columns:minmax(0,1fr) auto}
+  .site-header .header-inner:has(.site-search) > nav{grid-column:1/-1;grid-row:3}
+  .site-header .site-search{grid-column:1/-1;grid-row:2}
+  .site-header .language-picker{grid-column:2;grid-row:1}
+}
+@media(max-width:760px){
+  .wiki-tools{padding:8px 0 22px}.wiki-tools h2{font-size:30px}
+  .wiki-tool-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .wiki-tool-links a{justify-content:space-between;overflow-wrap:anywhere}
+  .release-items{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .category-menu{border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+  .category-menu > summary{display:list-item;padding:13px 16px;cursor:pointer;color:var(--green);font-size:14px}
+  .category-menu .sidebar{padding:0 12px 12px}.category-menu .side-title{display:none}
+  .content-layout,.catalog-layout{gap:18px}
+  .item-actions{gap:8px}.item-actions a{padding:10px 12px;overflow-wrap:anywhere;max-width:100%}
+}
+
 /* 消耗品把用途放在图片右侧，长译文完整换行，不截断恢复数值。 */
 #category-Medical .item-grid{grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
 #category-Medical .catalog-card{align-items:flex-start;padding:16px;gap:16px}

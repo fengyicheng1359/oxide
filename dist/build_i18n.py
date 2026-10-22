@@ -288,6 +288,11 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     if page == 'crafting.html':
         from crafting_page import localized_data
         soup.select_one('#craft-data').string = json.dumps(localized_data(translator, mapping), ensure_ascii=False).replace('</', '<\\/')
+    from site_discovery import add_discovery
+    asset_root = relative_root(page, localized)
+    # 资源在语种目录外；站内页面则必须留在当前语种，不能复用资源前缀。
+    locale_root = ('../' * (len(Path(page).parts) - 1) or './') if localized else asset_root + lang + '/'
+    add_discovery(soup, page, mapping, translator, locale_root, asset_root)
     add_language_picker(soup, page, lang, localized, tr)
     soup.html['lang'] = LANGUAGES[lang][1]
     soup.html['data-language'] = lang

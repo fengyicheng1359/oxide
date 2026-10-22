@@ -1,5 +1,5 @@
 {
-  "reason": "本站补译：旧版缺失及 11966 新物品的名称、说明；节日主题展示名补充物品类型，外观券补充用途。其他翻译保留游戏语言包来源。",
+  "reason": "本站补译：旧版缺失及 11966 新物品的名称、说明；节日主题展示名补充物品类型，外观券补充用途。其他翻译保留游戏语言包来源。；bp.exp.item 的中文补译按通行证经验效果修正，避免将 BP 误译为马力。",
   "backpack.big": {
     "zh": "大型背包",
     "en": "Large Backpack",
@@ -406,5 +406,16 @@
     "es": "Un vale para el aspecto de Halloween correspondiente.",
     "pt": "Um cupom para o visual de Halloween correspondente.",
     "ru": "Купон на соответствующий хэллоуинский скин."
+  },
+  "bp.exp.item": {
+    "zh": "通行证经验",
+    "en": "BP EXP",
+    "ja": "BP EXP",
+    "ko": "BP 경험",
+    "fr": "BP EXP",
+    "de": "BP EXP",
+    "es": "BP EXP",
+    "pt": "BP EXP",
+    "ru": "БП ОПЫТ"
   }
 }
