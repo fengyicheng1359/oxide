@@ -15,6 +15,29 @@ RECYCLER_SLUGS = {"gas-station", "parking", "town", "warehouse", "lumberjack", "
 RECYCLER_TEXT = {
     "zh": ("回收机", "此处有回收机。把可回收物拆成制作资源；运转声可能引来其他玩家。", "需要回收物资时，可去加油站、停车场、城镇、仓库、伐木工人或矿工。"),
     "en": ("Recycler", "There is a recycler here. It breaks down recyclable items and makes noise while running.", "For recycling, visit a gas station, parking lot, town, warehouse, Lumberjack or Miner."),
+    "ja": ("リサイクル機", "ここにはリサイクル機があります。使うと音が出るため、周囲のプレイヤーに注意してください。", "リサイクルするなら、ガソリンスタンド、駐車場、町、倉庫、木こり、鉱夫へ向かってください。"),
+    "ko": ("재활용 기계", "이곳에 재활용 기계가 있습니다. 작동 소리를 다른 플레이어가 들을 수 있으니 주의하세요.", "재활용이 필요하면 주유소, 주차장, 마을, 창고, 벌목꾼 또는 광부에게 가세요."),
+    "fr": ("Recycleur", "Un recycleur se trouve ici. Son fonctionnement fait du bruit et peut attirer d'autres joueurs.", "Pour recycler, rendez-vous à la station-service, au parking, en ville, à l'entrepôt, chez le bûcheron ou chez le mineur."),
+    "de": ("Recycler", "Hier steht ein Recycler. Er macht beim Betrieb Geräusche, die andere Spieler hören können.", "Zum Recyceln kannst du zur Tankstelle, zum Parkplatz, in die Stadt, zum Lagerhaus, zum Holzfäller oder zum Bergarbeiter gehen."),
+    "es": ("Recicladora", "Aquí hay una recicladora. Hace ruido al funcionar y puede atraer a otros jugadores.", "Para reciclar, ve a la gasolinera, el aparcamiento, la ciudad, el almacén, el leñador o el minero."),
+    "pt": ("Recicladora", "Há uma recicladora aqui. Ela faz barulho ao funcionar e pode atrair outros jogadores.", "Para reciclar, vá ao posto de gasolina, estacionamento, cidade, armazém, lenhador ou mineiro."),
+    "ru": ("Переработчик", "Здесь есть переработчик. Во время работы он шумит и может привлечь других игроков.", "Для переработки отправляйтесь на заправку, парковку, в город, на склад, к леснику или шахтёру."),
+}
+IMAGE_CAPTION = {
+    "zh": "游戏官方配图", "en": "Official game image", "ja": "ゲーム公式画像", "ko": "게임 공식 이미지",
+    "fr": "Image officielle du jeu", "de": "Offizielles Spielbild", "es": "Imagen oficial del juego",
+    "pt": "Imagem oficial do jogo", "ru": "Официальное изображение игры",
+}
+PARKING_SOURCE_NOTE = {
+    "zh": "停车场回收机：玩家实战反馈，2026-10-23。",
+    "en": "Parking lot recycler: player field report, 2026-10-23.",
+    "ja": "駐車場のリサイクル機：プレイヤーの実地報告、2026年10月23日。",
+    "ko": "주차장 재활용 기계: 플레이어 현장 제보, 2026년 10월 23일.",
+    "fr": "Recycleur du parking : signalement d'un joueur, 23 octobre 2026.",
+    "de": "Recycler am Parkplatz: Erfahrungsbericht eines Spielers, 23. Oktober 2026.",
+    "es": "Recicladora del aparcamiento: observación de un jugador, 23 de octubre de 2026.",
+    "pt": "Recicladora do estacionamento: relato de um jogador, 23 de outubro de 2026.",
+    "ru": "Переработчик на парковке: сообщение игрока от 23 октября 2026 года.",
 }
 
 NAMES = {
@@ -62,7 +85,7 @@ def write_source_pages(header, footer) -> int:
 def render_locations(soup: BeautifulSoup, page: str, lang: str, locale_root: str) -> None:
     """填充详情，站内链接始终指向当前语种。"""
     data = rows()
-    mapping = json.loads((LOCALES / f"{lang if lang in {'zh', 'en'} else 'en'}.json").read_text(encoding="utf-8"))
+    mapping = json.loads((LOCALES / f"{lang}.json").read_text(encoding="utf-8"))
     labels = LABELS[lang]
     target = soup.select_one(".locations-shell")
     slug = target["data-location-page"]
@@ -90,12 +113,12 @@ def render_locations(soup: BeautifulSoup, page: str, lang: str, locale_root: str
             f'<section class="locations-section"><h2>{html.escape(label)}</h2><p>{html.escape(value)}</p></section>'
             for label, value in zip(labels[2:5], content[2:5])
         )
-        recycler = RECYCLER_TEXT.get(lang, RECYCLER_TEXT["en"])
+        recycler = RECYCLER_TEXT[lang]
         recycler_text = recycler[1] if slug in RECYCLER_SLUGS else recycler[2]
         body += f'<section class="locations-section"><h2>{html.escape(recycler[0])}</h2><p>{html.escape(recycler_text)}</p></section>'
         photo = ""
         if row.get("image"):
-            caption = "游戏官方配图" if lang == "zh" else "Official game image"
+            caption = IMAGE_CAPTION[lang]
             photo = (f'<figure class="locations-photo"><img src="{html.escape(locale_root + "../" + row["image"])}" '
                      f'alt="{html.escape(title_by_slug[slug])}" loading="lazy"><figcaption>{html.escape(caption)}</figcaption></figure>')
         sources = "".join(
@@ -103,10 +126,6 @@ def render_locations(soup: BeautifulSoup, page: str, lang: str, locale_root: str
             for url in row["sources"]
         )
         if row.get("source_note"):
-            note = row["source_note"] if lang == "zh" else "Player field report, 2026-10-23."
+            note = PARKING_SOURCE_NOTE[lang]
             sources += f"<li>{html.escape(note)}</li>"
         add(f'<article class="locations-detail"><a class="locations-back" href="{back}">← {html.escape(labels[6])}</a><span class="locations-eyebrow">{html.escape(labels[9])}</span><h1>{html.escape(title_by_slug[slug])}</h1><p class="locations-lead">{html.escape(content[1])}</p>{photo}<div class="locations-sections">{body}</div><section class="locations-sources"><h2>{html.escape(labels[5])}</h2><ul>{sources}</ul><small>{html.escape(labels[8])}</small></section></article>')
-    if lang not in {'zh', 'en'}:
-        target['data-content-language'] = 'en'
-        for element in target.select('.locations-card span, .locations-lead, .locations-section p'):
-            element['lang'] = 'en'

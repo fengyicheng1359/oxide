@@ -1,0 +1,107 @@
+{
+  "gas-station": [
+    "Gasolinera",
+    "Una parada en la carretera para saqueos y coches abandonados.",
+    "La recicladora descompone objetos reciclables. No acepta recursos sin procesar y se detiene cuando las casillas de salida están llenas.",
+    "Las cajas de madera pueden producir chatarra y suministros variados; Es posible que haya un automóvil reparable cerca.",
+    "La máquina de reciclaje es audible y cualquier jugador puede conducir un coche no reclamado."
+  ],
+  "parking": [
+    "Aparcamiento",
+    "Un lugar para encontrar coches y reciclar artículos.",
+    "Instale una batería y un motor, luego agregue botellas de combustible. También hay una máquina de reciclaje disponible aquí.",
+    "Los coches tienen diferentes capacidades de asientos; algunos llevan un maletero desbloqueado de 25 ranuras.",
+    "Los coches no tienen dueño. Esté atento a otros jugadores mientras usa la máquina de reciclaje."
+  ],
+  "town": [
+    "Ciudad",
+    "Una zona con cajones de madera y una máquina de reciclaje.",
+    "Busque cajas y luego recicle los elementos adecuados para convertirlos en recursos de elaboración.",
+    "Las cajas pueden contener chatarra, agua, herramientas, armaduras y componentes; Los contenidos varían.",
+    "Otros jugadores pueden buscar en la misma zona y la máquina de reciclaje hace ruido."
+  ],
+  "warehouse": [
+    "Almacén",
+    "Un sitio de botín denso donde los encuentros con otros jugadores son comunes.",
+    "El diseño oficial enumera 5 puntos de cajas normales, 8 barriles, 2 cajas de herramientas rojas, 1 caja militar, 2 puntos de cajas aleatorias y una máquina de reciclaje.",
+    "Los barriles producen chatarra y componentes; Las cajas de herramientas prefieren los materiales para herramientas. Los puntos de generación no son un botín garantizado.",
+    "Planifique una salida antes de buscar, especialmente cuando esté solo."
+  ],
+  "lucky-wheel": [
+    "Fábrica abandonada y ruleta",
+    "El área de la rueda tiene una zona segura y un comerciante de Caps informado cerca.",
+    "Apueste chatarra en la rueda de la suerte. El daño PvP está desactivado dentro de la zona segura marcada.",
+    "Una apuesta ganadora paga a Scrap; un jugador informó que un comerciante de Caps se encontraba a la izquierda de la rueda.",
+    "Una apuesta perdedora le cuesta a Scrap. El peligro PvP regresa fuera del límite de la zona segura."
+  ],
+  "lumberjack": [
+    "Leñador",
+    "Un comerciante de recursos con una zona segura y una máquina de reciclaje.",
+    "El leñador intercambia recursos en lugar de realizar las antiguas misiones de recolección.",
+    "Intercambie materiales recolectados y recicle artículos adecuados en las cercanías.",
+    "El peligro PvP se reanuda más allá de la zona segura y se oye la máquina de reciclaje."
+  ],
+  "miner": [
+    "Minero",
+    "Un punto de comercio de recursos con zona segura y máquina de reciclaje.",
+    "El comerciante intercambia recursos. Se añadió un segundo picapedrero cerca del taladro de meteoritos.",
+    "Intercambie materiales recolectados o recicle artículos adecuados en las cercanías.",
+    "Mire el indicador de zona segura; El peligro PvP regresa más allá de sus límites."
+  ],
+  "factory": [
+    "Fábrica",
+    "Un sitio industrial centrado en cajas de botín de metal especiales.",
+    "Encuentra y abre las cajas de metal especiales; la actualización oficial describe varias rutas a través de la zona.",
+    "Las cajas ofrecen un botín valioso, cuyo contenido varía según el engendro.",
+    "Esté atento a otros jugadores mientras busca las rutas; Esta no es una zona segura marcada."
+  ],
+  "meteorite": [
+    "Taladro del meteorito",
+    "Un sitio de recursos construido alrededor de un taladro y tres salas de palancas.",
+    "Arranque las tres palancas en intervalos de 10 segundos. Utilice las luces de la habitación para encontrar fallas y reparar una palanca en 30 segundos.",
+    "La perforadora funciona durante 3 minutos, produce HQM y piedra, luego se enfría durante 15 minutos; Los comerciantes están cerca.",
+    "La secuencia te mantiene en el lugar, así que presta atención a otros jugadores y peligros ambientales."
+  ],
+  "military-base": [
+    "Base militar",
+    "Un sitio de alto riesgo con guardias armados, defensas antiaéreas y lanzamientos de radar.",
+    "La ruta más nueva activa tres computadoras interiores para una tarjeta de acceso; El apoyo oficial también registra la posibilidad de saquear uno de los guardias.",
+    "Utilice la tarjeta en el techo del radar para solicitar múltiples lanzamientos desde el aire. La carta se consume y el radar entra en tiempo de reutilización.",
+    "Los guardias lanzan granadas y atacan en grupos; Los jugadores cercanos reciben una notificación cuando llegan los objetos."
+  ],
+  "plane-crash": [
+    "Avión siniestrado",
+    "Un avión estrellado con un valioso botín y una tarjeta Captain Keycard.",
+    "Busca primero en la parte delantera del avión: un jugador encontró allí la tarjeta del capitán.",
+    "El avión contiene un valioso botín; la tarjeta no se puede crear. Busque otro lector después de encontrarlo.",
+    "La tarjeta no funciona en la cabina y no está garantizada en cada búsqueda. Esté atento a otros jugadores."
+  ],
+  "lighthouse": [
+    "Faro",
+    "Un sitio de escalada en alta mar con una mina oculta y un botín de alto nivel.",
+    "La ruta oficial implica tres palancas, una mina oculta, recolectar el botín y escapar contra un cronómetro.",
+    "El botín de alto nivel recompensa la exploración cuidadosa y una ruta de regreso planificada.",
+    "Escalar y escapar en el momento oportuno son peligros; otros jugadores pueden impugnar la salida."
+  ],
+  "nuclear-plant": [
+    "Central nuclear",
+    "Un lugar donde la protección radiológica es importante.",
+    "Comprueba tu indicador de protección y radiación antes de entrar. Las actualizaciones oficiales recomiendan armaduras militares resistentes a la radiación para las plantas.",
+    "Busque casillas militares en zonas de radiación; Generalmente contienen más chatarra que las cajas normales.",
+    "La radiación es un peligro continuo y no se garantiza ninguna caja o artículo específico."
+  ],
+  "train-station": [
+    "Estación de tren",
+    "Un gran emplazamiento ferroviario conocido por su valioso botín en disputa.",
+    "Busca trenes en las vías. Cualquiera puede conducir uno con botellas de combustible y ambas bodegas de carga están desbloqueadas.",
+    "La estación tiene un valioso botín; Vale la pena comprobar la carga del tren, pero los trenes no aparecen en un punto de estación fijo.",
+    "Espere peleas de jugadores. Los trenes en movimiento pueden herir a las personas en las vías, donde está prohibido construir."
+  ],
+  "powerline-tower": [
+    "Torre eléctrica",
+    "Un punto de viaje elevado unido a otras torres mediante cables.",
+    "Busca cajas y barriles en la plataforma y luego sube por el cable como si fuera una tirolesa.",
+    "Los contenedores de plataforma contienen botín y la línea cruza bosques y colinas.",
+    "Estás expuesto y es fácil de detectar mientras conduces; Esta no es una torre de vigilancia construida por jugadores."
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "gas-station": [
+    "Tankstelle",
+    "Eine Raststätte am Straßenrand für Beute und verlassene Autos.",
+    "Der Recycler zerlegt wiederverwertbare Gegenstände. Rohstoffe lassen sich nicht einlegen; bei vollen Ausgabefächern stoppt er.",
+    "Holzkisten können Schrott und verschiedene Vorräte enthalten; Möglicherweise ist ein reparierbares Auto in der Nähe.",
+    "Die Recyclingmaschine ist hörbar und jeder Spieler kann ein nicht abgeholtes Auto fahren."
+  ],
+  "parking": [
+    "Parkplatz",
+    "Ein Ort, an dem man Autos finden und Gegenstände recyceln kann.",
+    "Installieren Sie eine Batterie und einen Motor und fügen Sie dann Kraftstoffflaschen hinzu. Auch ein Recyclingautomat steht hier zur Verfügung.",
+    "Autos haben unterschiedliche Sitzplatzkapazitäten; Einige verfügen über einen entsperrten Kofferraum mit 25 Steckplätzen.",
+    "Autos haben keinen Besitzer. Achten Sie auf andere Spieler, während Sie die Recyclingmaschine benutzen."
+  ],
+  "town": [
+    "Stadt",
+    "Ein Bereich mit Holzkisten und einer Recyclingmaschine.",
+    "Durchsuchen Sie Kisten und recyceln Sie dann geeignete Gegenstände zu Handwerksressourcen.",
+    "Kisten können Schrott, Wasser, Werkzeuge, Rüstung und Komponenten enthalten. Inhalte variieren.",
+    "Andere Spieler können das gleiche Gebiet durchsuchen und die Recyclingmaschine macht Geräusche."
+  ],
+  "warehouse": [
+    "Lagerhaus",
+    "Eine dichte Beuteseite, auf der es häufig zu Begegnungen mit anderen Spielern kommt.",
+    "Das offizielle Layout listet 5 normale Kistenpunkte, 8 Fässer, 2 rote Werkzeugkästen, 1 Militärkiste, 2 zufällige Kistenpunkte und eine Recyclingmaschine auf.",
+    "Fässer liefern Schrott und Komponenten; Werkzeugkästen bevorzugen Werkzeugmaterialien. Spawnpunkte sind keine garantierte Beute.",
+    "Planen Sie vor der Suche einen Ausstieg, insbesondere wenn Sie alleine sind."
+  ],
+  "lucky-wheel": [
+    "Verlassene Fabrik und Glücksrad",
+    "Im Radbereich gibt es eine sichere Zone und einen gemeldeten Caps-Händler in der Nähe.",
+    "Wetten Sie am Glücksrad. PvP-Schaden ist innerhalb der markierten Sicherheitszone deaktiviert.",
+    "Eine gewonnene Wette zahlt Scrap aus; Ein Spieler meldete einen Caps-Händler links vom Rad.",
+    "Eine verlorene Wette kostet Scrap. Die PvP-Gefahr kehrt außerhalb der Sicherheitszonengrenze zurück."
+  ],
+  "lumberjack": [
+    "Holzfäller",
+    "Ein Ressourcenhändler mit einer sicheren Zone und einer Recyclingmaschine.",
+    "Der Holzfäller tauscht Ressourcen aus, anstatt die alten Sammelquests auszugeben.",
+    "Tauschen Sie gesammelte Materialien aus und recyceln Sie geeignete Gegenstände in der Nähe.",
+    "Die PvP-Gefahr nimmt außerhalb der Sicherheitszone wieder zu und die Recyclingmaschine ist hörbar."
+  ],
+  "miner": [
+    "Bergarbeiter",
+    "Ein Rohstoffhandelspunkt mit einer sicheren Zone und einem Recyclingautomaten.",
+    "Der Händler tauscht Ressourcen aus. Ein zweiter Steinmetz wurde in der Nähe des Meteoritenbohrers hinzugefügt.",
+    "Tauschen Sie gesammelte Materialien oder recyceln Sie geeignete Gegenstände in der Nähe.",
+    "Achten Sie auf die Sicherheitszonenanzeige. Die PvP-Gefahr kehrt über ihre Grenzen hinaus zurück."
+  ],
+  "factory": [
+    "Fabrik",
+    "Ein Industriestandort, der sich auf spezielle Beutekisten aus Metall konzentriert.",
+    "Finden und öffnen Sie die speziellen Metallboxen. Das offizielle Update beschreibt mehrere Routen durch das Gebiet.",
+    "Die Kisten bieten wertvolle Beute, wobei der Inhalt je nach Spawn variiert.",
+    "Achten Sie beim Durchsuchen der Routen auf andere Spieler. Dies ist keine markierte sichere Zone."
+  ],
+  "meteorite": [
+    "Meteoritenbohrer",
+    "Ein Ressourcenstandort, der um eine Bohrmaschine und drei Hebelräume herum aufgebaut ist.",
+    "Starten Sie alle drei Hebel innerhalb von 10-Sekunden-Intervallen. Verwenden Sie die Raumbeleuchtung, um Fehler zu finden und einen Hebel innerhalb von 30 Sekunden zu reparieren.",
+    "Der Bohrer läuft 3 Minuten lang, produziert HQM und Stein und kühlt dann 15 Minuten lang ab; Händler sind in der Nähe.",
+    "Durch die Sequenz bleiben Sie vor Ort, achten Sie also auf andere Spieler und Gefahren in der Umgebung."
+  ],
+  "military-base": [
+    "Militärbasis",
+    "Ein Hochrisikostandort mit bewaffneten Wachen, Luftabwehranlagen und Radarabwürfen.",
+    "Die neuere Route aktiviert drei Innencomputer für eine Schlüsselkarte; Die offizielle Unterstützung berichtet auch von einer Chance, eines von Wachen zu erbeuten.",
+    "Verwenden Sie die Karte auf dem Radardach, um mehrere Luftabwürfe abzurufen. Die Karte wird verbraucht und das Radar tritt in die Abklingzeit ein.",
+    "Wachen werfen Granaten und greifen in Gruppen an; Spieler in der Nähe werden benachrichtigt, wenn Drops eintreffen."
+  ],
+  "plane-crash": [
+    "Flugzeugwrack",
+    "Ein abgestürztes Flugzeug mit wertvoller Beute und einer Captain Keycard.",
+    "Durchsuche zuerst die Flugzeugnase: Ein Spieler hat dort die Schlüsselkarte des Kapitäns gefunden.",
+    "Das Flugzeug enthält wertvolle Beute; Die Karte kann nicht hergestellt werden. Suchen Sie nach einem anderen Leser, nachdem Sie ihn gefunden haben.",
+    "Die Karte funktioniert nicht im Cockpit und ist nicht bei jeder Suche garantiert. Achten Sie auf andere Spieler."
+  ],
+  "lighthouse": [
+    "Leuchtturm",
+    "Ein Offshore-Kletterplatz mit einer versteckten Mine und hochstufiger Beute.",
+    "Die offizielle Route beinhaltet drei Hebel, eine versteckte Mine, das Sammeln von Beute und die Flucht gegen einen Timer.",
+    "Hochstufige Beute belohnt sorgfältige Erkundung und eine geplante Rückroute.",
+    "Klettern und zeitgesteuerte Flucht sind Gefahren; Andere Spieler können den Ausstieg bestreiten."
+  ],
+  "nuclear-plant": [
+    "Kernkraftwerk",
+    "Ein Ort, an dem Strahlenschutz wichtig ist.",
+    "Überprüfen Sie vor dem Betreten Ihren Schutz- und Strahlungsindikator. Offizielle Aktualisierungen empfehlen strahlungsbeständige Militärpanzerung für Anlagenläufe.",
+    "Suchen Sie in Strahlungsgebieten nach Militärboxen. Sie enthalten normalerweise mehr Schrott als gewöhnliche Kisten.",
+    "Strahlung stellt eine anhaltende Gefahr dar und es gibt keine Garantie für eine bestimmte Verpackung oder einen bestimmten Artikel."
+  ],
+  "train-station": [
+    "Bahnhof",
+    "Ein großer Eisenbahnstandort, der für seine umstrittene wertvolle Beute bekannt ist.",
+    "Durchsuchen Sie die Gleise nach Zügen. Jeder kann mit Treibstoffflaschen fahren und beide Laderäume sind unverschlossen.",
+    "Die Station verfügt über wertvolle Beute; Es lohnt sich, die Zugfracht zu überprüfen, aber Züge erscheinen nicht an einem festen Bahnhofspunkt.",
+    "Erwarten Sie Spielerkämpfe. Durch fahrende Züge können Menschen auf den Gleisen verletzt werden, da dort Bauverbot besteht."
+  ],
+  "powerline-tower": [
+    "Strommast",
+    "Ein erhöhter Reisepunkt, der durch Drähte mit anderen Türmen verbunden ist.",
+    "Durchsuchen Sie Kisten und Fässer auf der Plattform und fahren Sie dann wie eine Seilrutsche über das Seil.",
+    "Plattformcontainer enthalten Beute und die Linie durchquert Wälder und Hügel.",
+    "Sie sind beim Fahren ungeschützt und leicht zu erkennen; Dies ist kein von Spielern gebauter Wachturm."
+  ]
+}

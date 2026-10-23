@@ -1,0 +1,107 @@
+{
+  "gas-station": [
+    "Posto de gasolina",
+    "Uma parada na estrada para saques e carros abandonados.",
+    "A recicladora desmonta itens recicláveis. Ela não aceita recursos brutos e para quando os espaços de saída ficam cheios.",
+    "Caixas de madeira podem render sucata e suprimentos variados; um carro reparável pode estar por perto.",
+    "A máquina de reciclagem é audível e qualquer jogador pode dirigir um carro não reclamado."
+  ],
+  "parking": [
+    "Estacionamento",
+    "Um lugar para encontrar carros e reciclar itens.",
+    "Instale uma bateria e um motor e, em seguida, adicione garrafas de combustível. Uma máquina de reciclagem também está disponível aqui.",
+    "Os carros têm diferentes capacidades de assentos; alguns carregam uma bota desbloqueada de 25 slots.",
+    "Os carros não têm dono. Fique atento aos outros jogadores enquanto usa a máquina de reciclagem."
+  ],
+  "town": [
+    "Cidade",
+    "Uma área com caixotes de madeira e uma máquina de reciclagem.",
+    "Procure caixas e recicle itens adequados em recursos de artesanato.",
+    "As caixas podem conter sucata, água, ferramentas, armaduras e componentes; o conteúdo varia.",
+    "Outros jogadores podem vasculhar a mesma área e a máquina de reciclagem faz barulho."
+  ],
+  "warehouse": [
+    "Armazém",
+    "Um local de saque denso onde encontros com outros jogadores são comuns.",
+    "O layout oficial lista 5 pontos de caixa regulares, 8 barris, 2 caixas de ferramentas vermelhas, 1 caixa militar, 2 pontos de caixa aleatórios e uma máquina de reciclagem.",
+    "Barris produzem sucata e componentes; caixas de ferramentas favorecem materiais de ferramentas. Os pontos de spawn não são saque garantido.",
+    "Planeje uma saída antes de procurar, especialmente quando estiver sozinho."
+  ],
+  "lucky-wheel": [
+    "Fábrica abandonada e roleta",
+    "A área da roda tem uma zona segura e um comerciante de Caps relatado nas proximidades.",
+    "Aposte Scrap na Roda da Sorte. O dano PvP é desativado dentro da zona segura marcada.",
+    "Uma aposta vencedora paga Scrap; um jogador relatou um comerciante de Caps à esquerda da roda.",
+    "Uma aposta perdida custa sucata. O perigo PvP retorna para fora dos limites da zona segura."
+  ],
+  "lumberjack": [
+    "Lenhador",
+    "Um comerciante de recursos com uma zona segura e uma máquina de reciclagem.",
+    "O Lenhador troca recursos em vez de emitir as antigas missões de coleta.",
+    "Troque materiais coletados e recicle itens adequados nas proximidades.",
+    "O perigo PvP recomeça além da zona segura e a máquina de reciclagem é audível."
+  ],
+  "miner": [
+    "Mineiro",
+    "Um ponto de comércio de recursos com zona segura e máquina de reciclagem.",
+    "O comerciante troca recursos. Um segundo Stonecutter foi adicionado perto da broca de meteorito.",
+    "Troque materiais coletados ou recicle itens adequados nas proximidades.",
+    "Observe o indicador da zona segura; O perigo PvP retorna além de seus limites."
+  ],
+  "factory": [
+    "Fábrica",
+    "Um local industrial centrado em caixas de saque de metal especiais.",
+    "Encontre e abra caixas de metal especiais; a atualização oficial descreve várias rotas pela área.",
+    "As caixas oferecem itens valiosos, com conteúdo variando de acordo com o spawn.",
+    "Fique atento a outros jogadores enquanto procura as rotas; esta não é uma zona segura marcada."
+  ],
+  "meteorite": [
+    "Broca do meteorito",
+    "Um local de recursos construído em torno de uma perfuratriz e três salas de alavancas.",
+    "Inicie todas as três alavancas em intervalos de 10 segundos. Use as luzes da sala para encontrar falhas e consertar uma alavanca em 30 segundos.",
+    "A furadeira funciona por 3 minutos, produzindo HQM e pedra, depois esfria por 15 minutos; os comerciantes estão por perto.",
+    "A sequência mantém você no local, então fique atento a outros jogadores e aos riscos ambientais."
+  ],
+  "military-base": [
+    "Base militar",
+    "Um local de alto risco com guardas armados, defesas antiaéreas e lançamentos aéreos por radar.",
+    "A rota mais recente ativa três computadores internos para um cartão-chave; o apoio oficial também registra uma chance de saquear um dos guardas.",
+    "Use o cartão no teto do radar para chamar vários lançamentos aéreos. A carta é consumida e o radar entra em espera.",
+    "Os guardas lançam granadas e atacam em grupos; jogadores próximos são notificados quando chegam itens."
+  ],
+  "plane-crash": [
+    "Avião acidentado",
+    "Uma aeronave acidentada com itens valiosos e um cartão-chave do capitão.",
+    "Procure primeiro na parte dianteira do avião: um jogador encontrou ali o cartão-chave do capitão.",
+    "O avião contém itens valiosos; o cartão não pode ser criado. Procure outro leitor depois de encontrá-lo.",
+    "O cartão não funciona no cockpit e não é garantido em todas as buscas. Cuidado com outros jogadores."
+  ],
+  "lighthouse": [
+    "Farol",
+    "Um local de escalada offshore com uma mina escondida e saques de alto nível.",
+    "A rota oficial envolve três alavancas, uma mina escondida, coleta de saques e fuga contra um cronômetro.",
+    "Saques de alto nível recompensam a exploração cuidadosa e uma rota de retorno planejada.",
+    "A escalada e a fuga cronometrada são perigos; outros jogadores podem contestar a saída."
+  ],
+  "nuclear-plant": [
+    "Usina nuclear",
+    "Um local onde a proteção contra radiação é importante.",
+    "Verifique seu indicador de proteção e radiação antes de entrar. As atualizações oficiais recomendam armaduras militares resistentes à radiação para operações em plantas.",
+    "Procure camarotes militares em zonas de radiação; eles geralmente contêm mais sucata do que caixas comuns.",
+    "A radiação é um perigo contínuo e nenhuma caixa ou item específico é garantido."
+  ],
+  "train-station": [
+    "Estação ferroviária",
+    "Uma grande estação ferroviária conhecida por saques valiosos e contestados.",
+    "Procure trens nos trilhos. Qualquer um pode dirigir um com Fuel Bottles, e ambos os porões de carga estão desbloqueados.",
+    "A estação possui itens valiosos; Vale a pena verificar a carga do trem, mas os trens não aparecem em um ponto fixo da estação.",
+    "Espere lutas de jogadores. Os trens em movimento podem ferir as pessoas nos trilhos, onde a construção é proibida."
+  ],
+  "powerline-tower": [
+    "Torre elétrica",
+    "Um ponto de passagem elevado ligado a outras torres por fios.",
+    "Procure caixas e barris na plataforma e depois ande pela corda como uma tirolesa.",
+    "Os contêineres da plataforma contêm itens e a linha atravessa florestas e colinas.",
+    "Você fica exposto e é fácil de detectar enquanto anda; esta não é uma torre de vigia construída por jogadores."
+  ]
+}

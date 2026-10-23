@@ -300,7 +300,8 @@
       "https://t.me/playoxide/785",
       "https://t.me/playoxide/790",
       "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-railroad-for-how-do-i-drive-the-train-224"
-    ]
+    ],
+    "image": "static/locations/train-station.jpg"
   },
   {
     "slug": "powerline-tower",

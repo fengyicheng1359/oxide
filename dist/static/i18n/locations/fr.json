@@ -1,0 +1,107 @@
+{
+  "gas-station": [
+    "Station-service",
+    "Un arrêt en bordure de route pour le butin et les voitures abandonnées.",
+    "La machine de recyclage démonte les objets recyclables. Elle n'accepte pas les ressources brutes et s'arrête lorsque les cases de sortie sont pleines.",
+    "Les caisses en bois peuvent produire de la ferraille et des fournitures variées ; une voiture réparable peut être à proximité.",
+    "La machine de recyclage est audible et n'importe quel joueur peut conduire une voiture non réclamée."
+  ],
+  "parking": [
+    "Parking",
+    "Un endroit pour trouver des voitures et recycler des objets.",
+    "Installez une batterie et un moteur, puis ajoutez des bouteilles de carburant. Une machine de recyclage est également disponible ici.",
+    "Les voitures ont différentes capacités en sièges ; certains portent un démarrage déverrouillé à 25 emplacements.",
+    "Les voitures n'ont pas de propriétaire. Surveillez les autres joueurs lorsque vous utilisez la machine de recyclage."
+  ],
+  "town": [
+    "Ville",
+    "Un espace avec des caisses en bois et une machine de recyclage.",
+    "Recherchez des caisses, puis recyclez les objets appropriés en ressources de fabrication.",
+    "Les caisses peuvent contenir de la ferraille, de l'eau, des outils, des armures et des composants ; le contenu varie.",
+    "D'autres joueurs peuvent fouiller la même zone et la machine de recyclage fait du bruit."
+  ],
+  "warehouse": [
+    "Entrepôt",
+    "Un site de loot dense où les rencontres avec d'autres joueurs sont courantes.",
+    "La disposition officielle répertorie 5 points de caisse réguliers, 8 barils, 2 boîtes à outils rouges, 1 boîte militaire, 2 points de boîte aléatoires et une machine de recyclage.",
+    "Les barils produisent de la ferraille et des composants ; les boîtes à outils privilégient les matériaux d’outils. Les points d'apparition ne constituent pas un butin garanti.",
+    "Prévoyez une sortie avant de chercher, surtout lorsque vous êtes seul."
+  ],
+  "lucky-wheel": [
+    "Usine abandonnée et roue de la chance",
+    "La zone des roues a une zone de sécurité et un commerçant Caps signalé à proximité.",
+    "Pariez Scrap à la Lucky Wheel. Les dégâts PvP sont désactivés à l’intérieur de la zone de sécurité marquée.",
+    "Un pari gagnant rapporte Scrap ; un joueur a signalé un commerçant de Caps à gauche de la roue.",
+    "Un pari perdant coûte de la ferraille. Le danger PvP revient en dehors des limites de la zone de sécurité."
+  ],
+  "lumberjack": [
+    "Bûcheron",
+    "Un commerçant de ressources avec une zone de sécurité et une machine de recyclage.",
+    "Le Bûcheron échange des ressources plutôt que de lancer les anciennes quêtes de collecte.",
+    "Échangez les matériaux collectés et recyclez les objets appropriés à proximité.",
+    "Le danger PvP reprend au-delà de la zone de sécurité et la machine de recyclage est audible."
+  ],
+  "miner": [
+    "Mineur",
+    "Un point d'échange de ressources avec une zone de sécurité et une machine de recyclage.",
+    "Le commerçant échange des ressources. Un deuxième tailleur de pierre a été ajouté à proximité de la foreuse à météorite.",
+    "Échangez les matériaux collectés ou recyclez les objets appropriés à proximité.",
+    "Surveillez l’indicateur de zone de sécurité ; Le danger PvP revient au-delà de ses limites."
+  ],
+  "factory": [
+    "Usine",
+    "Un site industriel centré sur des loot boxes métalliques spéciales.",
+    "Trouvez et ouvrez les boîtes métalliques spéciales ; la mise à jour officielle décrit plusieurs itinéraires à travers la zone.",
+    "Les boîtes offrent un butin précieux, dont le contenu varie selon l'apparition.",
+    "Surveillez les autres joueurs lorsque vous recherchez les itinéraires ; ce n'est pas une zone de sécurité marquée."
+  ],
+  "meteorite": [
+    "Foreuse de météorite",
+    "Un site ressource construit autour d'une foreuse et de trois salles de leviers.",
+    "Démarrez les trois leviers dans un intervalle de 10 secondes. Utilisez les lumières de la pièce pour détecter les pannes et réparer un levier dans les 30 secondes.",
+    "La foreuse fonctionne pendant 3 minutes, produisant du HQM et de la pierre, puis refroidit pendant 15 minutes ; les commerçants sont à proximité.",
+    "La séquence vous maintient sur place, alors surveillez les autres joueurs et les dangers environnementaux."
+  ],
+  "military-base": [
+    "Base militaire",
+    "Un site à haut risque avec des gardes armés, des défenses anti-aériennes et des parachutages radar.",
+    "L'itinéraire le plus récent active trois ordinateurs intérieurs pour une carte-clé ; le soutien officiel enregistre également une chance d’en piller un auprès des gardes.",
+    "Utilisez la carte sur le toit du radar pour appeler plusieurs parachutages. La carte est consommée et le radar entre en temps de recharge.",
+    "Les gardes lancent des grenades et attaquent en groupe ; les joueurs à proximité sont avertis lorsque les drops arrivent."
+  ],
+  "plane-crash": [
+    "Avion écrasé",
+    "Un avion écrasé avec un butin précieux et une carte-clé de capitaine.",
+    "Fouillez d'abord l'avant de l'avion : un joueur y a trouvé la carte-clé du capitaine.",
+    "L'avion contient un butin précieux ; la carte ne peut pas être fabriquée. Cherchez un autre lecteur après l'avoir trouvé.",
+    "La carte ne fonctionne pas dans le cockpit et n'est pas garantie à chaque recherche. Surveillez les autres joueurs."
+  ],
+  "lighthouse": [
+    "Phare",
+    "Un site d'escalade offshore avec une mine cachée et un butin de haut niveau.",
+    "L'itinéraire officiel implique trois leviers, une mine cachée, la collecte du butin et la fuite contre un chronomètre.",
+    "Un butin de haut niveau récompense une exploration minutieuse et un itinéraire de retour planifié.",
+    "L'escalade et l'évasion chronométrée sont des dangers ; d'autres joueurs peuvent contester la sortie."
+  ],
+  "nuclear-plant": [
+    "Centrale nucléaire",
+    "Un endroit où la radioprotection est importante.",
+    "Vérifiez votre protection et votre indicateur de rayonnement avant d’entrer. Les mises à jour officielles recommandent une armure militaire résistante aux radiations pour les opérations en usine.",
+    "Recherchez les box militaires dans les zones radioactives ; elles contiennent généralement plus de ferraille que les caisses ordinaires.",
+    "Les radiations constituent un danger permanent et aucune boîte ou article spécifique n'est garanti."
+  ],
+  "train-station": [
+    "Gare ferroviaire",
+    "Un grand site ferroviaire connu pour son butin précieux et contesté.",
+    "Recherchez les trains sur les voies. Tout le monde peut en conduire un avec des bouteilles de carburant, et les deux soutes sont déverrouillées.",
+    "La station possède un butin précieux ; Le fret ferroviaire vaut la peine d'être vérifié, mais les trains n'apparaissent pas à un point de gare fixe.",
+    "Attendez-vous à des combats de joueurs. Les trains en mouvement peuvent blesser les personnes sur les voies, où la construction est interdite."
+  ],
+  "powerline-tower": [
+    "Pylône électrique",
+    "Un point de déplacement surélevé relié à d'autres tours par des fils.",
+    "Cherchez des caisses et des barils sur la plate-forme, puis montez sur le fil comme une tyrolienne.",
+    "Les conteneurs de plate-forme contiennent du butin et la ligne traverse des forêts et des collines.",
+    "Vous êtes exposé et facile à repérer lorsque vous roulez ; ce n'est pas une tour de guet construite par les joueurs."
+  ]
+}
