@@ -37,14 +37,14 @@
   "lumberjack": [
     "Lumberjack trader",
     "A resource trader with a safe zone and recycler.",
-    "The Lumberjack exchanges resources rather than issuing the old gathering quests.",
+    "You can trade wood with the Lumberjack here. Check the trade menu for the items and amount of wood required. The old gathering quests are gone.",
     "Trade gathered materials and recycle suitable items nearby.",
     "PvP danger resumes beyond the safe zone, and the recycler is audible."
   ],
   "miner": [
     "Miner trader",
     "A resource trading point with a safe zone and recycler.",
-    "The trader exchanges resources. A second Stonecutter was added near the meteorite drill.",
+    "You can trade stone with the trader here. Check the trade menu for the items and amount of stone required. There is another Stonecutter near the meteorite drill.",
     "Trade gathered materials or recycle suitable items nearby.",
     "Watch the safe-zone indicator; PvP danger returns beyond its boundary."
   ],

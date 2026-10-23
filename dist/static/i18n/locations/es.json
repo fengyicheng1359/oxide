@@ -37,14 +37,14 @@
   "lumberjack": [
     "Leñador",
     "Un comerciante de recursos con una zona segura y una máquina de reciclaje.",
-    "El leñador intercambia recursos en lugar de realizar las antiguas misiones de recolección.",
+    "Aquí puedes intercambiar madera con el leñador. Consulta el menú para ver qué ofrece y cuánta madera pide. Las antiguas misiones de recolección ya no están disponibles.",
     "Intercambie materiales recolectados y recicle artículos adecuados en las cercanías.",
     "El peligro PvP se reanuda más allá de la zona segura y se oye la máquina de reciclaje."
   ],
   "miner": [
     "Minero",
     "Un punto de comercio de recursos con zona segura y máquina de reciclaje.",
-    "El comerciante intercambia recursos. Se añadió un segundo picapedrero cerca del taladro de meteoritos.",
+    "Aquí puedes intercambiar piedra con el comerciante. Consulta el menú para ver qué ofrece y cuánta piedra pide. Hay otro picapedrero cerca del taladro del meteorito.",
     "Intercambie materiales recolectados o recicle artículos adecuados en las cercanías.",
     "Mire el indicador de zona segura; El peligro PvP regresa más allá de sus límites."
   ],

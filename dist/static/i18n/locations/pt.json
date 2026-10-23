@@ -37,14 +37,14 @@
   "lumberjack": [
     "Lenhador",
     "Um comerciante de recursos com uma zona segura e uma máquina de reciclagem.",
-    "O Lenhador troca recursos em vez de emitir as antigas missões de coleta.",
+    "Aqui você pode trocar madeira com o lenhador. Confira no menu os itens oferecidos e a quantidade de madeira exigida. As antigas missões de coleta foram removidas.",
     "Troque materiais coletados e recicle itens adequados nas proximidades.",
     "O perigo PvP recomeça além da zona segura e a máquina de reciclagem é audível."
   ],
   "miner": [
     "Mineiro",
     "Um ponto de comércio de recursos com zona segura e máquina de reciclagem.",
-    "O comerciante troca recursos. Um segundo Stonecutter foi adicionado perto da broca de meteorito.",
+    "Aqui você pode trocar pedra com o comerciante. Confira no menu os itens oferecidos e a quantidade de pedra exigida. Há outro pedreiro perto da broca do meteorito.",
     "Troque materiais coletados ou recicle itens adequados nas proximidades.",
     "Observe o indicador da zona segura; O perigo PvP retorna além de seus limites."
   ],

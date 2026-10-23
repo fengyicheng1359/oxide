@@ -37,14 +37,14 @@
   "lumberjack": [
     "Bûcheron",
     "Un commerçant de ressources avec une zone de sécurité et une machine de recyclage.",
-    "Le Bûcheron échange des ressources plutôt que de lancer les anciennes quêtes de collecte.",
+    "Vous pouvez échanger du bois auprès du bûcheron. Consultez son menu pour voir les objets proposés et la quantité de bois demandée. Les anciennes quêtes de collecte ont été supprimées.",
     "Échangez les matériaux collectés et recyclez les objets appropriés à proximité.",
     "Le danger PvP reprend au-delà de la zone de sécurité et la machine de recyclage est audible."
   ],
   "miner": [
     "Mineur",
     "Un point d'échange de ressources avec une zone de sécurité et une machine de recyclage.",
-    "Le commerçant échange des ressources. Un deuxième tailleur de pierre a été ajouté à proximité de la foreuse à météorite.",
+    "Vous pouvez échanger de la pierre auprès du marchand. Consultez son menu pour voir les objets proposés et la quantité de pierre demandée. Un autre tailleur de pierre se trouve près de la foreuse de météorite.",
     "Échangez les matériaux collectés ou recyclez les objets appropriés à proximité.",
     "Surveillez l’indicateur de zone de sécurité ; Le danger PvP revient au-delà de ses limites."
   ],

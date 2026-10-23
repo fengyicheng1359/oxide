@@ -37,14 +37,14 @@
   "lumberjack": [
     "Holzfäller",
     "Ein Ressourcenhändler mit einer sicheren Zone und einer Recyclingmaschine.",
-    "Der Holzfäller tauscht Ressourcen aus, anstatt die alten Sammelquests auszugeben.",
+    "Hier kannst du beim Holzfäller Holz gegen Gegenstände tauschen. Angebot und benötigte Holzmenge stehen im Handelsmenü. Die alten Sammelaufträge gibt es nicht mehr.",
     "Tauschen Sie gesammelte Materialien aus und recyceln Sie geeignete Gegenstände in der Nähe.",
     "Die PvP-Gefahr nimmt außerhalb der Sicherheitszone wieder zu und die Recyclingmaschine ist hörbar."
   ],
   "miner": [
     "Bergarbeiter",
     "Ein Rohstoffhandelspunkt mit einer sicheren Zone und einem Recyclingautomaten.",
-    "Der Händler tauscht Ressourcen aus. Ein zweiter Steinmetz wurde in der Nähe des Meteoritenbohrers hinzugefügt.",
+    "Hier kannst du beim Händler Steine gegen Gegenstände tauschen. Angebot und benötigte Steinmenge stehen im Handelsmenü. Ein weiterer Steinmetz ist beim Meteoritenbohrer.",
     "Tauschen Sie gesammelte Materialien oder recyceln Sie geeignete Gegenstände in der Nähe.",
     "Achten Sie auf die Sicherheitszonenanzeige. Die PvP-Gefahr kehrt über ihre Grenzen hinaus zurück."
   ],

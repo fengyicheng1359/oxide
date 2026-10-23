@@ -39,6 +39,33 @@ PARKING_SOURCE_NOTE = {
     "pt": "Recicladora do estacionamento: relato de um jogador, 23 de outubro de 2026.",
     "ru": "Переработчик на парковке: сообщение игрока от 23 октября 2026 года.",
 }
+MINER_SOURCE_NOTE = {
+    "zh": "石头交易：玩家实战反馈，2026-10-23。官方帮助页称 Miner（矿工），交易公告称 Stonecutter（石匠）。",
+    "en": "Stone trading: player field report, 2026-10-23. Official support says Miner; the trader update says Stonecutter.",
+    "ja": "石を使う取引：プレイヤーの実地報告、2026年10月23日。",
+    "ko": "돌 거래: 플레이어 현장 제보, 2026년 10월 23일.",
+    "fr": "Échange de pierre : signalement d'un joueur, 23 octobre 2026.",
+    "de": "Handel mit Steinen: Erfahrungsbericht eines Spielers, 23. Oktober 2026.",
+    "es": "Intercambio de piedra: observación de un jugador, 23 de octubre de 2026.",
+    "pt": "Troca de pedra: relato de um jogador, 23 de outubro de 2026.",
+    "ru": "Обмен камня: сообщение игрока от 23 октября 2026 года.",
+}
+LUMBERJACK_SOURCE_NOTE = {
+    "zh": "木头交易：玩家实战反馈，2026-10-23。",
+    "en": "Wood trading: player field report, 2026-10-23.",
+    "ja": "木材を使う取引：プレイヤーの実地報告、2026年10月23日。",
+    "ko": "나무 거래: 플레이어 현장 제보, 2026년 10월 23일.",
+    "fr": "Échange de bois : signalement d'un joueur, 23 octobre 2026.",
+    "de": "Handel mit Holz: Erfahrungsbericht eines Spielers, 23. Oktober 2026.",
+    "es": "Intercambio de madera: observación de un jugador, 23 de octubre de 2026.",
+    "pt": "Troca de madeira: relato de um jogador, 23 de outubro de 2026.",
+    "ru": "Обмен древесины: сообщение игрока от 23 октября 2026 года.",
+}
+PLAYER_SOURCE_NOTES = {
+    "parking": PARKING_SOURCE_NOTE,
+    "miner": MINER_SOURCE_NOTE,
+    "lumberjack": LUMBERJACK_SOURCE_NOTE,
+}
 
 NAMES = {
     "ja": ["ガソリンスタンド", "駐車場", "町", "倉庫", "廃工場とルーレット", "木こり", "鉱夫", "工場", "隕石ドリル", "軍事基地", "墜落機", "灯台", "原子力発電所", "鉄道駅", "送電塔"],
@@ -126,6 +153,6 @@ def render_locations(soup: BeautifulSoup, page: str, lang: str, locale_root: str
             for url in row["sources"]
         )
         if row.get("source_note"):
-            note = PARKING_SOURCE_NOTE[lang]
+            note = PLAYER_SOURCE_NOTES[slug][lang]
             sources += f"<li>{html.escape(note)}</li>"
         add(f'<article class="locations-detail"><a class="locations-back" href="{back}">← {html.escape(labels[6])}</a><span class="locations-eyebrow">{html.escape(labels[9])}</span><h1>{html.escape(title_by_slug[slug])}</h1><p class="locations-lead">{html.escape(content[1])}</p>{photo}<div class="locations-sections">{body}</div><section class="locations-sources"><h2>{html.escape(labels[5])}</h2><ul>{sources}</ul><small>{html.escape(labels[8])}</small></section></article>')

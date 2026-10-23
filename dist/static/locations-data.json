@@ -112,14 +112,14 @@
     "zh": [
       "伐木工人",
       "有安全区和回收机的资源交易点。",
-      "伐木工人现在交换资源，不再发旧版伐木任务；进入安全区时看界面提示。",
-      "适合把采到的资源交换成所需物资，并就地回收可回收物。",
+      "这里可以用木头与伐木工人交换物资；能换什么、需要多少木头，以交易面板为准。旧版采集任务已取消。",
+      "能换到哪些物资，以当前交易面板为准；附近还有回收机。",
       "安全区外仍可发生玩家对抗，回收机运行时也会发出声音。"
     ],
     "en": [
       "Lumberjack trader",
       "A resource trader with a safe zone and recycler.",
-      "The Lumberjack exchanges resources rather than issuing the old gathering quests.",
+      "You can trade wood with the Lumberjack here. Check the trade menu for the items and amount of wood required. The old gathering quests are gone.",
       "Trade gathered materials and recycle suitable items nearby.",
       "PvP danger resumes beyond the safe zone, and the recycler is audible."
     ],
@@ -127,21 +127,22 @@
       "https://t.me/playoxide/431",
       "https://support.playoxide.com/hc/en/oxide/articles/what-are-safe-zones-82",
       "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81"
-    ]
+    ],
+    "source_note": "木头交易：玩家实战反馈，2026-10-23。"
   },
   {
     "slug": "miner",
     "zh": [
       "矿工",
       "有安全区和回收机的资源交易点。",
-      "矿工现在交换资源；官方还在陨石钻机区域增加了第二位石匠商人。",
-      "适合将采集物就地交换，或使用附近回收机处理可回收物。",
+      "这里可以用石头与商人交换物资；能换什么、需要多少石头，以交易面板为准。陨石钻机附近还有第二位石匠商人。",
+      "能换到哪些物资，以当前交易面板为准；附近还有回收机。",
       "交易时留意安全区提示，离开边界后仍需防备其他玩家。"
     ],
     "en": [
       "Miner trader",
       "A resource trading point with a safe zone and recycler.",
-      "The trader exchanges resources. A second Stonecutter was added near the meteorite drill.",
+      "You can trade stone with the trader here. Check the trade menu for the items and amount of stone required. There is another Stonecutter near the meteorite drill.",
       "Trade gathered materials or recycle suitable items nearby.",
       "Watch the safe-zone indicator; PvP danger returns beyond its boundary."
     ],
@@ -149,7 +150,8 @@
       "https://t.me/playoxide/431",
       "https://support.playoxide.com/hc/en/oxide/articles/what-are-safe-zones-82",
       "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81"
-    ]
+    ],
+    "source_note": "石头交易：玩家实战反馈，2026-10-23。"
   },
   {
     "slug": "factory",
