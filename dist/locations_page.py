@@ -28,45 +28,6 @@ IMAGE_CAPTION = {
     "fr": "Image officielle du jeu", "de": "Offizielles Spielbild", "es": "Imagen oficial del juego",
     "pt": "Imagem oficial do jogo", "ru": "Официальное изображение игры",
 }
-PARKING_SOURCE_NOTE = {
-    "zh": "停车场回收机：玩家实战反馈，2026-10-23。",
-    "en": "Parking lot recycler: player field report, 2026-10-23.",
-    "ja": "駐車場のリサイクル機：プレイヤーの実地報告、2026年10月23日。",
-    "ko": "주차장 재활용 기계: 플레이어 현장 제보, 2026년 10월 23일.",
-    "fr": "Recycleur du parking : signalement d'un joueur, 23 octobre 2026.",
-    "de": "Recycler am Parkplatz: Erfahrungsbericht eines Spielers, 23. Oktober 2026.",
-    "es": "Recicladora del aparcamiento: observación de un jugador, 23 de octubre de 2026.",
-    "pt": "Recicladora do estacionamento: relato de um jogador, 23 de outubro de 2026.",
-    "ru": "Переработчик на парковке: сообщение игрока от 23 октября 2026 года.",
-}
-MINER_SOURCE_NOTE = {
-    "zh": "石头交易：玩家实战反馈，2026-10-23。官方帮助页称 Miner（矿工），交易公告称 Stonecutter（石匠）。",
-    "en": "Stone trading: player field report, 2026-10-23. Official support says Miner; the trader update says Stonecutter.",
-    "ja": "石を使う取引：プレイヤーの実地報告、2026年10月23日。",
-    "ko": "돌 거래: 플레이어 현장 제보, 2026년 10월 23일.",
-    "fr": "Échange de pierre : signalement d'un joueur, 23 octobre 2026.",
-    "de": "Handel mit Steinen: Erfahrungsbericht eines Spielers, 23. Oktober 2026.",
-    "es": "Intercambio de piedra: observación de un jugador, 23 de octubre de 2026.",
-    "pt": "Troca de pedra: relato de um jogador, 23 de outubro de 2026.",
-    "ru": "Обмен камня: сообщение игрока от 23 октября 2026 года.",
-}
-LUMBERJACK_SOURCE_NOTE = {
-    "zh": "木头交易：玩家实战反馈，2026-10-23。",
-    "en": "Wood trading: player field report, 2026-10-23.",
-    "ja": "木材を使う取引：プレイヤーの実地報告、2026年10月23日。",
-    "ko": "나무 거래: 플레이어 현장 제보, 2026년 10월 23일.",
-    "fr": "Échange de bois : signalement d'un joueur, 23 octobre 2026.",
-    "de": "Handel mit Holz: Erfahrungsbericht eines Spielers, 23. Oktober 2026.",
-    "es": "Intercambio de madera: observación de un jugador, 23 de octubre de 2026.",
-    "pt": "Troca de madeira: relato de um jogador, 23 de outubro de 2026.",
-    "ru": "Обмен древесины: сообщение игрока от 23 октября 2026 года.",
-}
-PLAYER_SOURCE_NOTES = {
-    "parking": PARKING_SOURCE_NOTE,
-    "miner": MINER_SOURCE_NOTE,
-    "lumberjack": LUMBERJACK_SOURCE_NOTE,
-}
-
 NAMES = {
     "ja": ["ガソリンスタンド", "駐車場", "町", "倉庫", "廃工場とルーレット", "木こり", "鉱夫", "工場", "隕石ドリル", "軍事基地", "墜落機", "灯台", "原子力発電所", "鉄道駅", "送電塔"],
     "ko": ["주유소", "주차장", "마을", "창고", "폐공장과 행운의 바퀴", "벌목꾼", "광부", "공장", "운석 드릴", "군사 기지", "추락 비행기", "등대", "원자력 발전소", "기차역", "송전탑"],
@@ -148,11 +109,4 @@ def render_locations(soup: BeautifulSoup, page: str, lang: str, locale_root: str
             caption = IMAGE_CAPTION[lang]
             photo = (f'<figure class="locations-photo"><img src="{html.escape(locale_root + "../" + row["image"])}" '
                      f'alt="{html.escape(title_by_slug[slug])}" loading="lazy"><figcaption>{html.escape(caption)}</figcaption></figure>')
-        sources = "".join(
-            f'<li><a href="{html.escape(url)}" rel="noopener" target="_blank">{html.escape(url.split("/")[2])} ↗</a></li>'
-            for url in row["sources"]
-        )
-        if row.get("source_note"):
-            note = PLAYER_SOURCE_NOTES[slug][lang]
-            sources += f"<li>{html.escape(note)}</li>"
-        add(f'<article class="locations-detail"><a class="locations-back" href="{back}">← {html.escape(labels[6])}</a><span class="locations-eyebrow">{html.escape(labels[9])}</span><h1>{html.escape(title_by_slug[slug])}</h1><p class="locations-lead">{html.escape(content[1])}</p>{photo}<div class="locations-sections">{body}</div><section class="locations-sources"><h2>{html.escape(labels[5])}</h2><ul>{sources}</ul><small>{html.escape(labels[8])}</small></section></article>')
+        add(f'<article class="locations-detail"><a class="locations-back" href="{back}">← {html.escape(labels[6])}</a><span class="locations-eyebrow">{html.escape(labels[9])}</span><h1>{html.escape(title_by_slug[slug])}</h1><p class="locations-lead">{html.escape(content[1])}</p>{photo}<div class="locations-sections">{body}</div></article>')

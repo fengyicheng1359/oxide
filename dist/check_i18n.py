@@ -66,7 +66,7 @@ def main():
                 assert soup.select_one('.locations-shell h1'), path
                 if relative.stem != 'index':
                     assert len(soup.select('.locations-section')) == 4, path
-                    assert soup.select_one('.locations-sources a'), path
+                    assert soup.select_one('.locations-sources') is None, path
             assert '__OFFICIAL_TITLE__' not in str(soup), path
             pages += 1
         print(lang, len(paths), 'pages checked', flush=True)
