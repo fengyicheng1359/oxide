@@ -156,6 +156,7 @@ def header(prefix: str, index_href: str | None = None, *, selected: str | None =
     # 由页面明确指定所属栏目；首页不选中任何栏目。
     entries = [
         ("items", "items.html", "物品"),
+        ("loot", "loot.html", "战利品"),
         ("gameplay", "gameplay/index.html", "玩法"),
         ("recycling", "recycling.html", "回收"),
         ("crafting", "crafting.html", "制作计算器"),
@@ -832,6 +833,8 @@ def main() -> None:
     (HTML_DIR / "index.html").write_text(add_pc_download(index_page()), encoding="utf-8")
     from crafting_page import page as crafting_page
     (HTML_DIR / "crafting.html").write_text(crafting_page(header, footer), encoding="utf-8")
+    from loot_page import page as loot_page
+    (HTML_DIR / "loot.html").write_text(loot_page(header, footer), encoding="utf-8")
     (HTML_DIR / "items.html").write_text(add_items_search(items_page(categories)), encoding="utf-8")
     (HTML_DIR / "play.html").write_text(play_page(), encoding="utf-8")
     (HTML_DIR / "about.html").write_text(about_page(), encoding="utf-8")
@@ -852,7 +855,7 @@ def main() -> None:
     localized_pages = build_localized_pages(sorted(p for p in crawl_pages if p.name not in STANDALONE_PAGES))
     from comment_policy import write_comment_policies
     write_crawl_files(localized_pages + write_comment_policies())
-    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 recycling page, 1 attack page, 1 defense page, 1 healing page, 1 threat page and {gameplay_count} gameplay pages")
+    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 loot page, 1 recycling page, 1 attack page, 1 defense page, 1 healing page, 1 threat page and {gameplay_count} gameplay pages")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,326 @@
+{
+  "version": "1.15.11966",
+  "evidence": {
+    "apk": "split_UnityDataAssetPack.apk",
+    "bundle": "assets/aa/Android/data-loot-items_assets_all_806322359f87f3b08708ee0a65df5490.bundle",
+    "bundle_sha256": "6c863b276227d5097dce0f3ef94c1acff2ef801c3f1d2f296ce0ecbfc8aa5d82",
+    "root_path_id": "7053493536185429098",
+    "nodes": [
+      {
+        "path_id": "7053493536185429098",
+        "name": "LootSpawn.MilitaryBox"
+      },
+      {
+        "path_id": "5608752376721202709",
+        "name": "Loot.scrap_x10"
+      },
+      {
+        "path_id": "-6934629176572662466",
+        "name": "Loot.metal.fragment_x15"
+      },
+      {
+        "path_id": "7354412821706318304",
+        "name": "Loot.hq.metal_x10"
+      },
+      {
+        "path_id": "677024089101093072",
+        "name": "Loot.wooden.crossbow_and_bolt"
+      },
+      {
+        "path_id": "-794956006588628670",
+        "name": "Loot.crossbow"
+      },
+      {
+        "path_id": "1336764682113487879",
+        "name": "Loot.bolt_x5"
+      },
+      {
+        "path_id": "-9100078363139898218",
+        "name": "Loot.wooden.spiked.club"
+      },
+      {
+        "path_id": "-1976472161842224005",
+        "name": "Loot.hazmat"
+      },
+      {
+        "path_id": "-4847990250330415302",
+        "name": "Loot.Ammo_Random"
+      },
+      {
+        "path_id": "-675384539348266924",
+        "name": "Loot.ammo.pistol_x15"
+      },
+      {
+        "path_id": "6819392002366786469",
+        "name": "Loot.ammo.shotgun_x5"
+      },
+      {
+        "path_id": "9105950449594304406",
+        "name": "Loot.ammo.rifle_10"
+      },
+      {
+        "path_id": "-607212923302153883",
+        "name": "Loot.Firearm_Random"
+      },
+      {
+        "path_id": "3098999917727042183",
+        "name": "Loot.revolver"
+      },
+      {
+        "path_id": "4779771974524861400",
+        "name": "Loot.shotgun"
+      },
+      {
+        "path_id": "3821175552524506612",
+        "name": "Loot.submachine.gun"
+      },
+      {
+        "path_id": "-5570195133005166712",
+        "name": "Loot.hunting.rifle"
+      },
+      {
+        "path_id": "3963933267237956027",
+        "name": "Loot.assault.rifle"
+      },
+      {
+        "path_id": "-9162158433869723544",
+        "name": "Loot.thompson"
+      },
+      {
+        "path_id": "-4264402806400283200",
+        "name": "Loot.desert.eagle"
+      },
+      {
+        "path_id": "5194046322583048837",
+        "name": "Loot.winchester"
+      },
+      {
+        "path_id": "3365040881935537868",
+        "name": "Loot.hmlmg"
+      },
+      {
+        "path_id": "9077519718145697736",
+        "name": "Loot.handmade.pistol"
+      },
+      {
+        "path_id": "8418818756976171240",
+        "name": "Loot.rocket"
+      },
+      {
+        "path_id": "-508856473712898265",
+        "name": "Loot.metal.spring_random3"
+      },
+      {
+        "path_id": "-4474004174649185333",
+        "name": "Loot.metal.spring_x1"
+      },
+      {
+        "path_id": "-6006461316576628653",
+        "name": "Loot.metal.spring_x2"
+      },
+      {
+        "path_id": "7381764381062238249",
+        "name": "Loot.metal.spring_x3"
+      },
+      {
+        "path_id": "-3842522537383500966",
+        "name": "Loot.metal.pipe_random3"
+      },
+      {
+        "path_id": "8218916904446420238",
+        "name": "Loot.metal.pipe_x1"
+      },
+      {
+        "path_id": "4537506095674057535",
+        "name": "Loot.metal.pipe_x2"
+      },
+      {
+        "path_id": "66034505209472591",
+        "name": "Loot.metal.pipe_x3"
+      },
+      {
+        "path_id": "8422399139118503484",
+        "name": "Loot.rifle.body"
+      },
+      {
+        "path_id": "4096386431387737249",
+        "name": "Loot.smg.body"
+      },
+      {
+        "path_id": "7222138903009877743",
+        "name": "Loot.tech.trash_x3"
+      },
+      {
+        "path_id": "4250622921145993401",
+        "name": "Loot.cctv.camera"
+      },
+      {
+        "path_id": "1721369607074351922",
+        "name": "Loot.targeting.computer"
+      },
+      {
+        "path_id": "-3425604585722989929",
+        "name": "Loot.sheet.metal_random3"
+      },
+      {
+        "path_id": "1658256113222316148",
+        "name": "Loot.sheet.metal_x1"
+      },
+      {
+        "path_id": "4083905434314949720",
+        "name": "Loot.sheet.metal_x2"
+      },
+      {
+        "path_id": "-8258847356177756676",
+        "name": "Loot.sheet.metal_x3"
+      },
+      {
+        "path_id": "-7390808981633218364",
+        "name": "Loot.explosive.charge"
+      },
+      {
+        "path_id": "-1137102754972597056",
+        "name": "Loot.explosives_x5"
+      },
+      {
+        "path_id": "3098999917727042183",
+        "name": "Loot.revolver"
+      },
+      {
+        "path_id": "-4601926851088451977",
+        "name": "Loot.stone_gates"
+      },
+      {
+        "path_id": "-2178924879803012082",
+        "name": "Loot.stone_wall"
+      },
+      {
+        "path_id": "7022688062152133557",
+        "name": "Loot.bp.exp.itembp.exp.item"
+      },
+      {
+        "path_id": "3272158780510894325",
+        "name": "Loot.dmr.body"
+      },
+      {
+        "path_id": "3809944511808240107",
+        "name": "Loot.weapon.mod.ext.magazine"
+      },
+      {
+        "path_id": "4416311753536810746",
+        "name": "Loot.weapon.mod.optical.scope"
+      },
+      {
+        "path_id": "4731062661464158651",
+        "name": "Loot.weapon.mod.holosight"
+      },
+      {
+        "path_id": "8151547345488643837",
+        "name": "Loot.weapon.mod.compensator"
+      },
+      {
+        "path_id": "-220519980561836119",
+        "name": "Loot.weapon.mod.muzzle.brake"
+      },
+      {
+        "path_id": "3715326014902542618",
+        "name": "Loot.event.grenade.makeshift"
+      },
+      {
+        "path_id": "856393501161714583",
+        "name": "Loot.tactical.air.marker"
+      },
+      {
+        "path_id": "3365040881935537868",
+        "name": "Loot.hmlmg"
+      },
+      {
+        "path_id": "1700910559372361277",
+        "name": "Loot.dvl"
+      },
+      {
+        "path_id": "-1480122292008415669",
+        "name": "Loot.kriss.vector"
+      },
+      {
+        "path_id": "-6324537019901299848",
+        "name": "Loot.fn.fal"
+      },
+      {
+        "path_id": "6335456494403637148",
+        "name": "Loot.grenade.military"
+      }
+    ],
+    "config_references": [
+      {
+        "bundle": "assets/aa/Android/data-core-local_assets_all_b431fcbda05af82d44610d58373641a0.bundle",
+        "bundle_sha256": "0bc0fbfcedab9b653db692015fa8ec54676ed270f9a26f7cf3d65868978a094c",
+        "config": "CandyEffectsConfig",
+        "field": "JackpotLoot",
+        "path_id": "-5048298079849162545",
+        "target_path_id": "7053493536185429098"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "military-crate",
+      "name": "军用箱奖励池",
+      "binding_status": "pool_only",
+      "items": [
+        "ammo.pistol",
+        "ammo.rifle",
+        "ammo.shotgun",
+        "assault.rifle",
+        "bolt",
+        "bp.exp.item",
+        "cctv.camera",
+        "crossbow",
+        "desert.eagle",
+        "dmr.body",
+        "dvl",
+        "event.grenade.makeshift",
+        "explosive.charge",
+        "explosives",
+        "fn.fal",
+        "grenade.military",
+        "handmade.pistol",
+        "hazmat",
+        "high.stone.gates",
+        "high.stone.wall",
+        "hmlmg",
+        "hq.metal",
+        "hunting.rifle",
+        "kriss.vector",
+        "metal.fragment",
+        "metal.pipe",
+        "metal.spring",
+        "revolver",
+        "rifle.body",
+        "rocket",
+        "scrap",
+        "sheet.metal",
+        "shotgun",
+        "smg.body",
+        "submachine.gun",
+        "tactical.air.marker",
+        "targeting.computer",
+        "tech.trash",
+        "thompson",
+        "weapon.mod.compensator",
+        "weapon.mod.ext.magazine",
+        "weapon.mod.holosight",
+        "weapon.mod.muzzle.brake",
+        "weapon.mod.optical.scope",
+        "winchester",
+        "wooden.spiked.club"
+      ]
+    }
+  ],
+  "extra_items": {
+    "fn.fal": {
+      "name_token": "fn.fal",
+      "english": "FN FAL"
+    }
+  }
+}

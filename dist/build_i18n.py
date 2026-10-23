@@ -292,6 +292,9 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     asset_root = relative_root(page, localized)
     # 资源在语种目录外；站内页面则必须留在当前语种，不能复用资源前缀。
     locale_root = ('../' * (len(Path(page).parts) - 1) or './') if localized else asset_root + lang + '/'
+    if page == 'loot.html':
+        from loot_page import render_loot
+        render_loot(soup, mapping, translator, locale_root, asset_root)
     add_discovery(soup, page, mapping, translator, locale_root, asset_root)
     add_language_picker(soup, page, lang, localized, tr)
     soup.html['lang'] = LANGUAGES[lang][1]
@@ -304,7 +307,7 @@ def render(source: str, page: str, lang: str, mapping: dict, guides: dict,
     soup.head.append(script)
     heading = soup.body.find('h1')
     page_title = heading.get_text(' ', strip=True) if heading else tr('氧化物生存岛')
-    intro = soup.select_one('.craft-intro p, .gameplay-intro p, .ranking-intro p, .recycling-intro p, .about-hero p, .play-hero p, .search-row p')
+    intro = soup.select_one('.craft-intro p, .loot-intro p, .gameplay-intro p, .ranking-intro p, .recycling-intro p, .about-hero p, .play-hero p, .search-row p')
     description = official['text'][:180] if official else (intro.get_text(' ', strip=True)[:180] if intro else tr('浏览物品、制造配方与生存资源。'))
     if item and item.get('description'):
         description = game_text(translator.game[item['description']])[:180]

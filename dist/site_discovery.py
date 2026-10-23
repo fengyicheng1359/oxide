@@ -79,7 +79,7 @@ def add_home_tools(soup, locale_root, mapping, translator, data):
     heading = soup.new_tag('h2'); heading.string = tr('物品与生存工具')
     panel.extend([heading, search_form(soup, locale_root, translator, 'wiki-search')])
     links = soup.new_tag('nav', attrs={'class': 'wiki-tool-links', 'aria-label': tr('常用工具')})
-    for path, label in [('items.html', '物品'), ('crafting.html', '制作计算器'), ('recycling.html', '回收'), ('gameplay/index.html', '玩法攻略')]:
+    for path, label in [('items.html', '物品'), ('loot.html', '战利品'), ('crafting.html', '制作计算器'), ('recycling.html', '回收'), ('gameplay/index.html', '玩法攻略')]:
         anchor = soup.new_tag('a', href=locale_root + path); anchor.string = tr(label) + ' ↗'; links.append(anchor)
     panel.append(links)
     main = soup.select_one('main')
@@ -115,6 +115,12 @@ def add_item_links(soup, slug, locale_root, mapping, translator, data):
         anchor = soup.new_tag('a', href=locale_root + ammunition + '.html')
         anchor.string = tr('使用弹药') + ' · ' + item_name(ammunition, mapping, translator)
         links.append(anchor)
+    from loot_page import load_loot
+    for source in load_loot()['sources']:
+        if slug in source['items']:
+            anchor = soup.new_tag('a', href=locale_root + 'loot.html?item=' + slug + '#' + source['id'])
+            anchor.string = tr('奖励池收录') + ' · ' + tr(source['name'])
+            links.append(anchor)
     if links.contents:
         soup.select_one('.item-heading').insert_after(links)
 
@@ -123,7 +129,7 @@ def add_item_links(soup, slug, locale_root, mapping, translator, data):
         section = soup.new_tag('details', attrs={'class': 'used-in'})
         summary = soup.new_tag('summary'); summary.string = tr('用于制作') + ' · ' + str(len(products))
         section.append(summary)
-        nav = soup.new_tag('nav', attrs={'class': 'related-pages', 'aria-label': tr('用于制作')})
+        nav = soup.new_tag('nav', attrs={'class': 'related-pages', 'id': 'used-in', 'aria-label': tr('用于制作')})
         for product in products:
             anchor = soup.new_tag('a', href=locale_root + product + '.html')
             anchor.string = item_name(product, mapping, translator); nav.append(anchor)
@@ -146,7 +152,7 @@ def add_discovery(soup, page, mapping, translator, locale_root, asset_root):
     data = discovery_data()
     if page == 'index.html':
         add_home_tools(soup, locale_root, mapping, translator, data)
-    elif page != 'items.html':
+    elif page not in {'items.html', 'loot.html'}:
         soup.select_one('.header-inner').append(search_form(soup, locale_root, translator))
     if page == 'items.html':
         add_catalog_search(soup, data)

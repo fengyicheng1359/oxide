@@ -255,6 +255,7 @@
   <url><loc>https://myoxide.fun/de/leather.html</loc></url>
   <url><loc>https://myoxide.fun/de/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/de/log.html</loc></url>
+  <url><loc>https://myoxide.fun/de/loot.html</loc></url>
   <url><loc>https://myoxide.fun/de/mace.html</loc></url>
   <url><loc>https://myoxide.fun/de/machete.html</loc></url>
   <url><loc>https://myoxide.fun/de/medkit.html</loc></url>
@@ -623,6 +624,7 @@
   <url><loc>https://myoxide.fun/en/leather.html</loc></url>
   <url><loc>https://myoxide.fun/en/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/en/log.html</loc></url>
+  <url><loc>https://myoxide.fun/en/loot.html</loc></url>
   <url><loc>https://myoxide.fun/en/mace.html</loc></url>
   <url><loc>https://myoxide.fun/en/machete.html</loc></url>
   <url><loc>https://myoxide.fun/en/medkit.html</loc></url>
@@ -991,6 +993,7 @@
   <url><loc>https://myoxide.fun/es/leather.html</loc></url>
   <url><loc>https://myoxide.fun/es/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/es/log.html</loc></url>
+  <url><loc>https://myoxide.fun/es/loot.html</loc></url>
   <url><loc>https://myoxide.fun/es/mace.html</loc></url>
   <url><loc>https://myoxide.fun/es/machete.html</loc></url>
   <url><loc>https://myoxide.fun/es/medkit.html</loc></url>
@@ -1359,6 +1362,7 @@
   <url><loc>https://myoxide.fun/fr/leather.html</loc></url>
   <url><loc>https://myoxide.fun/fr/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/fr/log.html</loc></url>
+  <url><loc>https://myoxide.fun/fr/loot.html</loc></url>
   <url><loc>https://myoxide.fun/fr/mace.html</loc></url>
   <url><loc>https://myoxide.fun/fr/machete.html</loc></url>
   <url><loc>https://myoxide.fun/fr/medkit.html</loc></url>
@@ -1727,6 +1731,7 @@
   <url><loc>https://myoxide.fun/ja/leather.html</loc></url>
   <url><loc>https://myoxide.fun/ja/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/ja/log.html</loc></url>
+  <url><loc>https://myoxide.fun/ja/loot.html</loc></url>
   <url><loc>https://myoxide.fun/ja/mace.html</loc></url>
   <url><loc>https://myoxide.fun/ja/machete.html</loc></url>
   <url><loc>https://myoxide.fun/ja/medkit.html</loc></url>
@@ -2095,6 +2100,7 @@
   <url><loc>https://myoxide.fun/ko/leather.html</loc></url>
   <url><loc>https://myoxide.fun/ko/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/ko/log.html</loc></url>
+  <url><loc>https://myoxide.fun/ko/loot.html</loc></url>
   <url><loc>https://myoxide.fun/ko/mace.html</loc></url>
   <url><loc>https://myoxide.fun/ko/machete.html</loc></url>
   <url><loc>https://myoxide.fun/ko/medkit.html</loc></url>
@@ -2463,6 +2469,7 @@
   <url><loc>https://myoxide.fun/pt/leather.html</loc></url>
   <url><loc>https://myoxide.fun/pt/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/pt/log.html</loc></url>
+  <url><loc>https://myoxide.fun/pt/loot.html</loc></url>
   <url><loc>https://myoxide.fun/pt/mace.html</loc></url>
   <url><loc>https://myoxide.fun/pt/machete.html</loc></url>
   <url><loc>https://myoxide.fun/pt/medkit.html</loc></url>
@@ -2831,6 +2838,7 @@
   <url><loc>https://myoxide.fun/ru/leather.html</loc></url>
   <url><loc>https://myoxide.fun/ru/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/ru/log.html</loc></url>
+  <url><loc>https://myoxide.fun/ru/loot.html</loc></url>
   <url><loc>https://myoxide.fun/ru/mace.html</loc></url>
   <url><loc>https://myoxide.fun/ru/machete.html</loc></url>
   <url><loc>https://myoxide.fun/ru/medkit.html</loc></url>
@@ -3199,6 +3207,7 @@
   <url><loc>https://myoxide.fun/zh/leather.html</loc></url>
   <url><loc>https://myoxide.fun/zh/leather.leggings.html</loc></url>
   <url><loc>https://myoxide.fun/zh/log.html</loc></url>
+  <url><loc>https://myoxide.fun/zh/loot.html</loc></url>
   <url><loc>https://myoxide.fun/zh/mace.html</loc></url>
   <url><loc>https://myoxide.fun/zh/machete.html</loc></url>
   <url><loc>https://myoxide.fun/zh/medkit.html</loc></url>
