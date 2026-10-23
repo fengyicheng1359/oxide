@@ -209,5 +209,12 @@
     "category": "战斗与装备",
     "source_kind": "local-analysis",
     "source_note": ""
+  },
+  "patrol-helicopter": {
+    "title": "Helicóptero de patrulla: JcJ y JcE",
+    "html": "<p>El helicóptero lo controla el juego y busca objetivos. En la configuración del cliente 1.16.11978, ataca de forma activa en JcJ, pero no en JcE. Su alcance de detección está fijado en 120 m. En JcJ, busca cobertura tras oír el aviso. También hay una configuración de marcador para el lugar del accidente. La activación en el servidor, los ataques reales y el botín requieren verificación en el juego.</p>",
+    "text": "El helicóptero lo controla el juego y busca objetivos. En la configuración del cliente 1.16.11978, ataca de forma activa en JcJ, pero no en JcE. Su alcance de detección está fijado en 120 m. En JcJ, busca cobertura tras oír el aviso. También hay una configuración de marcador para el lugar del accidente. La activación en el servidor, los ataques reales y el botín requieren verificación en el juego.",
+    "source_kind": "local-analysis",
+    "source_note": "1.16.11978 APK client configuration; server behavior not verified."
   }
 }

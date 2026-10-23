@@ -209,5 +209,12 @@
     "category": "战斗与装备",
     "source_kind": "local-analysis",
     "source_note": ""
+  },
+  "patrol-helicopter": {
+    "title": "Helicóptero de patrulha: PvP e PvE",
+    "html": "<p>O helicóptero é controlado pelo jogo e procura alvos. Na configuração do cliente 1.16.11978, ele ataca ativamente no PvP, mas não no PvE. O alcance de detecção está definido como 120 m. No PvP, procure abrigo ao ouvir o aviso. Há também uma configuração de marcador para o local da queda. A ativação no servidor, os ataques reais e os saques ainda precisam ser verificados no jogo.</p>",
+    "text": "O helicóptero é controlado pelo jogo e procura alvos. Na configuração do cliente 1.16.11978, ele ataca ativamente no PvP, mas não no PvE. O alcance de detecção está definido como 120 m. No PvP, procure abrigo ao ouvir o aviso. Há também uma configuração de marcador para o local da queda. A ativação no servidor, os ataques reais e os saques ainda precisam ser verificados no jogo.",
+    "source_kind": "local-analysis",
+    "source_note": "1.16.11978 APK client configuration; server behavior not verified."
   }
 }

@@ -209,5 +209,12 @@
     "category": "战斗与装备",
     "source_kind": "local-analysis",
     "source_note": ""
+  },
+  "patrol-helicopter": {
+    "title": "Patrouillenhubschrauber: PvP und PvE",
+    "html": "<p>Der Hubschrauber wird vom Spiel gesteuert und sucht nach Zielen. In der Client-Konfiguration 1.16.11978 greift er im PvP aktiv an, im PvE hingegen nicht. Die Zielreichweite ist auf 120 m eingestellt. Suche im PvP nach der Warnung Deckung hinter Gebäuden oder Gelände. Auch eine Kartenmarkierung für die Absturzstelle ist konfiguriert. Serveraktivierung, tatsächliche Angriffe und Beute müssen im Spiel geprüft werden.</p>",
+    "text": "Der Hubschrauber wird vom Spiel gesteuert und sucht nach Zielen. In der Client-Konfiguration 1.16.11978 greift er im PvP aktiv an, im PvE hingegen nicht. Die Zielreichweite ist auf 120 m eingestellt. Suche im PvP nach der Warnung Deckung hinter Gebäuden oder Gelände. Auch eine Kartenmarkierung für die Absturzstelle ist konfiguriert. Serveraktivierung, tatsächliche Angriffe und Beute müssen im Spiel geprüft werden.",
+    "source_kind": "local-analysis",
+    "source_note": "1.16.11978 APK client configuration; server behavior not verified."
   }
 }

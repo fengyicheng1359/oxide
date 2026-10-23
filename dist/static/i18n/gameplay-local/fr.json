@@ -209,5 +209,12 @@
     "category": "战斗与装备",
     "source_kind": "local-analysis",
     "source_note": ""
+  },
+  "patrol-helicopter": {
+    "title": "Hélicoptère de patrouille : JcJ et JcE",
+    "html": "<p>L’hélicoptère est contrôlé par le jeu et recherche des cibles. Dans la configuration du client 1.16.11978, il attaque de manière proactive en JcJ, mais pas en JcE. Sa portée de détection est réglée sur 120 m. En JcJ, mettez-vous à couvert derrière un bâtiment ou le terrain après l’alerte. Un marqueur de carte pour le lieu du crash est aussi prévu. L’activation sur serveur, les attaques et le butin restent à vérifier en jeu.</p>",
+    "text": "L’hélicoptère est contrôlé par le jeu et recherche des cibles. Dans la configuration du client 1.16.11978, il attaque de manière proactive en JcJ, mais pas en JcE. Sa portée de détection est réglée sur 120 m. En JcJ, mettez-vous à couvert derrière un bâtiment ou le terrain après l’alerte. Un marqueur de carte pour le lieu du crash est aussi prévu. L’activation sur serveur, les attaques et le butin restent à vérifier en jeu.",
+    "source_kind": "local-analysis",
+    "source_note": "1.16.11978 APK client configuration; server behavior not verified."
   }
 }

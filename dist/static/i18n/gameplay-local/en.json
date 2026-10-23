@@ -209,5 +209,12 @@
     "category": "战斗与装备",
     "source_kind": "local-analysis",
     "source_note": ""
+  },
+  "patrol-helicopter": {
+    "title": "Patrol helicopter: PvP and PvE",
+    "html": "<p>The game-controlled patrol helicopter scans for targets. In the 1.16.11978 client configuration, it is aggressive in PvP but not aggressive in PvE; its target range is set to 120 m. In PvP, use buildings or terrain for cover when you hear the helicopter warning. The client also contains a crash-site map marker. Server activation, actual attacks and loot still need in-game verification.</p>",
+    "text": "The game-controlled patrol helicopter scans for targets. In the 1.16.11978 client configuration, it is aggressive in PvP but not aggressive in PvE; its target range is set to 120 m. In PvP, use buildings or terrain for cover when you hear the helicopter warning. The client also contains a crash-site map marker. Server activation, actual attacks and loot still need in-game verification.",
+    "source_kind": "local-analysis",
+    "source_note": "1.16.11978 APK client configuration; server behavior not verified."
   }
 }
