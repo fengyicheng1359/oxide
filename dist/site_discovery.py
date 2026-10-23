@@ -79,7 +79,7 @@ def add_home_tools(soup, locale_root, mapping, translator, data):
     heading = soup.new_tag('h2'); heading.string = tr('物品与生存工具')
     panel.extend([heading, search_form(soup, locale_root, translator, 'wiki-search')])
     links = soup.new_tag('nav', attrs={'class': 'wiki-tool-links', 'aria-label': tr('常用工具')})
-    for path, label in [('items.html', '物品'), ('loot.html', '战利品'), ('crafting.html', '制作计算器'), ('recycling.html', '回收'), ('gameplay/index.html', '玩法攻略')]:
+    for path, label in [('items.html', '物品'), ('loot.html', '战利品'), ('locations/index.html', '地点'), ('crafting.html', '制作计算器'), ('recycling.html', '回收'), ('gameplay/index.html', '玩法攻略')]:
         anchor = soup.new_tag('a', href=locale_root + path); anchor.string = tr(label) + ' ↗'; links.append(anchor)
     panel.append(links)
     main = soup.select_one('main')

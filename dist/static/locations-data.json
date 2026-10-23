@@ -1,0 +1,325 @@
+[
+  {
+    "slug": "gas-station",
+    "zh": [
+      "加油站",
+      "道路旁的搜刮点，也能寻找废弃汽车。",
+      "回收机可拆解可回收物；原始资源不能放入，输出格满时机器会停下。",
+      "木箱可得废料及随机资源、饮水、工具、护甲和组件；附近可能找到可修复汽车。",
+      "回收机有声音，附近玩家可能听到；汽车没有归属，别人也能开走。"
+    ],
+    "en": [
+      "Gas station",
+      "A roadside stop for loot and abandoned cars.",
+      "Use the recycler for recyclable items. Raw resources cannot go in, and a full output stops the machine.",
+      "Wooden crates can yield Scrap and varied supplies; a repairable car may be nearby.",
+      "The recycler is audible, and any player can drive an unclaimed car."
+    ],
+    "sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/what-types-of-loot-containers-exist-69",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-vehicles-are-available-70"
+    ]
+  },
+  {
+    "slug": "parking",
+    "zh": [
+      "停车场",
+      "可以找车，也可以回收物资的地点。",
+      "给汽车装上电池、发动机并加入燃料瓶才能驾驶；停车场还有回收机，可处理可回收物。",
+      "不同汽车可载一人或多人，乘客能在行驶中射击；部分汽车有 25 格后备箱。",
+      "汽车没有归属，后备箱也不上锁；使用回收机时也要留意周围玩家。"
+    ],
+    "en": [
+      "Parking lot",
+      "A place to find cars and recycle items.",
+      "Install a battery and an engine, then add Fuel Bottles. A recycler is also available here.",
+      "Cars have different seating capacities; some carry an unlocked 25-slot boot.",
+      "Cars have no owner. Watch for other players while using the recycler."
+    ],
+    "source_note": "停车场回收机：玩家实战反馈，2026-10-23。",
+    "sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/what-vehicles-are-available-70"
+    ]
+  },
+  {
+    "slug": "town",
+    "zh": [
+      "城镇",
+      "有木箱与回收机的物资探索区。",
+      "搜查建筑周围的木箱，再用回收机把可回收物拆成制作资源。",
+      "木箱可出废料、饮水、布料、防辐射药、工具、护甲和组件，具体内容随机。",
+      "物资点会吸引其他玩家；回收机运转声会暴露位置。"
+    ],
+    "en": [
+      "Town",
+      "An area with wooden crates and a recycler.",
+      "Search crates, then recycle suitable items into crafting resources.",
+      "Crates can contain Scrap, water, tools, armour and components; contents vary.",
+      "Other players may search the same area, and the recycler makes noise."
+    ],
+    "sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/what-types-of-loot-containers-exist-69",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81",
+      "https://t.me/playoxide/155"
+    ]
+  },
+  {
+    "slug": "warehouse",
+    "zh": [
+      "仓库",
+      "箱子密集、容易遇到其他玩家的搜刮点。",
+      "官方列出 5 个普通箱、8 个油桶、2 个红色工具箱、1 个军用箱和 2 个随机箱的刷新点，并设有回收机。",
+      "油桶偏废料与组件，工具箱偏工具材料；军用箱的废料通常比普通箱多。刷新点不代表每次都有物资。",
+      "官方提醒此处玩家遭遇率高，独行时先想好撤离方向。"
+    ],
+    "en": [
+      "Warehouse",
+      "A dense loot site where encounters with other players are common.",
+      "The official layout lists 5 regular crate points, 8 barrels, 2 red toolboxes, 1 military box, 2 random box points and a recycler.",
+      "Barrels yield Scrap and components; toolboxes favour tool materials. Spawn points are not guaranteed loot.",
+      "Plan an exit before searching, especially when alone."
+    ],
+    "sources": [
+      "https://t.me/playoxide/161",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-types-of-loot-containers-exist-69"
+    ]
+  },
+  {
+    "slug": "lucky-wheel",
+    "zh": [
+      "废弃工厂与幸运转盘",
+      "转盘所在区域有安全区，也是寻找瓶盖商人的线索点。",
+      "可用废料在幸运转盘下注；安全区内玩家互伤关闭，界面会显示安全区提示。",
+      "押中可得废料；玩家报告花瓶盖的商人在转盘所在建筑的左侧。",
+      "押错会损失废料；安全区只覆盖转盘周围，离开边界后仍有玩家风险。"
+    ],
+    "en": [
+      "Abandoned factory and Lucky Wheel",
+      "The wheel area has a safe zone and a reported Caps trader nearby.",
+      "Bet Scrap at the Lucky Wheel. PvP damage is disabled inside the marked safe zone.",
+      "A winning bet pays Scrap; a player reported a Caps trader left of the wheel.",
+      "A losing bet costs Scrap. PvP danger returns outside the safe-zone boundary."
+    ],
+    "sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/what-are-safe-zones-82",
+      "https://www.reddit.com/r/OxideSurvivalMobile/comments/1x6j357/confused/",
+      "https://www.reddit.com/r/OxideSurvivalMobile/comments/1w9uc4s/trader/"
+    ]
+  },
+  {
+    "slug": "lumberjack",
+    "zh": [
+      "伐木工人",
+      "有安全区和回收机的资源交易点。",
+      "伐木工人现在交换资源，不再发旧版伐木任务；进入安全区时看界面提示。",
+      "适合把采到的资源交换成所需物资，并就地回收可回收物。",
+      "安全区外仍可发生玩家对抗，回收机运行时也会发出声音。"
+    ],
+    "en": [
+      "Lumberjack trader",
+      "A resource trader with a safe zone and recycler.",
+      "The Lumberjack exchanges resources rather than issuing the old gathering quests.",
+      "Trade gathered materials and recycle suitable items nearby.",
+      "PvP danger resumes beyond the safe zone, and the recycler is audible."
+    ],
+    "sources": [
+      "https://t.me/playoxide/431",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-are-safe-zones-82",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81"
+    ]
+  },
+  {
+    "slug": "miner",
+    "zh": [
+      "矿工",
+      "有安全区和回收机的资源交易点。",
+      "矿工现在交换资源；官方还在陨石钻机区域增加了第二位石匠商人。",
+      "适合将采集物就地交换，或使用附近回收机处理可回收物。",
+      "交易时留意安全区提示，离开边界后仍需防备其他玩家。"
+    ],
+    "en": [
+      "Miner trader",
+      "A resource trading point with a safe zone and recycler.",
+      "The trader exchanges resources. A second Stonecutter was added near the meteorite drill.",
+      "Trade gathered materials or recycle suitable items nearby.",
+      "Watch the safe-zone indicator; PvP danger returns beyond its boundary."
+    ],
+    "sources": [
+      "https://t.me/playoxide/431",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-are-safe-zones-82",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-is-a-recycler-and-how-do-i-use-it-why-did-i-get-fewer-materials-back-81"
+    ]
+  },
+  {
+    "slug": "factory",
+    "zh": [
+      "工厂",
+      "工业探索地点，以特殊金属箱为主要玩法。",
+      "寻找并开启工厂内的特殊金属箱；官方介绍强调这里有多条探索路线。",
+      "金属箱提供贵重战利品；具体内容随箱子和刷新而变化。",
+      "路线较多，搜箱时留意周围玩家，不要把这里当作安全区。"
+    ],
+    "en": [
+      "Factory",
+      "An industrial site centred on special metal loot boxes.",
+      "Find and open the special metal boxes; the official update describes several routes through the area.",
+      "The boxes offer valuable loot, with contents varying by spawn.",
+      "Watch for other players while searching the routes; this is not a marked safe zone."
+    ],
+    "sources": [
+      "https://t.me/playoxide/199",
+      "https://t.me/playoxide/205"
+    ]
+  },
+  {
+    "slug": "meteorite",
+    "zh": [
+      "陨石钻机点",
+      "围绕钻机与三组拉杆展开的资源地点。",
+      "在三个房间启动拉杆，相邻启动间隔不能超过 10 秒；故障时看灯光提示，并在 30 秒内修复。",
+      "钻机成功运转 3 分钟，产出高品质金属和石头，随后冷却 15 分钟；附近还有资源商人。",
+      "操作期间需反复移动并停留，注意其他玩家和地点内的异常危险。"
+    ],
+    "en": [
+      "Meteorite drill",
+      "A resource site built around a drill and three lever rooms.",
+      "Start all three levers within 10-second intervals. Use room lights to find failures and repair a lever within 30 seconds.",
+      "The drill runs for 3 minutes, producing HQM and stone, then cools down for 15 minutes; traders are nearby.",
+      "The sequence keeps you on site, so watch for other players and environmental hazards."
+    ],
+    "sources": [
+      "https://t.me/playoxide/309",
+      "https://t.me/playoxide/318",
+      "https://t.me/playoxide/431"
+    ]
+  },
+  {
+    "slug": "military-base",
+    "zh": [
+      "军事基地",
+      "有武装守卫、防空炮和雷达空投机制的高风险地点。",
+      "新版流程需启动室内三台电脑取得门禁卡，再到中央雷达屋顶使用；官方帮助页还记载守卫有机会掉卡。",
+      "雷达会呼叫多箱空投，使用后进入冷却；门禁卡会消耗。",
+      "守卫会投掷手雷并成组进攻，防空炮攻击直升机；空投还会通知附近玩家。"
+    ],
+    "en": [
+      "Military base",
+      "A high-risk site with armed guards, anti-air defenses and radar airdrops.",
+      "The newer route activates three indoor computers for a keycard; official support also records a chance to loot one from guards.",
+      "Use the card at the radar roof to call multiple airdrops. The card is consumed and the radar enters cooldown.",
+      "Guards throw grenades and attack in groups; nearby players are notified when drops arrive."
+    ],
+    "sources": [
+      "https://t.me/playoxide/751",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-military-base-citadel-how-do-i-get-inside-and-how-does-the-radar-work-221"
+    ]
+  },
+  {
+    "slug": "plane-crash",
+    "zh": [
+      "飞机坠毁点",
+      "可搜索贵重物资与舰长钥匙卡的废弃飞机。",
+      "先搜机头：玩家提供的实战线索是在那里找到舰长钥匙卡；机头是找卡的位置。",
+      "飞机有贵重战利品，舰长卡不能制造；拿到后再寻找其他读卡器。",
+      "游戏内说明指出卡不能用于驾驶舱；卡片不保证每次搜查都出现，周围也可能有其他玩家。"
+    ],
+    "en": [
+      "Plane crash",
+      "A crashed aircraft with valuable loot and a Captain Keycard.",
+      "Search the nose first: a player reported finding the card there. The nose is a pickup area.",
+      "The plane holds valuable loot; the card cannot be crafted. Look for another reader after finding it.",
+      "The card does not work in the cockpit and is not guaranteed on every search. Watch for other players."
+    ],
+    "sources": [
+      "https://t.me/playoxide/482"
+    ],
+    "image": "static/locations/plane-crash.jpg"
+  },
+  {
+    "slug": "lighthouse",
+    "zh": [
+      "灯塔",
+      "水域中的攀爬探索点，有隐藏矿洞和高等级战利品。",
+      "官方公布的玩法是三处拉杆、进入隐藏矿洞、收集物资并在限时内撤离。",
+      "可获得高等级战利品；探索时要同时留意攀爬路线与返回路线。",
+      "限时撤离与攀爬带来风险，携带贵重物资离开时还需防备玩家。"
+    ],
+    "en": [
+      "Lighthouse",
+      "An offshore climbing site with a hidden mine and high-tier loot.",
+      "The official route involves three levers, a hidden mine, collecting loot and escaping against a timer.",
+      "High-tier loot rewards careful exploration and a planned return route.",
+      "Climbing and timed escape are hazards; other players may contest the exit."
+    ],
+    "sources": [
+      "https://t.me/playoxide/568",
+      "https://t.me/playoxide/596",
+      "https://t.me/playoxide/570"
+    ],
+    "image": "static/locations/lighthouse.jpg"
+  },
+  {
+    "slug": "nuclear-plant",
+    "zh": [
+      "核电站",
+      "需要考虑辐射防护的探索地点。",
+      "进入前检查防护装备与辐射提示；官方把带辐射防护的军用护甲列为适合核电站行动的装备。",
+      "辐射区可寻找军用箱，这类箱子的废料通常比普通箱多。",
+      "辐射会持续威胁生命，具体箱位与内容并非固定承诺。"
+    ],
+    "en": [
+      "Nuclear power plant",
+      "A location where radiation protection matters.",
+      "Check your protection and radiation indicator before entering. Official updates recommend radiation-resistant military armour for plant runs.",
+      "Look for military boxes in radiation zones; they usually contain more Scrap than ordinary crates.",
+      "Radiation is a continuing hazard, and no specific box or item is guaranteed."
+    ],
+    "sources": [
+      "https://t.me/playoxide/686",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-types-of-loot-containers-exist-69"
+    ]
+  },
+  {
+    "slug": "train-station",
+    "zh": [
+      "火车站",
+      "大型铁路地点，官方定位为贵重物资争夺区。",
+      "可沿铁路寻找列车；列车需要燃料瓶，任何玩家都能驾驶，机车与车厢货舱均不上锁。",
+      "站区有贵重战利品；遇到列车时可检查货舱，但列车不固定在车站刷新。",
+      "官方提醒这里容易交火；行驶列车会撞伤轨道上的玩家，铁轨附近不能建造。"
+    ],
+    "en": [
+      "Railway station",
+      "A large railway site known for contested valuable loot.",
+      "Search the tracks for trains. Anyone can drive one with Fuel Bottles, and both cargo holds are unlocked.",
+      "The station has valuable loot; train cargo is worth checking, but trains do not spawn at a fixed station point.",
+      "Expect player fights. Moving trains can hurt people on the tracks, where building is forbidden."
+    ],
+    "sources": [
+      "https://t.me/playoxide/785",
+      "https://t.me/playoxide/790",
+      "https://support.playoxide.com/hc/en/oxide/articles/what-is-the-railroad-for-how-do-i-drive-the-train-224"
+    ]
+  },
+  {
+    "slug": "powerline-tower",
+    "zh": [
+      "电力线塔",
+      "可通过电线滑行的高处通行点。",
+      "攀上塔的平台搜查箱子与油桶，再沿连接塔间的电线移动。",
+      "平台容器提供物资；滑索可跨越森林和山丘。",
+      "滑行时暴露在空中，地面玩家容易看到；这不是可建造的瞭望塔。"
+    ],
+    "en": [
+      "Power-line tower",
+      "An elevated travel point linked to other towers by wires.",
+      "Search crates and barrels on the platform, then ride the wire like a zipline.",
+      "Platform containers hold loot, and the line crosses forests and hills.",
+      "You are exposed and easy to spot while riding; this is not a player-built watchtower."
+    ],
+    "sources": [
+      "https://support.playoxide.com/hc/en/oxide/articles/what-vehicles-are-available-70"
+    ]
+  }
+]

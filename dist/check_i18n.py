@@ -14,6 +14,9 @@ def main():
     required = {Path(name) for name in item_pages | {'comment-policy.html', 'index.html', 'crafting.html', 'loot.html', 'items.html', 'play.html', 'about.html', 'recycling.html', 'attack.html', 'defense.html', 'healing.html', 'threat.html'}}
     required |= {Path('gameplay') / (slug + '.html') for slug in load_guides('zh')}
     required.add(Path('gameplay/index.html'))
+    from locations_page import rows
+    required.add(Path('locations/index.html'))
+    required |= {Path('locations') / (row['slug'] + '.html') for row in rows()}
     assert expected == required, (expected ^ required)
     errors = []
     pages = 0
@@ -59,6 +62,11 @@ def main():
                     assert credit is not None, path
                     credit.decompose()
                 assert body.get_text(' ', strip=True) == guides[relative.stem]['text'], path
+            if relative.parts[0] == 'locations':
+                assert soup.select_one('.locations-shell h1'), path
+                if relative.stem != 'index':
+                    assert len(soup.select('.locations-section')) == 4, path
+                    assert soup.select_one('.locations-sources a'), path
             assert '__OFFICIAL_TITLE__' not in str(soup), path
             pages += 1
         print(lang, len(paths), 'pages checked', flush=True)

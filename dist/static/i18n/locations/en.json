@@ -1,0 +1,107 @@
+{
+  "gas-station": [
+    "Gas station",
+    "A roadside stop for loot and abandoned cars.",
+    "Use the recycler for recyclable items. Raw resources cannot go in, and a full output stops the machine.",
+    "Wooden crates can yield Scrap and varied supplies; a repairable car may be nearby.",
+    "The recycler is audible, and any player can drive an unclaimed car."
+  ],
+  "parking": [
+    "Parking lot",
+    "A place to find cars and recycle items.",
+    "Install a battery and an engine, then add Fuel Bottles. A recycler is also available here.",
+    "Cars have different seating capacities; some carry an unlocked 25-slot boot.",
+    "Cars have no owner. Watch for other players while using the recycler."
+  ],
+  "town": [
+    "Town",
+    "An area with wooden crates and a recycler.",
+    "Search crates, then recycle suitable items into crafting resources.",
+    "Crates can contain Scrap, water, tools, armour and components; contents vary.",
+    "Other players may search the same area, and the recycler makes noise."
+  ],
+  "warehouse": [
+    "Warehouse",
+    "A dense loot site where encounters with other players are common.",
+    "The official layout lists 5 regular crate points, 8 barrels, 2 red toolboxes, 1 military box, 2 random box points and a recycler.",
+    "Barrels yield Scrap and components; toolboxes favour tool materials. Spawn points are not guaranteed loot.",
+    "Plan an exit before searching, especially when alone."
+  ],
+  "lucky-wheel": [
+    "Abandoned factory and Lucky Wheel",
+    "The wheel area has a safe zone and a reported Caps trader nearby.",
+    "Bet Scrap at the Lucky Wheel. PvP damage is disabled inside the marked safe zone.",
+    "A winning bet pays Scrap; a player reported a Caps trader left of the wheel.",
+    "A losing bet costs Scrap. PvP danger returns outside the safe-zone boundary."
+  ],
+  "lumberjack": [
+    "Lumberjack trader",
+    "A resource trader with a safe zone and recycler.",
+    "The Lumberjack exchanges resources rather than issuing the old gathering quests.",
+    "Trade gathered materials and recycle suitable items nearby.",
+    "PvP danger resumes beyond the safe zone, and the recycler is audible."
+  ],
+  "miner": [
+    "Miner trader",
+    "A resource trading point with a safe zone and recycler.",
+    "The trader exchanges resources. A second Stonecutter was added near the meteorite drill.",
+    "Trade gathered materials or recycle suitable items nearby.",
+    "Watch the safe-zone indicator; PvP danger returns beyond its boundary."
+  ],
+  "factory": [
+    "Factory",
+    "An industrial site centred on special metal loot boxes.",
+    "Find and open the special metal boxes; the official update describes several routes through the area.",
+    "The boxes offer valuable loot, with contents varying by spawn.",
+    "Watch for other players while searching the routes; this is not a marked safe zone."
+  ],
+  "meteorite": [
+    "Meteorite drill",
+    "A resource site built around a drill and three lever rooms.",
+    "Start all three levers within 10-second intervals. Use room lights to find failures and repair a lever within 30 seconds.",
+    "The drill runs for 3 minutes, producing HQM and stone, then cools down for 15 minutes; traders are nearby.",
+    "The sequence keeps you on site, so watch for other players and environmental hazards."
+  ],
+  "military-base": [
+    "Military base",
+    "A high-risk site with armed guards, anti-air defenses and radar airdrops.",
+    "The newer route activates three indoor computers for a keycard; official support also records a chance to loot one from guards.",
+    "Use the card at the radar roof to call multiple airdrops. The card is consumed and the radar enters cooldown.",
+    "Guards throw grenades and attack in groups; nearby players are notified when drops arrive."
+  ],
+  "plane-crash": [
+    "Plane crash",
+    "A crashed aircraft with valuable loot and a Captain Keycard.",
+    "Search the nose first: a player reported finding the card there. The nose is a pickup area.",
+    "The plane holds valuable loot; the card cannot be crafted. Look for another reader after finding it.",
+    "The card does not work in the cockpit and is not guaranteed on every search. Watch for other players."
+  ],
+  "lighthouse": [
+    "Lighthouse",
+    "An offshore climbing site with a hidden mine and high-tier loot.",
+    "The official route involves three levers, a hidden mine, collecting loot and escaping against a timer.",
+    "High-tier loot rewards careful exploration and a planned return route.",
+    "Climbing and timed escape are hazards; other players may contest the exit."
+  ],
+  "nuclear-plant": [
+    "Nuclear power plant",
+    "A location where radiation protection matters.",
+    "Check your protection and radiation indicator before entering. Official updates recommend radiation-resistant military armour for plant runs.",
+    "Look for military boxes in radiation zones; they usually contain more Scrap than ordinary crates.",
+    "Radiation is a continuing hazard, and no specific box or item is guaranteed."
+  ],
+  "train-station": [
+    "Railway station",
+    "A large railway site known for contested valuable loot.",
+    "Search the tracks for trains. Anyone can drive one with Fuel Bottles, and both cargo holds are unlocked.",
+    "The station has valuable loot; train cargo is worth checking, but trains do not spawn at a fixed station point.",
+    "Expect player fights. Moving trains can hurt people on the tracks, where building is forbidden."
+  ],
+  "powerline-tower": [
+    "Power-line tower",
+    "An elevated travel point linked to other towers by wires.",
+    "Search crates and barrels on the platform, then ride the wire like a zipline.",
+    "Platform containers hold loot, and the line crosses forests and hills.",
+    "You are exposed and easy to spot while riding; this is not a player-built watchtower."
+  ]
+}

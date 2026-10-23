@@ -157,6 +157,7 @@ def header(prefix: str, index_href: str | None = None, *, selected: str | None =
     entries = [
         ("items", "items.html", "物品"),
         ("loot", "loot.html", "战利品"),
+        ("locations", "locations/index.html", "地点"),
         ("gameplay", "gameplay/index.html", "玩法"),
         ("recycling", "recycling.html", "回收"),
         ("crafting", "crafting.html", "制作计算器"),
@@ -850,12 +851,16 @@ def main() -> None:
         content = clean_page_branding(page.read_text(encoding="utf-8"))
         page.write_text(inject_seo(page, content, items_by_slug), encoding="utf-8")
     gameplay_count = write_gameplay_pages()
-    crawl_pages = [p for p in HTML_DIR.glob("*.html") if not is_search_verification_page(p)] + list((HTML_DIR / "gameplay").glob("*.html"))
+    from locations_page import write_source_pages
+    location_count = write_source_pages(header, footer)
+    crawl_pages = ([p for p in HTML_DIR.glob("*.html") if not is_search_verification_page(p)]
+                   + list((HTML_DIR / "gameplay").glob("*.html"))
+                   + list((HTML_DIR / "locations").glob("*.html")))
     from build_i18n import build_localized_pages
     localized_pages = build_localized_pages(sorted(p for p in crawl_pages if p.name not in STANDALONE_PAGES))
     from comment_policy import write_comment_policies
     write_crawl_files(localized_pages + write_comment_policies())
-    print(f"generated {index} item pages, 1 promotional page, 1 items page, 1 loot page, 1 recycling page, 1 attack page, 1 defense page, 1 healing page, 1 threat page and {gameplay_count} gameplay pages")
+    print(f"generated {index} item pages, {gameplay_count} gameplay pages and {location_count} location detail pages")
 
 
 if __name__ == "__main__":
